@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Story Mode: source gradient pads with its dark endpoint instead of turquoise",
+    "Back: source gradient pads with its dark endpoint instead of turquoise",
+    "Save: source gradient pads with its dark endpoint instead of turquoise",
+    "Release: source gradient pads with its dark endpoint instead of turquoise",
+    "Back: source gradient pads with its dark endpoint instead of turquoise",
+    "Use Item: source gradient pads with its dark endpoint instead of turquoise"
+  ],
+  "errors": []
+}

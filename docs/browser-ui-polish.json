@@ -1,0 +1,61 @@
+{
+  "checks": [
+    "Mouse hover has no synthetic yellow outline or tinted rectangle",
+    "Keyboard navigation retains a visible focus indicator",
+    "Pokemon summary preserves the Your Money label beside the numeric balance",
+    "Original Pokemon details and enabled/disabled menu options render",
+    "Deployed and undeployed cards retain source states and original Pokemon menu interaction",
+    "HUD stays aligned at mobile width"
+  ],
+  "samples": {
+    "menu": {
+      "bounds": [
+        -72,
+        -31.95,
+        72,
+        32
+      ],
+      "matrix": [
+        1.6395569,
+        0,
+        0,
+        1.3295288,
+        248,
+        64.95
+      ]
+    },
+    "party": [
+      {
+        "alpha": 1,
+        "bg": 2,
+        "bright": 498
+      },
+      {
+        "alpha": 1,
+        "bg": 1,
+        "bright": 214
+      },
+      {
+        "alpha": 0.5,
+        "bg": 1,
+        "bright": 0
+      },
+      {
+        "alpha": 0.5,
+        "bg": 1,
+        "bright": 0
+      },
+      {
+        "alpha": 0.5,
+        "bg": 1,
+        "bright": 0
+      },
+      {
+        "alpha": 0.5,
+        "bg": 1,
+        "bright": 0
+      }
+    ]
+  },
+  "errors": []
+}

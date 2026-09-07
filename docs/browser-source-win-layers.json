@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "class_976: original movie and surviving live map share camera and half zoom",
+    "class_1066: original movie and surviving live map share camera and half zoom",
+    "class_1005: original movie and surviving live map share camera and half zoom",
+    "Viridian Forest intro initializes the live map at its original camera destination",
+    "PixelDissolve clears cells in the same transformed coordinates as the original movie"
+  ],
+  "errors": []
+}

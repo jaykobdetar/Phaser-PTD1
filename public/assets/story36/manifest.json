@@ -1,0 +1,365 @@
+{
+  "stageId": 36,
+  "width": 800,
+  "height": 480,
+  "source": "Original symbols5704 and3829; source stop frames; source 800\u00d7480 viewport.",
+  "avatar": "Default original boy_1 avatar frozen in temporary SWF; player-avatar customization not represented.",
+  "intro": [
+    {
+      "frame": 2,
+      "file": "assets/story36/intro-2.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_next",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Viridian City - After the battle against Gary\n",
+        "Next\n"
+      ],
+      "firstVisitFile": "assets/story36/intro-first-2.png"
+    },
+    {
+      "frame": 3,
+      "file": "assets/story36/intro-3.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_next",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Gary: I knew you could do it! You really are the strongest of us here. But youstill need a few things to be able to defeat Mewthree.You: What things?Joey: Yeah! What are you talking about Gary?!",
+        "Next\n"
+      ],
+      "firstVisitFile": "assets/story36/intro-first-3.png"
+    },
+    {
+      "frame": 4,
+      "file": "assets/story36/intro-4.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_next",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Gary: Don't worry about it. I got everything you need right here. First the EarthBadge. This badge will allow you to control powerful pok\u00e9mon like thelegendary birds. Also here, take these Hidden Machines. They will teachyour pok\u00e9mon how to Fly, Surf and use Strength. Lastly here aresome Max Potion, they will heal your pok\u00e9mon completely.",
+        "Next\n"
+      ],
+      "firstVisitFile": "assets/story36/intro-first-4.png"
+    },
+    {
+      "frame": 5,
+      "file": "assets/story36/intro-5.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_next",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Gary: Now we will charge into the Indigo Plateau!Brock: You aren't going anywhere!",
+        "Next\n"
+      ],
+      "firstVisitFile": "assets/story36/intro-first-5.png"
+    },
+    {
+      "frame": 17,
+      "file": "assets/story36/intro-17.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_next",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Gary: Brock you can't...Brock: WOMEN!!! REAL WOMEN!Jessie & James: Meowth! Giovanni! Huh.. Where are we?Gary: ...................................",
+        "Next\n"
+      ],
+      "firstVisitFile": "assets/story36/intro-first-17.png"
+    },
+    {
+      "frame": 18,
+      "file": "assets/story36/intro-18.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_next",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Brock: LOVELY WOMEN!! Woooohoooo! .... wait a second... I'm back....It was like I was in a bad dream.....Gary: Mewthree is in the Indigo Plateau right?Brock: Yes.. he is blocking the path with his servants.. we won't beable to make it through...",
+        "Next\n"
+      ],
+      "firstVisitFile": "assets/story36/intro-first-18.png"
+    },
+    {
+      "frame": 19,
+      "file": "assets/story36/intro-19.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_close",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Gary: Well I guess it will be up to you! We will create a diversion while yousneak into the Indigo Plateau. You will have to do this alone.Joey: I believe in you!Maruto: Believe in me, who believes in you! BELIEVE IT!",
+        "End\n"
+      ],
+      "firstVisitFile": "assets/story36/intro-first-19.png"
+    }
+  ],
+  "ending": [
+    {
+      "frame": 2,
+      "file": "assets/story36/ending-2.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_next",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "An hour later. Eveybody left but the Old Man stayed behind to talk to you.\n",
+        "Next\n"
+      ]
+    },
+    {
+      "frame": 3,
+      "file": "assets/story36/ending-3.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_next",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Old Man: Now that you have the Surf, Fly and Strength Hidden Machines, youcan explore new areas that you couldn't before. I was once young like you, soI know the rush that comes from exploring new things. You might find somenew pok\u00e9mon that will help you defeat Mewthree.",
+        "Next\n"
+      ]
+    },
+    {
+      "frame": 4,
+      "file": "assets/story36/ending-4.png",
+      "buttons": [
+        {
+          "action": "yes",
+          "sourceName": "butt_yes",
+          "x": 253.033,
+          "y": 388.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "no",
+          "sourceName": "butt_no",
+          "x": 399.683,
+          "y": 388.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Old Man: Would you like to trade a Slowbro for my Lickitung?",
+        "Yes\n",
+        "No\n"
+      ]
+    },
+    {
+      "frame": 5,
+      "file": "assets/story36/ending-5.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_next",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Old Man: Now what was I talking about?",
+        "Next\n"
+      ]
+    },
+    {
+      "frame": 6,
+      "file": "assets/story36/ending-6.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_next",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Old Man: The most important thing is for you to believe in yourself. You cando anything, as long as you work hard enough.. Well except for love... but I'mrambling.... Believe in yourself and give it your all! If you do that, you will beable to accept the outcome. But between you and me...",
+        "Next\n"
+      ]
+    },
+    {
+      "frame": 7,
+      "file": "assets/story36/ending-7.png",
+      "buttons": [
+        {
+          "action": "next",
+          "sourceName": "butt_close",
+          "x": 671.983,
+          "y": 408.374,
+          "width": 103.334,
+          "height": 58.597
+        },
+        {
+          "action": "skip",
+          "sourceName": "butt_skip",
+          "x": 2.8,
+          "y": 2.85,
+          "width": 95.0,
+          "height": 54.95
+        }
+      ],
+      "text": [
+        "Old Man: The outcome is that you will win! Go on young lad, make us proud!",
+        "End\n"
+      ]
+    }
+  ]
+}

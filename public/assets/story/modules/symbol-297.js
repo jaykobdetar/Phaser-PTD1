@@ -1,0 +1,15 @@
+import {createCanvasTools} from '../canvas-tools.js';
+export async function createRenderer(canvas){
+ let defaultFill,defaultStroke;
+ const registry={},scalingGrids={},boundRects={};const tools=createCanvasTools(canvas,registry,scalingGrids,boundRects);
+ const {place,cxform,enhanceContext,drawPath,drawMorphPath,tocolor,Filters,BlendModes,createCanvas,concatMatrix,useRatio}=tools;
+ const ctx=canvas.getContext('2d');if(!ctx._matrix)enhanceContext(ctx);
+function shape296(ctx,ctrans,frame,ratio,time){var pathData="M 21122 -7941 L 21122 -6941 20122 -6941 20122 -7941 21122 -7941 M 16781 -4702 L 15781 -4702 15781 -5702 16781 -5702 16781 -4702 M 18562 -2519 L 19562 -2519 19562 -1519 18562 -1519 18562 -2519 M 1718 -8729 L 1718 -7729 718 -7729 718 -8729 1718 -8729 M 2639 -2261 L 3639 -2261 3639 -1261 2639 -1261 2639 -2261 M 7722 -641 L 7722 359 6722 359 6722 -641 7722 -641 M 10203 -261 L 10203 -1261 11203 -1261 11203 -261 10203 -261 M 22902 699 L 23902 699 23902 1699 22902 1699 22902 699 M 14640 1602 L 14640 602 15640 602 15640 1602 14640 1602 M -2279 -6769 L -3279 -6769 -3279 -7769 -2279 -7769 -2279 -6769 M -2230 -5160 L -2230 -4160 -3230 -4160 -3230 -5160 -2230 -5160 M -2120 -2639 L -2120 -1639 -3120 -1639 -3120 -2639 -2120 -2639 M -5884 0 L -4884 0 -4884 1000 -5884 1000 -5884 0";var scaleMode="NORMAL";ctx.strokeStyle=tocolor(ctrans.apply([255,153,0,1]));ctx.lineWidth=4.8;ctx.lineCap="round";ctx.lineJoin="round";drawPath(ctx,pathData,true,scaleMode);var pathData="M 27166 2020 L 27166 3020 26166 3020 26166 2020 27166 2020 M 640 -5221 L 1640 -5221 1640 -4221 640 -4221 640 -5221 M 7802 -5501 L 7802 -4501 6802 -4501 6802 -5501 7802 -5501 M 7722 -2261 L 7722 -1261 6722 -1261 6722 -2261 7722 -2261 M 11203 -2981 L 11203 -1981 10203 -1981 10203 -2981 11203 -2981 M -4884 -2639 L -4884 -1639 -5884 -1639 -5884 -2639 -4884 -2639 Z";var scaleMode="NORMAL";ctx.strokeStyle=tocolor(ctrans.apply([0,102,51,1]));ctx.lineWidth=4.8;ctx.lineCap="round";ctx.lineJoin="round";drawPath(ctx,pathData,true,scaleMode)}function sprite297(ctx,ctrans,frame,ratio,time){
+const timelineClip=tools.enterSprite(297,frame);if(timelineClip)frame=timelineClip.currentFrame-1;try{
+ctx.save();ctx.transform(1,0,0,1,296.6,438.85);var clips=[];var frame_cnt=1;frame=frame%frame_cnt;switch(frame){case 0:place("shape296",canvas,ctx,[0.05,0.0,0.0,0.05,0.0,0.0],ctrans,1,0,0,time);break}ctx.restore()
+}finally{tools.leaveSprite();}
+}
+Object.assign(registry,{shape296,sprite297});
+await Promise.all([].map(image=>image.decode()));
+return {render(clip,{clear=true}={}){tools.setRoot(clip);ctx.save();ctx.setTransform(1,0,0,1,0,0);if(clear)ctx.clearRect(0,0,canvas.width,canvas.height);if(clip?.renderMatrix){ctx.transform(...clip.renderMatrix);ctx.transform(1,0,0,1,-296.6,-438.85);}else{ctx.transform(1,0,0,1,-296.6+(clip?.x??0),-438.85+(clip?.y??0));}ctx.globalAlpha=clip?.alpha??1;sprite297(ctx,new cxform(0,0,0,0,255,255,255,255),(clip?.currentFrame??1)-1,0,clip?.clock?.frame??0);tools.finishRoot(clip);ctx.restore();}};
+}

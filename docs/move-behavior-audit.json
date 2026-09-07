@@ -1,0 +1,4566 @@
+{
+  "pureInheritedDamageMoveIds": [
+    16,
+    50,
+    144
+  ],
+  "customAttackMoveIds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    433
+  ],
+  "customAttackAudit": [
+    {
+      "id": 1,
+      "name": "Tackle",
+      "sourceClass": "class_718",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sand Attack",
+      "sourceClass": "class_149",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tail Whip",
+      "sourceClass": "class_189",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Quick Attack",
+      "sourceClass": "class_632",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Growl",
+      "sourceClass": "class_142",
+      "reasons": [
+        "Move-local probability",
+        "Does not directly invoke ordinary damage formula",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Scratch",
+      "sourceClass": "class_530",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "String Shot",
+      "sourceClass": "class_170",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Poison Sting",
+      "sourceClass": "class_498",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Leech Seed",
+      "sourceClass": "class_603",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Ember",
+      "sourceClass": "class_460",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Bubble",
+      "sourceClass": "class_516",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Focus Energy",
+      "sourceClass": "class_191",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Bug Bite",
+      "sourceClass": "class_430",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Harden",
+      "sourceClass": "class_134",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Gust",
+      "sourceClass": "class_537",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Smokescreen",
+      "sourceClass": "class_162",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Withdraw",
+      "sourceClass": "class_165",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Bite",
+      "sourceClass": "class_435",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Confusion",
+      "sourceClass": "class_560",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Fury Attack",
+      "sourceClass": "class_469",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "ThunderShock",
+      "sourceClass": "class_571",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Thunder Wave",
+      "sourceClass": "class_410",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Poison Powder",
+      "sourceClass": "class_605",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Defense Curl",
+      "sourceClass": "class_159",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Sleep Powder",
+      "sourceClass": "class_411",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Take Down",
+      "sourceClass": "class_663",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Razor Leaf",
+      "sourceClass": "class_621",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Dragon Rage",
+      "sourceClass": "class_412",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Scary Face",
+      "sourceClass": "class_657",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Water Gun",
+      "sourceClass": "class_611",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Rapid Spin",
+      "sourceClass": "class_654",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Pursuit",
+      "sourceClass": "class_551",
+      "reasons": [
+        "Enemy direction-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Hyper Fang",
+      "sourceClass": "class_483",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Sucker Punch",
+      "sourceClass": "class_720",
+      "reasons": [
+        "Enemy direction-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Whirlwind",
+      "sourceClass": "class_637",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Stun Spore",
+      "sourceClass": "class_715",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Supersonic",
+      "sourceClass": "class_513",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Twineedle",
+      "sourceClass": "class_472",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Rage",
+      "sourceClass": "class_114",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Electro Ball",
+      "sourceClass": "class_664",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Peck",
+      "sourceClass": "class_585",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Leer",
+      "sourceClass": "class_132",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Aerial Ace",
+      "sourceClass": "class_724",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Double Kick",
+      "sourceClass": "class_482",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Fury Swipes",
+      "sourceClass": "class_427",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Sing",
+      "sourceClass": "class_607",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Pound",
+      "sourceClass": "class_684",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Disable",
+      "sourceClass": "class_116",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Low Kick",
+      "sourceClass": "class_635",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Karate Chop",
+      "sourceClass": "class_713",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Seismic Toss",
+      "sourceClass": "class_444",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Leech Life",
+      "sourceClass": "class_719",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Fury Cutter",
+      "sourceClass": "class_511",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Transform",
+      "sourceClass": "class_707",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Reflect Type",
+      "sourceClass": "class_721",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Metronome",
+      "sourceClass": "class_405",
+      "reasons": [
+        "Move-local probability",
+        "Does not directly invoke ordinary damage formula"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Mega Punch",
+      "sourceClass": "class_492",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Encore",
+      "sourceClass": "class_522",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Double Slap",
+      "sourceClass": "class_520",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Follow Me",
+      "sourceClass": "class_136",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Minimize",
+      "sourceClass": "class_190",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Mud Sport",
+      "sourceClass": "class_156",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Rock Polish",
+      "sourceClass": "class_168",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Rock Throw",
+      "sourceClass": "class_446",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Magnitude",
+      "sourceClass": "class_552",
+      "reasons": [
+        "Move-local probability",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Rollout",
+      "sourceClass": "class_542",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Swift",
+      "sourceClass": "class_690",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Wrap",
+      "sourceClass": "class_656",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Glare",
+      "sourceClass": "class_691",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Screech",
+      "sourceClass": "class_94",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Acid",
+      "sourceClass": "class_506",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Astonish",
+      "sourceClass": "class_415",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Wing Attack",
+      "sourceClass": "class_452",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Sweet Scent",
+      "sourceClass": "class_122",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Twister",
+      "sourceClass": "class_471",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Mirror Move",
+      "sourceClass": "class_527",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Double Team",
+      "sourceClass": "class_150",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Horn Attack",
+      "sourceClass": "class_712",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Confuse Ray",
+      "sourceClass": "class_449",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Rock Blast",
+      "sourceClass": "class_609",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Protect",
+      "sourceClass": "class_129",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Crunch",
+      "sourceClass": "class_650",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Crush Claw",
+      "sourceClass": "class_494",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Wake-Up Slap",
+      "sourceClass": "class_701",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Spore",
+      "sourceClass": "class_695",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Chip Away",
+      "sourceClass": "class_670",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Psybeam",
+      "sourceClass": "class_556",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Smack Down",
+      "sourceClass": "class_629",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Growth",
+      "sourceClass": "class_130",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Fire Fang",
+      "sourceClass": "class_618",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Water Pulse",
+      "sourceClass": "class_485",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Toxic Spikes",
+      "sourceClass": "class_649",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "FeatherDance",
+      "sourceClass": "class_137",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Assurance",
+      "sourceClass": "class_448",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Agility",
+      "sourceClass": "class_185",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Stockpile",
+      "sourceClass": "class_96",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Helping Hand",
+      "sourceClass": "class_123",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Air Cutter",
+      "sourceClass": "class_638",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Roar",
+      "sourceClass": "class_723",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Odor Sleuth",
+      "sourceClass": "class_120",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Flame Wheel",
+      "sourceClass": "class_400",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Reversal",
+      "sourceClass": "class_514",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Fire Spin",
+      "sourceClass": "class_441",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Flame Burst",
+      "sourceClass": "class_467",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Absorb",
+      "sourceClass": "class_634",
+      "reasons": [
+        "Healing/drain",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Mega Drain",
+      "sourceClass": "class_582",
+      "reasons": [
+        "Healing/drain",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Water Sport",
+      "sourceClass": "class_163",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Hypnosis",
+      "sourceClass": "class_610",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Rain Dance",
+      "sourceClass": "class_95",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Bubblebeam",
+      "sourceClass": "class_619",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Lucky Chant",
+      "sourceClass": "class_171",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Body Slam",
+      "sourceClass": "class_652",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Recover",
+      "sourceClass": "class_161",
+      "reasons": [
+        "Healing/drain",
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Teleport",
+      "sourceClass": "class_177",
+      "reasons": [
+        "Move-local probability",
+        "Does not directly invoke ordinary damage formula"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Miracle Eye",
+      "sourceClass": "class_112",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Ally Switch",
+      "sourceClass": "class_99",
+      "reasons": [
+        "Move-local probability",
+        "Does not directly invoke ordinary damage formula"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Lick",
+      "sourceClass": "class_702",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Lovely Kiss",
+      "sourceClass": "class_416",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Powder Snow",
+      "sourceClass": "class_568",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Ice Punch",
+      "sourceClass": "class_646",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Heart Stamp",
+      "sourceClass": "class_550",
+      "reasons": [
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Swallow",
+      "sourceClass": "class_97",
+      "reasons": [
+        "Healing/drain",
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Slam",
+      "sourceClass": "class_667",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Spit Up",
+      "sourceClass": "class_459",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Double-Edge",
+      "sourceClass": "class_423",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Sand Tomb",
+      "sourceClass": "class_578",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Safeguard",
+      "sourceClass": "class_131",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Slash",
+      "sourceClass": "class_598",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Knock Off",
+      "sourceClass": "class_445",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Leaf Tornado",
+      "sourceClass": "class_491",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Aqua Tail",
+      "sourceClass": "class_711",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Silver Wind",
+      "sourceClass": "class_699",
+      "reasons": [
+        "Move-local probability",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Pin Missile",
+      "sourceClass": "class_447",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Super Fang",
+      "sourceClass": "class_413",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Acid Spray",
+      "sourceClass": "class_608",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Cosmic Power",
+      "sourceClass": "class_124",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Mud Shot",
+      "sourceClass": "class_631",
+      "reasons": [
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Fake Tears",
+      "sourceClass": "class_98",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Splash",
+      "sourceClass": "class_457",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Thunderbolt",
+      "sourceClass": "class_717",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Rest",
+      "sourceClass": "class_432",
+      "reasons": [
+        "Healing/drain",
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Tailwind",
+      "sourceClass": "class_144",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Reflect",
+      "sourceClass": "class_151",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Flail",
+      "sourceClass": "class_450",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Psychic",
+      "sourceClass": "class_507",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Worry Seed",
+      "sourceClass": "class_118",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Skull Bash",
+      "sourceClass": "class_587",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Will-O-Wisp",
+      "sourceClass": "class_662",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Belly Drum",
+      "sourceClass": "class_101",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 153,
+      "name": "Petal Dance",
+      "sourceClass": "class_627",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "DynamicPunch",
+      "sourceClass": "class_517",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Bulldoze",
+      "sourceClass": "class_436",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Ice Fang",
+      "sourceClass": "class_521",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Synthesis",
+      "sourceClass": "class_140",
+      "reasons": [
+        "Healing/drain",
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Roost",
+      "sourceClass": "class_108",
+      "reasons": [
+        "Healing/drain",
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Mud Bomb",
+      "sourceClass": "class_534",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 160,
+      "name": "Gyro Ball",
+      "sourceClass": "class_643",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Flatter",
+      "sourceClass": "class_617",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Acrobatics",
+      "sourceClass": "class_675",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Moonlight",
+      "sourceClass": "class_125",
+      "reasons": [
+        "Healing/drain",
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Swagger",
+      "sourceClass": "class_555",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 165,
+      "name": "Iron Defense",
+      "sourceClass": "class_153",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Rage Powder",
+      "sourceClass": "class_169",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Endeavor",
+      "sourceClass": "class_716",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Feint",
+      "sourceClass": "class_564",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 169,
+      "name": "Payback",
+      "sourceClass": "class_577",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Telekinesis",
+      "sourceClass": "class_614",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 171,
+      "name": "Thrash",
+      "sourceClass": "class_601",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 172,
+      "name": "Gastro Acid",
+      "sourceClass": "class_570",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 173,
+      "name": "Stealth Rock",
+      "sourceClass": "class_565",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Kyogre's Rest",
+      "sourceClass": "class_651",
+      "reasons": [
+        "Healing/drain",
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 175,
+      "name": "Fake Out",
+      "sourceClass": "class_661",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 176,
+      "name": "Faint Attack",
+      "sourceClass": "class_677",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Taunt",
+      "sourceClass": "class_179",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 178,
+      "name": "Pay Day",
+      "sourceClass": "class_539",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 179,
+      "name": "Power Gem",
+      "sourceClass": "class_545",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 180,
+      "name": "Swords Dance",
+      "sourceClass": "class_145",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 181,
+      "name": "Night Slash",
+      "sourceClass": "class_486",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 182,
+      "name": "Poison Jab",
+      "sourceClass": "class_623",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 183,
+      "name": "Seed Bomb",
+      "sourceClass": "class_628",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 184,
+      "name": "Flamethrower",
+      "sourceClass": "class_731",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 185,
+      "name": "Drill Peck",
+      "sourceClass": "class_615",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 186,
+      "name": "Sandstorm",
+      "sourceClass": "class_592",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 187,
+      "name": "Gravity",
+      "sourceClass": "class_155",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 188,
+      "name": "Poison Fang",
+      "sourceClass": "class_451",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 189,
+      "name": "Giga Drain",
+      "sourceClass": "class_673",
+      "reasons": [
+        "Healing/drain",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 190,
+      "name": "Cross Chop",
+      "sourceClass": "class_488",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 191,
+      "name": "Nasty Plot",
+      "sourceClass": "class_157",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 192,
+      "name": "ExtremeSpeed",
+      "sourceClass": "class_456",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 193,
+      "name": "Hydro Pump",
+      "sourceClass": "class_454",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 194,
+      "name": "Earthquake",
+      "sourceClass": "class_590",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 195,
+      "name": "Avalanche",
+      "sourceClass": "class_455",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 196,
+      "name": "Psycho Cut",
+      "sourceClass": "class_676",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 197,
+      "name": "Barrier",
+      "sourceClass": "class_143",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 198,
+      "name": "Bind",
+      "sourceClass": "class_682",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 199,
+      "name": "Rock Tomb",
+      "sourceClass": "class_574",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 200,
+      "name": "Camouflage",
+      "sourceClass": "class_154",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 201,
+      "name": "Constrict",
+      "sourceClass": "class_489",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 202,
+      "name": "Thunder",
+      "sourceClass": "class_674",
+      "reasons": [
+        "Dynamic metadata getters",
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 203,
+      "name": "Fire Blast",
+      "sourceClass": "class_722",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 204,
+      "name": "Blizzard",
+      "sourceClass": "class_665",
+      "reasons": [
+        "Dynamic metadata getters",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 205,
+      "name": "Magnitude",
+      "sourceClass": "class_787",
+      "reasons": [
+        "Move-local probability",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 206,
+      "name": "Earth Power",
+      "sourceClass": "class_476",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 207,
+      "name": "Dig",
+      "sourceClass": "class_463",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 208,
+      "name": "Poison Gas",
+      "sourceClass": "class_693",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 209,
+      "name": "Meditate",
+      "sourceClass": "class_115",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 210,
+      "name": "Psych Up",
+      "sourceClass": "class_186",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 211,
+      "name": "Synchronoise",
+      "sourceClass": "class_683",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 212,
+      "name": "Light Screen",
+      "sourceClass": "class_109",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 213,
+      "name": "Substitute",
+      "sourceClass": "class_106",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 214,
+      "name": "Mimic",
+      "sourceClass": "class_613",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula"
+      ]
+    },
+    {
+      "id": 215,
+      "name": "Copycat",
+      "sourceClass": "class_689",
+      "reasons": [
+        "Move-local probability",
+        "Does not directly invoke ordinary damage formula"
+      ]
+    },
+    {
+      "id": 216,
+      "name": "Headbutt",
+      "sourceClass": "class_424",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 217,
+      "name": "Mud-Slap",
+      "sourceClass": "class_703",
+      "reasons": [
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 218,
+      "name": "Bug Buzz",
+      "sourceClass": "class_730",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 219,
+      "name": "Discharge",
+      "sourceClass": "class_515",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 220,
+      "name": "Calm Mind",
+      "sourceClass": "class_147",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 221,
+      "name": "Haze",
+      "sourceClass": "class_462",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 222,
+      "name": "DragonBreath",
+      "sourceClass": "class_559",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 223,
+      "name": "Zen Headbutt",
+      "sourceClass": "class_439",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 224,
+      "name": "Cut",
+      "sourceClass": "class_501",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 225,
+      "name": "Flash",
+      "sourceClass": "class_519",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 226,
+      "name": "Low Sweep",
+      "sourceClass": "class_404",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 227,
+      "name": "Foresight",
+      "sourceClass": "class_135",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 228,
+      "name": "Revenge",
+      "sourceClass": "class_626",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 229,
+      "name": "Vital Throw",
+      "sourceClass": "class_487",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 230,
+      "name": "Submission",
+      "sourceClass": "class_496",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 231,
+      "name": "SonicBoom",
+      "sourceClass": "class_569",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 232,
+      "name": "Spark",
+      "sourceClass": "class_594",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 233,
+      "name": "Charge Beam",
+      "sourceClass": "class_541",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 234,
+      "name": "Magnet Rise",
+      "sourceClass": "class_714",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 235,
+      "name": "Aromatherapy",
+      "sourceClass": "class_126",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 236,
+      "name": "Mind Reader",
+      "sourceClass": "class_180",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 237,
+      "name": "Hex",
+      "sourceClass": "class_535",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 238,
+      "name": "Explosion",
+      "sourceClass": "class_468",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 239,
+      "name": "Stored Power",
+      "sourceClass": "class_576",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 240,
+      "name": "SolarBeam",
+      "sourceClass": "class_572",
+      "reasons": [
+        "Dynamic metadata getters",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 241,
+      "name": "Coil",
+      "sourceClass": "class_148",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 242,
+      "name": "Inferno",
+      "sourceClass": "class_531",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 243,
+      "name": "Dragon Dance",
+      "sourceClass": "class_183",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 244,
+      "name": "Dragon Claw",
+      "sourceClass": "class_584",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 245,
+      "name": "Shadow Claw",
+      "sourceClass": "class_687",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 246,
+      "name": "Air Slash",
+      "sourceClass": "class_466",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 247,
+      "name": "Flash Cannon",
+      "sourceClass": "class_510",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 248,
+      "name": "Pluck",
+      "sourceClass": "class_481",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 249,
+      "name": "Thunder Fang",
+      "sourceClass": "class_544",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 250,
+      "name": "Cross Poison",
+      "sourceClass": "class_408",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 251,
+      "name": "Tri Attack",
+      "sourceClass": "class_563",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 252,
+      "name": "Kinesis",
+      "sourceClass": "class_158",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 253,
+      "name": "Wide Guard",
+      "sourceClass": "class_182",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 254,
+      "name": "Nightmare",
+      "sourceClass": "class_429",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 255,
+      "name": "Magical Leaf",
+      "sourceClass": "class_588",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 256,
+      "name": "Quick Guard",
+      "sourceClass": "class_113",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 257,
+      "name": "Charge",
+      "sourceClass": "class_100",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 258,
+      "name": "Guard Swap",
+      "sourceClass": "class_138",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 259,
+      "name": "Power Swap",
+      "sourceClass": "class_105",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 260,
+      "name": "Aurora Beam",
+      "sourceClass": "class_580",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 261,
+      "name": "Aqua Ring",
+      "sourceClass": "class_111",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 262,
+      "name": "Baton Pass",
+      "sourceClass": "class_133",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 263,
+      "name": "Conversion",
+      "sourceClass": "class_164",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 264,
+      "name": "Conversion 2",
+      "sourceClass": "class_128",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 265,
+      "name": "Signal Beam",
+      "sourceClass": "class_543",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 266,
+      "name": "Vacuum Wave",
+      "sourceClass": "class_698",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 267,
+      "name": "Razor Wind",
+      "sourceClass": "class_625",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 268,
+      "name": "X-Scissor",
+      "sourceClass": "class_523",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 269,
+      "name": "ViceGrip",
+      "sourceClass": "class_581",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 270,
+      "name": "Brick Break",
+      "sourceClass": "class_728",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 271,
+      "name": "Dragon Tail",
+      "sourceClass": "class_622",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 272,
+      "name": "Dragon Rush",
+      "sourceClass": "class_659",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 273,
+      "name": "False Swipe",
+      "sourceClass": "class_553",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 274,
+      "name": "Celebi Heal",
+      "sourceClass": "class_172",
+      "reasons": [
+        "Healing/drain",
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 275,
+      "name": "Horn Drill",
+      "sourceClass": "class_660",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 276,
+      "name": "Fissure",
+      "sourceClass": "class_473",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 277,
+      "name": "Punishment",
+      "sourceClass": "class_536",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 278,
+      "name": "Lock-On",
+      "sourceClass": "class_102",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 279,
+      "name": "Quiver Dance",
+      "sourceClass": "class_107",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 280,
+      "name": "Curse",
+      "sourceClass": "class_532",
+      "reasons": [
+        "Dynamic metadata getters",
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 281,
+      "name": "Hyper Beam",
+      "sourceClass": "class_540",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 282,
+      "name": "Leaf Storm",
+      "sourceClass": "class_557",
+      "reasons": [
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 283,
+      "name": "Wring Out",
+      "sourceClass": "class_692",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 284,
+      "name": "Guillotine",
+      "sourceClass": "class_428",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 285,
+      "name": "Leaf Blade",
+      "sourceClass": "class_419",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 286,
+      "name": "Future Sight",
+      "sourceClass": "class_606",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 287,
+      "name": "Retaliate",
+      "sourceClass": "class_547",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 288,
+      "name": "Gunk Shot",
+      "sourceClass": "class_438",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 289,
+      "name": "Iron Tail",
+      "sourceClass": "class_526",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 290,
+      "name": "Close Combat",
+      "sourceClass": "class_575",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 291,
+      "name": "Hyper Voice",
+      "sourceClass": "class_470",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 292,
+      "name": "Healing Wish",
+      "sourceClass": "class_146",
+      "reasons": [
+        "Healing/drain",
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 293,
+      "name": "Double Hit",
+      "sourceClass": "class_596",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 294,
+      "name": "Mirror Coat",
+      "sourceClass": "class_174",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 295,
+      "name": "Last Resort",
+      "sourceClass": "class_528",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 296,
+      "name": "Ancient Power",
+      "sourceClass": "class_465",
+      "reasons": [
+        "Move-local probability",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 297,
+      "name": "Stone Edge",
+      "sourceClass": "class_567",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 298,
+      "name": "Sludge Wave",
+      "sourceClass": "class_443",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 299,
+      "name": "Metal Sound",
+      "sourceClass": "class_710",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 300,
+      "name": "Magnet Bomb",
+      "sourceClass": "class_464",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 301,
+      "name": "Mirror Shot",
+      "sourceClass": "class_620",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 302,
+      "name": "Extrasensory",
+      "sourceClass": "class_475",
+      "reasons": [
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 303,
+      "name": "Heat Wave",
+      "sourceClass": "class_529",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 304,
+      "name": "After You",
+      "sourceClass": "class_704",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula"
+      ]
+    },
+    {
+      "id": 305,
+      "name": "Superpower",
+      "sourceClass": "class_679",
+      "reasons": [
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 306,
+      "name": "Steamroller",
+      "sourceClass": "class_648",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 307,
+      "name": "Night Shade",
+      "sourceClass": "class_440",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 308,
+      "name": "Shadow Ball",
+      "sourceClass": "class_407",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 309,
+      "name": "Dream Eater",
+      "sourceClass": "class_461",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 310,
+      "name": "Dark Pulse",
+      "sourceClass": "class_554",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 311,
+      "name": "Destiny Bond",
+      "sourceClass": "class_437",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 312,
+      "name": "Bone Club",
+      "sourceClass": "class_624",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 313,
+      "name": "Bonemerang",
+      "sourceClass": "class_697",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 314,
+      "name": "Bone Rush",
+      "sourceClass": "class_442",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 315,
+      "name": "Shadow Punch",
+      "sourceClass": "class_493",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 316,
+      "name": "ThunderPunch",
+      "sourceClass": "class_458",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 317,
+      "name": "Fire Punch",
+      "sourceClass": "class_561",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 318,
+      "name": "Hurricane",
+      "sourceClass": "class_586",
+      "reasons": [
+        "Dynamic metadata getters",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 319,
+      "name": "Drill Run",
+      "sourceClass": "class_549",
+      "reasons": [
+        "Critical chance modification",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 320,
+      "name": "Final Gambit",
+      "sourceClass": "class_600",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 321,
+      "name": "Circle Throw",
+      "sourceClass": "class_434",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 322,
+      "name": "Meteor Mash",
+      "sourceClass": "class_479",
+      "reasons": [
+        "Move-local probability",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 323,
+      "name": "Brave Bird",
+      "sourceClass": "class_503",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 324,
+      "name": "Perish Song",
+      "sourceClass": "class_401",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 325,
+      "name": "Outrage",
+      "sourceClass": "class_604",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 326,
+      "name": "Metal Claw",
+      "sourceClass": "class_597",
+      "reasons": [
+        "Move-local probability",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 327,
+      "name": "Stomp",
+      "sourceClass": "class_602",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 328,
+      "name": "Brine",
+      "sourceClass": "class_685",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 329,
+      "name": "Crabhammer",
+      "sourceClass": "class_709",
+      "reasons": [
+        "Critical chance modification",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 330,
+      "name": "Flare Blitz",
+      "sourceClass": "class_671",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 331,
+      "name": "Magic Coat",
+      "sourceClass": "class_184",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 332,
+      "name": "Psyshock",
+      "sourceClass": "class_579",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 333,
+      "name": "Trump Card",
+      "sourceClass": "class_505",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 334,
+      "name": "Smog",
+      "sourceClass": "class_593",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 335,
+      "name": "Megahorn",
+      "sourceClass": "class_583",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 336,
+      "name": "Zap Cannon",
+      "sourceClass": "class_504",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 337,
+      "name": "Amnesia",
+      "sourceClass": "class_117",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 338,
+      "name": "Waterfall",
+      "sourceClass": "class_403",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 339,
+      "name": "Soak",
+      "sourceClass": "class_474",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 340,
+      "name": "Yawn",
+      "sourceClass": "class_426",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 341,
+      "name": "Snore",
+      "sourceClass": "class_686",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 342,
+      "name": "Sleep Talk",
+      "sourceClass": "class_422",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior"
+      ]
+    },
+    {
+      "id": 343,
+      "name": "Heavy Slam",
+      "sourceClass": "class_477",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 344,
+      "name": "Giga Impact",
+      "sourceClass": "class_669",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 345,
+      "name": "Ice Shard",
+      "sourceClass": "class_644",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 346,
+      "name": "Ice Beam",
+      "sourceClass": "class_512",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 347,
+      "name": "Sheer Cold",
+      "sourceClass": "class_647",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 348,
+      "name": "Acid Armor",
+      "sourceClass": "class_104",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 349,
+      "name": "Dragon Pulse",
+      "sourceClass": "class_431",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 350,
+      "name": "Me First",
+      "sourceClass": "class_480",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula"
+      ]
+    },
+    {
+      "id": 351,
+      "name": "Lava Plume",
+      "sourceClass": "class_591",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 352,
+      "name": "Searing Shot",
+      "sourceClass": "class_406",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 353,
+      "name": "Incinerate",
+      "sourceClass": "class_402",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 354,
+      "name": "Endure",
+      "sourceClass": "class_119",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 355,
+      "name": "Flame Charge",
+      "sourceClass": "class_425",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 356,
+      "name": "Rolling Kick",
+      "sourceClass": "class_696",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 357,
+      "name": "Hi Jump Kick",
+      "sourceClass": "class_518",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 358,
+      "name": "Jump Kick",
+      "sourceClass": "class_418",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 359,
+      "name": "Blaze Kick",
+      "sourceClass": "class_502",
+      "reasons": [
+        "Critical chance modification",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 360,
+      "name": "Mega Kick",
+      "sourceClass": "class_599",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 361,
+      "name": "Comet Punch",
+      "sourceClass": "class_495",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 362,
+      "name": "Mach Punch",
+      "sourceClass": "class_680",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 363,
+      "name": "Bullet Punch",
+      "sourceClass": "class_499",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 364,
+      "name": "Sky Uppercut",
+      "sourceClass": "class_421",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 365,
+      "name": "Detect",
+      "sourceClass": "class_175",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 366,
+      "name": "Counter",
+      "sourceClass": "class_160",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 367,
+      "name": "Focus Punch",
+      "sourceClass": "class_546",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 368,
+      "name": "Shadow Rush",
+      "sourceClass": "class_653",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 369,
+      "name": "Icicle Spear",
+      "sourceClass": "class_420",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 370,
+      "name": "Clamp",
+      "sourceClass": "class_725",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 371,
+      "name": "Razor Shell",
+      "sourceClass": "class_672",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 372,
+      "name": "Whirlpool",
+      "sourceClass": "class_636",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 373,
+      "name": "Shell Smash",
+      "sourceClass": "class_176",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 374,
+      "name": "Spike Cannon",
+      "sourceClass": "class_706",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 375,
+      "name": "Spikes",
+      "sourceClass": "class_630",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 376,
+      "name": "Icicle Crash",
+      "sourceClass": "class_655",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 377,
+      "name": "Wonder Room",
+      "sourceClass": "class_167",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 378,
+      "name": "Aqua Jet",
+      "sourceClass": "class_478",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 379,
+      "name": "Muddy Water",
+      "sourceClass": "class_417",
+      "reasons": [
+        "Move-local probability",
+        "Effect-dependent behavior",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 380,
+      "name": "Muk's Gas",
+      "sourceClass": "class_729",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 381,
+      "name": "Sludge",
+      "sourceClass": "class_727",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 382,
+      "name": "Sludge Bomb",
+      "sourceClass": "class_645",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 383,
+      "name": "Uproar",
+      "sourceClass": "class_524",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 384,
+      "name": "Acupressure",
+      "sourceClass": "class_193",
+      "reasons": [
+        "Move-local probability",
+        "Does not directly invoke ordinary damage formula",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 385,
+      "name": "Slack Off",
+      "sourceClass": "class_166",
+      "reasons": [
+        "Healing/drain",
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 386,
+      "name": "Heal Pulse",
+      "sourceClass": "class_188",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 387,
+      "name": "Memento",
+      "sourceClass": "class_141",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Status/effect helper calls"
+      ]
+    },
+    {
+      "id": 388,
+      "name": "Wood Hammer",
+      "sourceClass": "class_589",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 389,
+      "name": "Egg Bomb",
+      "sourceClass": "class_538",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 390,
+      "name": "Bullet Seed",
+      "sourceClass": "class_484",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 391,
+      "name": "Barrage",
+      "sourceClass": "class_558",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 392,
+      "name": "Softboiled",
+      "sourceClass": "class_178",
+      "reasons": [
+        "Healing/drain",
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 393,
+      "name": "Refresh",
+      "sourceClass": "class_173",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 394,
+      "name": "Hammer Arm",
+      "sourceClass": "class_681",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 395,
+      "name": "Dizzy Punch",
+      "sourceClass": "class_533",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 396,
+      "name": "Work Up",
+      "sourceClass": "class_152",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Status/effect helper calls"
+      ]
+    },
+    {
+      "id": 397,
+      "name": "Rock",
+      "sourceClass": "class_726",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 398,
+      "name": "Bait",
+      "sourceClass": "class_612",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 399,
+      "name": "Power Whip",
+      "sourceClass": "class_641",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 400,
+      "name": "Tickle",
+      "sourceClass": "class_525",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 401,
+      "name": "Ingrain",
+      "sourceClass": "class_139",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 402,
+      "name": "Eruption",
+      "sourceClass": "class_497",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 403,
+      "name": "Bounce",
+      "sourceClass": "class_642",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 404,
+      "name": "Gary's Potion",
+      "sourceClass": "class_110",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 405,
+      "name": "Zapdos' Drill Peck",
+      "sourceClass": "class_121",
+      "reasons": [
+        "Dynamic metadata getters",
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 406,
+      "name": "Zapdos' Thunder",
+      "sourceClass": "class_566",
+      "reasons": [
+        "Dynamic metadata getters",
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 407,
+      "name": "Icy Wind",
+      "sourceClass": "class_595",
+      "reasons": [
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 408,
+      "name": "Dive",
+      "sourceClass": "class_640",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 409,
+      "name": "Hail",
+      "sourceClass": "class_573",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 410,
+      "name": "Clear Smog",
+      "sourceClass": "class_616",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 411,
+      "name": "Sunny Day",
+      "sourceClass": "class_103",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 412,
+      "name": "Sky Drop",
+      "sourceClass": "class_548",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 413,
+      "name": "Iron Head",
+      "sourceClass": "class_678",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 414,
+      "name": "Rock Slide",
+      "sourceClass": "class_658",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 415,
+      "name": "Toxic",
+      "sourceClass": "class_509",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 416,
+      "name": "Shock Wave",
+      "sourceClass": "class_705",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 417,
+      "name": "Aura Sphere",
+      "sourceClass": "class_700",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 418,
+      "name": "Overheat",
+      "sourceClass": "class_453",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 419,
+      "name": "V-Create",
+      "sourceClass": "class_490",
+      "reasons": [
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 420,
+      "name": "Fusion Bolt",
+      "sourceClass": "class_500",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 421,
+      "name": "Fusion Flare",
+      "sourceClass": "class_688",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 422,
+      "name": "Sky Attack",
+      "sourceClass": "class_562",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 423,
+      "name": "Sharpen",
+      "sourceClass": "class_127",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Effect-dependent behavior",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 424,
+      "name": "Psystrike",
+      "sourceClass": "class_409",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 425,
+      "name": "Surf",
+      "sourceClass": "class_666",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 426,
+      "name": "Strength",
+      "sourceClass": "class_414",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 427,
+      "name": "Fly",
+      "sourceClass": "class_433",
+      "reasons": [
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 428,
+      "name": "Freeze All Towers",
+      "sourceClass": "class_633",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Status/effect helper calls",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 429,
+      "name": "Slippery",
+      "sourceClass": "class_639",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 430,
+      "name": "Brain Freeze",
+      "sourceClass": "class_187",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 431,
+      "name": "Anti Poison",
+      "sourceClass": "class_668",
+      "reasons": [
+        "Healing/drain",
+        "Custom effect/projectile implementation requires inspection"
+      ]
+    },
+    {
+      "id": 432,
+      "name": "Tower Teleport",
+      "sourceClass": "class_181",
+      "reasons": [
+        "Move-local probability",
+        "Does not directly invoke ordinary damage formula"
+      ]
+    },
+    {
+      "id": 433,
+      "name": "Return to Pokeball",
+      "sourceClass": "class_192",
+      "reasons": [
+        "Does not directly invoke ordinary damage formula"
+      ]
+    }
+  ],
+  "damageSubclassWithoutDirectFormula": [
+    {
+      "id": 23,
+      "name": "Thunder Wave",
+      "sourceClass": "class_410"
+    },
+    {
+      "id": 26,
+      "name": "Sleep Powder",
+      "sourceClass": "class_411"
+    },
+    {
+      "id": 29,
+      "name": "Dragon Rage",
+      "sourceClass": "class_412"
+    },
+    {
+      "id": 30,
+      "name": "Scary Face",
+      "sourceClass": "class_657"
+    },
+    {
+      "id": 36,
+      "name": "Whirlwind",
+      "sourceClass": "class_637"
+    },
+    {
+      "id": 37,
+      "name": "Stun Spore",
+      "sourceClass": "class_715"
+    },
+    {
+      "id": 47,
+      "name": "Sing",
+      "sourceClass": "class_607"
+    },
+    {
+      "id": 56,
+      "name": "Transform",
+      "sourceClass": "class_707"
+    },
+    {
+      "id": 57,
+      "name": "Reflect Type",
+      "sourceClass": "class_721"
+    },
+    {
+      "id": 58,
+      "name": "Metronome",
+      "sourceClass": "class_405"
+    },
+    {
+      "id": 60,
+      "name": "Encore",
+      "sourceClass": "class_522"
+    },
+    {
+      "id": 71,
+      "name": "Glare",
+      "sourceClass": "class_691"
+    },
+    {
+      "id": 78,
+      "name": "Mirror Move",
+      "sourceClass": "class_527"
+    },
+    {
+      "id": 87,
+      "name": "Spore",
+      "sourceClass": "class_695"
+    },
+    {
+      "id": 101,
+      "name": "Roar",
+      "sourceClass": "class_723"
+    },
+    {
+      "id": 110,
+      "name": "Hypnosis",
+      "sourceClass": "class_610"
+    },
+    {
+      "id": 120,
+      "name": "Lovely Kiss",
+      "sourceClass": "class_416"
+    },
+    {
+      "id": 141,
+      "name": "Splash",
+      "sourceClass": "class_457"
+    },
+    {
+      "id": 143,
+      "name": "Rest",
+      "sourceClass": "class_432"
+    },
+    {
+      "id": 170,
+      "name": "Telekinesis",
+      "sourceClass": "class_614"
+    },
+    {
+      "id": 172,
+      "name": "Gastro Acid",
+      "sourceClass": "class_570"
+    },
+    {
+      "id": 174,
+      "name": "Kyogre's Rest",
+      "sourceClass": "class_651"
+    },
+    {
+      "id": 203,
+      "name": "Fire Blast",
+      "sourceClass": "class_722"
+    },
+    {
+      "id": 214,
+      "name": "Mimic",
+      "sourceClass": "class_613"
+    },
+    {
+      "id": 215,
+      "name": "Copycat",
+      "sourceClass": "class_689"
+    },
+    {
+      "id": 221,
+      "name": "Haze",
+      "sourceClass": "class_462"
+    },
+    {
+      "id": 225,
+      "name": "Flash",
+      "sourceClass": "class_519"
+    },
+    {
+      "id": 231,
+      "name": "SonicBoom",
+      "sourceClass": "class_569"
+    },
+    {
+      "id": 234,
+      "name": "Magnet Rise",
+      "sourceClass": "class_714"
+    },
+    {
+      "id": 275,
+      "name": "Horn Drill",
+      "sourceClass": "class_660"
+    },
+    {
+      "id": 276,
+      "name": "Fissure",
+      "sourceClass": "class_473"
+    },
+    {
+      "id": 280,
+      "name": "Curse",
+      "sourceClass": "class_532"
+    },
+    {
+      "id": 284,
+      "name": "Guillotine",
+      "sourceClass": "class_428"
+    },
+    {
+      "id": 299,
+      "name": "Metal Sound",
+      "sourceClass": "class_710"
+    },
+    {
+      "id": 304,
+      "name": "After You",
+      "sourceClass": "class_704"
+    },
+    {
+      "id": 308,
+      "name": "Shadow Ball",
+      "sourceClass": "class_407"
+    },
+    {
+      "id": 311,
+      "name": "Destiny Bond",
+      "sourceClass": "class_437"
+    },
+    {
+      "id": 320,
+      "name": "Final Gambit",
+      "sourceClass": "class_600"
+    },
+    {
+      "id": 324,
+      "name": "Perish Song",
+      "sourceClass": "class_401"
+    },
+    {
+      "id": 332,
+      "name": "Psyshock",
+      "sourceClass": "class_579"
+    },
+    {
+      "id": 336,
+      "name": "Zap Cannon",
+      "sourceClass": "class_504"
+    },
+    {
+      "id": 339,
+      "name": "Soak",
+      "sourceClass": "class_474"
+    },
+    {
+      "id": 340,
+      "name": "Yawn",
+      "sourceClass": "class_426"
+    },
+    {
+      "id": 342,
+      "name": "Sleep Talk",
+      "sourceClass": "class_422"
+    },
+    {
+      "id": 347,
+      "name": "Sheer Cold",
+      "sourceClass": "class_647"
+    },
+    {
+      "id": 349,
+      "name": "Dragon Pulse",
+      "sourceClass": "class_431"
+    },
+    {
+      "id": 350,
+      "name": "Me First",
+      "sourceClass": "class_480"
+    },
+    {
+      "id": 406,
+      "name": "Zapdos' Thunder",
+      "sourceClass": "class_566"
+    },
+    {
+      "id": 417,
+      "name": "Aura Sphere",
+      "sourceClass": "class_700"
+    },
+    {
+      "id": 420,
+      "name": "Fusion Bolt",
+      "sourceClass": "class_500"
+    },
+    {
+      "id": 421,
+      "name": "Fusion Flare",
+      "sourceClass": "class_688"
+    },
+    {
+      "id": 425,
+      "name": "Surf",
+      "sourceClass": "class_666"
+    },
+    {
+      "id": 428,
+      "name": "Freeze All Towers",
+      "sourceClass": "class_633"
+    },
+    {
+      "id": 429,
+      "name": "Slippery",
+      "sourceClass": "class_639"
+    }
+  ],
+  "note": "Conservative source audit: custom attack bodies include visual projectile timing as well as gameplay effects. Power/category alone cannot identify whether a move actually deals immediate damage. Dynamic special fields must be resolved; null power must never receive default damage.",
+  "auditStatus": "Historical structural analysis of original ActionScript, retained as source evidence. It does not describe current implementation coverage.",
+  "currentImplementation": {
+    "engine": "src/move-native.js + src/move-source-generated.js",
+    "nativeSourceMoves": 433,
+    "damageOnlyFallbackMoves": 0,
+    "unavailableKnownMoves": 0,
+    "sourceBehaviorClasses": 789
+  }
+}

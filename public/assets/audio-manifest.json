@@ -1,0 +1,337 @@
+{
+  "cry_106": {
+    "file": "audio/cry_106.mp3",
+    "symbolId": 6148,
+    "duration": 5.2
+  },
+  "route2Music": {
+    "file": "audio/route2Music.mp3",
+    "symbolId": 6180,
+    "duration": 58.864
+  },
+  "cry_041": {
+    "file": "audio/cry_041.mp3",
+    "symbolId": 6136,
+    "duration": 1.664
+  },
+  "cry_012": {
+    "file": "audio/cry_012.mp3",
+    "symbolId": 6130,
+    "duration": 1.092
+  },
+  "cry_150": {
+    "file": "audio/cry_150.mp3",
+    "symbolId": 6156,
+    "duration": 2.288
+  },
+  "cry_016": {
+    "file": "audio/cry_016.mp3",
+    "symbolId": 6132,
+    "duration": 1.456
+  },
+  "superEffectiveSound": {
+    "file": "audio/superEffectiveSound.mp3",
+    "symbolId": 6183,
+    "duration": 1.716
+  },
+  "cry_100": {
+    "file": "audio/cry_100.mp3",
+    "symbolId": 6147,
+    "duration": 2.444
+  },
+  "openingSong": {
+    "file": "audio/openingSong.mp3",
+    "symbolId": 6174,
+    "duration": 118.5462
+  },
+  "cry_243": {
+    "file": "audio/cry_243.mp3",
+    "symbolId": 6157,
+    "duration": 1.092
+  },
+  "evolveMusic": {
+    "file": "audio/evolveMusic.mp3",
+    "symbolId": 6159,
+    "duration": 54.808
+  },
+  "cry_026": {
+    "file": "audio/cry_026.mp3",
+    "symbolId": 6135,
+    "duration": 1.82
+  },
+  "cry_128": {
+    "file": "audio/cry_128.mp3",
+    "symbolId": 6151,
+    "duration": 1.716
+  },
+  "cry_094": {
+    "file": "audio/cry_094.mp3",
+    "symbolId": 6143,
+    "duration": 1.664
+  },
+  "ssanneMusic": {
+    "file": "audio/ssanneMusic.mp3",
+    "symbolId": 6182,
+    "duration": 75.764
+  },
+  "lower_Stat_Sound": {
+    "file": "audio/lower_Stat_Sound.mp3",
+    "symbolId": 6169,
+    "duration": 1.56
+  },
+  "cry_006": {
+    "file": "audio/cry_006.mp3",
+    "symbolId": 6127,
+    "duration": 1.56
+  },
+  "cry_019": {
+    "file": "audio/cry_019.mp3",
+    "symbolId": 6133,
+    "duration": 1.04
+  },
+  "cityMusic": {
+    "file": "audio/cityMusic.mp3",
+    "symbolId": 6124,
+    "duration": 123.136
+  },
+  "gymMusic": {
+    "file": "audio/gymMusic.mp3",
+    "symbolId": 6161,
+    "duration": 69.992
+  },
+  "ineffectiveHitSound": {
+    "file": "audio/ineffectiveHitSound.mp3",
+    "symbolId": 6164,
+    "duration": 0.728
+  },
+  "oceanMusic": {
+    "file": "audio/oceanMusic.mp3",
+    "symbolId": 6173,
+    "duration": 85.384
+  },
+  "cry_146": {
+    "file": "audio/cry_146.mp3",
+    "symbolId": 6155,
+    "duration": 2.34
+  },
+  "palletMusic": {
+    "file": "audio/palletMusic.mp3",
+    "symbolId": 6175,
+    "duration": 78.0
+  },
+  "team_rocket_music": {
+    "file": "audio/team_rocket_music.mp3",
+    "symbolId": 6184,
+    "duration": 21.58
+  },
+  "viridianForestSong": {
+    "file": "audio/viridianForestSong.mp3",
+    "symbolId": 6189,
+    "duration": 106.548
+  },
+  "cry_005": {
+    "file": "audio/cry_005.mp3",
+    "symbolId": 6126,
+    "duration": 1.56
+  },
+  "cry_097": {
+    "file": "audio/cry_097.mp3",
+    "symbolId": 6146,
+    "duration": 2.34
+  },
+  "cry_143": {
+    "file": "audio/cry_143.mp3",
+    "symbolId": 6152,
+    "duration": 1.144
+  },
+  "cry_001": {
+    "file": "audio/cry_001.mp3",
+    "symbolId": 6125,
+    "duration": 1.456
+  },
+  "kiraJusticeMusic": {
+    "file": "audio/kiraJusticeMusic.mp3",
+    "symbolId": 6165,
+    "duration": 81.38
+  },
+  "pokeTowerMusic": {
+    "file": "audio/pokeTowerMusic.mp3",
+    "symbolId": 6176,
+    "duration": 132.964
+  },
+  "cinnabarMusic": {
+    "file": "audio/cinnabarMusic.mp3",
+    "symbolId": 6123,
+    "duration": 59.28
+  },
+  "cry_112": {
+    "file": "audio/cry_112.mp3",
+    "symbolId": 6149,
+    "duration": 1.924
+  },
+  "cry_025": {
+    "file": "audio/cry_025.mp3",
+    "symbolId": 6134,
+    "duration": 1.664
+  },
+  "celadonCityMusic": {
+    "file": "audio/celadonCityMusic.mp3",
+    "symbolId": 6121,
+    "duration": 69.108
+  },
+  "route4Music": {
+    "file": "audio/route4Music.mp3",
+    "symbolId": 6181,
+    "duration": 82.524
+  },
+  "cry_144": {
+    "file": "audio/cry_144.mp3",
+    "symbolId": 6153,
+    "duration": 2.288
+  },
+  "hankBattleMusic": {
+    "file": "audio/hankBattleMusic.mp3",
+    "symbolId": 6162,
+    "duration": 192.888563
+  },
+  "cry_007": {
+    "file": "audio/cry_007.mp3",
+    "symbolId": 6128,
+    "duration": 1.976
+  },
+  "cry_052": {
+    "file": "audio/cry_052.mp3",
+    "symbolId": 6137,
+    "duration": 1.196
+  },
+  "mansionMusic": {
+    "file": "audio/mansionMusic.mp3",
+    "symbolId": 6170,
+    "duration": 83.772
+  },
+  "lavenderTownMusic": {
+    "file": "audio/lavenderTownMusic.mp3",
+    "symbolId": 6167,
+    "duration": 100.048
+  },
+  "cry_145": {
+    "file": "audio/cry_145.mp3",
+    "symbolId": 6154,
+    "duration": 1.56
+  },
+  "cry_065": {
+    "file": "audio/cry_065.mp3",
+    "symbolId": 6139,
+    "duration": 2.08
+  },
+  "cry_015": {
+    "file": "audio/cry_015.mp3",
+    "symbolId": 6131,
+    "duration": 1.82
+  },
+  "cry_092": {
+    "file": "audio/cry_092.mp3",
+    "symbolId": 6141,
+    "duration": 2.184
+  },
+  "cry_089": {
+    "file": "audio/cry_089.mp3",
+    "symbolId": 6140,
+    "duration": 1.508
+  },
+  "faintSound": {
+    "file": "audio/faintSound.mp3",
+    "symbolId": 6160,
+    "duration": 0.936
+  },
+  "ceruleanMusic": {
+    "file": "audio/ceruleanMusic.mp3",
+    "symbolId": 6122,
+    "duration": 70.044
+  },
+  "trainerEncounterSong": {
+    "file": "audio/trainerEncounterSong.mp3",
+    "symbolId": 6185,
+    "duration": 19.76
+  },
+  "regularHitSound": {
+    "file": "audio/regularHitSound.mp3",
+    "symbolId": 6177,
+    "duration": 0.936
+  },
+  "vermillionMusic": {
+    "file": "audio/vermillionMusic.mp3",
+    "symbolId": 6186,
+    "duration": 55.848
+  },
+  "levelUpSound": {
+    "file": "audio/levelUpSound.mp3",
+    "symbolId": 6168,
+    "duration": 2.808
+  },
+  "route10Music": {
+    "file": "audio/route10Music.mp3",
+    "symbolId": 6179,
+    "duration": 71.136
+  },
+  "battleWildMusic": {
+    "file": "audio/battleWildMusic.mp3",
+    "symbolId": 6118,
+    "duration": 89.232
+  },
+  "cry_093": {
+    "file": "audio/cry_093.mp3",
+    "symbolId": 6142,
+    "duration": 1.82
+  },
+  "cry_061": {
+    "file": "audio/cry_061.mp3",
+    "symbolId": 6138,
+    "duration": 1.404
+  },
+  "cry_095": {
+    "file": "audio/cry_095.mp3",
+    "symbolId": 6144,
+    "duration": 2.08
+  },
+  "cry_009": {
+    "file": "audio/cry_009.mp3",
+    "symbolId": 6129,
+    "duration": 2.184
+  },
+  "increase_Stat_Sound": {
+    "file": "audio/increase_Stat_Sound.mp3",
+    "symbolId": 6163,
+    "duration": 1.664
+  },
+  "cry_096": {
+    "file": "audio/cry_096.mp3",
+    "symbolId": 6145,
+    "duration": 2.236
+  },
+  "battleGymMusic": {
+    "file": "audio/battleGymMusic.mp3",
+    "symbolId": 6117,
+    "duration": 114.244
+  },
+  "casinoMusic": {
+    "file": "audio/casinoMusic.mp3",
+    "symbolId": 6120,
+    "duration": 84.396
+  },
+  "evolveDoneMusic": {
+    "file": "audio/evolveDoneMusic.mp3",
+    "symbolId": 6158,
+    "duration": 31.824
+  },
+  "billMusic": {
+    "file": "audio/billMusic.mp3",
+    "symbolId": 6119,
+    "duration": 45.5
+  },
+  "cry_121": {
+    "file": "audio/cry_121.mp3",
+    "symbolId": 6150,
+    "duration": 1.664
+  }
+}

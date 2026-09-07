@@ -1,0 +1,15 @@
+import {createCanvasTools} from '../canvas-tools.js';
+export async function createRenderer(canvas){
+ let defaultFill,defaultStroke;
+ const registry={},scalingGrids={},boundRects={};const tools=createCanvasTools(canvas,registry,scalingGrids,boundRects);
+ const {place,cxform,enhanceContext,drawPath,drawMorphPath,tocolor,Filters,BlendModes,createCanvas,concatMatrix,useRatio}=tools;
+ const ctx=canvas.getContext('2d');if(!ctx._matrix)enhanceContext(ctx);
+function shape84(ctx,ctrans,frame,ratio,time){var pathData="M 2918 -8769 L 2918 -7769 1918 -7769 1918 -8769 2918 -8769 M 6238 -8080 L 6238 -7080 5238 -7080 5238 -8080 6238 -8080 M 6238 -8520 L 5238 -8520 5238 -9520 6238 -9520 6238 -8520 M 5238 -5380 L 6238 -5380 6238 -4380 5238 -4380 5238 -5380 M 1918 -6329 L 1918 -7329 2918 -7329 2918 -6329 1918 -6329 M 1918 -4889 L 1918 -5889 2918 -5889 2918 -4889 1918 -4889 M 2958 -2021 L 2958 -1021 1958 -1021 1958 -2021 2958 -2021 M 2958 -581 L 2958 419 1958 419 1958 -581 2958 -581 M 6298 -2021 L 6298 -1021 5298 -1021 5298 -2021 6298 -2021 M 6298 -581 L 6298 419 5298 419 5298 -581 6298 -581 M 6298 1859 L 5298 1859 5298 859 6298 859 6298 1859 M 1958 1859 L 1958 859 2958 859 2958 1859 1958 1859 M -4280 -8740 L -4280 -7740 -5280 -7740 -5280 -8740 -4280 -8740 M -8121 -8769 L -8121 -7769 -9121 -7769 -9121 -8769 -8121 -8769 M -8121 -7329 L -8121 -6329 -9121 -6329 -9121 -7329 -8121 -7329 M -8121 -5889 L -8121 -4889 -9121 -4889 -9121 -5889 -8121 -5889 M -8121 -2001 L -8121 -1001 -9121 -1001 -9121 -2001 -8121 -2001 M -8121 -561 L -8121 439 -9121 439 -9121 -561 -8121 -561 M -4280 -6300 L -5280 -6300 -5280 -7300 -4280 -7300 -4280 -6300 M -5280 -5860 L -4280 -5860 -4280 -4860 -5280 -4860 -5280 -5860 M -4280 -601 L -4280 399 -5280 399 -5280 -601 -4280 -601 M -4280 -1041 L -5280 -1041 -5280 -2041 -4280 -2041 -4280 -1041 M -4280 1839 L -5280 1839 -5280 839 -4280 839 -4280 1839 M -9121 1879 L -9121 879 -8121 879 -8121 1879 -9121 1879 Z";var scaleMode="NORMAL";ctx.strokeStyle=tocolor(ctrans.apply([255,153,0,1]));ctx.lineWidth=4.8;ctx.lineCap="round";ctx.lineJoin="round";drawPath(ctx,pathData,true,scaleMode)}function sprite85(ctx,ctrans,frame,ratio,time){
+const timelineClip=tools.enterSprite(85,frame);if(timelineClip)frame=timelineClip.currentFrame-1;try{
+ctx.save();ctx.transform(1,0,0,1,458.45,478.4);var clips=[];var frame_cnt=1;frame=frame%frame_cnt;switch(frame){case 0:place("shape84",canvas,ctx,[0.05,0.0,0.0,0.05,0.0,0.0],ctrans,1,0,0,time);break}ctx.restore()
+}finally{tools.leaveSprite();}
+}
+Object.assign(registry,{shape84,sprite85});
+await Promise.all([].map(image=>image.decode()));
+return {render(clip,{clear=true}={}){tools.setRoot(clip);ctx.save();ctx.setTransform(1,0,0,1,0,0);if(clear)ctx.clearRect(0,0,canvas.width,canvas.height);if(clip?.renderMatrix){ctx.transform(...clip.renderMatrix);ctx.transform(1,0,0,1,-458.45,-478.4);}else{ctx.transform(1,0,0,1,-458.45+(clip?.x??0),-478.4+(clip?.y??0));}ctx.globalAlpha=clip?.alpha??1;sprite85(ctx,new cxform(0,0,0,0,255,255,255,255),(clip?.currentFrame??1)-1,0,clip?.clock?.frame??0);tools.finishRoot(clip);ctx.restore();}};
+}

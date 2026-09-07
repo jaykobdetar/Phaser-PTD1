@@ -1,0 +1,1319 @@
+{
+  "stage": {
+    "width": 800,
+    "height": 480
+  },
+  "hud": {
+    "file": "raw/DefineSprite_11995_gfx_ui_Level/1.png",
+    "sourceBounds": {
+      "xMin": 5.2,
+      "yMin": 3.1,
+      "xMax": 794.1,
+      "yMax": 472.4
+    },
+    "children": {
+      "#11946": {
+        "symbolId": 11946,
+        "symbolClass": "",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": 5.2,
+          "yMin": 15.6,
+          "xMax": 24.2,
+          "yMax": 35.65
+        },
+        "parentBounds": {
+          "left": 5.2,
+          "top": 15.6,
+          "width": 19.0,
+          "height": 20.049999999999997
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "block_4": {
+        "symbolId": 11602,
+        "symbolClass": "resources_fla.gfx_party_block_904",
+        "x": 415.05,
+        "y": 373.9,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -50.65,
+          "yMin": -46.0,
+          "xMax": 51.65,
+          "yMax": 66.25
+        },
+        "parentBounds": {
+          "left": 364.4,
+          "top": 327.9,
+          "width": 102.3,
+          "height": 112.25
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "block_3": {
+        "symbolId": 11602,
+        "symbolClass": "resources_fla.gfx_party_block_904",
+        "x": 314.65,
+        "y": 373.9,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -50.65,
+          "yMin": -46.0,
+          "xMax": 51.65,
+          "yMax": 66.25
+        },
+        "parentBounds": {
+          "left": 264.0,
+          "top": 327.9,
+          "width": 102.3,
+          "height": 112.25
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "block_1": {
+        "symbolId": 11602,
+        "symbolClass": "resources_fla.gfx_party_block_904",
+        "x": 120.65,
+        "y": 373.9,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -50.65,
+          "yMin": -46.0,
+          "xMax": 51.65,
+          "yMax": 66.25
+        },
+        "parentBounds": {
+          "left": 70.0,
+          "top": 327.9,
+          "width": 102.3,
+          "height": 112.25
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "block_2": {
+        "symbolId": 11602,
+        "symbolClass": "resources_fla.gfx_party_block_904",
+        "x": 218.05,
+        "y": 373.9,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -50.65,
+          "yMin": -46.0,
+          "xMax": 51.65,
+          "yMax": 66.25
+        },
+        "parentBounds": {
+          "left": 167.4,
+          "top": 327.9,
+          "width": 102.3,
+          "height": 112.25
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "block_6": {
+        "symbolId": 11602,
+        "symbolClass": "resources_fla.gfx_party_block_904",
+        "x": 618.85,
+        "y": 373.9,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -50.65,
+          "yMin": -46.0,
+          "xMax": 51.65,
+          "yMax": 66.25
+        },
+        "parentBounds": {
+          "left": 568.2,
+          "top": 327.9,
+          "width": 102.3,
+          "height": 112.25
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "block_5": {
+        "symbolId": 11602,
+        "symbolClass": "resources_fla.gfx_party_block_904",
+        "x": 521.45,
+        "y": 373.9,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -50.65,
+          "yMin": -46.0,
+          "xMax": 51.65,
+          "yMax": 66.25
+        },
+        "parentBounds": {
+          "left": 470.8,
+          "top": 327.9,
+          "width": 102.3,
+          "height": 112.25
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "totalMoney": {
+        "symbolId": 11947,
+        "symbolClass": "",
+        "x": 28.8,
+        "y": 10.3,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -2.0,
+          "yMin": -2.0,
+          "xMax": 217.15,
+          "yMax": 33.3
+        },
+        "parentBounds": {
+          "left": 26.8,
+          "top": 8.3,
+          "width": 219.15,
+          "height": 35.3
+        },
+        "text": "0",
+        "fontIds": "[9604]",
+        "fontPixels": 28.0
+      },
+      "pokeball": {
+        "symbolId": 11043,
+        "symbolClass": "gfx_pokeball",
+        "x": 734.2,
+        "y": 371.45,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -49.0,
+          "yMin": -75.15,
+          "xMax": 49.0,
+          "yMax": 76.1
+        },
+        "parentBounds": {
+          "left": 685.2,
+          "top": 296.3,
+          "width": 98.0,
+          "height": 151.25
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "waveInfo": {
+        "symbolId": 11948,
+        "symbolClass": "",
+        "x": 17.65,
+        "y": 280.25,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -2.0,
+          "yMin": -2.0,
+          "xMax": 248.3,
+          "yMax": 33.3
+        },
+        "parentBounds": {
+          "left": 15.65,
+          "top": 278.25,
+          "width": 250.3,
+          "height": 35.3
+        },
+        "text": null,
+        "fontIds": "[9604]",
+        "fontPixels": 28.0
+      },
+      "potion": {
+        "symbolId": 11956,
+        "symbolClass": "resources_fla.gfx_potion_946",
+        "x": 734.9,
+        "y": 269.95,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -37.0,
+          "yMin": -44.6,
+          "xMax": 43.1,
+          "yMax": 42.35
+        },
+        "parentBounds": {
+          "left": 697.9,
+          "top": 225.35,
+          "width": 80.1,
+          "height": 86.95
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "paused": {
+        "symbolId": 11958,
+        "symbolClass": "",
+        "x": 408.0,
+        "y": 119.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -178.4,
+          "yMin": -38.85,
+          "xMax": 180.3,
+          "yMax": 41.0
+        },
+        "parentBounds": {
+          "left": 229.6,
+          "top": 80.15,
+          "width": 358.70000000000005,
+          "height": 79.85
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "#11959": {
+        "symbolId": 11959,
+        "symbolClass": "",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": 695.2,
+          "yMin": 428.05,
+          "xMax": 774.3,
+          "yMax": 468.35
+        },
+        "parentBounds": {
+          "left": 695.2,
+          "top": 428.05,
+          "width": 79.09999999999991,
+          "height": 40.30000000000001
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "#11960": {
+        "symbolId": 11960,
+        "symbolClass": "",
+        "x": 698.15,
+        "y": 435.35,
+        "scaleX": 0.5938,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -9.75,
+          "yMin": -2.0,
+          "xMax": 130.35,
+          "yMax": 52.75
+        },
+        "parentBounds": {
+          "left": 692.35,
+          "top": 434.15,
+          "width": 83.19138,
+          "height": 32.51055
+        },
+        "text": "Menu\\r",
+        "fontIds": "[9604]",
+        "fontPixels": 40.0
+      },
+      "ui_speed": {
+        "symbolId": 11967,
+        "symbolClass": "",
+        "x": 142.25,
+        "y": 452.15,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -135.4,
+          "yMin": -20.15,
+          "xMax": 138.4,
+          "yMax": 20.15
+        },
+        "parentBounds": {
+          "left": 6.85,
+          "top": 432.0,
+          "width": 273.8,
+          "height": 40.3
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "ui_zoom": {
+        "symbolId": 11974,
+        "symbolClass": "",
+        "x": 467.5,
+        "y": 451.85,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -150.95,
+          "yMin": -20.15,
+          "xMax": 153.35,
+          "yMax": 20.15
+        },
+        "parentBounds": {
+          "left": 316.55,
+          "top": 431.7,
+          "width": 304.29999999999995,
+          "height": 40.3
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "ui_path": {
+        "symbolId": 11989,
+        "symbolClass": "",
+        "x": 654.45,
+        "y": 23.45,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -136.8,
+          "yMin": -20.15,
+          "xMax": 138.3,
+          "yMax": 20.15
+        },
+        "parentBounds": {
+          "left": 517.65,
+          "top": 3.3,
+          "width": 275.1,
+          "height": 40.3
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "speed_hl": {
+        "symbolId": 11991,
+        "symbolClass": "resources_fla.ui_speed_highlight_954",
+        "x": 125.6,
+        "y": 450.95,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -22.3,
+          "yMin": -20.45,
+          "xMax": 156.3,
+          "yMax": 20.45
+        },
+        "parentBounds": {
+          "left": 103.3,
+          "top": 430.5,
+          "width": 178.60000000000002,
+          "height": 40.9
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "zoom_hl": {
+        "symbolId": 11994,
+        "symbolClass": "resources_fla.ui_zoom_hl_955",
+        "x": 461.4,
+        "y": 451.05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -27.85,
+          "yMin": -20.35,
+          "xMax": 160.45,
+          "yMax": 21.35
+        },
+        "parentBounds": {
+          "left": 433.55,
+          "top": 430.7,
+          "width": 188.29999999999998,
+          "height": 41.7
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "path_hl": {
+        "symbolId": 11991,
+        "symbolClass": "resources_fla.ui_speed_highlight_954",
+        "x": 637.8,
+        "y": 23.55,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -22.3,
+          "yMin": -20.45,
+          "xMax": 156.3,
+          "yMax": 20.45
+        },
+        "parentBounds": {
+          "left": 615.5,
+          "top": 3.1,
+          "width": 178.60000000000002,
+          "height": 40.9
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "exit_butt": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 734.7,
+        "y": 449.7,
+        "scaleX": 0.5484,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 695.2,
+          "top": 430.7,
+          "width": 78.9696,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "speed_1": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 124.9,
+        "y": 451.85,
+        "scaleX": 0.2655,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 105.75,
+          "top": 432.85,
+          "width": 38.232,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "speed_2": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 169.2,
+        "y": 451.85,
+        "scaleX": 0.2655,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 150.05,
+          "top": 432.85,
+          "width": 38.232,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "speed_3": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 214.3,
+        "y": 451.85,
+        "scaleX": 0.2655,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 195.15,
+          "top": 432.85,
+          "width": 38.232,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "speed_4": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 258.5,
+        "y": 451.85,
+        "scaleX": 0.2655,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 239.35,
+          "top": 432.85,
+          "width": 38.232,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "zoom_4": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 599.8,
+        "y": 451.85,
+        "scaleX": 0.2655,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 580.65,
+          "top": 432.85,
+          "width": 38.232,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "zoom_3": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 554.9,
+        "y": 451.85,
+        "scaleX": 0.2655,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 535.75,
+          "top": 432.85,
+          "width": 38.232,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "zoom_2": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 511.25,
+        "y": 451.85,
+        "scaleX": 0.2655,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 492.1,
+          "top": 432.85,
+          "width": 38.232,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "zoom_1": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 461.5,
+        "y": 450.0,
+        "scaleX": 0.3535,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 436.05,
+          "top": 431.0,
+          "width": 50.903999999999996,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "path_1": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 638.0,
+        "y": 22.6,
+        "scaleX": 0.2655,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 618.85,
+          "top": 3.6,
+          "width": 38.232,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "path_2": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 682.3,
+        "y": 22.6,
+        "scaleX": 0.2655,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 663.15,
+          "top": 3.6,
+          "width": 38.232,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "path_3": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 727.4,
+        "y": 22.6,
+        "scaleX": 0.2655,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 708.25,
+          "top": 3.6,
+          "width": 38.232,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "path_4": {
+        "symbolId": 11060,
+        "symbolClass": "",
+        "x": 771.6,
+        "y": 22.6,
+        "scaleX": 0.2655,
+        "scaleY": 0.5938,
+        "sourceBounds": {
+          "xMin": -72.0,
+          "yMin": -31.95,
+          "xMax": 72.0,
+          "yMax": 32.0
+        },
+        "parentBounds": {
+          "left": 752.45,
+          "top": 3.6,
+          "width": 38.232,
+          "height": 37.973510000000005
+        },
+        "text": null,
+        "fontIds": ""
+      }
+    },
+    "staticFile": "hud-static-800x480.png",
+    "staticDescription": "800x480 stage-aligned original HUD with cards, pause, path selectors and dynamic money/wave text removed. Overlay own dynamic values and party cards."
+  },
+  "partyCard": {
+    "symbolId": 11602,
+    "registrationNotes": "Child positions are relative to each card center. Visible panel is x[-43.65,46.3], y[-45.95,47.05] around card center; all six centers y373.9. Source frames1=party,2=choose-empty,3=empty-red,4=capture-empty.",
+    "children": {
+      "bg": {
+        "symbolId": 11581,
+        "symbolClass": "resources_fla.gfx_party_block_bg_905",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -43.65,
+          "yMin": -45.95,
+          "xMax": 46.3,
+          "yMax": 47.05
+        },
+        "parentBounds": {
+          "left": -43.65,
+          "top": -45.95,
+          "width": 89.94999999999999,
+          "height": 93.0
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "bg/#11578": {
+        "symbolId": 11578,
+        "symbolClass": "",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -43.65,
+          "yMin": -45.95,
+          "xMax": 46.3,
+          "yMax": 47.05
+        },
+        "parentBounds": {
+          "left": -43.65,
+          "top": -45.95,
+          "width": 89.94999999999999,
+          "height": 93.0
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "lvl": {
+        "symbolId": 11582,
+        "symbolClass": "",
+        "x": -41.5,
+        "y": -40.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -2.0,
+          "yMin": -2.0,
+          "xMax": 61.0,
+          "yMax": 24.35
+        },
+        "parentBounds": {
+          "left": -43.5,
+          "top": -42.0,
+          "width": 63.0,
+          "height": 26.35
+        },
+        "text": "Lvl 5",
+        "fontIds": "[9604]",
+        "fontPixels": 16.0
+      },
+      "pokeUp": {
+        "symbolId": 11584,
+        "symbolClass": "",
+        "x": 33.5,
+        "y": -31.05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -77.15,
+          "yMin": -14.95,
+          "xMax": 12.8,
+          "yMax": 78.05
+        },
+        "parentBounds": {
+          "left": -43.65,
+          "top": -46.0,
+          "width": 89.95,
+          "height": 93.0
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "pokeUp/#6191": {
+        "symbolId": 6191,
+        "symbolClass": "",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -15.3,
+          "yMin": -6.85,
+          "xMax": 5.45,
+          "yMax": 11.3
+        },
+        "parentBounds": {
+          "left": -15.3,
+          "top": -6.85,
+          "width": 20.75,
+          "height": 18.15
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "poke": {
+        "symbolId": 9603,
+        "symbolClass": "resources_fla.poke_block_434",
+        "x": 1.75,
+        "y": -2.9,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -46.45,
+          "yMin": -41.35,
+          "xMax": 47.25,
+          "yMax": 49.9
+        },
+        "parentBounds": {
+          "left": -44.7,
+          "top": -44.25,
+          "width": 93.7,
+          "height": 91.25
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "#11585": {
+        "symbolId": 11585,
+        "symbolClass": "",
+        "x": -40.0,
+        "y": 31.5,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -2.0,
+          "yMin": -2.0,
+          "xMax": 26.1,
+          "yMax": 17.5
+        },
+        "parentBounds": {
+          "left": -42.0,
+          "top": 29.5,
+          "width": 28.1,
+          "height": 19.5
+        },
+        "text": "Exp\\r",
+        "fontIds": "[9604]",
+        "fontPixels": 12.0
+      },
+      "expBar": {
+        "symbolId": 11593,
+        "symbolClass": "",
+        "x": -15.5,
+        "y": 39.7,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -0.5,
+          "yMin": -3.25,
+          "xMax": 64.95,
+          "yMax": 26.55
+        },
+        "parentBounds": {
+          "left": -16.0,
+          "top": 36.45,
+          "width": 65.45,
+          "height": 29.8
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "expBar/#11586": {
+        "symbolId": 11586,
+        "symbolClass": "",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -0.5,
+          "yMin": -3.25,
+          "xMax": 55.0,
+          "yMax": 3.25
+        },
+        "parentBounds": {
+          "left": -0.5,
+          "top": -3.25,
+          "width": 55.5,
+          "height": 6.5
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "expBar/actual": {
+        "symbolId": 11588,
+        "symbolClass": "",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": 0.0,
+          "yMin": -2.75,
+          "xMax": 54.5,
+          "yMax": 2.75
+        },
+        "parentBounds": {
+          "left": 0.0,
+          "top": -2.75,
+          "width": 54.5,
+          "height": 5.5
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "expBar/actual/#11587": {
+        "symbolId": 11587,
+        "symbolClass": "",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 0.3313,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": 0.0,
+          "yMin": -2.75,
+          "xMax": 164.5,
+          "yMax": 2.75
+        },
+        "parentBounds": {
+          "left": 0.0,
+          "top": -2.75,
+          "width": 54.49885,
+          "height": 5.5
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "expBar/outline": {
+        "symbolId": 11592,
+        "symbolClass": "resources_fla.gfx_expBar_outline_909",
+        "x": 0.0,
+        "y": -2.75,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -0.5,
+          "yMin": -0.5,
+          "xMax": 64.95,
+          "yMax": 29.3
+        },
+        "parentBounds": {
+          "left": -0.5,
+          "top": -3.25,
+          "width": 65.45,
+          "height": 29.8
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "expBar/outline/#11589": {
+        "symbolId": 11589,
+        "symbolClass": "",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -0.5,
+          "yMin": -0.5,
+          "xMax": 55.0,
+          "yMax": 6.0
+        },
+        "parentBounds": {
+          "left": -0.5,
+          "top": -0.5,
+          "width": 55.5,
+          "height": 6.5
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "#11594": {
+        "symbolId": 11594,
+        "symbolClass": "",
+        "x": -40.0,
+        "y": 20.5,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -2.0,
+          "yMin": -2.0,
+          "xMax": 26.1,
+          "yMax": 17.5
+        },
+        "parentBounds": {
+          "left": -42.0,
+          "top": 18.5,
+          "width": 28.1,
+          "height": 19.5
+        },
+        "text": "HP\\r",
+        "fontIds": "[9604]",
+        "fontPixels": 12.0
+      },
+      "hpBar": {
+        "symbolId": 11596,
+        "symbolClass": "",
+        "x": -15.5,
+        "y": 28.7,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -0.5,
+          "yMin": -3.25,
+          "xMax": 64.95,
+          "yMax": 26.55
+        },
+        "parentBounds": {
+          "left": -16.0,
+          "top": 25.45,
+          "width": 65.45,
+          "height": 29.8
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "hpBar/#11586": {
+        "symbolId": 11586,
+        "symbolClass": "",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -0.5,
+          "yMin": -3.25,
+          "xMax": 55.0,
+          "yMax": 3.25
+        },
+        "parentBounds": {
+          "left": -0.5,
+          "top": -3.25,
+          "width": 55.5,
+          "height": 6.5
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "hpBar/actual": {
+        "symbolId": 11595,
+        "symbolClass": "resources_fla.gfx_bar_hp_actual_911",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": 0.0,
+          "yMin": -2.75,
+          "xMax": 54.5,
+          "yMax": 2.75
+        },
+        "parentBounds": {
+          "left": 0.0,
+          "top": -2.75,
+          "width": 54.5,
+          "height": 5.5
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "hpBar/actual/#10998": {
+        "symbolId": 10998,
+        "symbolClass": "",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": 0.0,
+          "yMin": -2.75,
+          "xMax": 54.5,
+          "yMax": 2.75
+        },
+        "parentBounds": {
+          "left": 0.0,
+          "top": -2.75,
+          "width": 54.5,
+          "height": 5.5
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "hpBar/outline": {
+        "symbolId": 11592,
+        "symbolClass": "resources_fla.gfx_expBar_outline_909",
+        "x": 0.0,
+        "y": -2.75,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -0.5,
+          "yMin": -0.5,
+          "xMax": 64.95,
+          "yMax": 29.3
+        },
+        "parentBounds": {
+          "left": -0.5,
+          "top": -3.25,
+          "width": 65.45,
+          "height": 29.8
+        },
+        "text": null,
+        "fontIds": ""
+      },
+      "hpBar/outline/#11589": {
+        "symbolId": 11589,
+        "symbolClass": "",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -0.5,
+          "yMin": -0.5,
+          "xMax": 55.0,
+          "yMax": 6.0
+        },
+        "parentBounds": {
+          "left": -0.5,
+          "top": -0.5,
+          "width": 55.5,
+          "height": 6.5
+        },
+        "text": null,
+        "fontIds": ""
+      }
+    },
+    "backgroundColors": [
+      "gray-ready",
+      "blue-deployed",
+      "red-fainted"
+    ],
+    "staticFile": "card-static.png",
+    "staticSourceBounds": {
+      "xMin": -50.65,
+      "yMin": -45.95,
+      "xMax": 51.65,
+      "yMax": 49.0
+    }
+  },
+  "titleScreen": {
+    "parentPosition": {
+      "x": 401,
+      "y": 248.95
+    },
+    "buttons": {
+      "btn_feedback": {
+        "symbolId": 11432,
+        "symbolClass": "",
+        "x": -241.25,
+        "y": 127.95,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -148.75,
+          "yMin": -40.5,
+          "xMax": 180.25,
+          "yMax": 40.5
+        },
+        "parentBounds": {
+          "left": -390.0,
+          "top": 87.45,
+          "width": 329.0,
+          "height": 81.0
+        },
+        "text": null,
+        "fontIds": "",
+        "stageBounds": {
+          "left": 11.0,
+          "top": 336.4,
+          "width": 329.0,
+          "height": 81.0
+        }
+      },
+      "btn_options": {
+        "symbolId": 11423,
+        "symbolClass": "",
+        "x": -276.9,
+        "y": 40.45,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -113.1,
+          "yMin": -42.5,
+          "xMax": 161.5,
+          "yMax": 40.5
+        },
+        "parentBounds": {
+          "left": -390.0,
+          "top": -2.05,
+          "width": 274.6,
+          "height": 83.0
+        },
+        "text": null,
+        "fontIds": "",
+        "stageBounds": {
+          "left": 11.0,
+          "top": 246.89999999999998,
+          "width": 274.6,
+          "height": 83.0
+        }
+      },
+      "btn_start": {
+        "symbolId": 11416,
+        "symbolClass": "",
+        "x": -308.2,
+        "y": -48.15,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "sourceBounds": {
+          "xMin": -81.8,
+          "yMin": -40.5,
+          "xMax": 124.6,
+          "yMax": 40.5
+        },
+        "parentBounds": {
+          "left": -390.0,
+          "top": -88.65,
+          "width": 206.39999999999998,
+          "height": 81.0
+        },
+        "text": null,
+        "fontIds": "",
+        "stageBounds": {
+          "left": 11.0,
+          "top": 160.29999999999998,
+          "width": 206.39999999999998,
+          "height": 81.0
+        }
+      }
+    },
+    "stageFile": "title-stage-800x480.png"
+  },
+  "fonts": {
+    "hud": "fonts/9604_Arial.ttf",
+    "titleScript": "fonts/11341_Papyrus.ttf",
+    "hudCharset": "ASCII U+0020\u2013007E, nonbreaking space, \u00e9, common punctuation and euro"
+  },
+  "pokemonCheck": {
+    "file": "poke-check-stage-800x480.png",
+    "rawFile": "raw/DefineSprite_11624_gfx_screen_poke_check/1.png",
+    "placementFile": "poke-check-layout.tsv",
+    "sourceBounds": {
+      "xMin": -27.3,
+      "yMin": 5.15,
+      "xMax": 833.65,
+      "yMax": 648.65
+    },
+    "notes": "Orange highlight selects targeting/move rows. Original controller hides block_current (outside viewport). Targeting uses 9 source choices; attack_1..4 and attack_description switch MovieClip frames to move IDs."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Only original game frame; no modern toolbar or inspector",
+    "Party portrait begins placement immediately and pauses",
+    "Drop places on original source spot collision and resumes",
+    "Deployed portrait opens source Pokémon popup with nine target modes",
+    "Target changes persist from native popup",
+    "Original speed, zoom, and pause keys",
+    "Map Pokémon drag and invalid drop recalls it"
+  ],
+  "errors": []
+}

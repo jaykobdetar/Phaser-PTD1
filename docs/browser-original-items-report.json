@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Dragging original potion onto hurt tower heals and consumes one potion",
+    "Dragging Poké Ball selects weakened enemy and opens original capture sequence",
+    "Capture sequence returns to running battle",
+    "Original level-up control trains and returns to battle"
+  ],
+  "errors": []
+}

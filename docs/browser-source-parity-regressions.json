@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Saffron path buttons use source p/2/3/4 identities",
+    "Camera clamps against original SWF bounds including hidden helpers",
+    "Paused keyboard input does not pan the map",
+    "Invasion Check2 leaves camera and range unchanged",
+    "Zoomed capture highlight retains its unscaled root hit area",
+    "Capture keeps HUD hidden and simulation paused until source acknowledgment"
+  ],
+  "errors": []
+}

@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "Selfdestruct: source animation and damage complete, original actor stays detached, sprite pixels clear, challenge slot clears and storage/campaign survive",
+    "Explosion: source animation and damage complete, original actor stays detached, sprite pixels clear, challenge slot clears and storage/campaign survive"
+  ],
+  "errors": []
+}

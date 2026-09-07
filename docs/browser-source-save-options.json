@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Original Options music and sound choices survive reload before profile creation",
+    "Source saving animation remains pending until the disk server acknowledges",
+    "Source save success acknowledges back to the original menu",
+    "Source save failure uses original Yes retry and recovers to success",
+    "Options local storage opens portable profile-bank export within the stage",
+    "Portable bank import can cancel without mutation and restores exported progress without starting a battle",
+    "Wiki transition waits for the source Save acknowledgment",
+    "Main-menu Back saves before returning to original profile selection"
+  ],
+  "errors": []
+}

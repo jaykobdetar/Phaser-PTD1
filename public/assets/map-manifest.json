@@ -1,0 +1,847 @@
+{
+  "gfx_screen_level_select_chapter_2": {
+    "file": "maps/gfx_screen_level_select_chapter_2.png",
+    "symbolId": 11211,
+    "width": 613,
+    "height": 433,
+    "sourceBounds": {
+      "xMin": 180.1,
+      "yMin": 31.2,
+      "xMax": 793.7,
+      "yMax": 464.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_screen_level_select_chapter_1": {
+    "file": "maps/gfx_screen_level_select_chapter_1.png",
+    "symbolId": 11181,
+    "width": 767,
+    "height": 433,
+    "sourceBounds": {
+      "xMin": 25.95,
+      "yMin": 31.2,
+      "xMax": 793.7,
+      "yMax": 464.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_screen_level_select_chapter_4": {
+    "file": "maps/gfx_screen_level_select_chapter_4.png",
+    "symbolId": 11245,
+    "width": 768,
+    "height": 433,
+    "sourceBounds": {
+      "xMin": 25.35,
+      "yMin": 31.2,
+      "xMax": 793.7,
+      "yMax": 464.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_screen_level_select_chapter_3": {
+    "file": "maps/gfx_screen_level_select_chapter_3.png",
+    "symbolId": 11228,
+    "width": 692,
+    "height": 433,
+    "sourceBounds": {
+      "xMin": 100.8,
+      "yMin": 31.2,
+      "xMax": 793.7,
+      "yMax": 464.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_screen_level_select_chapter_6": {
+    "file": "maps/gfx_screen_level_select_chapter_6.png",
+    "symbolId": 11285,
+    "width": 772,
+    "height": 433,
+    "sourceBounds": {
+      "xMin": 21.35,
+      "yMin": 31.2,
+      "xMax": 793.7,
+      "yMax": 464.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_screen_level_select_chapter_5": {
+    "file": "maps/gfx_screen_level_select_chapter_5.png",
+    "symbolId": 11263,
+    "width": 770,
+    "height": 433,
+    "sourceBounds": {
+      "xMin": 23.2,
+      "yMin": 31.2,
+      "xMax": 793.7,
+      "yMax": 464.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_screen_level_select_chapter_8": {
+    "file": "maps/gfx_screen_level_select_chapter_8.png",
+    "symbolId": 11339,
+    "width": 762,
+    "height": 433,
+    "sourceBounds": {
+      "xMin": 31.05,
+      "yMin": 31.2,
+      "xMax": 793.7,
+      "yMax": 464.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_screen_level_select_chapter_7": {
+    "file": "maps/gfx_screen_level_select_chapter_7.png",
+    "symbolId": 11309,
+    "width": 762,
+    "height": 433,
+    "sourceBounds": {
+      "xMin": 31.4,
+      "yMin": 31.2,
+      "xMax": 793.7,
+      "yMax": 464.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_17_4": {
+    "file": "maps/gfx_level_17_4.png",
+    "symbolId": 224,
+    "width": 902,
+    "height": 742,
+    "sourceBounds": {
+      "xMin": -38.0,
+      "yMin": -92.0,
+      "xMax": 864.0,
+      "yMax": 650.9
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_17_2": {
+    "file": "maps/gfx_level_17_2.png",
+    "symbolId": 223,
+    "width": 902,
+    "height": 742,
+    "sourceBounds": {
+      "xMin": -38.0,
+      "yMin": -92.0,
+      "xMax": 864.0,
+      "yMax": 650.9
+    },
+    "sourceFrame": 1
+  },
+  "gfx_screen_main": {
+    "file": "maps/gfx_screen_main.png",
+    "symbolId": 11453,
+    "width": 1392,
+    "height": 768,
+    "sourceBounds": {
+      "xMin": -376.4,
+      "yMin": -189.05,
+      "xMax": 1015.75,
+      "yMax": 579.05
+    },
+    "sourceFrame": 1
+  },
+  "gfx_screen_level_select": {
+    "file": "maps/gfx_screen_level_select.png",
+    "symbolId": 11165,
+    "width": 728,
+    "height": 433,
+    "sourceBounds": {
+      "xMin": 65.3,
+      "yMin": 31.2,
+      "xMax": 793.7,
+      "yMax": 464.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_12_6": {
+    "file": "maps/gfx_level_12_6.png",
+    "symbolId": 60,
+    "width": 876,
+    "height": 1068,
+    "sourceBounds": {
+      "xMin": 1.35,
+      "yMin": -1.8,
+      "xMax": 877.35,
+      "yMax": 1066.2
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_12_4": {
+    "file": "maps/gfx_level_12_4.png",
+    "symbolId": 57,
+    "width": 876,
+    "height": 1068,
+    "sourceBounds": {
+      "xMin": 1.35,
+      "yMin": -1.8,
+      "xMax": 877.35,
+      "yMax": 1066.2
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_12_3": {
+    "file": "maps/gfx_level_12_3.png",
+    "symbolId": 54,
+    "width": 876,
+    "height": 1068,
+    "sourceBounds": {
+      "xMin": 1.35,
+      "yMin": -1.8,
+      "xMax": 877.35,
+      "yMax": 1066.2
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_4": {
+    "file": "maps/gfx_level_4.png",
+    "symbolId": 686,
+    "width": 1336,
+    "height": 767,
+    "sourceBounds": {
+      "xMin": -104.05,
+      "yMin": -118.55,
+      "xMax": 1232.3,
+      "yMax": 648.6
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_3": {
+    "file": "maps/gfx_level_3.png",
+    "symbolId": 549,
+    "width": 1418,
+    "height": 695,
+    "sourceBounds": {
+      "xMin": -62.6,
+      "yMin": -61.0,
+      "xMax": 1356.25,
+      "yMax": 634.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_2": {
+    "file": "maps/gfx_level_2.png",
+    "symbolId": 277,
+    "width": 863,
+    "height": 964,
+    "sourceBounds": {
+      "xMin": -24.4,
+      "yMin": -56.55,
+      "xMax": 839.05,
+      "yMax": 908.05
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_1": {
+    "file": "maps/gfx_level_1.png",
+    "symbolId": 19,
+    "width": 627,
+    "height": 264,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 627.0,
+      "yMax": 264.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_8": {
+    "file": "maps/gfx_level_8.png",
+    "symbolId": 865,
+    "width": 912,
+    "height": 773,
+    "sourceBounds": {
+      "xMin": -43.3,
+      "yMin": -2.5,
+      "xMax": 868.7,
+      "yMax": 771.4
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_7": {
+    "file": "maps/gfx_level_7.png",
+    "symbolId": 833,
+    "width": 1169,
+    "height": 733,
+    "sourceBounds": {
+      "xMin": -120.0,
+      "yMin": -88.95,
+      "xMax": 1049.25,
+      "yMax": 645.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_6": {
+    "file": "maps/gfx_level_6.png",
+    "symbolId": 829,
+    "width": 842,
+    "height": 660,
+    "sourceBounds": {
+      "xMin": -11.45,
+      "yMin": -19.0,
+      "xMax": 831.2,
+      "yMax": 641.05
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_5": {
+    "file": "maps/gfx_level_5.png",
+    "symbolId": 825,
+    "width": 822,
+    "height": 587,
+    "sourceBounds": {
+      "xMin": -5.5,
+      "yMin": -11.45,
+      "xMax": 817.2,
+      "yMax": 576.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_9": {
+    "file": "maps/gfx_level_9.png",
+    "symbolId": 880,
+    "width": 621,
+    "height": 1248,
+    "sourceBounds": {
+      "xMin": 96.0,
+      "yMin": -57.0,
+      "xMax": 717.1,
+      "yMax": 1191.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_online_2": {
+    "file": "maps/gfx_level_online_2.png",
+    "symbolId": 1067,
+    "width": 1152,
+    "height": 1425,
+    "sourceBounds": {
+      "xMin": 0.05,
+      "yMin": 0.0,
+      "xMax": 1152.05,
+      "yMax": 1425.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_online_1": {
+    "file": "maps/gfx_level_online_1.png",
+    "symbolId": 989,
+    "width": 1865,
+    "height": 1354,
+    "sourceBounds": {
+      "xMin": -61.45,
+      "yMin": -47.05,
+      "xMax": 1804.15,
+      "yMax": 1307.25
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_20": {
+    "file": "maps/gfx_level_20.png",
+    "symbolId": 377,
+    "width": 2032,
+    "height": 889,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": -5.0,
+      "xMax": 2032.45,
+      "yMax": 884.2
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_18": {
+    "file": "maps/gfx_level_18.png",
+    "symbolId": 234,
+    "width": 840,
+    "height": 600,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 840.8,
+      "yMax": 600.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_19": {
+    "file": "maps/gfx_level_19.png",
+    "symbolId": 257,
+    "width": 1767,
+    "height": 1044,
+    "sourceBounds": {
+      "xMin": -137.75,
+      "yMin": -1.0,
+      "xMax": 1629.25,
+      "yMax": 1043.65
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_14": {
+    "file": "maps/gfx_level_14.png",
+    "symbolId": 76,
+    "width": 1065,
+    "height": 768,
+    "sourceBounds": {
+      "xMin": -177.0,
+      "yMin": -150.0,
+      "xMax": 888.0,
+      "yMax": 618.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_15": {
+    "file": "maps/gfx_level_15.png",
+    "symbolId": 106,
+    "width": 816,
+    "height": 912,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 816.0,
+      "yMax": 912.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_16": {
+    "file": "maps/gfx_level_16.png",
+    "symbolId": 200,
+    "width": 1585,
+    "height": 1295,
+    "sourceBounds": {
+      "xMin": -7.95,
+      "yMin": -6.45,
+      "xMax": 1577.05,
+      "yMax": 1289.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_17": {
+    "file": "maps/gfx_level_17.png",
+    "symbolId": 220,
+    "width": 902,
+    "height": 742,
+    "sourceBounds": {
+      "xMin": -38.0,
+      "yMin": -92.0,
+      "xMax": 864.0,
+      "yMax": 650.9
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_10": {
+    "file": "maps/gfx_level_10.png",
+    "symbolId": 42,
+    "width": 959,
+    "height": 618,
+    "sourceBounds": {
+      "xMin": -76.6,
+      "yMin": -0.95,
+      "xMax": 883.0,
+      "yMax": 617.55
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_11": {
+    "file": "maps/gfx_level_11.png",
+    "symbolId": 46,
+    "width": 959,
+    "height": 524,
+    "sourceBounds": {
+      "xMin": -76.6,
+      "yMin": -24.05,
+      "xMax": 883.0,
+      "yMax": 500.55
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_12": {
+    "file": "maps/gfx_level_12.png",
+    "symbolId": 51,
+    "width": 876,
+    "height": 1068,
+    "sourceBounds": {
+      "xMin": 1.35,
+      "yMin": -1.8,
+      "xMax": 877.35,
+      "yMax": 1066.2
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_13": {
+    "file": "maps/gfx_level_13.png",
+    "symbolId": 65,
+    "width": 636,
+    "height": 972,
+    "sourceBounds": {
+      "xMin": 76.35,
+      "yMin": -1.8,
+      "xMax": 712.35,
+      "yMax": 970.2
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_30": {
+    "file": "maps/gfx_level_30.png",
+    "symbolId": 556,
+    "width": 1152,
+    "height": 1425,
+    "sourceBounds": {
+      "xMin": 0.05,
+      "yMin": 0.0,
+      "xMax": 1152.05,
+      "yMax": 1425.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_31": {
+    "file": "maps/gfx_level_31.png",
+    "symbolId": 581,
+    "width": 1092,
+    "height": 664,
+    "sourceBounds": {
+      "xMin": -159.65,
+      "yMin": -11.7,
+      "xMax": 932.35,
+      "yMax": 653.15
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_29": {
+    "file": "maps/gfx_level_29.png",
+    "symbolId": 536,
+    "width": 1680,
+    "height": 1122,
+    "sourceBounds": {
+      "xMin": -40.5,
+      "yMin": -71.5,
+      "xMax": 1639.9,
+      "yMax": 1050.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_25": {
+    "file": "maps/gfx_level_25.png",
+    "symbolId": 491,
+    "width": 1104,
+    "height": 934,
+    "sourceBounds": {
+      "xMin": -0.5,
+      "yMin": 0.0,
+      "xMax": 1104.0,
+      "yMax": 934.75
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_26": {
+    "file": "maps/gfx_level_26.png",
+    "symbolId": 514,
+    "width": 1728,
+    "height": 912,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 1728.0,
+      "yMax": 912.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_27": {
+    "file": "maps/gfx_level_27.png",
+    "symbolId": 522,
+    "width": 2646,
+    "height": 930,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": -86.0,
+      "xMax": 2646.0,
+      "yMax": 844.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_28": {
+    "file": "maps/gfx_level_28.png",
+    "symbolId": 530,
+    "width": 1105,
+    "height": 1189,
+    "sourceBounds": {
+      "xMin": -0.5,
+      "yMin": -0.5,
+      "xMax": 1104.75,
+      "yMax": 1188.8
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_21": {
+    "file": "maps/gfx_level_21.png",
+    "symbolId": 455,
+    "width": 1374,
+    "height": 927,
+    "sourceBounds": {
+      "xMin": -314.3,
+      "yMin": -44.35,
+      "xMax": 1059.7,
+      "yMax": 882.65
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_22": {
+    "file": "maps/gfx_level_22.png",
+    "symbolId": 463,
+    "width": 1125,
+    "height": 957,
+    "sourceBounds": {
+      "xMin": -84.05,
+      "yMin": 0.0,
+      "xMax": 1040.95,
+      "yMax": 957.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_23": {
+    "file": "maps/gfx_level_23.png",
+    "symbolId": 472,
+    "width": 1584,
+    "height": 930,
+    "sourceBounds": {
+      "xMin": 1.0,
+      "yMin": -7.0,
+      "xMax": 1585.35,
+      "yMax": 923.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_24": {
+    "file": "maps/gfx_level_24.png",
+    "symbolId": 480,
+    "width": 897,
+    "height": 1095,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 897.0,
+      "yMax": 1095.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_40": {
+    "file": "maps/gfx_level_40.png",
+    "symbolId": 778,
+    "width": 1574,
+    "height": 1327,
+    "sourceBounds": {
+      "xMin": -0.4,
+      "yMin": 0.0,
+      "xMax": 1574.0,
+      "yMax": 1327.25
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_41": {
+    "file": "maps/gfx_level_41.png",
+    "symbolId": 785,
+    "width": 1571,
+    "height": 1327,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 1571.9,
+      "yMax": 1327.25
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_42": {
+    "file": "maps/gfx_level_42.png",
+    "symbolId": 792,
+    "width": 1572,
+    "height": 1327,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 1572.9,
+      "yMax": 1327.25
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_37": {
+    "file": "maps/gfx_level_37.png",
+    "symbolId": 662,
+    "width": 978,
+    "height": 729,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 978.0,
+      "yMax": 729.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_38": {
+    "file": "maps/gfx_level_38.png",
+    "symbolId": 667,
+    "width": 1140,
+    "height": 726,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 1140.0,
+      "yMax": 726.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_39": {
+    "file": "maps/gfx_level_39.png",
+    "symbolId": 672,
+    "width": 963,
+    "height": 672,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": -12.65,
+      "xMax": 963.0,
+      "yMax": 660.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_32": {
+    "file": "maps/gfx_level_32.png",
+    "symbolId": 643,
+    "width": 2249,
+    "height": 957,
+    "sourceBounds": {
+      "xMin": -70.2,
+      "yMin": 0.0,
+      "xMax": 2178.85,
+      "yMax": 957.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_33": {
+    "file": "maps/gfx_level_33.png",
+    "symbolId": 647,
+    "width": 2145,
+    "height": 957,
+    "sourceBounds": {
+      "xMin": -70.2,
+      "yMin": 0.0,
+      "xMax": 2074.8,
+      "yMax": 957.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_34": {
+    "file": "maps/gfx_level_34.png",
+    "symbolId": 652,
+    "width": 1152,
+    "height": 957,
+    "sourceBounds": {
+      "xMin": -6.05,
+      "yMin": -5.0,
+      "xMax": 1145.95,
+      "yMax": 952.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_35": {
+    "file": "maps/gfx_level_35.png",
+    "symbolId": 657,
+    "width": 1056,
+    "height": 855,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 1056.0,
+      "yMax": 855.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_43": {
+    "file": "maps/gfx_level_43.png",
+    "symbolId": 799,
+    "width": 1572,
+    "height": 1327,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 1572.9,
+      "yMax": 1327.25
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_44": {
+    "file": "maps/gfx_level_44.png",
+    "symbolId": 806,
+    "width": 624,
+    "height": 960,
+    "sourceBounds": {
+      "xMin": 104.95,
+      "yMin": -171.0,
+      "xMax": 728.95,
+      "yMax": 789.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_level_45": {
+    "file": "maps/gfx_level_45.png",
+    "symbolId": 811,
+    "width": 741,
+    "height": 687,
+    "sourceBounds": {
+      "xMin": 0.0,
+      "yMin": 0.0,
+      "xMax": 741.0,
+      "yMax": 687.0
+    },
+    "sourceFrame": 1
+  },
+  "gfx_challenge_level_1": {
+    "file": "maps/gfx_challenge_level_1.png",
+    "symbolId": 10950,
+    "width": 1008,
+    "height": 769,
+    "sourceBounds": {
+      "xMin": -0.5,
+      "yMin": -0.5,
+      "xMax": 1008.0,
+      "yMax": 768.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_challenge_level_2": {
+    "file": "maps/gfx_challenge_level_2.png",
+    "symbolId": 10974,
+    "width": 1418,
+    "height": 695,
+    "sourceBounds": {
+      "xMin": -62.6,
+      "yMin": -61.0,
+      "xMax": 1356.25,
+      "yMax": 634.95
+    },
+    "sourceFrame": 1
+  },
+  "gfx_challenge_level_3": {
+    "file": "maps/gfx_challenge_level_3.png",
+    "symbolId": 10991,
+    "width": 1150,
+    "height": 770,
+    "sourceBounds": {
+      "xMin": -43.3,
+      "yMin": -5.0,
+      "xMax": 1107.1,
+      "yMax": 765.5
+    },
+    "sourceFrame": 1
+  },
+  "gfx_screen_start": {
+    "file": "maps/gfx_screen_start.png",
+    "symbolId": 11932,
+    "width": 849,
+    "height": 458,
+    "sourceBounds": {
+      "xMin": -55.5,
+      "yMin": 22.45,
+      "xMax": 793.95,
+      "yMax": 480.85
+    },
+    "sourceFrame": 1
+  }
+}

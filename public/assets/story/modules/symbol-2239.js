@@ -1,0 +1,19 @@
+import {createCanvasTools} from '../canvas-tools.js';
+export async function createRenderer(canvas){
+ let defaultFill,defaultStroke;
+ const registry={},scalingGrids={},boundRects={};const tools=createCanvasTools(canvas,registry,scalingGrids,boundRects);
+ const {place,cxform,enhanceContext,drawPath,drawMorphPath,tocolor,Filters,BlendModes,createCanvas,concatMatrix,useRatio}=tools;
+ const ctx=canvas.getContext('2d');if(!ctx._matrix)enhanceContext(ctx);
+function shape2237(ctx,ctrans,frame,ratio,time){var pathData="M 679 255 Q 657 236 631 220 L 594 202 603 194 820 0 681 256 679 255 M 303 207 L 255 246 228 277 92 6 303 207 M 201 590 L 201 589 240 637 271 664 Q 267 667 262 669 L 0 800 201 590 M 417 744 L 434 745 476 742 475 748 380 1030 373 739 417 744 M 695 635 L 690 632 725 581 743 547 744 545 945 771 695 635";ctx.fillStyle=tocolor(ctrans.apply([255,51,204,1]));drawPath(ctx,pathData,false);ctx.fill("evenodd");var pathData="M 603 194 L 594 202 631 220 Q 657 236 679 255 757 338 757 454 757 502 744 545 L 743 547 725 581 690 632 695 635 671 662 Q 589 744 475 748 L 476 742 434 745 417 744 Q 329 732 262 669 267 667 271 664 L 240 637 201 589 201 590 Q 169 528 169 454 169 353 228 277 L 255 246 303 207 Q 373 160 463 160 540 160 603 194";drawPath(ctx,pathData,false);ctx.fillStyle=tocolor(ctrans.apply([255,0,153,1]));ctx.fill("evenodd");ctx.save();ctx.clip();ctx.transform(0.0199127197265625,0,0,0.0199127197265625,435,440);var grd=ctx.createRadialGradient(0.0,0,0,0,0,16384);grd.addColorStop(0.38823529411764707,tocolor(ctrans.apply([255,255,255,1])));grd.addColorStop(1,tocolor(ctrans.apply([255,0,153,1])));ctx.fillStyle=grd;ctx.fillRect(-16384,-16384,32768,32768);ctx.restore()}function sprite2238(ctx,ctrans,frame,ratio,time){
+const timelineClip=tools.enterSprite(2238,frame);if(timelineClip)frame=timelineClip.currentFrame-1;try{
+var clips=[];var frame_cnt=1;frame=frame%frame_cnt;switch(frame){case 0:place("shape2237",canvas,ctx,[1.0,0.0,0.0,1.0,0.0,0.0],ctrans,1,0,0,time);break}
+}finally{tools.leaveSprite();}
+}function sprite2239(ctx,ctrans,frame,ratio,time){
+const timelineClip=tools.enterSprite(2239,frame);if(timelineClip)frame=timelineClip.currentFrame-1;try{
+ctx.save();ctx.transform(1,0,0,1,34.6,37.35);var clips=[];var frame_cnt=6;frame=frame%frame_cnt;switch(frame){case 0:place("sprite2238",canvas,ctx,[0.05,0.0,0.0,0.05,-23.95,-28.4],ctrans,1,(0+time)%1,0,time);break;case 1:place("sprite2238",canvas,ctx,[0.0154510498046875,0.04750213623046875,-0.04750213623046875,0.0154510498046875,16.85,-33.05],ctrans,1,(0+time)%1,0,time);break;case 2:place("sprite2238",canvas,ctx,[-0.040354156494140626,0.02938995361328125,-0.02938995361328125,-0.040354156494140626,33.85,4.2],ctrans,1,(0+time)%1,0,time);break;case 3:place("sprite2238",canvas,ctx,[-0.040354156494140626,-0.02938995361328125,0.02938995361328125,-0.040354156494140626,3.55,32.0],ctrans,1,(0+time)%1,0,time);break;case 4:place("sprite2238",canvas,ctx,[0.0154510498046875,-0.04750213623046875,0.04750213623046875,0.0154510498046875,-32.15,11.75],ctrans,1,(0+time)%1,0,time);break;case 5:place("sprite2238",canvas,ctx,[0.05,0.0,0.0,0.05,-23.95,-28.4],ctrans,1,(0+time)%1,0,time);break}ctx.restore()
+}finally{tools.leaveSprite();}
+}
+Object.assign(registry,{shape2237,sprite2238,sprite2239});
+await Promise.all([].map(image=>image.decode()));
+return {render(clip,{clear=true}={}){tools.setRoot(clip);ctx.save();ctx.setTransform(1,0,0,1,0,0);if(clear)ctx.clearRect(0,0,canvas.width,canvas.height);if(clip?.renderMatrix){ctx.transform(...clip.renderMatrix);ctx.transform(1,0,0,1,-34.6,-37.35);}else{ctx.transform(1,0,0,1,-34.6+(clip?.x??0),-37.35+(clip?.y??0));}ctx.globalAlpha=clip?.alpha??1;sprite2239(ctx,new cxform(0,0,0,0,255,255,255,255),(clip?.currentFrame??1)-1,0,clip?.clock?.frame??0);tools.finishRoot(clip);ctx.restore();}};
+}

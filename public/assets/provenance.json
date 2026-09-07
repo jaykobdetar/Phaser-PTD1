@@ -1,0 +1,15 @@
+{
+  "source": "16_ptdBin.bin extracted from user-supplied SWF binaryData tag16",
+  "sourcePath": "work/recovered/16_ptdBin.bin",
+  "sha256": "033f25d6bb9ca690dfb60f52b2da55a39cf9605d6ebc253ca82cb600300a4bf5",
+  "extractor": "JPEXS FFDec v24.1.1 nightly build3356",
+  "sourceFrameRate": 21,
+  "reproduction": "python3 work/extract_assets.py --export",
+  "transformations": [
+    "Render source symbols to native-resolution transparent PNG",
+    "Remove map editor waypoint, placement, highlight, candy instances from a separate SWF copy before map rasterization",
+    "Select Pokemon source frames1,9,18,26,34,42,50,58 and compose horizontal sheets",
+    "Export embedded MP3 without transcoding"
+  ],
+  "rights": "Assets are extracted from user-supplied game. Original art/audio rights remain with respective owners."
+}

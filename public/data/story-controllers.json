@@ -1,0 +1,3218 @@
+{
+  "class_1000": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1000.as",
+    "graphics": [
+      "movie_scene_Win_4"
+    ],
+    "methods": [
+      "class_1000",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Win_4",
+      "victory_song"
+    ]
+  },
+  "class_1001": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1001.as",
+    "graphics": [
+      "movie_scene_Level_15_Win"
+    ],
+    "methods": [
+      "class_1001",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_15_Win",
+      "victory_gym_song"
+    ]
+  },
+  "class_1002": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1002.as",
+    "graphics": [
+      "movie_scene_intro_15"
+    ],
+    "methods": [
+      "class_1002",
+      "method_419",
+      "init",
+      "method_263",
+      "method_181",
+      "method_205",
+      "method_217",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "gymMusic",
+      "movie_scene_intro_15",
+      "ssanneMusic",
+      "team_rocket_music"
+    ]
+  },
+  "class_1003": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1003.as",
+    "graphics": [
+      "movie_scene_intro_21"
+    ],
+    "methods": [
+      "class_1003",
+      "init",
+      "method_307",
+      "method_355",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "celadonCityMusic",
+      "gymMusic",
+      "movie_scene_intro_21"
+    ]
+  },
+  "class_1004": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1004.as",
+    "graphics": [
+      "movie_scene_Level_21_Win"
+    ],
+    "methods": [
+      "class_1004",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_21_Win",
+      "victory_song"
+    ]
+  },
+  "class_1005": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1005.as",
+    "graphics": [],
+    "methods": [
+      "class_1005",
+      "init",
+      "method_129",
+      "run",
+      "mouse_Down",
+      "method_259",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "Tween",
+      "movie_scene_Win_3"
+    ]
+  },
+  "class_1006": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1006.as",
+    "graphics": [
+      "movie_scene_Intro_3"
+    ],
+    "methods": [
+      "class_1006",
+      "init",
+      "method_231",
+      "method_283",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "Tween",
+      "cityMusic",
+      "movie_scene_Intro_3",
+      "route2Music"
+    ]
+  },
+  "class_1007": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1007.as",
+    "graphics": [
+      "movie_scene_intro_38"
+    ],
+    "methods": [
+      "class_1007",
+      "init",
+      "method_222",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "method_52",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_intro_38",
+      "oceanMusic"
+    ]
+  },
+  "class_1008": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1008.as",
+    "graphics": [
+      "movie_scene_Level_38_Win"
+    ],
+    "methods": [
+      "class_1008",
+      "init",
+      "method_8",
+      "method_182",
+      "mouse_Down",
+      "method_322",
+      "method_54",
+      "get_Graphic",
+      "remove_Me",
+      "method_50"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_38_Win",
+      "profile_poke",
+      "profile_poke_val",
+      "victory_song"
+    ]
+  },
+  "class_1009": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1009.as",
+    "graphics": [
+      "movie_scene_intro_40"
+    ],
+    "methods": [
+      "class_1009",
+      "init",
+      "method_222",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_intro_40",
+      "route4Music"
+    ]
+  },
+  "class_1010": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1010.as",
+    "graphics": [
+      "movie_scene_intro_19"
+    ],
+    "methods": [
+      "class_1010",
+      "init",
+      "method_127",
+      "method_205",
+      "method_236",
+      "method_376",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "lavenderTownMusic",
+      "movie_scene_intro_19",
+      "mt_moon_song",
+      "route4Music"
+    ]
+  },
+  "class_1011": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1011.as",
+    "graphics": [
+      "movie_scene_ending_19"
+    ],
+    "methods": [
+      "class_1011",
+      "init",
+      "method_182",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_ending_19",
+      "victory_gym_song"
+    ]
+  },
+  "class_1012": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1012.as",
+    "graphics": [
+      "movie_scene_Level_18_Win"
+    ],
+    "methods": [
+      "class_1012",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "run",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_18_Win",
+      "victory_gym_song"
+    ]
+  },
+  "class_1013": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1013.as",
+    "graphics": [
+      "movie_scene_intro_18"
+    ],
+    "methods": [
+      "class_1013",
+      "init",
+      "method_263",
+      "method_127",
+      "method_205",
+      "method_236",
+      "method_227",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "lavenderTownMusic",
+      "movie_scene_intro_18",
+      "mt_moon_song",
+      "route10Music",
+      "team_rocket_music"
+    ]
+  },
+  "class_1014": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1014.as",
+    "graphics": [
+      "movie_scene_Level_16_Win"
+    ],
+    "methods": [
+      "class_1014",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "run",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_16_Win",
+      "victory_gym_song"
+    ]
+  },
+  "class_1015": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1015.as",
+    "graphics": [
+      "movie_scene_intro_16"
+    ],
+    "methods": [
+      "class_1015",
+      "init",
+      "method_263",
+      "method_127",
+      "method_205",
+      "method_217",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "gymMusic",
+      "movie_scene_intro_16",
+      "mt_moon_song",
+      "team_rocket_music"
+    ]
+  },
+  "class_1016": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1016.as",
+    "graphics": [
+      "movie_scene_Level_29_Win"
+    ],
+    "methods": [
+      "class_1016",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_29_Win",
+      "victory_song"
+    ]
+  },
+  "class_1017": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1017.as",
+    "graphics": [
+      "movie_scene_intro_29"
+    ],
+    "methods": [
+      "class_1017",
+      "init",
+      "method_199",
+      "method_213",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ceruleanMusic",
+      "gymMusic",
+      "movie_scene_intro_29"
+    ]
+  },
+  "class_1018": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1018.as",
+    "graphics": [
+      "movie_scene_Level_35_Win"
+    ],
+    "methods": [
+      "class_1018",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_35_Win",
+      "victory_song"
+    ]
+  },
+  "class_1019": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1019.as",
+    "graphics": [
+      "movie_scene_intro_35"
+    ],
+    "methods": [
+      "class_1019",
+      "init",
+      "method_199",
+      "method_275",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "cityMusic",
+      "movie_scene_intro_35"
+    ]
+  },
+  "class_1020": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1020.as",
+    "graphics": [
+      "movie_scene_intro_27"
+    ],
+    "methods": [
+      "class_1020",
+      "init",
+      "method_210",
+      "method_213",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "cityMusic",
+      "movie_scene_intro_27",
+      "route4Music"
+    ]
+  },
+  "class_1021": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1021.as",
+    "graphics": [
+      "movie_scene_Level_27_Win"
+    ],
+    "methods": [
+      "class_1021",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_27_Win",
+      "victory_song"
+    ]
+  },
+  "class_1022": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1022.as",
+    "graphics": [
+      "movie_scene_intro_23"
+    ],
+    "methods": [
+      "class_1022",
+      "init",
+      "method_285",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_intro_23",
+      "pokeTowerMusic"
+    ]
+  },
+  "class_1023": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1023.as",
+    "graphics": [
+      "movie_scene_Level_23_Win"
+    ],
+    "methods": [
+      "class_1023",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_23_Win",
+      "victory_song"
+    ]
+  },
+  "class_1024": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1024.as",
+    "graphics": [
+      "movie_scene_Win_5"
+    ],
+    "methods": [
+      "class_1024",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Win_5",
+      "victory_gym_song"
+    ]
+  },
+  "class_1025": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1025.as",
+    "graphics": [
+      "movie_scene_Intro_5"
+    ],
+    "methods": [
+      "class_1025",
+      "init",
+      "method_263",
+      "method_217",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "gymMusic",
+      "movie_scene_Intro_5",
+      "team_rocket_music"
+    ]
+  },
+  "class_1026": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1026.as",
+    "graphics": [
+      "movie_scene_intro_13"
+    ],
+    "methods": [
+      "class_1026",
+      "init",
+      "method_193",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "billMusic",
+      "movie_scene_intro_13"
+    ]
+  },
+  "class_1027": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1027.as",
+    "graphics": [
+      "movie_scene_Win_13"
+    ],
+    "methods": [
+      "class_1027",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Win_13",
+      "victory_song"
+    ]
+  },
+  "class_1028": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1028.as",
+    "graphics": [
+      "movie_scene_Challenge_Intro_4"
+    ],
+    "methods": [
+      "class_1028",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "movie_scene_Challenge_Intro_4"
+    ]
+  },
+  "class_1029": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1029.as",
+    "graphics": [
+      "movie_scene_Challenge_Win_4"
+    ],
+    "methods": [
+      "class_1029",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Challenge_Win_4",
+      "victory_gym_song"
+    ]
+  },
+  "class_1030": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1030.as",
+    "graphics": [
+      "movie_scene_Level_24_Win"
+    ],
+    "methods": [
+      "class_1030",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_24_Win",
+      "victory_song"
+    ]
+  },
+  "class_1031": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1031.as",
+    "graphics": [
+      "movie_scene_intro_24"
+    ],
+    "methods": [
+      "class_1031",
+      "init",
+      "method_285",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_intro_24",
+      "pokeTowerMusic"
+    ]
+  },
+  "class_1032": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1032.as",
+    "graphics": [
+      "movie_scene_Win_8"
+    ],
+    "methods": [
+      "class_1032",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Win_8",
+      "victory_song"
+    ]
+  },
+  "class_1033": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1033.as",
+    "graphics": [
+      "movie_scene_intro_8"
+    ],
+    "methods": [
+      "class_1033",
+      "init",
+      "method_217",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "gymMusic",
+      "movie_scene_intro_8"
+    ]
+  },
+  "class_1034": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1034.as",
+    "graphics": [
+      "movie_scene_Win_11"
+    ],
+    "methods": [
+      "class_1034",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Win_11",
+      "victory_song"
+    ]
+  },
+  "class_1035": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1035.as",
+    "graphics": [
+      "movie_scene_intro_12"
+    ],
+    "methods": [
+      "class_1035",
+      "init",
+      "method_302",
+      "method_193",
+      "method_361",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "billMusic",
+      "ceruleanMusic",
+      "lastBattle",
+      "movie_scene_intro_12"
+    ]
+  },
+  "class_1036": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1036.as",
+    "graphics": [
+      "movie_scene_intro_32"
+    ],
+    "methods": [
+      "class_1036",
+      "init",
+      "method_199",
+      "method_213",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "cinnabarMusic",
+      "movie_scene_intro_32",
+      "oceanMusic"
+    ]
+  },
+  "class_1037": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1037.as",
+    "graphics": [
+      "movie_scene_Level_32_Win"
+    ],
+    "methods": [
+      "class_1037",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "method_111",
+      "method_113",
+      "method_106",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_32_Win",
+      "profile_poke",
+      "profile_poke_val",
+      "victory_song"
+    ]
+  },
+  "class_1038": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1038.as",
+    "graphics": [
+      "movie_scene_win_10"
+    ],
+    "methods": [
+      "class_1038",
+      "init",
+      "mouse_Down",
+      "method_352",
+      "method_217",
+      "method_294",
+      "method_180",
+      "method_218",
+      "run",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "gymMusic",
+      "movie_scene_win_10",
+      "mt_moon_song",
+      "regularHitSound",
+      "route4Music"
+    ]
+  },
+  "class_1039": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1039.as",
+    "graphics": [
+      "movie_scene_intro_10"
+    ],
+    "methods": [
+      "class_1039",
+      "init",
+      "method_217",
+      "method_294",
+      "method_180",
+      "method_218",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "gymMusic",
+      "movie_scene_intro_10",
+      "mt_moon_song",
+      "regularHitSound",
+      "route4Music"
+    ]
+  },
+  "class_1040": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1040.as",
+    "graphics": [
+      "movie_scene_intro_36"
+    ],
+    "methods": [
+      "class_1040",
+      "init",
+      "method_199",
+      "method_275",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "cityMusic",
+      "movie_scene_intro_36"
+    ]
+  },
+  "class_1041": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1041.as",
+    "graphics": [
+      "movie_scene_Level_36_Win"
+    ],
+    "methods": [
+      "class_1041",
+      "init",
+      "method_182",
+      "method_275",
+      "mouse_Down",
+      "method_216",
+      "method_234",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "cityMusic",
+      "movie_scene_Level_36_Win",
+      "victory_song"
+    ]
+  },
+  "class_1042": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1042.as",
+    "graphics": [
+      "movie_scene_Level_42_Intro"
+    ],
+    "methods": [
+      "class_1042",
+      "init",
+      "method_222",
+      "method_205",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "movie_scene_Level_42_Intro",
+      "route4Music"
+    ]
+  },
+  "class_1043": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1043.as",
+    "graphics": [
+      "movie_scene_Level_42_Win"
+    ],
+    "methods": [
+      "class_1043",
+      "init",
+      "method_8",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_42_Win",
+      "victory_song"
+    ]
+  },
+  "class_1044": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1044.as",
+    "graphics": [
+      "movie_scene_Level_34_Win"
+    ],
+    "methods": [
+      "class_1044",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_34_Win",
+      "victory_song"
+    ]
+  },
+  "class_1045": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1045.as",
+    "graphics": [
+      "movie_scene_intro_34"
+    ],
+    "methods": [
+      "class_1045",
+      "init",
+      "method_199",
+      "method_275",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "cinnabarMusic",
+      "movie_scene_intro_34",
+      "palletMusic"
+    ]
+  },
+  "class_1046": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1046.as",
+    "graphics": [
+      "movie_scene_intro_7"
+    ],
+    "methods": [
+      "class_1046",
+      "init",
+      "method_324",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_intro_7",
+      "viridianForestSong"
+    ]
+  },
+  "class_1047": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1047.as",
+    "graphics": [
+      "movie_scene_win_7"
+    ],
+    "methods": [
+      "class_1047",
+      "init",
+      "method_324",
+      "method_412",
+      "method_182",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "battleWildMusic",
+      "movie_scene_win_7",
+      "victory_song",
+      "viridianForestSong"
+    ]
+  },
+  "class_1048": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1048.as",
+    "graphics": [
+      "movie_scene_Level_28_Win"
+    ],
+    "methods": [
+      "class_1048",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_28_Win",
+      "victory_song"
+    ]
+  },
+  "class_1049": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1049.as",
+    "graphics": [
+      "movie_scene_intro_28"
+    ],
+    "methods": [
+      "class_1049",
+      "init",
+      "method_199",
+      "method_213",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ceruleanMusic",
+      "gymMusic",
+      "movie_scene_intro_28"
+    ]
+  },
+  "class_1050": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1050.as",
+    "graphics": [
+      "movie_scene_intro_22"
+    ],
+    "methods": [
+      "class_1050",
+      "init",
+      "method_374",
+      "method_229",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "casinoMusic",
+      "lavenderTownMusic",
+      "movie_scene_intro_22"
+    ]
+  },
+  "class_1051": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1051.as",
+    "graphics": [
+      "movie_scene_Level_22_Win"
+    ],
+    "methods": [
+      "class_1051",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_22_Win",
+      "victory_song"
+    ]
+  },
+  "class_1052": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1052.as",
+    "graphics": [
+      "movie_scene_intro_39"
+    ],
+    "methods": [
+      "class_1052",
+      "init",
+      "method_222",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "method_52",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_intro_39",
+      "route4Music"
+    ]
+  },
+  "class_1053": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1053.as",
+    "graphics": [
+      "movie_scene_Level_39_Win"
+    ],
+    "methods": [
+      "class_1053",
+      "init",
+      "method_8",
+      "method_182",
+      "mouse_Down",
+      "method_223",
+      "method_54",
+      "get_Graphic",
+      "remove_Me",
+      "method_50"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_39_Win",
+      "profile_poke",
+      "profile_poke_val",
+      "victory_song"
+    ]
+  },
+  "class_1054": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1054.as",
+    "graphics": [
+      "movie_scene_intro_11"
+    ],
+    "methods": [
+      "class_1054",
+      "init",
+      "method_217",
+      "method_205",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "gymMusic",
+      "movie_scene_intro_11"
+    ]
+  },
+  "class_1055": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1055.as",
+    "graphics": [
+      "movie_scene_intro_31"
+    ],
+    "methods": [
+      "class_1055",
+      "init",
+      "method_199",
+      "method_213",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "movie_scene_intro_31",
+      "oceanMusic"
+    ]
+  },
+  "class_1056": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1056.as",
+    "graphics": [
+      "movie_scene_Level_31_Win"
+    ],
+    "methods": [
+      "class_1056",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_31_Win",
+      "victory_song"
+    ]
+  },
+  "class_1057": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1057.as",
+    "graphics": [
+      "movie_scene_Level_20_Win"
+    ],
+    "methods": [
+      "class_1057",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_20_Win",
+      "victory_gym_song"
+    ]
+  },
+  "class_1058": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1058.as",
+    "graphics": [
+      "movie_scene_intro_20"
+    ],
+    "methods": [
+      "class_1058",
+      "init",
+      "method_307",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "celadonCityMusic",
+      "movie_scene_intro_20"
+    ]
+  },
+  "class_1059": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1059.as",
+    "graphics": [
+      "movie_scene_Level_41_Win"
+    ],
+    "methods": [
+      "class_1059",
+      "init",
+      "method_8",
+      "method_182",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "movie_scene_Level_41_Win"
+    ]
+  },
+  "class_1060": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1060.as",
+    "graphics": [
+      "movie_scene_intro_41"
+    ],
+    "methods": [
+      "class_1060",
+      "init",
+      "method_222",
+      "method_205",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "movie_scene_intro_41",
+      "route4Music"
+    ]
+  },
+  "class_1061": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1061.as",
+    "graphics": [
+      "movie_scene_Level_25_Win"
+    ],
+    "methods": [
+      "class_1061",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_25_Win",
+      "victory_song"
+    ]
+  },
+  "class_1062": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1062.as",
+    "graphics": [
+      "movie_scene_intro_25"
+    ],
+    "methods": [
+      "class_1062",
+      "init",
+      "method_210",
+      "method_213",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "cityMusic",
+      "movie_scene_intro_25"
+    ]
+  },
+  "class_1063": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1063.as",
+    "graphics": [
+      "movie_scene_Level_37_Win"
+    ],
+    "methods": [
+      "class_1063",
+      "init",
+      "method_8",
+      "method_182",
+      "mouse_Down",
+      "method_380",
+      "method_54",
+      "get_Graphic",
+      "remove_Me",
+      "method_50"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_37_Win",
+      "profile_poke",
+      "profile_poke_val",
+      "victory_song"
+    ]
+  },
+  "class_1064": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1064.as",
+    "graphics": [
+      "movie_scene_intro_37"
+    ],
+    "methods": [
+      "class_1064",
+      "init",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "method_52",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_intro_37",
+      "route10Music"
+    ]
+  },
+  "class_1065": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1065.as",
+    "graphics": [
+      "movie_scene_Intro_2"
+    ],
+    "methods": [
+      "class_1065",
+      "init",
+      "method_191",
+      "method_263",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Intro_2",
+      "rival_song",
+      "team_rocket_music"
+    ]
+  },
+  "class_1066": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1066.as",
+    "graphics": [],
+    "methods": [
+      "class_1066",
+      "init",
+      "method_314",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_win_2",
+      "superEffectiveSound"
+    ]
+  },
+  "class_1067": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1067.as",
+    "graphics": [
+      "movie_scene_Challenge_Intro_2"
+    ],
+    "methods": [
+      "class_1067",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "movie_scene_Challenge_Intro_2"
+    ]
+  },
+  "class_1068": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1068.as",
+    "graphics": [
+      "movie_scene_Challenge_Win_2"
+    ],
+    "methods": [
+      "class_1068",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Challenge_Win_2",
+      "victory_gym_song"
+    ]
+  },
+  "class_1069": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1069.as",
+    "graphics": [
+      "movie_scene_Level_26_Win"
+    ],
+    "methods": [
+      "class_1069",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "method_226",
+      "method_329",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_26_Win",
+      "profile_poke",
+      "profile_poke_val",
+      "victory_song"
+    ]
+  },
+  "class_1070": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1070.as",
+    "graphics": [
+      "movie_scene_intro_26"
+    ],
+    "methods": [
+      "class_1070",
+      "init",
+      "method_210",
+      "method_213",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "cityMusic",
+      "movie_scene_intro_26"
+    ]
+  },
+  "class_1071": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1071.as",
+    "graphics": [
+      "movie_scene_Challenge_Intro_3"
+    ],
+    "methods": [
+      "class_1071",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "movie_scene_Challenge_Intro_3"
+    ]
+  },
+  "class_1072": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1072.as",
+    "graphics": [
+      "movie_scene_Challenge_Win_3"
+    ],
+    "methods": [
+      "class_1072",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Challenge_Win_3",
+      "victory_gym_song"
+    ]
+  },
+  "class_1073": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1073.as",
+    "graphics": [],
+    "methods": [
+      "class_1073",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Challenge_Win_1",
+      "victory_gym_song"
+    ]
+  },
+  "class_1074": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1074.as",
+    "graphics": [
+      "movie_scene_Challenge_Intro_1"
+    ],
+    "methods": [
+      "class_1074",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "movie_scene_Challenge_Intro_1"
+    ]
+  },
+  "class_1075": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1075.as",
+    "graphics": [],
+    "methods": [
+      "class_1075",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Challenge_Win_6",
+      "victory_gym_song"
+    ]
+  },
+  "class_1076": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1076.as",
+    "graphics": [
+      "movie_scene_Challenge_Intro_6"
+    ],
+    "methods": [
+      "class_1076",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "movie_scene_Challenge_Intro_6"
+    ]
+  },
+  "class_1077": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1077.as",
+    "graphics": [
+      "movie_scene_Level_40_2_Intro"
+    ],
+    "methods": [
+      "class_1077",
+      "init",
+      "method_317",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_40_2_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1078": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1078.as",
+    "graphics": [
+      "movie_scene_Level_12_2_Intro"
+    ],
+    "methods": [
+      "class_1078",
+      "method_182",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_12_2_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1079": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1079.as",
+    "graphics": [
+      "movie_scene_Level_40_3_Intro"
+    ],
+    "methods": [
+      "class_1079",
+      "init",
+      "method_317",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_40_3_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1080": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1080.as",
+    "graphics": [
+      "movie_scene_intro_17_space_2"
+    ],
+    "methods": [
+      "class_1080",
+      "init",
+      "method_187",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_954",
+      "class_959",
+      "movie_scene_intro_17_space_2",
+      "mt_moon_song",
+      "route10Music",
+      "trainerEncounterSong"
+    ]
+  },
+  "class_1081": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1081.as",
+    "graphics": [
+      "movie_scene_Level_12_3_Intro"
+    ],
+    "methods": [
+      "class_1081",
+      "method_182",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_12_3_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1082": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1082.as",
+    "graphics": [
+      "movie_scene_Level_40_4_Intro"
+    ],
+    "methods": [
+      "class_1082",
+      "init",
+      "method_317",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_40_4_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1083": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1083.as",
+    "graphics": [
+      "movie_scene_Level_40_Win"
+    ],
+    "methods": [
+      "class_1083",
+      "init",
+      "method_8",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_40_Win",
+      "victory_song"
+    ]
+  },
+  "class_1084": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1084.as",
+    "graphics": [
+      "movie_scene_Level_12_3_2_Intro"
+    ],
+    "methods": [
+      "class_1084",
+      "method_182",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_12_3_2_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1085": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1085.as",
+    "graphics": [
+      "movie_scene_intro_17_space_3"
+    ],
+    "methods": [
+      "class_1085",
+      "init",
+      "method_187",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_1118",
+      "class_956",
+      "class_961",
+      "movie_scene_intro_17_space_3",
+      "mt_moon_song",
+      "route10Music",
+      "trainerEncounterSong"
+    ]
+  },
+  "class_1086": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1086.as",
+    "graphics": [
+      "movie_scene_Level_12_4_Intro"
+    ],
+    "methods": [
+      "class_1086",
+      "method_182",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_12_4_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1087": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1087.as",
+    "graphics": [
+      "movie_scene_Level_12_4_2_Intro"
+    ],
+    "methods": [
+      "class_1087",
+      "method_182",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_12_4_2_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1088": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1088.as",
+    "graphics": [
+      "movie_scene_intro_17_space_5"
+    ],
+    "methods": [
+      "class_1088",
+      "init",
+      "method_263",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_79",
+      "class_80",
+      "class_81",
+      "class_82",
+      "class_83",
+      "class_956",
+      "movie_scene_intro_17_space_5",
+      "mt_moon_song",
+      "route10Music",
+      "team_rocket_music"
+    ]
+  },
+  "class_1089": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1089.as",
+    "graphics": [
+      "movie_scene_intro_17_space_5_beat"
+    ],
+    "methods": [
+      "class_1089",
+      "init",
+      "method_263",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_79",
+      "class_80",
+      "class_81",
+      "class_82",
+      "class_83",
+      "class_959",
+      "class_963",
+      "movie_scene_intro_17_space_5_beat",
+      "mt_moon_song",
+      "route10Music",
+      "team_rocket_music"
+    ]
+  },
+  "class_1090": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1090.as",
+    "graphics": [
+      "movie_scene_Level_12_5_Intro"
+    ],
+    "methods": [
+      "class_1090",
+      "method_182",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_12_5_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1091": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1091.as",
+    "graphics": [
+      "movie_scene_intro_17_space_4"
+    ],
+    "methods": [
+      "class_1091",
+      "init",
+      "method_187",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_959",
+      "class_964",
+      "movie_scene_intro_17_space_4",
+      "mt_moon_song",
+      "route10Music",
+      "trainerEncounterSong"
+    ]
+  },
+  "class_1092": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1092.as",
+    "graphics": [
+      "movie_scene_Level_12_5_2_Intro"
+    ],
+    "methods": [
+      "class_1092",
+      "method_182",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_12_5_2_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1093": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1093.as",
+    "graphics": [
+      "movie_scene_intro_17_space_7"
+    ],
+    "methods": [
+      "class_1093",
+      "init",
+      "method_263",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_85",
+      "class_86",
+      "class_87",
+      "class_88",
+      "class_89",
+      "movie_scene_intro_17_space_7",
+      "mt_moon_song",
+      "route10Music",
+      "team_rocket_music"
+    ]
+  },
+  "class_1094": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1094.as",
+    "graphics": [
+      "movie_scene_intro_17_space_7_beat"
+    ],
+    "methods": [
+      "class_1094",
+      "init",
+      "method_263",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_1121",
+      "class_79",
+      "class_80",
+      "class_81",
+      "class_82",
+      "class_83",
+      "class_961",
+      "class_964",
+      "movie_scene_intro_17_space_7_beat",
+      "mt_moon_song",
+      "route10Music",
+      "team_rocket_music"
+    ]
+  },
+  "class_1095": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1095.as",
+    "graphics": [
+      "movie_scene_intro_17_space_6"
+    ],
+    "methods": [
+      "class_1095",
+      "init",
+      "method_187",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_1118",
+      "class_963",
+      "class_966",
+      "class_967",
+      "movie_scene_intro_17_space_6",
+      "mt_moon_song",
+      "route10Music",
+      "trainerEncounterSong"
+    ]
+  },
+  "class_1096": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1096.as",
+    "graphics": [
+      "movie_scene_Level_12_6_Intro"
+    ],
+    "methods": [
+      "class_1096",
+      "method_182",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_12_6_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1097": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1097.as",
+    "graphics": [
+      "movie_scene_Level_12_Win"
+    ],
+    "methods": [
+      "class_1097",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_12_Win",
+      "victory_song"
+    ]
+  },
+  "class_1098": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1098.as",
+    "graphics": [
+      "movie_scene_Level_12_6_2_Intro"
+    ],
+    "methods": [
+      "class_1098",
+      "method_182",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_12_6_2_Intro",
+      "victory_gym_song"
+    ]
+  },
+  "class_1099": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1099.as",
+    "graphics": [
+      "movie_scene_intro_17_space_10"
+    ],
+    "methods": [
+      "class_1099",
+      "init",
+      "method_187",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_964",
+      "class_968",
+      "movie_scene_intro_17_space_10",
+      "mt_moon_song",
+      "route10Music",
+      "trainerEncounterSong"
+    ]
+  },
+  "class_1100": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1100.as",
+    "graphics": [
+      "movie_scene_intro_17_exit"
+    ],
+    "methods": [
+      "class_1100",
+      "init",
+      "method_187",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "movie_scene_intro_17_exit",
+      "mt_moon_song",
+      "route10Music",
+      "trainerEncounterSong"
+    ]
+  },
+  "class_1101": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1101.as",
+    "graphics": [
+      "movie_scene_intro_17_space_8"
+    ],
+    "methods": [
+      "class_1101",
+      "init",
+      "method_187",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_963",
+      "class_968",
+      "movie_scene_intro_17_space_8",
+      "mt_moon_song",
+      "route10Music",
+      "trainerEncounterSong"
+    ]
+  },
+  "class_1102": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1102.as",
+    "graphics": [
+      "movie_scene_intro_17_space_9_beat"
+    ],
+    "methods": [
+      "class_1102",
+      "init",
+      "method_263",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_79",
+      "class_80",
+      "class_81",
+      "class_82",
+      "class_83",
+      "class_968",
+      "movie_scene_intro_17_space_9_beat",
+      "mt_moon_song",
+      "route10Music",
+      "team_rocket_music"
+    ]
+  },
+  "class_1103": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_1103.as",
+    "graphics": [
+      "movie_scene_intro_17_space_9"
+    ],
+    "methods": [
+      "class_1103",
+      "init",
+      "method_187",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_1121",
+      "class_966",
+      "movie_scene_intro_17_space_9",
+      "mt_moon_song",
+      "route10Music",
+      "trainerEncounterSong"
+    ]
+  },
+  "class_969": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_969.as",
+    "graphics": [
+      "popup_Achievement"
+    ],
+    "methods": [
+      "class_969",
+      "init",
+      "sendAchievementRequest",
+      "cleanupLoader",
+      "onIOError",
+      "onLoadComplete",
+      "closePopupAndResumeGame",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "Date",
+      "URLLoader",
+      "URLRequest",
+      "URLVariables",
+      "popup_Achievement"
+    ]
+  },
+  "class_970": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_970.as",
+    "graphics": [
+      "focus_Trying_New_Move"
+    ],
+    "methods": [
+      "class_970",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "focus_Trying_New_Move"
+    ]
+  },
+  "class_971": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_971.as",
+    "graphics": [
+      "focus_Caught"
+    ],
+    "methods": [
+      "class_971",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "focus_Caught"
+    ]
+  },
+  "class_972": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_972.as",
+    "graphics": [
+      "popup_Menu_gfx"
+    ],
+    "methods": [
+      "class_972",
+      "init",
+      "method_40",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "class_977",
+      "popup_Menu_gfx"
+    ]
+  },
+  "class_973": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_973.as",
+    "graphics": [
+      "popup_Achievement"
+    ],
+    "methods": [
+      "class_973",
+      "init",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "popup_Achievement"
+    ]
+  },
+  "class_974": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_974.as",
+    "graphics": [
+      "ready_go"
+    ],
+    "methods": [
+      "class_974",
+      "init",
+      "run",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "ready_go"
+    ]
+  },
+  "class_975": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_975.as",
+    "graphics": [
+      "focus_Replace_Move"
+    ],
+    "methods": [
+      "class_975",
+      "init",
+      "mouse_Down",
+      "method_27",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "focus_Replace_Move"
+    ]
+  },
+  "class_976": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_976.as",
+    "graphics": [],
+    "methods": [
+      "class_976",
+      "init",
+      "method_176",
+      "mouse_Down",
+      "run",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "Timer",
+      "Tween",
+      "cry_009",
+      "movie_scene_win_1",
+      "regularHitSound",
+      "rival_song"
+    ]
+  },
+  "class_977": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_977.as",
+    "graphics": [
+      "popup_Exit_Level"
+    ],
+    "methods": [
+      "class_977",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "popup_Exit_Level"
+    ]
+  },
+  "class_978": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_978.as",
+    "graphics": [
+      "popup_How_To_Play"
+    ],
+    "methods": [
+      "class_978",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "popup_How_To_Play"
+    ]
+  },
+  "class_979": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_979.as",
+    "graphics": [
+      "focus_New_Move"
+    ],
+    "methods": [
+      "class_979",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "focus_New_Move"
+    ]
+  },
+  "class_981": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_981.as",
+    "graphics": [
+      "popup_Choose_Name"
+    ],
+    "methods": [
+      "class_981",
+      "init",
+      "remove_Me",
+      "mouse_Down",
+      "get_Graphic"
+    ],
+    "constructors": [
+      "popup_Choose_Name"
+    ]
+  },
+  "class_982": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_982.as",
+    "graphics": [
+      "popup_Profile_Delete"
+    ],
+    "methods": [
+      "class_982",
+      "init",
+      "remove_Me",
+      "mouse_Down",
+      "get_Graphic"
+    ],
+    "constructors": [
+      "class_981",
+      "popup_Profile_Delete"
+    ]
+  },
+  "class_984": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_984.as",
+    "graphics": [
+      "movie_scene_intro_17"
+    ],
+    "methods": [
+      "class_984",
+      "init",
+      "method_263",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "method_274",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_954",
+      "movie_scene_intro_17",
+      "mt_moon_song",
+      "route10Music",
+      "team_rocket_music"
+    ]
+  },
+  "class_985": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_985.as",
+    "graphics": [
+      "movie_scene_intro_17_space_1"
+    ],
+    "methods": [
+      "class_985",
+      "init",
+      "method_263",
+      "method_127",
+      "method_205",
+      "method_201",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "method_238",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "class_23",
+      "class_69",
+      "class_70",
+      "class_71",
+      "class_72",
+      "class_956",
+      "class_984",
+      "movie_scene_intro_17_space_1",
+      "mt_moon_song",
+      "profile_poke",
+      "profile_poke_val",
+      "route10Music",
+      "team_rocket_music"
+    ]
+  },
+  "class_986": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_986.as",
+    "graphics": [],
+    "methods": [
+      "class_986",
+      "init",
+      "mouse_Down",
+      "run",
+      "remove_Me"
+    ],
+    "constructors": []
+  },
+  "class_987": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_987.as",
+    "graphics": [
+      "movie_scene_Win_9"
+    ],
+    "methods": [
+      "class_987",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Win_9",
+      "victory_song"
+    ]
+  },
+  "class_988": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_988.as",
+    "graphics": [
+      "movie_scene_intro_9"
+    ],
+    "methods": [
+      "class_988",
+      "init",
+      "method_263",
+      "method_191",
+      "method_205",
+      "method_218",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "movie_scene_intro_9",
+      "mt_moon_song",
+      "rival_song",
+      "team_rocket_music"
+    ]
+  },
+  "class_989": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_989.as",
+    "graphics": [
+      "movie_scene_Intro_6"
+    ],
+    "methods": [
+      "class_989",
+      "init",
+      "method_263",
+      "method_217",
+      "method_186",
+      "method_254",
+      "method_284",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "battleGymMusic",
+      "gymMusic",
+      "levelUpSound",
+      "movie_scene_Intro_6",
+      "team_rocket_music",
+      "victory_gym_song"
+    ]
+  },
+  "class_990": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_990.as",
+    "graphics": [
+      "movie_scene_Win_6"
+    ],
+    "methods": [
+      "class_990",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Win_6",
+      "victory_song"
+    ]
+  },
+  "class_991": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_991.as",
+    "graphics": [
+      "movie_scene_Level_30_Win"
+    ],
+    "methods": [
+      "class_991",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_30_Win",
+      "victory_song"
+    ]
+  },
+  "class_992": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_992.as",
+    "graphics": [
+      "movie_scene_intro_30"
+    ],
+    "methods": [
+      "class_992",
+      "init",
+      "method_199",
+      "method_213",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "ash_song",
+      "ceruleanMusic",
+      "movie_scene_intro_30"
+    ]
+  },
+  "class_993": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_993.as",
+    "graphics": [
+      "movie_scene_Challenge_Win_5"
+    ],
+    "methods": [
+      "class_993",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Challenge_Win_5",
+      "victory_gym_song"
+    ]
+  },
+  "class_994": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_994.as",
+    "graphics": [
+      "movie_scene_Challenge_Intro_5"
+    ],
+    "methods": [
+      "class_994",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "movie_scene_Challenge_Intro_5"
+    ]
+  },
+  "class_995": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_995.as",
+    "graphics": [
+      "movie_scene_win_14"
+    ],
+    "methods": [
+      "class_995",
+      "init",
+      "mouse_Down",
+      "method_327",
+      "method_237",
+      "method_294",
+      "method_180",
+      "method_218",
+      "run",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_win_14",
+      "mt_moon_song",
+      "regularHitSound",
+      "route4Music",
+      "vermillionMusic"
+    ]
+  },
+  "class_996": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_996.as",
+    "graphics": [
+      "movie_scene_intro_14"
+    ],
+    "methods": [
+      "class_996",
+      "init",
+      "method_237",
+      "method_263",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_intro_14",
+      "team_rocket_music",
+      "vermillionMusic"
+    ]
+  },
+  "class_997": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_997.as",
+    "graphics": [
+      "movie_scene_intro_33"
+    ],
+    "methods": [
+      "class_997",
+      "init",
+      "method_199",
+      "method_213",
+      "run",
+      "method_8",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "cinnabarMusic",
+      "movie_scene_intro_33",
+      "oceanMusic"
+    ]
+  },
+  "class_998": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_998.as",
+    "graphics": [
+      "movie_scene_Level_33_Win"
+    ],
+    "methods": [
+      "class_998",
+      "init",
+      "method_182",
+      "mouse_Down",
+      "method_111",
+      "method_113",
+      "method_106",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Level_33_Win",
+      "profile_poke",
+      "profile_poke_val",
+      "victory_song"
+    ]
+  },
+  "class_999": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/class_999.as",
+    "graphics": [
+      "movie_scene_Intro_4"
+    ],
+    "methods": [
+      "class_999",
+      "init",
+      "method_324",
+      "method_262",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "Tween",
+      "movie_scene_Intro_4",
+      "trainerEncounterSong",
+      "viridianForestSong"
+    ]
+  },
+  "popup_online_intro_1_0": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popup_online_intro_1_0.as",
+    "graphics": [
+      "movie_scene_Online_Intro_1"
+    ],
+    "methods": [
+      "popup_online_intro_1_0",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "movie_scene_Online_Intro_1"
+    ]
+  },
+  "popup_online_intro_1_1": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popup_online_intro_1_1.as",
+    "graphics": [
+      "movie_scene_Online_Attack_Intro_1"
+    ],
+    "methods": [
+      "popup_online_intro_1_1",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "movie_scene_Online_Attack_Intro_1"
+    ]
+  },
+  "popup_online_intro_2": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popup_online_intro_2.as",
+    "graphics": [
+      "movie_scene_Online_2_intro"
+    ],
+    "methods": [
+      "popup_online_intro_2",
+      "init",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "movie_scene_Online_2_intro"
+    ]
+  },
+  "popup_online_win_1_0": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popup_online_win_1_0.as",
+    "graphics": [
+      "movie_scene_Online_Win_1"
+    ],
+    "methods": [
+      "popup_online_win_1_0",
+      "init",
+      "put_In_Spot",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Online_Win_1",
+      "victory_gym_song"
+    ]
+  },
+  "popup_online_win_1_1": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popup_online_win_1_1.as",
+    "graphics": [
+      "movie_scene_Online_Win_1"
+    ],
+    "methods": [
+      "popup_online_win_1_1",
+      "init",
+      "put_In_Spot",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Online_Win_1",
+      "victory_gym_song"
+    ]
+  },
+  "popup_online_win_2": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popup_online_win_2.as",
+    "graphics": [
+      "movie_scene_Online_2_win"
+    ],
+    "methods": [
+      "popup_online_win_2",
+      "init",
+      "put_In_Spot",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "movie_scene_Online_2_win",
+      "victory_gym_song"
+    ]
+  },
+  "popups_Check_Evolve": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popups_Check_Evolve.as",
+    "graphics": [
+      "focus_Evolve"
+    ],
+    "methods": [
+      "popups_Check_Evolve",
+      "init",
+      "method_70",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "evolveDoneMusic",
+      "evolveMusic",
+      "focus_Evolve"
+    ]
+  },
+  "popups_Save_Account": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popups_Save_Account.as",
+    "graphics": [
+      "popup_Save"
+    ],
+    "methods": [
+      "popups_Save_Account",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "method_174",
+      "no_Internet",
+      "received_Response",
+      "remove_Me"
+    ],
+    "constructors": [
+      "Date",
+      "URLLoader",
+      "URLRequest",
+      "URLVariables",
+      "popup_Save",
+      "screen_Login",
+      "screen_Main"
+    ]
+  },
+  "popups_Tutorial_party": {
+    "parent": "_obj",
+    "source": "game-source/scripts/code/popups_Tutorial_party.as",
+    "graphics": [],
+    "methods": [
+      "popups_Tutorial_party",
+      "method_165",
+      "method_263",
+      "method_5",
+      "init",
+      "run",
+      "mouse_Up",
+      "method_225",
+      "method_280",
+      "method_385"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "Tween",
+      "_loc2_",
+      "movie_scene_tutorial_1",
+      "oak_lab",
+      "profile_poke",
+      "profile_poke_val",
+      "screen_Chapters",
+      "superEffectiveSound",
+      "team_rocket_music"
+    ]
+  }
+}

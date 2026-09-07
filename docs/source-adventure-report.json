@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Native title/profile/name/Oak tutorial creates starter in storage and opens chapters",
+    "Original party tutorial and drag put starter into its fixed slot",
+    "Oak intro and Ready/Go start waves automatically before placement",
+    "Natural victory plays source ending and returns directly to chapter"
+  ],
+  "errors": []
+}

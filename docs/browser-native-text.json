@@ -1,0 +1,49 @@
+{
+  "result": [
+    {
+      "label": "Damage",
+      "text": "23",
+      "expected": "23",
+      "pixels": 561,
+      "exactColorPixels": 341,
+      "format": null
+    },
+    {
+      "label": "Effective",
+      "text": "23",
+      "expected": "23",
+      "pixels": 561,
+      "exactColorPixels": 323,
+      "format": null
+    },
+    {
+      "label": "Heal",
+      "text": "+50",
+      "expected": "+50",
+      "pixels": 732,
+      "exactColorPixels": 435,
+      "format": null
+    },
+    {
+      "label": "XP",
+      "text": "+35xp",
+      "expected": "+35xp",
+      "pixels": 725,
+      "exactColorPixels": 356,
+      "format": {
+        "size": 30
+      }
+    },
+    {
+      "label": "Miss",
+      "text": "MISS",
+      "expected": "MISS",
+      "pixels": 809,
+      "exactColorPixels": 393,
+      "format": {
+        "size": 30
+      }
+    }
+  ],
+  "errors": []
+}

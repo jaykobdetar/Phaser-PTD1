@@ -1,0 +1,171 @@
+{
+  "gfx_hit": {
+    "file": "effects/gfx_hit.png",
+    "symbolId": 1983,
+    "frameWidth": 48,
+    "frameHeight": 48,
+    "frameCount": 5,
+    "sourceBounds": {
+      "xMin": -24.0,
+      "yMin": -24.0,
+      "xMax": 24.0,
+      "yMax": 24.0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sourceFrames": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frameRate": 21,
+    "loop": false
+  },
+  "gfx_hit_scratch": {
+    "file": "effects/gfx_hit_scratch.png",
+    "symbolId": 1990,
+    "frameWidth": 177,
+    "frameHeight": 187,
+    "frameCount": 7,
+    "sourceBounds": {
+      "xMin": -50.85,
+      "yMin": -136.85,
+      "xMax": 126.85,
+      "yMax": 50.85
+    },
+    "origin": {
+      "x": 0.28728813559322036,
+      "y": 0.7318181818181818
+    },
+    "sourceFrames": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "frameRate": 21,
+    "loop": false
+  },
+  "hit_Water_Gun": {
+    "file": "effects/hit_Water_Gun.png",
+    "symbolId": 2379,
+    "frameWidth": 21,
+    "frameHeight": 21,
+    "frameCount": 10,
+    "sourceBounds": {
+      "xMin": -10.7,
+      "yMin": -10.8,
+      "xMax": 10.65,
+      "yMax": 10.8
+    },
+    "origin": {
+      "x": 0.5095238095238095,
+      "y": 0.5142857142857143
+    },
+    "sourceFrames": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "frameRate": 21,
+    "loop": false
+  },
+  "hit_Seed": {
+    "file": "effects/hit_Seed.png",
+    "symbolId": 2018,
+    "frameWidth": 51,
+    "frameHeight": 45,
+    "frameCount": 13,
+    "sourceBounds": {
+      "xMin": -28.55,
+      "yMin": -31.3,
+      "xMax": 23.0,
+      "yMax": 14.05
+    },
+    "origin": {
+      "x": 0.5598039215686275,
+      "y": 0.6955555555555556
+    },
+    "sourceFrames": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "frameRate": 21,
+    "loop": false
+  },
+  "hit_ember": {
+    "file": "effects/hit_ember.png",
+    "symbolId": 1503,
+    "frameWidth": 27,
+    "frameHeight": 42,
+    "frameCount": 6,
+    "sourceBounds": {
+      "xMin": -14.8,
+      "yMin": -29.9,
+      "xMax": 12.95,
+      "yMax": 12.75
+    },
+    "origin": {
+      "x": 0.5481481481481482,
+      "y": 0.7119047619047618
+    },
+    "sourceFrames": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frameRate": 21,
+    "loop": false
+  },
+  "gfx_range_normal": {
+    "file": "effects/gfx_range_normal.png",
+    "symbolId": 11055,
+    "frameWidth": 280,
+    "frameHeight": 268,
+    "frameCount": 2,
+    "sourceBounds": {
+      "xMin": -140.0,
+      "yMin": -134.35,
+      "xMax": 140.0,
+      "yMax": 134.4
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5013059701492537
+    },
+    "sourceFrames": [
+      1,
+      2
+    ],
+    "frameRate": 21,
+    "loop": false
+  }
+}

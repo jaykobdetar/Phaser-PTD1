@@ -1,0 +1,1298 @@
+{
+  "gfx_level_1": {
+    "symbolId": 18,
+    "renderer": "hl_spot_18",
+    "placement": {
+      "name": "hl_spot",
+      "id": 18,
+      "depth": 37,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -386.45,
+        -65.45,
+        7.85,
+        -8.65
+      ]
+    }
+  },
+  "gfx_level_10": {
+    "symbolId": 41,
+    "renderer": "hl_spot_41",
+    "placement": {
+      "name": "hl_spot",
+      "id": 41,
+      "depth": 196,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        382.85
+      ],
+      "bounds": [
+        -357.3,
+        -178.85,
+        187.3,
+        36.95
+      ]
+    }
+  },
+  "gfx_level_11": {
+    "symbolId": 45,
+    "renderer": "hl_spot_45",
+    "placement": {
+      "name": "hl_spot",
+      "id": 45,
+      "depth": 168,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        132.5,
+        -176.85,
+        187.3,
+        36.95
+      ]
+    }
+  },
+  "gfx_level_12": {
+    "symbolId": 50,
+    "renderer": "hl_spot_50",
+    "placement": {
+      "name": "hl_spot",
+      "id": 50,
+      "depth": 12,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        629.8
+      ],
+      "bounds": [
+        -96.45,
+        -401.85,
+        -41.65,
+        -3.65
+      ]
+    }
+  },
+  "gfx_level_12_3": {
+    "symbolId": 53,
+    "renderer": "hl_spot_53",
+    "placement": {
+      "name": "hl_spot",
+      "id": 53,
+      "depth": 10,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        629.8
+      ],
+      "bounds": [
+        -96.45,
+        -401.85,
+        -41.65,
+        -116.6
+      ]
+    }
+  },
+  "gfx_level_12_4": {
+    "symbolId": 56,
+    "renderer": "hl_spot_56",
+    "placement": {
+      "name": "hl_spot",
+      "id": 56,
+      "depth": 8,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        629.8
+      ],
+      "bounds": [
+        -96.45,
+        -401.85,
+        -41.65,
+        -233.0
+      ]
+    }
+  },
+  "gfx_level_12_6": {
+    "symbolId": 59,
+    "renderer": "hl_spot_59",
+    "placement": {
+      "name": "hl_spot",
+      "id": 59,
+      "depth": 6,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        629.8
+      ],
+      "bounds": [
+        -96.45,
+        -401.85,
+        -41.65,
+        -347.05
+      ]
+    }
+  },
+  "gfx_level_13": {
+    "symbolId": 64,
+    "renderer": "hl_spot_64",
+    "placement": {
+      "name": "hl_spot",
+      "id": 64,
+      "depth": 34,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        629.8
+      ],
+      "bounds": [
+        -46.45,
+        -424.85,
+        8.35,
+        20.35
+      ]
+    }
+  },
+  "gfx_level_14": {
+    "symbolId": 69,
+    "renderer": "hl_spot_69",
+    "placement": {
+      "name": "hl_spot",
+      "id": 69,
+      "depth": 18,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        629.8
+      ],
+      "bounds": [
+        -239.45,
+        -484.85,
+        -6.65,
+        -430.05
+      ]
+    }
+  },
+  "gfx_level_15": {
+    "symbolId": 85,
+    "renderer": "hl_spot_85",
+    "placement": {
+      "name": "hl_spot",
+      "id": 85,
+      "depth": 398,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        629.8
+      ],
+      "bounds": [
+        -458.45,
+        -478.4,
+        317.3,
+        96.35
+      ]
+    }
+  },
+  "gfx_level_16": {
+    "symbolId": 199,
+    "renderer": "hl_spot_199",
+    "placement": {
+      "name": "hl_spot",
+      "id": 199,
+      "depth": 846,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -401.45,
+        -186.45,
+        704.55,
+        774.8
+      ]
+    }
+  },
+  "gfx_level_17": {
+    "symbolId": 219,
+    "renderer": "hl_spot_219",
+    "placement": {
+      "name": "hl_spot",
+      "id": 219,
+      "depth": 315,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        317.85
+      ],
+      "bounds": [
+        -481.55,
+        -148.45,
+        284.5,
+        84.1
+      ]
+    }
+  },
+  "gfx_level_17_2": {
+    "symbolId": 222,
+    "renderer": "hl_spot_222",
+    "placement": {
+      "name": "hl_spot",
+      "id": 222,
+      "depth": 305,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        317.85
+      ],
+      "bounds": [
+        -218.3,
+        -148.45,
+        27.25,
+        -93.65
+      ]
+    }
+  },
+  "gfx_level_17_4": {
+    "symbolId": 222,
+    "renderer": "hl_spot_222",
+    "placement": {
+      "name": "hl_spot",
+      "id": 222,
+      "depth": 305,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        317.85
+      ],
+      "bounds": [
+        -218.3,
+        -148.45,
+        27.25,
+        -93.65
+      ]
+    }
+  },
+  "gfx_level_18": {
+    "symbolId": 230,
+    "renderer": "hl_spot_230",
+    "placement": {
+      "name": "hl_spot",
+      "id": 230,
+      "depth": 90,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -225.5,
+        -173.5,
+        35.35,
+        107.35
+      ]
+    }
+  },
+  "gfx_level_19": {
+    "symbolId": 238,
+    "renderer": "hl_spot_238",
+    "placement": {
+      "name": "hl_spot",
+      "id": 238,
+      "depth": 45,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -406.4,
+        -137.5,
+        914.85,
+        507.3
+      ]
+    }
+  },
+  "gfx_level_2": {
+    "symbolId": 276,
+    "renderer": "hl_spot_276",
+    "placement": {
+      "name": "hl_spot",
+      "id": 276,
+      "depth": 351,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -402.55,
+        -185.45,
+        199.45,
+        516.45
+      ]
+    }
+  },
+  "gfx_level_20": {
+    "symbolId": 297,
+    "renderer": "hl_spot_297",
+    "placement": {
+      "name": "hl_spot",
+      "id": 297,
+      "depth": 411,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        629.8
+      ],
+      "bounds": [
+        -296.6,
+        -438.85,
+        1360.7,
+        153.4
+      ]
+    }
+  },
+  "gfx_level_21": {
+    "symbolId": 381,
+    "renderer": "hl_spot_381",
+    "placement": {
+      "name": "hl_spot",
+      "id": 381,
+      "depth": 34,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -368.35,
+        -425.85,
+        -23.7,
+        -83.55
+      ]
+    }
+  },
+  "gfx_level_22": {
+    "symbolId": 459,
+    "renderer": "hl_spot_459",
+    "placement": {
+      "name": "hl_spot",
+      "id": 459,
+      "depth": 76,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -456.4,
+        -492.85,
+        119.3,
+        184.3
+      ]
+    }
+  },
+  "gfx_level_23": {
+    "symbolId": 471,
+    "renderer": "hl_spot_471",
+    "placement": {
+      "name": "hl_spot",
+      "id": 471,
+      "depth": 43,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -254.45,
+        -231.4,
+        622.3,
+        158.3
+      ]
+    }
+  },
+  "gfx_level_24": {
+    "symbolId": 476,
+    "renderer": "hl_spot_476",
+    "placement": {
+      "name": "hl_spot",
+      "id": 476,
+      "depth": 24,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -277.45,
+        -426.4,
+        291.3,
+        -11.65
+      ]
+    }
+  },
+  "gfx_level_25": {
+    "symbolId": 487,
+    "renderer": "hl_spot_487",
+    "placement": {
+      "name": "hl_spot",
+      "id": 487,
+      "depth": 29,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -347.45,
+        -479.4,
+        514.25,
+        105.35
+      ]
+    }
+  },
+  "gfx_level_26": {
+    "symbolId": 507,
+    "renderer": "hl_spot_507",
+    "placement": {
+      "name": "hl_spot",
+      "id": 507,
+      "depth": 766,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        629.8
+      ],
+      "bounds": [
+        -467.65,
+        -329.5,
+        1198.7,
+        97.55
+      ]
+    }
+  },
+  "gfx_level_27": {
+    "symbolId": 518,
+    "renderer": "hl_spot_518",
+    "placement": {
+      "name": "hl_spot",
+      "id": 518,
+      "depth": 50,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -277.45,
+        -480.55,
+        1936.35,
+        -16.65
+      ]
+    }
+  },
+  "gfx_level_28": {
+    "symbolId": 526,
+    "renderer": "hl_spot_526",
+    "placement": {
+      "name": "hl_spot",
+      "id": 526,
+      "depth": 29,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -354.45,
+        -472.4,
+        323.95,
+        154.5
+      ]
+    }
+  },
+  "gfx_level_29": {
+    "symbolId": 238,
+    "renderer": "hl_spot_238",
+    "placement": {
+      "name": "hl_spot",
+      "id": 238,
+      "depth": 325,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -406.4,
+        -137.5,
+        914.85,
+        507.3
+      ]
+    }
+  },
+  "gfx_level_3": {
+    "symbolId": 548,
+    "renderer": "hl_spot_548",
+    "placement": {
+      "name": "hl_spot",
+      "id": 548,
+      "depth": 350,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -225.5,
+        -189.5,
+        564.55,
+        205.35
+      ]
+    }
+  },
+  "gfx_level_30": {
+    "symbolId": 553,
+    "renderer": "hl_spot_553",
+    "placement": {
+      "name": "hl_spot",
+      "id": 553,
+      "depth": 34,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -486.45,
+        -436.4,
+        202.95,
+        276.3
+      ]
+    }
+  },
+  "gfx_level_31": {
+    "symbolId": 572,
+    "renderer": "hl_spot_572",
+    "placement": {
+      "name": "hl_spot",
+      "id": 572,
+      "depth": 266,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -436.45,
+        -580.4,
+        147.35,
+        -165.6
+      ]
+    }
+  },
+  "gfx_level_32": {
+    "symbolId": 585,
+    "renderer": "hl_spot_585",
+    "placement": {
+      "name": "hl_spot",
+      "id": 585,
+      "depth": 38,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -326.5,
+        -440.4,
+        673.5,
+        189.4
+      ]
+    }
+  },
+  "gfx_level_33": {
+    "symbolId": 585,
+    "renderer": "hl_spot_585",
+    "placement": {
+      "name": "hl_spot",
+      "id": 585,
+      "depth": 38,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -326.5,
+        -440.4,
+        673.5,
+        189.4
+      ]
+    }
+  },
+  "gfx_level_34": {
+    "symbolId": 651,
+    "renderer": "hl_spot_651",
+    "placement": {
+      "name": "hl_spot",
+      "id": 651,
+      "depth": 24,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -412.4,
+        -510.4,
+        150.4,
+        267.35
+      ]
+    }
+  },
+  "gfx_level_35": {
+    "symbolId": 656,
+    "renderer": "hl_spot_656",
+    "placement": {
+      "name": "hl_spot",
+      "id": 656,
+      "depth": 50,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -450.4,
+        -519.4,
+        346.35,
+        55.4
+      ]
+    }
+  },
+  "gfx_level_37": {
+    "symbolId": 661,
+    "renderer": "hl_spot_661",
+    "placement": {
+      "name": "hl_spot",
+      "id": 661,
+      "depth": 16,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -571.0,
+        -500.5,
+        209.3,
+        -31.6
+      ]
+    }
+  },
+  "gfx_level_38": {
+    "symbolId": 666,
+    "renderer": "hl_spot_666",
+    "placement": {
+      "name": "hl_spot",
+      "id": 666,
+      "depth": 16,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -285.5,
+        -492.45,
+        457.3,
+        -34.7
+      ]
+    }
+  },
+  "gfx_level_39": {
+    "symbolId": 671,
+    "renderer": "hl_spot_671",
+    "placement": {
+      "name": "hl_spot",
+      "id": 671,
+      "depth": 16,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -529.55,
+        -558.45,
+        13.15,
+        -58.7
+      ]
+    }
+  },
+  "gfx_level_4": {
+    "symbolId": 685,
+    "renderer": "hl_spot_685",
+    "placement": {
+      "name": "hl_spot",
+      "id": 685,
+      "depth": 180,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -402.55,
+        -170.95,
+        581.55,
+        176.95
+      ]
+    }
+  },
+  "gfx_level_40": {
+    "symbolId": 703,
+    "renderer": "hl_spot_703",
+    "placement": {
+      "name": "hl_spot",
+      "id": 703,
+      "depth": 389,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -401.4,
+        -453.15,
+        673.65,
+        544.3
+      ]
+    }
+  },
+  "gfx_level_41": {
+    "symbolId": 703,
+    "renderer": "hl_spot_703",
+    "placement": {
+      "name": "hl_spot",
+      "id": 703,
+      "depth": 357,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -401.4,
+        -453.15,
+        673.65,
+        544.3
+      ]
+    }
+  },
+  "gfx_level_42": {
+    "symbolId": 703,
+    "renderer": "hl_spot_703",
+    "placement": {
+      "name": "hl_spot",
+      "id": 703,
+      "depth": 357,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -401.4,
+        -453.15,
+        673.65,
+        544.3
+      ]
+    }
+  },
+  "gfx_level_43": {
+    "symbolId": 703,
+    "renderer": "hl_spot_703",
+    "placement": {
+      "name": "hl_spot",
+      "id": 703,
+      "depth": 357,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -401.4,
+        -453.15,
+        673.65,
+        544.3
+      ]
+    }
+  },
+  "gfx_level_44": {
+    "symbolId": 802,
+    "renderer": "hl_spot_802",
+    "placement": {
+      "name": "hl_spot",
+      "id": 802,
+      "depth": 6,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        587.5,
+        607.8
+      ],
+      "bounds": [
+        -198.9,
+        -313.4,
+        -144.1,
+        -258.6
+      ]
+    }
+  },
+  "gfx_level_45": {
+    "symbolId": 810,
+    "renderer": "hl_spot_810",
+    "placement": {
+      "name": "hl_spot",
+      "id": 810,
+      "depth": 16,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -399.7,
+        -466.45,
+        155.25,
+        30.3
+      ]
+    }
+  },
+  "gfx_level_5": {
+    "symbolId": 824,
+    "renderer": "hl_spot_824",
+    "placement": {
+      "name": "hl_spot",
+      "id": 824,
+      "depth": 253,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -481.55,
+        -148.45,
+        284.5,
+        84.1
+      ]
+    }
+  },
+  "gfx_level_6": {
+    "symbolId": 828,
+    "renderer": "hl_spot_828",
+    "placement": {
+      "name": "hl_spot",
+      "id": 828,
+      "depth": 175,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -402.55,
+        -164.45,
+        42.4,
+        176.95
+      ]
+    }
+  },
+  "gfx_level_7": {
+    "symbolId": 832,
+    "renderer": "hl_spot_832",
+    "placement": {
+      "name": "hl_spot",
+      "id": 832,
+      "depth": 104,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -458.55,
+        -164.45,
+        283.6,
+        115.0
+      ]
+    }
+  },
+  "gfx_level_8": {
+    "symbolId": 864,
+    "renderer": "hl_spot_864",
+    "placement": {
+      "name": "hl_spot",
+      "id": 864,
+      "depth": 342,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -363.45,
+        97.25,
+        189.45,
+        342.0
+      ]
+    }
+  },
+  "gfx_level_9": {
+    "symbolId": 879,
+    "renderer": "hl_spot_879",
+    "placement": {
+      "name": "hl_spot",
+      "id": 879,
+      "depth": 340,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        352.85
+      ],
+      "bounds": [
+        -264.45,
+        -149.85,
+        80.3,
+        699.85
+      ]
+    }
+  },
+  "gfx_level_online_1": {
+    "symbolId": 988,
+    "renderer": "hl_spot_988",
+    "placement": {
+      "name": "hl_spot",
+      "id": 988,
+      "depth": 927,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -267.5,
+        -108.0,
+        1088.65,
+        848.55
+      ]
+    }
+  },
+  "gfx_level_online_2": {
+    "symbolId": 993,
+    "renderer": "hl_spot_993",
+    "placement": {
+      "name": "hl_spot",
+      "id": 993,
+      "depth": 34,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        586.5,
+        607.8
+      ],
+      "bounds": [
+        -486.45,
+        -514.9,
+        202.95,
+        276.3
+      ]
+    }
+  },
+  "gfx_challenge_level_1": {
+    "symbolId": 10944,
+    "renderer": "hl_spot_10944",
+    "placement": {
+      "name": "hl_spot",
+      "id": 10944,
+      "depth": 383,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -357.0,
+        -198.45,
+        368.5,
+        335.5
+      ]
+    }
+  },
+  "gfx_challenge_level_2": {
+    "symbolId": 10973,
+    "renderer": "hl_spot_10973",
+    "placement": {
+      "name": "hl_spot",
+      "id": 10973,
+      "depth": 320,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        -225.5,
+        -189.5,
+        564.55,
+        205.35
+      ]
+    }
+  },
+  "gfx_challenge_level_3": {
+    "symbolId": 10990,
+    "renderer": "hl_spot_10990",
+    "placement": {
+      "name": "hl_spot",
+      "id": 10990,
+      "depth": 425,
+      "visible": true,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        502.5,
+        265.85
+      ],
+      "bounds": [
+        10.55,
+        -77.45,
+        308.45,
+        157.05
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Dex remains gated until Challenge 3",
+    "four native Dex pages preserve forty rows, caught forms and hidden unknown names; Back returns to the main menu",
+    "achievement claims and unavailable rewards use original result frames and reward tags",
+    "source ptdicu gift is case-insensitive and repeatable; unrecognized codes use source error",
+    "pointer dragging preserves six fixed slots, displaces occupied members to storage and opens details on click",
+    "mobile name text scales exactly once with the original stage",
+    "new profile overlays the existing source profile screen at exactly 0.4 alpha and restores it on Cancel",
+    "profile Back returns to title and exposes Options > Local profiles / backups / import"
+  ],
+  "errors": []
+}

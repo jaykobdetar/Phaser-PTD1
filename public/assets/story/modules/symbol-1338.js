@@ -1,0 +1,15 @@
+import {createCanvasTools} from '../canvas-tools.js';
+export async function createRenderer(canvas){
+ let defaultFill,defaultStroke;
+ const registry={},scalingGrids={},boundRects={};const tools=createCanvasTools(canvas,registry,scalingGrids,boundRects);
+ const {place,cxform,enhanceContext,drawPath,drawMorphPath,tocolor,Filters,BlendModes,createCanvas,concatMatrix,useRatio}=tools;
+ const ctx=canvas.getContext('2d');if(!ctx._matrix)enhanceContext(ctx);
+function shape1337(ctx,ctrans,frame,ratio,time){var pathData="M 111 -112 Q 158 -65 158 0 158 65 111 111 65 158 0 158 -65 158 -112 111 -158 65 -158 0 -158 -65 -112 -112 -65 -158 0 -158 65 -158 111 -112";drawPath(ctx,pathData,false);ctx.fillStyle=tocolor(ctrans.apply([51,51,51,1]));ctx.fill("evenodd");ctx.save();ctx.clip();ctx.transform(0.013916015625,0,0,0.013916015625,-48,-37);var grd=ctx.createRadialGradient(0.0,0,0,0,0,16384);grd.addColorStop(0,tocolor(ctrans.apply([204,204,204,1])));grd.addColorStop(1,tocolor(ctrans.apply([51,51,51,1])));ctx.fillStyle=grd;ctx.fillRect(-16384,-16384,32768,32768);ctx.restore();var pathData="M 111 -112 Q 158 -65 158 0 158 65 111 111 65 158 0 158 -65 158 -112 111 -158 65 -158 0 -158 -65 -112 -112 -65 -158 0 -158 65 -158 111 -112 Z";var scaleMode="NORMAL";ctx.strokeStyle=tocolor(ctrans.apply([0,0,0,1]));ctx.lineWidth=1.0;ctx.lineCap="round";ctx.lineJoin="round";drawPath(ctx,pathData,true,scaleMode)}function sprite1338(ctx,ctrans,frame,ratio,time){
+const timelineClip=tools.enterSprite(1338,frame);if(timelineClip)frame=timelineClip.currentFrame-1;try{
+ctx.save();ctx.transform(1,0,0,1,8.4,8.4);var clips=[];var frame_cnt=1;frame=frame%frame_cnt;switch(frame){case 0:place("shape1337",canvas,ctx,[0.05,0.0,0.0,0.05,0.0,0.0],ctrans,1,0,0,time);break}ctx.restore()
+}finally{tools.leaveSprite();}
+}
+Object.assign(registry,{shape1337,sprite1338});
+await Promise.all([].map(image=>image.decode()));
+return {render(clip,{clear=true}={}){tools.setRoot(clip);ctx.save();ctx.setTransform(1,0,0,1,0,0);if(clear)ctx.clearRect(0,0,canvas.width,canvas.height);if(clip?.renderMatrix){ctx.transform(...clip.renderMatrix);ctx.transform(1,0,0,1,-8.4,-8.4);}else{ctx.transform(1,0,0,1,-8.4+(clip?.x??0),-8.4+(clip?.y??0));}ctx.globalAlpha=clip?.alpha??1;sprite1338(ctx,new cxform(0,0,0,0,255,255,255,255),(clip?.currentFrame??1)-1,0,clip?.clock?.frame??0);tools.finishRoot(clip);ctx.restore();}};
+}

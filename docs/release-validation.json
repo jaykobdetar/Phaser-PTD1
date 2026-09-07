@@ -1,0 +1,269 @@
+{
+  "version": "1.0.3",
+  "validatedAt": "2026-09-07T06:11:00.948948+00:00",
+  "nodeTests": {
+    "passed": 163,
+    "failed": 0
+  },
+  "pythonServerTests": {
+    "passed": 1,
+    "failed": 0
+  },
+  "shareAuditTests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "production": {
+    "checks": [
+      "Production inspection global absent",
+      "Original title, profile, chapters, party selection, intro and automatic Ready/Go",
+      "Natural starter-only Oak victory, XP and source chapter return with no modern controls",
+      "Route 1 playable, browser reload retains stage 2 unlock and stage 3 lock",
+      "Version-1 migration preserves old key and fixed slots, atomic Python disk save verified",
+      "No external requests"
+    ],
+    "errors": [],
+    "remote": [],
+    "profileVersion": 2,
+    "diskRevision": 11
+  },
+  "browserReports": {
+    "browser-original-controls-report.json": {
+      "checks": [
+        "Only original game frame; no modern toolbar or inspector",
+        "Party portrait begins placement immediately and pauses",
+        "Drop places on original source spot collision and resumes",
+        "Deployed portrait opens source Pok\u00e9mon popup with nine target modes",
+        "Target changes persist from native popup",
+        "Original speed, zoom, and pause keys",
+        "Map Pok\u00e9mon drag and invalid drop recalls it"
+      ],
+      "errors": []
+    },
+    "browser-original-items-report.json": {
+      "checks": [
+        "Dragging original potion onto hurt tower heals and consumes one potion",
+        "Dragging Pok\u00e9 Ball selects weakened enemy and opens original capture sequence",
+        "Capture sequence returns to running battle",
+        "Original level-up control trains and returns to battle"
+      ],
+      "errors": []
+    },
+    "browser-original-presentation-report.json": {
+      "checks": [
+        "Original main menu replaces battle at exact800\u00d7480 stage with black background and no backdrop",
+        "HUD Menu pauses simulation and hides HUD while source popup preserves map",
+        "Original music and sound toggles remain independent",
+        "Original Back resumes same battle",
+        "Source exit No restores battle",
+        "Source exit Yes returns original current chapter",
+        "Stage and popup hit regions stay aligned at mobile width"
+      ],
+      "errors": []
+    },
+    "source-profile-flow-report.json": {
+      "checks": [
+        "selected stage survives native profile/TM/trying/replacement/Back",
+        "source item consumes stone and cancellation preserves species",
+        "native release returns to pending party selection; Start constructs selected stage",
+        "native new-profile name popup and cancel"
+      ],
+      "errors": []
+    },
+    "source-adventure-report.json": {
+      "checks": [
+        "Native title/profile/name/Oak tutorial creates starter in storage and opens chapters",
+        "Original party tutorial and drag put starter into its fixed slot",
+        "Oak intro and Ready/Go start waves automatically before placement",
+        "Natural victory plays source ending and returns directly to chapter"
+      ],
+      "errors": []
+    },
+    "browser-source-parity-regressions.json": {
+      "checks": [
+        "Saffron path buttons use source p/2/3/4 identities",
+        "Camera clamps against original SWF bounds including hidden helpers",
+        "Paused keyboard input does not pan the map",
+        "Invasion Check2 leaves camera and range unchanged",
+        "Zoomed capture highlight retains its unscaled root hit area",
+        "Capture keeps HUD hidden and simulation paused until source acknowledgment"
+      ],
+      "errors": []
+    },
+    "browser-source-win-layers.json": {
+      "checks": [
+        "class_976: original movie and surviving live map share camera and half zoom",
+        "class_1066: original movie and surviving live map share camera and half zoom",
+        "class_1005: original movie and surviving live map share camera and half zoom",
+        "Viridian Forest intro initializes the live map at its original camera destination",
+        "PixelDissolve clears cells in the same transformed coordinates as the original movie"
+      ],
+      "errors": []
+    },
+    "source-profile-fidelity-report.json": {
+      "checks": [
+        "Dex remains gated until Challenge 3",
+        "four native Dex pages preserve forty rows, caught forms and hidden unknown names; Back returns to the main menu",
+        "achievement claims and unavailable rewards use original result frames and reward tags",
+        "source ptdicu gift is case-insensitive and repeatable; unrecognized codes use source error",
+        "pointer dragging preserves six fixed slots, displaces occupied members to storage and opens details on click",
+        "mobile name text scales exactly once with the original stage",
+        "new profile overlays the existing source profile screen at exactly 0.4 alpha and restores it on Cancel",
+        "profile Back returns to title and exposes Options > Local profiles / backups / import"
+      ],
+      "errors": []
+    },
+    "browser-native-text.json": {
+      "result": [
+        {
+          "label": "Damage",
+          "text": "23",
+          "expected": "23",
+          "pixels": 561,
+          "exactColorPixels": 341,
+          "format": null
+        },
+        {
+          "label": "Effective",
+          "text": "23",
+          "expected": "23",
+          "pixels": 561,
+          "exactColorPixels": 323,
+          "format": null
+        },
+        {
+          "label": "Heal",
+          "text": "+50",
+          "expected": "+50",
+          "pixels": 732,
+          "exactColorPixels": 435,
+          "format": null
+        },
+        {
+          "label": "XP",
+          "text": "+35xp",
+          "expected": "+35xp",
+          "pixels": 725,
+          "exactColorPixels": 356,
+          "format": {
+            "size": 30
+          }
+        },
+        {
+          "label": "Miss",
+          "text": "MISS",
+          "expected": "MISS",
+          "pixels": 809,
+          "exactColorPixels": 393,
+          "format": {
+            "size": 30
+          }
+        }
+      ],
+      "errors": []
+    },
+    "browser-source-save-options.json": {
+      "checks": [
+        "Original Options music and sound choices survive reload before profile creation",
+        "Source saving animation remains pending until the disk server acknowledges",
+        "Source save success acknowledges back to the original menu",
+        "Source save failure uses original Yes retry and recovers to success",
+        "Options local storage opens portable profile-bank export within the stage",
+        "Portable bank import can cancel without mutation and restores exported progress without starting a battle",
+        "Wiki transition waits for the source Save acknowledgment",
+        "Main-menu Back saves before returning to original profile selection"
+      ],
+      "errors": []
+    },
+    "browser-ui-polish.json": {
+      "checks": [
+        "Mouse hover has no synthetic yellow outline or tinted rectangle",
+        "Keyboard navigation retains a visible focus indicator",
+        "Pokemon summary preserves the Your Money label beside the numeric balance",
+        "Original Pokemon details and enabled/disabled menu options render",
+        "Deployed and undeployed cards retain source states and original Pokemon menu interaction",
+        "HUD stays aligned at mobile width"
+      ],
+      "samples": {
+        "menu": {
+          "bounds": [
+            -72,
+            -31.95,
+            72,
+            32
+          ],
+          "matrix": [
+            1.6395569,
+            0,
+            0,
+            1.3295288,
+            248,
+            64.95
+          ]
+        },
+        "party": [
+          {
+            "alpha": 1,
+            "bg": 2,
+            "bright": 498
+          },
+          {
+            "alpha": 1,
+            "bg": 1,
+            "bright": 214
+          },
+          {
+            "alpha": 0.5,
+            "bg": 1,
+            "bright": 0
+          },
+          {
+            "alpha": 0.5,
+            "bg": 1,
+            "bright": 0
+          },
+          {
+            "alpha": 0.5,
+            "bg": 1,
+            "bright": 0
+          },
+          {
+            "alpha": 0.5,
+            "bg": 1,
+            "bright": 0
+          }
+        ]
+      },
+      "errors": []
+    },
+    "browser-source-gradients.json": {
+      "checks": [
+        "Story Mode: source gradient pads with its dark endpoint instead of turquoise",
+        "Back: source gradient pads with its dark endpoint instead of turquoise",
+        "Save: source gradient pads with its dark endpoint instead of turquoise",
+        "Release: source gradient pads with its dark endpoint instead of turquoise",
+        "Back: source gradient pads with its dark endpoint instead of turquoise",
+        "Use Item: source gradient pads with its dark endpoint instead of turquoise"
+      ],
+      "errors": []
+    },
+    "story-canvas-all-stops-report.json": {
+      "done": 584,
+      "rendered": 2142,
+      "errors": []
+    },
+    "browser-selfdestruct-cleanup.json": {
+      "checks": [
+        "Selfdestruct: source animation and damage complete, original actor stays detached, sprite pixels clear, challenge slot clears and storage/campaign survive",
+        "Explosion: source animation and damage complete, original actor stays detached, sprite pixels clear, challenge slot clears and storage/campaign survive"
+      ],
+      "errors": []
+    }
+  },
+  "originalCanvas": {
+    "done": 584,
+    "rendered": 2142,
+    "errors": []
+  },
+  "limitations": "Targeted source behavior and integration checks, not exhaustive verification of every possible battle strategy, RNG outcome or effect combination. Former external services are local replacements."
+}

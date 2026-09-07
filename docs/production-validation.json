@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "Production inspection global absent",
+    "Original title, profile, chapters, party selection, intro and automatic Ready/Go",
+    "Natural starter-only Oak victory, XP and source chapter return with no modern controls",
+    "Route 1 playable, browser reload retains stage 2 unlock and stage 3 lock",
+    "Version-1 migration preserves old key and fixed slots, atomic Python disk save verified",
+    "No external requests"
+  ],
+  "errors": [],
+  "remote": [],
+  "profileVersion": 2,
+  "diskRevision": 11
+}

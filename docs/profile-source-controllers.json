@@ -1,0 +1,150 @@
+{
+  "popups_Evolve": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popups_Evolve.as",
+    "graphics": [
+      "focus_Evolve"
+    ],
+    "methods": [
+      "popups_Evolve",
+      "init",
+      "method_70",
+      "run",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "SoundTransform",
+      "evolveDoneMusic",
+      "evolveMusic",
+      "focus_Evolve"
+    ]
+  },
+  "popups_Items": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popups_Items.as",
+    "graphics": [
+      "popup_item"
+    ],
+    "methods": [
+      "popups_Items",
+      "init",
+      "setupDisplay",
+      "isItemCompatibleWithPokemon",
+      "triggerEvolutionPopup",
+      "mouse_Down",
+      "get_Graphic"
+    ],
+    "constructors": [
+      "popup_item",
+      "popups_Evolve"
+    ]
+  },
+  "popups_Learned_New_Move": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popups_Learned_New_Move.as",
+    "graphics": [
+      "focus_New_Move"
+    ],
+    "methods": [
+      "popups_Learned_New_Move",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "focus_New_Move"
+    ]
+  },
+  "popups_Relearn": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popups_Relearn.as",
+    "graphics": [
+      "popup_relearn"
+    ],
+    "methods": [
+      "popups_Relearn",
+      "init",
+      "set_Moves",
+      "change_Move",
+      "relearn_Move",
+      "mouse_Down",
+      "get_Graphic"
+    ],
+    "constructors": [
+      "popup_relearn"
+    ]
+  },
+  "popups_Release_Poke": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popups_Release_Poke.as",
+    "graphics": [
+      "popup_Release_Poke"
+    ],
+    "methods": [
+      "popups_Release_Poke",
+      "mouse_Down",
+      "method_195",
+      "get_Graphic"
+    ],
+    "constructors": [
+      "popup_Release_Poke"
+    ]
+  },
+  "popups_Replace_Move": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popups_Replace_Move.as",
+    "graphics": [
+      "focus_Replace_Move"
+    ],
+    "methods": [
+      "popups_Replace_Move",
+      "init",
+      "mouse_Down",
+      "method_27",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "focus_Replace_Move"
+    ]
+  },
+  "popups_TM": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popups_TM.as",
+    "graphics": [
+      "popup_tm"
+    ],
+    "methods": [
+      "popups_TM",
+      "init",
+      "set_Moves",
+      "change_Move",
+      "relearn_Move",
+      "mouse_Down",
+      "get_Graphic"
+    ],
+    "constructors": [
+      "popup_tm"
+    ]
+  },
+  "popups_Trying_New_Move": {
+    "parent": "popup",
+    "source": "game-source/scripts/code/popups_Trying_New_Move.as",
+    "graphics": [
+      "focus_Trying_New_Move"
+    ],
+    "methods": [
+      "popups_Trying_New_Move",
+      "init",
+      "mouse_Down",
+      "get_Graphic",
+      "remove_Me"
+    ],
+    "constructors": [
+      "focus_Trying_New_Move"
+    ]
+  }
+}

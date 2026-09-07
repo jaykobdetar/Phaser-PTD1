@@ -1,0 +1,15 @@
+# Original profile screens
+
+The port uses the recovered Flash graphics and source screen flow for profile selection, party selection, Pokémon details, PokéMart, Pokédex, achievements, and Mystery Gift. Full screens replace the battle on the original black 800 × 480 stage. Item, TM, relearn, release and name dialogs preserve their source parent screen; evolution and move-learning sequences use their original full-screen timelines.
+
+Source references are the recovered `screen_Profile`, `class_981`, `class_982`, `screen_Party_Select`, `screen_Poke_Check`, `screen_Achievement`, `screen_MysteryGift` and `popups_*` controllers.
+
+- Selecting a chapter stage opens its party screen first. Start constructs that stage; details, items, TMs, learning and Back retain the selected stage. Challenges 4 and 5 retain their challenge return destination.
+- Party selection has six fixed positions and 21 storage cards per page. A click opens details. A drag begins after more than 40 source pixels of movement, with the original 70-pixel touch offset. Dropping on an occupied party position sends that member to storage; dropping outside the party vacates the dragged member's exact position. Storage reordering follows the recovered controller's numeric `pokeList` indexing and first matching card rectangle.
+- New profiles start with zero money and the original Oak starter sequence. The chosen starter begins in storage, leaving all six party positions empty. The name field defaults to Satoshi and uses the original white, centered 30-pixel text. Name and replacement-confirmation popups dim the profile screen to 0.4 alpha.
+- Pokémon training, item consumption, evolution cancellation, move replacement, release and TM/relearn charges follow the source controller sequence. Move replacement supports repeated swaps until Done. Releasing the last Pokémon is allowed and preserves six empty party slots.
+- The Pokédex unlocks after Challenge 3 and shows four pages of 40 source rows. Unknown names stay hidden; the normal, shiny and shadow caught indicators remain separate. The last page hides entries beyond number 151.
+- Achievement responses use the original reward and unavailable-reward frames. Reward Pokémon retain the original extra tags. The approved local achievement service supplies the rewards and counters without the retired server.
+- The original `ptdicu` code is repeatable, with the source normalization and exact MissingNo species, level, moves and extra tag. Invalid codes use the source error frame. Daily and weekly offers use the approved offline gift service through the original screen controls.
+
+The regression tests are `tests/original-profile-ui.test.js`, `tests/party-slots.test.js` and `tests/profile-features.test.js`. The browser verification script `work/browser-source-profile-fidelity.mjs` in the conversion workspace exercises real pointer gestures, native Dex and reward frames, gift redemption, and the dimmed parent's rendered pixel values with isolated fixture profiles.

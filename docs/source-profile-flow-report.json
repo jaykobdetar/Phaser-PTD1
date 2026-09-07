@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "selected stage survives native profile/TM/trying/replacement/Back",
+    "source item consumes stone and cancellation preserves species",
+    "native release returns to pending party selection; Start constructs selected stage",
+    "native new-profile name popup and cancel"
+  ],
+  "errors": []
+}

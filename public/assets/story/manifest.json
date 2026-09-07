@@ -1,0 +1,6430 @@
+{
+  "source": "Native Canvas2D vector/bitmap/timeline commands exported from supplied SWF; no Flash player or runtime eval.",
+  "fps": 21,
+  "symbols": {
+    "movie_scene_Online_2_intro": {
+      "id": 1078,
+      "module": "assets/story/modules/symbol-1078.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Online_2_win": {
+      "id": 1082,
+      "module": "assets/story/modules/symbol-1082.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Online_Attack_Intro_1": {
+      "id": 1088,
+      "module": "assets/story/modules/symbol-1088.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Online_Intro_1": {
+      "id": 1092,
+      "module": "assets/story/modules/symbol-1092.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Online_Win_1": {
+      "id": 1097,
+      "module": "assets/story/modules/symbol-1097.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Intro_1": {
+      "id": 3223,
+      "module": "assets/story/modules/symbol-3223.js",
+      "frames": 20,
+      "bounds": [
+        171.65,
+        122.05,
+        627.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Intro_2": {
+      "id": 3228,
+      "module": "assets/story/modules/symbol-3228.js",
+      "frames": 20,
+      "bounds": [
+        171.65,
+        122.05,
+        627.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Intro_3": {
+      "id": 3234,
+      "module": "assets/story/modules/symbol-3234.js",
+      "frames": 20,
+      "bounds": [
+        171.65,
+        122.05,
+        627.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Intro_4": {
+      "id": 3239,
+      "module": "assets/story/modules/symbol-3239.js",
+      "frames": 20,
+      "bounds": [
+        171.65,
+        122.05,
+        627.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Intro_5": {
+      "id": 3243,
+      "module": "assets/story/modules/symbol-3243.js",
+      "frames": 20,
+      "bounds": [
+        171.65,
+        122.05,
+        627.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Intro_6": {
+      "id": 3249,
+      "module": "assets/story/modules/symbol-3249.js",
+      "frames": 20,
+      "bounds": [
+        171.65,
+        122.05,
+        627.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Win_1": {
+      "id": 3255,
+      "module": "assets/story/modules/symbol-3255.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Win_2": {
+      "id": 3260,
+      "module": "assets/story/modules/symbol-3260.js",
+      "frames": 20,
+      "bounds": [
+        171.65,
+        122.05,
+        627.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Win_3": {
+      "id": 3264,
+      "module": "assets/story/modules/symbol-3264.js",
+      "frames": 20,
+      "bounds": [
+        171.65,
+        122.05,
+        627.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Win_4": {
+      "id": 3268,
+      "module": "assets/story/modules/symbol-3268.js",
+      "frames": 20,
+      "bounds": [
+        171.65,
+        122.05,
+        627.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Win_5": {
+      "id": 3272,
+      "module": "assets/story/modules/symbol-3272.js",
+      "frames": 20,
+      "bounds": [
+        171.65,
+        122.05,
+        627.25,
+        304.0
+      ]
+    },
+    "movie_scene_Challenge_Win_6": {
+      "id": 3278,
+      "module": "assets/story/modules/symbol-3278.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Intro_2": {
+      "id": 3377,
+      "module": "assets/story/modules/symbol-3377.js",
+      "frames": 274,
+      "bounds": [
+        -381.2,
+        -116.1,
+        1001.2,
+        1312.0
+      ]
+    },
+    "movie_scene_Intro_3": {
+      "id": 3452,
+      "module": "assets/story/modules/symbol-3452.js",
+      "frames": 601,
+      "bounds": [
+        -770.95,
+        -1336.25,
+        1425.05,
+        595.75
+      ]
+    },
+    "movie_scene_Intro_4": {
+      "id": 3521,
+      "module": "assets/story/modules/symbol-3521.js",
+      "frames": 309,
+      "bounds": [
+        -137.25,
+        -118.55,
+        1232.3,
+        648.6
+      ]
+    },
+    "movie_scene_Intro_5": {
+      "id": 3588,
+      "module": "assets/story/modules/symbol-3588.js",
+      "frames": 106,
+      "bounds": [
+        -5.5,
+        -242.65,
+        854.3,
+        480.0
+      ]
+    },
+    "movie_scene_Intro_6": {
+      "id": 3667,
+      "module": "assets/story/modules/symbol-3667.js",
+      "frames": 348,
+      "bounds": [
+        -224.55,
+        -52.5,
+        1058.75,
+        592.65
+      ]
+    },
+    "movie_scene_Level_12_2_Intro": {
+      "id": 3672,
+      "module": "assets/story/modules/symbol-3672.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_3_2_Intro": {
+      "id": 3678,
+      "module": "assets/story/modules/symbol-3678.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_3_Intro": {
+      "id": 3682,
+      "module": "assets/story/modules/symbol-3682.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_3_Lost": {
+      "id": 3686,
+      "module": "assets/story/modules/symbol-3686.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_4_2_Intro": {
+      "id": 3691,
+      "module": "assets/story/modules/symbol-3691.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_4_Intro": {
+      "id": 3695,
+      "module": "assets/story/modules/symbol-3695.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_4_Lost": {
+      "id": 3699,
+      "module": "assets/story/modules/symbol-3699.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_5_2_Intro": {
+      "id": 3703,
+      "module": "assets/story/modules/symbol-3703.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_5_Intro": {
+      "id": 3707,
+      "module": "assets/story/modules/symbol-3707.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_5_Lost": {
+      "id": 3711,
+      "module": "assets/story/modules/symbol-3711.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_6_2_Intro": {
+      "id": 3716,
+      "module": "assets/story/modules/symbol-3716.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_6_Intro": {
+      "id": 3720,
+      "module": "assets/story/modules/symbol-3720.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_6_Lost": {
+      "id": 3724,
+      "module": "assets/story/modules/symbol-3724.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_Lost": {
+      "id": 3728,
+      "module": "assets/story/modules/symbol-3728.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_12_Win": {
+      "id": 3733,
+      "module": "assets/story/modules/symbol-3733.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_15_Win": {
+      "id": 3739,
+      "module": "assets/story/modules/symbol-3739.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_16_Win": {
+      "id": 3743,
+      "module": "assets/story/modules/symbol-3743.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_18_Win": {
+      "id": 3750,
+      "module": "assets/story/modules/symbol-3750.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_20_Win": {
+      "id": 3756,
+      "module": "assets/story/modules/symbol-3756.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_21_Win": {
+      "id": 3763,
+      "module": "assets/story/modules/symbol-3763.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_22_Win": {
+      "id": 3767,
+      "module": "assets/story/modules/symbol-3767.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_23_Win": {
+      "id": 3771,
+      "module": "assets/story/modules/symbol-3771.js",
+      "frames": 20,
+      "bounds": [
+        170.6,
+        122.05,
+        627.3,
+        304.0
+      ]
+    },
+    "movie_scene_Level_24_Win": {
+      "id": 3775,
+      "module": "assets/story/modules/symbol-3775.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_25_Win": {
+      "id": 3782,
+      "module": "assets/story/modules/symbol-3782.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_26_Win": {
+      "id": 3783,
+      "module": "assets/story/modules/symbol-3783.js",
+      "frames": 20,
+      "bounds": [
+        170.6,
+        122.05,
+        627.3,
+        304.0
+      ]
+    },
+    "movie_scene_Level_27_Win": {
+      "id": 3784,
+      "module": "assets/story/modules/symbol-3784.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_28_Win": {
+      "id": 3791,
+      "module": "assets/story/modules/symbol-3791.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.2,
+        304.0
+      ]
+    },
+    "movie_scene_Level_29_Win": {
+      "id": 3795,
+      "module": "assets/story/modules/symbol-3795.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_2_Youngster": {
+      "id": 3797,
+      "module": "assets/story/modules/symbol-3797.js",
+      "frames": 173,
+      "bounds": [
+        21.85,
+        -88.1,
+        856.55,
+        468.45
+      ]
+    },
+    "movie_scene_Level_30_Win": {
+      "id": 3801,
+      "module": "assets/story/modules/symbol-3801.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_31_Win": {
+      "id": 3808,
+      "module": "assets/story/modules/symbol-3808.js",
+      "frames": 20,
+      "bounds": [
+        171.7,
+        122.05,
+        626.2,
+        304.0
+      ]
+    },
+    "movie_scene_Level_32_Win": {
+      "id": 3809,
+      "module": "assets/story/modules/symbol-3809.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_33_Win": {
+      "id": 3810,
+      "module": "assets/story/modules/symbol-3810.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_34_Win": {
+      "id": 3811,
+      "module": "assets/story/modules/symbol-3811.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_35_Win": {
+      "id": 3812,
+      "module": "assets/story/modules/symbol-3812.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_36_Win": {
+      "id": 3829,
+      "module": "assets/story/modules/symbol-3829.js",
+      "frames": 7,
+      "bounds": [
+        -365.05,
+        -650.0,
+        1830.95,
+        1282.0
+      ]
+    },
+    "movie_scene_Level_37_Win": {
+      "id": 3830,
+      "module": "assets/story/modules/symbol-3830.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_38_Win": {
+      "id": 3831,
+      "module": "assets/story/modules/symbol-3831.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_39_Win": {
+      "id": 3832,
+      "module": "assets/story/modules/symbol-3832.js",
+      "frames": 20,
+      "bounds": [
+        171.7,
+        122.05,
+        626.2,
+        304.0
+      ]
+    },
+    "movie_scene_Level_3_Youngster": {
+      "id": 3833,
+      "module": "assets/story/modules/symbol-3833.js",
+      "frames": 1,
+      "bounds": [
+        370.1,
+        58.35,
+        422.35,
+        124.35
+      ]
+    },
+    "movie_scene_Level_40_2_Intro": {
+      "id": 3834,
+      "module": "assets/story/modules/symbol-3834.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_40_3_Intro": {
+      "id": 3835,
+      "module": "assets/story/modules/symbol-3835.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_40_4_Intro": {
+      "id": 3836,
+      "module": "assets/story/modules/symbol-3836.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.2,
+        304.0
+      ]
+    },
+    "movie_scene_Level_40_Win": {
+      "id": 3837,
+      "module": "assets/story/modules/symbol-3837.js",
+      "frames": 20,
+      "bounds": [
+        169.6,
+        122.05,
+        626.3,
+        304.0
+      ]
+    },
+    "movie_scene_Level_41_Win": {
+      "id": 4189,
+      "module": "assets/story/modules/symbol-4189.js",
+      "frames": 3834,
+      "bounds": [
+        -17.15,
+        -171.0,
+        868.55,
+        789.0
+      ]
+    },
+    "movie_scene_Level_42_Intro": {
+      "id": 4193,
+      "module": "assets/story/modules/symbol-4193.js",
+      "frames": 20,
+      "bounds": [
+        171.7,
+        122.05,
+        626.2,
+        304.0
+      ]
+    },
+    "movie_scene_Level_42_Win": {
+      "id": 4194,
+      "module": "assets/story/modules/symbol-4194.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Level_5_brock": {
+      "id": 4202,
+      "module": "assets/story/modules/symbol-4202.js",
+      "frames": 34,
+      "bounds": [
+        14.95,
+        -112.8,
+        810.4,
+        468.45
+      ]
+    },
+    "movie_scene_Win_11": {
+      "id": 4209,
+      "module": "assets/story/modules/symbol-4209.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Win_13": {
+      "id": 4215,
+      "module": "assets/story/modules/symbol-4215.js",
+      "frames": 20,
+      "bounds": [
+        170.7,
+        122.05,
+        625.2,
+        304.0
+      ]
+    },
+    "movie_scene_Win_3": {
+      "id": 4262,
+      "module": "assets/story/modules/symbol-4262.js",
+      "frames": 88,
+      "bounds": [
+        2.8,
+        -81.75,
+        866.65,
+        468.45
+      ]
+    },
+    "movie_scene_Win_4": {
+      "id": 4266,
+      "module": "assets/story/modules/symbol-4266.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.2,
+        304.0
+      ]
+    },
+    "movie_scene_Win_5": {
+      "id": 4270,
+      "module": "assets/story/modules/symbol-4270.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.2,
+        304.0
+      ]
+    },
+    "movie_scene_Win_6": {
+      "id": 4274,
+      "module": "assets/story/modules/symbol-4274.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_Win_8": {
+      "id": 4278,
+      "module": "assets/story/modules/symbol-4278.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.2,
+        304.0
+      ]
+    },
+    "movie_scene_Win_9": {
+      "id": 4283,
+      "module": "assets/story/modules/symbol-4283.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "movie_scene_ending_19": {
+      "id": 4293,
+      "module": "assets/story/modules/symbol-4293.js",
+      "frames": 3,
+      "bounds": [
+        -308.55,
+        -105.3,
+        3147.45,
+        848.7
+      ]
+    },
+    "movie_scene_intro_10": {
+      "id": 4404,
+      "module": "assets/story/modules/symbol-4404.js",
+      "frames": 205,
+      "bounds": [
+        -296.65,
+        -183.05,
+        1122.2,
+        1104.0
+      ]
+    },
+    "movie_scene_intro_11": {
+      "id": 4458,
+      "module": "assets/story/modules/symbol-4458.js",
+      "frames": 67,
+      "bounds": [
+        -111.85,
+        -141.1,
+        883.0,
+        719.5
+      ]
+    },
+    "movie_scene_intro_12": {
+      "id": 4540,
+      "module": "assets/story/modules/symbol-4540.js",
+      "frames": 175,
+      "bounds": [
+        -144.45,
+        -650.1,
+        915.35,
+        707.35
+      ]
+    },
+    "movie_scene_intro_13": {
+      "id": 4563,
+      "module": "assets/story/modules/symbol-4563.js",
+      "frames": 50,
+      "bounds": [
+        2.8,
+        -71.15,
+        884.05,
+        1009.8
+      ]
+    },
+    "movie_scene_intro_14": {
+      "id": 4602,
+      "module": "assets/story/modules/symbol-4602.js",
+      "frames": 211,
+      "bounds": [
+        -1131.7,
+        -287.65,
+        1567.8,
+        1914.9
+      ]
+    },
+    "movie_scene_intro_15": {
+      "id": 4777,
+      "module": "assets/story/modules/symbol-4777.js",
+      "frames": 218,
+      "bounds": [
+        -10.05,
+        -203.95,
+        1111.95,
+        816.0
+      ]
+    },
+    "movie_scene_intro_16": {
+      "id": 4833,
+      "module": "assets/story/modules/symbol-4833.js",
+      "frames": 73,
+      "bounds": [
+        -7.95,
+        -94.0,
+        1577.05,
+        1289.0
+      ]
+    },
+    "movie_scene_intro_17": {
+      "id": 4851,
+      "module": "assets/story/modules/symbol-4851.js",
+      "frames": 93,
+      "bounds": [
+        -48.0,
+        -289.05,
+        1131.95,
+        542.15
+      ]
+    },
+    "movie_scene_intro_17_exit": {
+      "id": 4856,
+      "module": "assets/story/modules/symbol-4856.js",
+      "frames": 2,
+      "bounds": [
+        -23.05,
+        -289.05,
+        845.1,
+        518.9
+      ]
+    },
+    "movie_scene_intro_17_space_1": {
+      "id": 4920,
+      "module": "assets/story/modules/symbol-4920.js",
+      "frames": 148,
+      "bounds": [
+        -71.65,
+        -289.05,
+        872.0,
+        518.9
+      ]
+    },
+    "movie_scene_intro_17_space_10": {
+      "id": 4937,
+      "module": "assets/story/modules/symbol-4937.js",
+      "frames": 93,
+      "bounds": [
+        -22.05,
+        -289.05,
+        890.2,
+        576.45
+      ]
+    },
+    "movie_scene_intro_17_space_2": {
+      "id": 4963,
+      "module": "assets/story/modules/symbol-4963.js",
+      "frames": 124,
+      "bounds": [
+        -106.7,
+        -289.05,
+        854.35,
+        518.9
+      ]
+    },
+    "movie_scene_intro_17_space_3": {
+      "id": 4977,
+      "module": "assets/story/modules/symbol-4977.js",
+      "frames": 139,
+      "bounds": [
+        -57.05,
+        -289.05,
+        883.25,
+        616.45
+      ]
+    },
+    "movie_scene_intro_17_space_4": {
+      "id": 4991,
+      "module": "assets/story/modules/symbol-4991.js",
+      "frames": 93,
+      "bounds": [
+        -23.05,
+        -289.05,
+        845.35,
+        612.4
+      ]
+    },
+    "movie_scene_intro_17_space_5": {
+      "id": 5004,
+      "module": "assets/story/modules/symbol-5004.js",
+      "frames": 15,
+      "bounds": [
+        -23.05,
+        -289.05,
+        845.1,
+        518.9
+      ]
+    },
+    "movie_scene_intro_17_space_5_beat": {
+      "id": 5013,
+      "module": "assets/story/modules/symbol-5013.js",
+      "frames": 88,
+      "bounds": [
+        -93.4,
+        -289.05,
+        811.1,
+        518.9
+      ]
+    },
+    "movie_scene_intro_17_space_6": {
+      "id": 5030,
+      "module": "assets/story/modules/symbol-5030.js",
+      "frames": 190,
+      "bounds": [
+        -110.55,
+        -289.05,
+        883.25,
+        616.45
+      ]
+    },
+    "movie_scene_intro_17_space_7": {
+      "id": 5043,
+      "module": "assets/story/modules/symbol-5043.js",
+      "frames": 15,
+      "bounds": [
+        -23.05,
+        -289.05,
+        845.1,
+        519.05
+      ]
+    },
+    "movie_scene_intro_17_space_7_beat": {
+      "id": 5055,
+      "module": "assets/story/modules/symbol-5055.js",
+      "frames": 123,
+      "bounds": [
+        -93.4,
+        -289.05,
+        811.1,
+        610.45
+      ]
+    },
+    "movie_scene_intro_17_space_8": {
+      "id": 5067,
+      "module": "assets/story/modules/symbol-5067.js",
+      "frames": 93,
+      "bounds": [
+        -75.6,
+        -291.05,
+        857.75,
+        575.45
+      ]
+    },
+    "movie_scene_intro_17_space_9": {
+      "id": 5077,
+      "module": "assets/story/modules/symbol-5077.js",
+      "frames": 100,
+      "bounds": [
+        -70.6,
+        -289.05,
+        890.2,
+        518.9
+      ]
+    },
+    "movie_scene_intro_17_space_9_beat": {
+      "id": 5091,
+      "module": "assets/story/modules/symbol-5091.js",
+      "frames": 101,
+      "bounds": [
+        -55.6,
+        -289.05,
+        845.1,
+        518.9
+      ]
+    },
+    "movie_scene_intro_18": {
+      "id": 5137,
+      "module": "assets/story/modules/symbol-5137.js",
+      "frames": 459,
+      "bounds": [
+        -329.0,
+        -1570.9,
+        1128.0,
+        2117.9
+      ]
+    },
+    "movie_scene_intro_19": {
+      "id": 5145,
+      "module": "assets/story/modules/symbol-5145.js",
+      "frames": 30,
+      "bounds": [
+        -2635.0,
+        -373.45,
+        912.7,
+        580.55
+      ]
+    },
+    "movie_scene_intro_20": {
+      "id": 5191,
+      "module": "assets/story/modules/symbol-5191.js",
+      "frames": 109,
+      "bounds": [
+        -2043.95,
+        -1336.05,
+        2701.8,
+        1527.95
+      ]
+    },
+    "movie_scene_intro_21": {
+      "id": 5251,
+      "module": "assets/story/modules/symbol-5251.js",
+      "frames": 165,
+      "bounds": [
+        -1637.45,
+        -1200.5,
+        2032.45,
+        1351.35
+      ]
+    },
+    "movie_scene_intro_22": {
+      "id": 5267,
+      "module": "assets/story/modules/symbol-5267.js",
+      "frames": 62,
+      "bounds": [
+        -325.0,
+        -1570.9,
+        1060.95,
+        893.0
+      ]
+    },
+    "movie_scene_intro_23": {
+      "id": 5296,
+      "module": "assets/story/modules/symbol-5296.js",
+      "frames": 73,
+      "bounds": [
+        -58.05,
+        -595.65,
+        866.95,
+        821.3
+      ]
+    },
+    "movie_scene_intro_24": {
+      "id": 5307,
+      "module": "assets/story/modules/symbol-5307.js",
+      "frames": 38,
+      "bounds": [
+        -54.05,
+        -108.7,
+        866.95,
+        821.3
+      ]
+    },
+    "movie_scene_intro_25": {
+      "id": 5371,
+      "module": "assets/story/modules/symbol-5371.js",
+      "frames": 173,
+      "bounds": [
+        -2286.8,
+        -1723.0,
+        1491.0,
+        1493.0
+      ]
+    },
+    "movie_scene_intro_26": {
+      "id": 5381,
+      "module": "assets/story/modules/symbol-5381.js",
+      "frames": 5,
+      "bounds": [
+        -1677.0,
+        -1723.0,
+        1491.0,
+        911.0
+      ]
+    },
+    "movie_scene_intro_27": {
+      "id": 5408,
+      "module": "assets/story/modules/symbol-5408.js",
+      "frames": 13,
+      "bounds": [
+        -1191.05,
+        -1375.1,
+        2631.0,
+        1258.9
+      ]
+    },
+    "movie_scene_intro_28": {
+      "id": 5447,
+      "module": "assets/story/modules/symbol-5447.js",
+      "frames": 55,
+      "bounds": [
+        -1504.0,
+        -770.3,
+        865.0,
+        1353.7
+      ]
+    },
+    "movie_scene_intro_29": {
+      "id": 5483,
+      "module": "assets/story/modules/symbol-5483.js",
+      "frames": 74,
+      "bounds": [
+        -804.0,
+        -595.05,
+        1500.0,
+        1985.55
+      ]
+    },
+    "movie_scene_intro_30": {
+      "id": 5524,
+      "module": "assets/story/modules/symbol-5524.js",
+      "frames": 311,
+      "bounds": [
+        -180.65,
+        -876.45,
+        2195.0,
+        1247.55
+      ]
+    },
+    "movie_scene_intro_31": {
+      "id": 5575,
+      "module": "assets/story/modules/symbol-5575.js",
+      "frames": 126,
+      "bounds": [
+        -159.0,
+        -502.0,
+        1152.0,
+        923.0
+      ]
+    },
+    "movie_scene_intro_32": {
+      "id": 5595,
+      "module": "assets/story/modules/symbol-5595.js",
+      "frames": 99,
+      "bounds": [
+        -2516.0,
+        -474.1,
+        3873.85,
+        827.4
+      ]
+    },
+    "movie_scene_intro_33": {
+      "id": 5610,
+      "module": "assets/story/modules/symbol-5610.js",
+      "frames": 50,
+      "bounds": [
+        -1314.0,
+        -168.65,
+        1147.9,
+        788.35
+      ]
+    },
+    "movie_scene_intro_34": {
+      "id": 5627,
+      "module": "assets/story/modules/symbol-5627.js",
+      "frames": 14,
+      "bounds": [
+        -273.0,
+        -472.0,
+        1872.0,
+        778.35
+      ]
+    },
+    "movie_scene_intro_35": {
+      "id": 5693,
+      "module": "assets/story/modules/symbol-5693.js",
+      "frames": 228,
+      "bounds": [
+        -1333.95,
+        -1339.4,
+        1529.05,
+        1653.6
+      ]
+    },
+    "movie_scene_intro_36": {
+      "id": 5704,
+      "module": "assets/story/modules/symbol-5704.js",
+      "frames": 19,
+      "bounds": [
+        -365.05,
+        -650.0,
+        1830.95,
+        1282.0
+      ]
+    },
+    "movie_scene_intro_37": {
+      "id": 5724,
+      "module": "assets/story/modules/symbol-5724.js",
+      "frames": 206,
+      "bounds": [
+        -72.0,
+        -333.0,
+        1080.0,
+        555.0
+      ]
+    },
+    "movie_scene_intro_38": {
+      "id": 5742,
+      "module": "assets/story/modules/symbol-5742.js",
+      "frames": 164,
+      "bounds": [
+        -2466.0,
+        -316.1,
+        1413.0,
+        640.9
+      ]
+    },
+    "movie_scene_intro_39": {
+      "id": 5762,
+      "module": "assets/story/modules/symbol-5762.js",
+      "frames": 114,
+      "bounds": [
+        -36.0,
+        -141.7,
+        855.05,
+        595.7
+      ]
+    },
+    "movie_scene_intro_40": {
+      "id": 5778,
+      "module": "assets/story/modules/symbol-5778.js",
+      "frames": 64,
+      "bounds": [
+        -164.0,
+        -177.0,
+        988.0,
+        795.0
+      ]
+    },
+    "movie_scene_intro_41": {
+      "id": 5786,
+      "module": "assets/story/modules/symbol-5786.js",
+      "frames": 62,
+      "bounds": [
+        2.8,
+        -171.0,
+        867.4,
+        789.0
+      ]
+    },
+    "movie_scene_intro_7": {
+      "id": 5844,
+      "module": "assets/story/modules/symbol-5844.js",
+      "frames": 231,
+      "bounds": [
+        -104.05,
+        -118.55,
+        1232.3,
+        741.1
+      ]
+    },
+    "movie_scene_intro_8": {
+      "id": 5892,
+      "module": "assets/story/modules/symbol-5892.js",
+      "frames": 60,
+      "bounds": [
+        -106.5,
+        -8.5,
+        979.45,
+        771.4
+      ]
+    },
+    "movie_scene_intro_9": {
+      "id": 5931,
+      "module": "assets/story/modules/symbol-5931.js",
+      "frames": 92,
+      "bounds": [
+        -111.65,
+        -91.0,
+        891.85,
+        1104.0
+      ]
+    },
+    "movie_scene_tutorial_1": {
+      "id": 5986,
+      "module": "assets/story/modules/symbol-5986.js",
+      "frames": 131,
+      "bounds": [
+        25.5,
+        -6.05,
+        843.05,
+        669.45
+      ]
+    },
+    "movie_scene_win_1": {
+      "id": 6008,
+      "module": "assets/story/modules/symbol-6008.js",
+      "frames": 202,
+      "bounds": [
+        -129.1,
+        -60.0,
+        712.2,
+        419.45
+      ]
+    },
+    "movie_scene_win_10": {
+      "id": 6032,
+      "module": "assets/story/modules/symbol-6032.js",
+      "frames": 167,
+      "bounds": [
+        -76.6,
+        -464.05,
+        883.0,
+        719.5
+      ]
+    },
+    "movie_scene_win_14": {
+      "id": 6046,
+      "module": "assets/story/modules/symbol-6046.js",
+      "frames": 99,
+      "bounds": [
+        -177.0,
+        -150.0,
+        888.0,
+        618.0
+      ]
+    },
+    "movie_scene_win_2": {
+      "id": 6084,
+      "module": "assets/story/modules/symbol-6084.js",
+      "frames": 36,
+      "bounds": [
+        -152.75,
+        -177.25,
+        929.2,
+        1006.7
+      ]
+    },
+    "movie_scene_win_7": {
+      "id": 6115,
+      "module": "assets/story/modules/symbol-6115.js",
+      "frames": 103,
+      "bounds": [
+        -104.05,
+        -118.55,
+        1232.3,
+        648.6
+      ]
+    },
+    "gfx_screen_challenge_level_select": {
+      "id": 11102,
+      "module": "assets/story/modules/symbol-11102.js",
+      "frames": 1,
+      "bounds": [
+        51.2,
+        31.2,
+        793.7,
+        464.95
+      ]
+    },
+    "gfx_screen_inventory": {
+      "id": 11114,
+      "module": "assets/story/modules/symbol-11114.js",
+      "frames": 1,
+      "bounds": [
+        7.95,
+        6.2,
+        887.8,
+        464.95
+      ]
+    },
+    "gfx_screen_level_select": {
+      "id": 11165,
+      "module": "assets/story/modules/symbol-11165.js",
+      "frames": 1,
+      "bounds": [
+        65.3,
+        31.2,
+        793.7,
+        464.95
+      ]
+    },
+    "gfx_screen_level_select_chapter_1": {
+      "id": 11181,
+      "module": "assets/story/modules/symbol-11181.js",
+      "frames": 1,
+      "bounds": [
+        25.95,
+        31.2,
+        793.7,
+        464.95
+      ]
+    },
+    "gfx_screen_level_select_chapter_2": {
+      "id": 11211,
+      "module": "assets/story/modules/symbol-11211.js",
+      "frames": 1,
+      "bounds": [
+        180.1,
+        31.2,
+        793.7,
+        464.95
+      ]
+    },
+    "gfx_screen_level_select_chapter_3": {
+      "id": 11228,
+      "module": "assets/story/modules/symbol-11228.js",
+      "frames": 1,
+      "bounds": [
+        100.8,
+        31.2,
+        793.7,
+        464.95
+      ]
+    },
+    "gfx_screen_level_select_chapter_4": {
+      "id": 11245,
+      "module": "assets/story/modules/symbol-11245.js",
+      "frames": 1,
+      "bounds": [
+        25.35,
+        31.2,
+        793.7,
+        464.95
+      ]
+    },
+    "gfx_screen_level_select_chapter_5": {
+      "id": 11263,
+      "module": "assets/story/modules/symbol-11263.js",
+      "frames": 1,
+      "bounds": [
+        23.2,
+        31.2,
+        793.7,
+        464.95
+      ]
+    },
+    "gfx_screen_level_select_chapter_6": {
+      "id": 11285,
+      "module": "assets/story/modules/symbol-11285.js",
+      "frames": 1,
+      "bounds": [
+        21.35,
+        31.2,
+        793.7,
+        464.95
+      ]
+    },
+    "gfx_screen_level_select_chapter_7": {
+      "id": 11309,
+      "module": "assets/story/modules/symbol-11309.js",
+      "frames": 1,
+      "bounds": [
+        31.4,
+        31.2,
+        793.7,
+        464.95
+      ]
+    },
+    "gfx_screen_level_select_chapter_8": {
+      "id": 11339,
+      "module": "assets/story/modules/symbol-11339.js",
+      "frames": 1,
+      "bounds": [
+        31.05,
+        31.2,
+        793.7,
+        464.95
+      ]
+    },
+    "gfx_screen_main": {
+      "id": 11453,
+      "module": "assets/story/modules/symbol-11453.js",
+      "frames": 1,
+      "bounds": [
+        -376.4,
+        -189.05,
+        1015.75,
+        579.05
+      ]
+    },
+    "gfx_screen_multiplayer": {
+      "id": 11468,
+      "module": "assets/story/modules/symbol-11468.js",
+      "frames": 7,
+      "bounds": [
+        -8.55,
+        12.2,
+        871.05,
+        474.0
+      ]
+    },
+    "gfx_screen_mystery_gift": {
+      "id": 11535,
+      "module": "assets/story/modules/symbol-11535.js",
+      "frames": 10,
+      "bounds": [
+        -2.05,
+        18.2,
+        839.3,
+        474.0
+      ]
+    },
+    "gfx_screen_options": {
+      "id": 11550,
+      "module": "assets/story/modules/symbol-11550.js",
+      "frames": 1,
+      "bounds": [
+        7.5,
+        61.0,
+        793.7,
+        474.0
+      ]
+    },
+    "gfx_screen_party_select_v2": {
+      "id": 11576,
+      "module": "assets/story/modules/symbol-11576.js",
+      "frames": 1,
+      "bounds": [
+        0.0,
+        6.1,
+        817.15,
+        488.9
+      ]
+    },
+    "gfx_screen_poke_check": {
+      "id": 11624,
+      "module": "assets/story/modules/symbol-11624.js",
+      "frames": 1,
+      "bounds": [
+        -27.3,
+        5.15,
+        833.65,
+        648.65
+      ]
+    },
+    "gfx_screen_poke_check_big": {
+      "id": 11654,
+      "module": "assets/story/modules/symbol-11654.js",
+      "frames": 1,
+      "bounds": [
+        16.3,
+        0.0,
+        800.0,
+        475.85
+      ]
+    },
+    "gfx_screen_pokedex": {
+      "id": 11739,
+      "module": "assets/story/modules/symbol-11739.js",
+      "frames": 37,
+      "bounds": [
+        -55.05,
+        2.05,
+        908.15,
+        473.9
+      ]
+    },
+    "gfx_screen_pokemart": {
+      "id": 11772,
+      "module": "assets/story/modules/symbol-11772.js",
+      "frames": 8,
+      "bounds": [
+        9.9,
+        12.2,
+        868.8,
+        465.0
+      ]
+    },
+    "gfx_screen_profile": {
+      "id": 11886,
+      "module": "assets/story/modules/symbol-11886.js",
+      "frames": 1,
+      "bounds": [
+        13.95,
+        5.2,
+        794.75,
+        482.85
+      ]
+    },
+    "gfx_screen_profile_page": {
+      "id": 11916,
+      "module": "assets/story/modules/symbol-11916.js",
+      "frames": 14,
+      "bounds": [
+        13.8,
+        17.15,
+        878.3,
+        480.85
+      ]
+    },
+    "gfx_screen_start": {
+      "id": 11932,
+      "module": "assets/story/modules/symbol-11932.js",
+      "frames": 1,
+      "bounds": [
+        -55.5,
+        22.45,
+        793.95,
+        480.85
+      ]
+    },
+    "gfx_screen_wiki_link": {
+      "id": 11940,
+      "module": "assets/story/modules/symbol-11940.js",
+      "frames": 1,
+      "bounds": [
+        7.95,
+        2.2,
+        867.4,
+        464.95
+      ]
+    },
+    "popup_item": {
+      "id": 14486,
+      "module": "assets/story/modules/symbol-14486.js",
+      "frames": 5,
+      "bounds": [
+        283.85,
+        42.35,
+        806.0,
+        391.6
+      ]
+    },
+    "popup_relearn": {
+      "id": 14495,
+      "module": "assets/story/modules/symbol-14495.js",
+      "frames": 5,
+      "bounds": [
+        7.95,
+        38.35,
+        874.3,
+        444.6
+      ]
+    },
+    "popup_tm": {
+      "id": 14500,
+      "module": "assets/story/modules/symbol-14500.js",
+      "frames": 5,
+      "bounds": [
+        7.95,
+        38.35,
+        874.3,
+        444.6
+      ]
+    },
+    "popup_Achievement": {
+      "id": 14515,
+      "module": "assets/story/modules/symbol-14515.js",
+      "frames": 10,
+      "bounds": [
+        170.7,
+        96.05,
+        626.25,
+        330.0
+      ]
+    },
+    "popup_Choose_Name": {
+      "id": 14522,
+      "module": "assets/story/modules/symbol-14522.js",
+      "frames": 20,
+      "bounds": [
+        170.7,
+        96.05,
+        626.25,
+        330.0
+      ]
+    },
+    "popup_Exit_Level": {
+      "id": 14528,
+      "module": "assets/story/modules/symbol-14528.js",
+      "frames": 10,
+      "bounds": [
+        170.7,
+        96.05,
+        626.25,
+        330.0
+      ]
+    },
+    "popup_How_To_Play": {
+      "id": 14552,
+      "module": "assets/story/modules/symbol-14552.js",
+      "frames": 5,
+      "bounds": [
+        1.45,
+        93.65,
+        847.8,
+        234.6
+      ]
+    },
+    "popup_How_To_Select_Party": {
+      "id": 14558,
+      "module": "assets/story/modules/symbol-14558.js",
+      "frames": 1,
+      "bounds": [
+        11.45,
+        160.0,
+        857.8,
+        475.55
+      ]
+    },
+    "popup_Lost": {
+      "id": 14565,
+      "module": "assets/story/modules/symbol-14565.js",
+      "frames": 20,
+      "bounds": [
+        170.7,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_10": {
+      "id": 14571,
+      "module": "assets/story/modules/symbol-14571.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_11": {
+      "id": 14575,
+      "module": "assets/story/modules/symbol-14575.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_13": {
+      "id": 14582,
+      "module": "assets/story/modules/symbol-14582.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_14": {
+      "id": 14588,
+      "module": "assets/story/modules/symbol-14588.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_15": {
+      "id": 14594,
+      "module": "assets/story/modules/symbol-14594.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_16": {
+      "id": 14600,
+      "module": "assets/story/modules/symbol-14600.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_17": {
+      "id": 14677,
+      "module": "assets/story/modules/symbol-14677.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_18": {
+      "id": 14684,
+      "module": "assets/story/modules/symbol-14684.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_2": {
+      "id": 14690,
+      "module": "assets/story/modules/symbol-14690.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_20": {
+      "id": 14697,
+      "module": "assets/story/modules/symbol-14697.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_22": {
+      "id": 14707,
+      "module": "assets/story/modules/symbol-14707.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_23": {
+      "id": 14713,
+      "module": "assets/story/modules/symbol-14713.js",
+      "frames": 20,
+      "bounds": [
+        170.7,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_25": {
+      "id": 14720,
+      "module": "assets/story/modules/symbol-14720.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_26": {
+      "id": 14726,
+      "module": "assets/story/modules/symbol-14726.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_28": {
+      "id": 14733,
+      "module": "assets/story/modules/symbol-14733.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_3": {
+      "id": 14737,
+      "module": "assets/story/modules/symbol-14737.js",
+      "frames": 20,
+      "bounds": [
+        171.7,
+        122.05,
+        626.2,
+        304.0
+      ]
+    },
+    "popup_Lost_30": {
+      "id": 14744,
+      "module": "assets/story/modules/symbol-14744.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_32": {
+      "id": 14748,
+      "module": "assets/story/modules/symbol-14748.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_33": {
+      "id": 14755,
+      "module": "assets/story/modules/symbol-14755.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_35": {
+      "id": 14759,
+      "module": "assets/story/modules/symbol-14759.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_4": {
+      "id": 14763,
+      "module": "assets/story/modules/symbol-14763.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_40": {
+      "id": 14770,
+      "module": "assets/story/modules/symbol-14770.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_40_2": {
+      "id": 14777,
+      "module": "assets/story/modules/symbol-14777.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_40_3": {
+      "id": 14784,
+      "module": "assets/story/modules/symbol-14784.js",
+      "frames": 20,
+      "bounds": [
+        170.7,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_40_4": {
+      "id": 14791,
+      "module": "assets/story/modules/symbol-14791.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_41": {
+      "id": 14798,
+      "module": "assets/story/modules/symbol-14798.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_5": {
+      "id": 14802,
+      "module": "assets/story/modules/symbol-14802.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_8": {
+      "id": 14808,
+      "module": "assets/story/modules/symbol-14808.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_9": {
+      "id": 14814,
+      "module": "assets/story/modules/symbol-14814.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_CL_3": {
+      "id": 14819,
+      "module": "assets/story/modules/symbol-14819.js",
+      "frames": 20,
+      "bounds": [
+        170.6,
+        122.05,
+        627.3,
+        304.0
+      ]
+    },
+    "popup_Lost_challenge_2": {
+      "id": 14825,
+      "module": "assets/story/modules/symbol-14825.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_challenge_4": {
+      "id": 14830,
+      "module": "assets/story/modules/symbol-14830.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Lost_challenge_5": {
+      "id": 14834,
+      "module": "assets/story/modules/symbol-14834.js",
+      "frames": 20,
+      "bounds": [
+        170.7,
+        122.05,
+        626.25,
+        304.0
+      ]
+    },
+    "popup_Menu_gfx": {
+      "id": 14850,
+      "module": "assets/story/modules/symbol-14850.js",
+      "frames": 1,
+      "bounds": [
+        133.95,
+        70.0,
+        684.9,
+        379.95
+      ]
+    },
+    "popup_Profile_Delete": {
+      "id": 14855,
+      "module": "assets/story/modules/symbol-14855.js",
+      "frames": 20,
+      "bounds": [
+        170.7,
+        96.05,
+        626.25,
+        330.0
+      ]
+    },
+    "popup_Release_Poke": {
+      "id": 14860,
+      "module": "assets/story/modules/symbol-14860.js",
+      "frames": 10,
+      "bounds": [
+        170.7,
+        96.05,
+        626.25,
+        330.0
+      ]
+    },
+    "popup_Save": {
+      "id": 14869,
+      "module": "assets/story/modules/symbol-14869.js",
+      "frames": 10,
+      "bounds": [
+        170.7,
+        96.05,
+        626.25,
+        330.0
+      ]
+    },
+    "focus_New_Move": {
+      "id": 9631,
+      "module": "assets/story/modules/symbol-9631.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        96.05,
+        626.25,
+        330.0
+      ]
+    },
+    "focus_Trying_New_Move": {
+      "id": 10929,
+      "module": "assets/story/modules/symbol-10929.js",
+      "frames": 20,
+      "bounds": [
+        196.0,
+        96.05,
+        601.95,
+        330.0
+      ]
+    },
+    "focus_Evolve": {
+      "id": 9626,
+      "module": "assets/story/modules/symbol-9626.js",
+      "frames": 20,
+      "bounds": [
+        170.7,
+        118.65,
+        626.25,
+        304.0
+      ]
+    },
+    "gfx_level_1": {
+      "id": 19,
+      "module": "assets/story/modules/symbol-19.js",
+      "frames": 1,
+      "bounds": [
+        -28.0,
+        0.0,
+        627.0,
+        264.0
+      ]
+    },
+    "focus_Replace_Move": {
+      "id": 10921,
+      "module": "assets/story/modules/symbol-10921.js",
+      "frames": 20,
+      "bounds": [
+        64.0,
+        38.35,
+        742.15,
+        387.6
+      ]
+    },
+    "aqua_tail": {
+      "id": 1110,
+      "module": "assets/story/modules/symbol-1110.js",
+      "frames": 17,
+      "bounds": [
+        -29.25,
+        -22.0,
+        28.5,
+        23.75
+      ]
+    },
+    "attack_component_explosion": {
+      "id": 1119,
+      "module": "assets/story/modules/symbol-1119.js",
+      "frames": 7,
+      "bounds": [
+        -86.6,
+        -83.1,
+        97.55,
+        81.05
+      ]
+    },
+    "confused": {
+      "id": 1122,
+      "module": "assets/story/modules/symbol-1122.js",
+      "frames": 15,
+      "bounds": [
+        -25.5,
+        -14.6,
+        24.75,
+        4.25
+      ]
+    },
+    "do_Aqua_Ring_repeat": {
+      "id": 1125,
+      "module": "assets/story/modules/symbol-1125.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -40.7,
+        61.0,
+        39.55
+      ]
+    },
+    "do_Astonish_Repeat": {
+      "id": 1128,
+      "module": "assets/story/modules/symbol-1128.js",
+      "frames": 9,
+      "bounds": [
+        -75.35,
+        -70.15,
+        73.3,
+        76.45
+      ]
+    },
+    "do_Confusion": {
+      "id": 1131,
+      "module": "assets/story/modules/symbol-1131.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -62.0,
+        61.0,
+        61.0
+      ]
+    },
+    "do_Decrease_Accuracy": {
+      "id": 1137,
+      "module": "assets/story/modules/symbol-1137.js",
+      "frames": 19,
+      "bounds": [
+        -26.05,
+        -48.5,
+        36.3,
+        23.05
+      ]
+    },
+    "do_Decrease_Attack": {
+      "id": 1143,
+      "module": "assets/story/modules/symbol-1143.js",
+      "frames": 19,
+      "bounds": [
+        -19.55,
+        -41.1,
+        20.5,
+        17.35
+      ]
+    },
+    "do_Decrease_Crit": {
+      "id": 1149,
+      "module": "assets/story/modules/symbol-1149.js",
+      "frames": 19,
+      "bounds": [
+        -33.45,
+        -41.1,
+        20.5,
+        17.35
+      ]
+    },
+    "do_Decrease_Defense": {
+      "id": 1152,
+      "module": "assets/story/modules/symbol-1152.js",
+      "frames": 19,
+      "bounds": [
+        -19.55,
+        -41.1,
+        22.15,
+        17.35
+      ]
+    },
+    "do_Decrease_Evasiveness": {
+      "id": 1158,
+      "module": "assets/story/modules/symbol-1158.js",
+      "frames": 19,
+      "bounds": [
+        -19.55,
+        -41.1,
+        36.0,
+        17.35
+      ]
+    },
+    "do_Decrease_Sp_Defense": {
+      "id": 1164,
+      "module": "assets/story/modules/symbol-1164.js",
+      "frames": 19,
+      "bounds": [
+        -19.55,
+        -41.1,
+        22.15,
+        17.35
+      ]
+    },
+    "do_Disable": {
+      "id": 1167,
+      "module": "assets/story/modules/symbol-1167.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -62.0,
+        61.0,
+        61.0
+      ]
+    },
+    "do_Disable_Repeat": {
+      "id": 1168,
+      "module": "assets/story/modules/symbol-1168.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -62.0,
+        61.0,
+        61.0
+      ]
+    },
+    "do_Glare": {
+      "id": 1171,
+      "module": "assets/story/modules/symbol-1171.js",
+      "frames": 11,
+      "bounds": [
+        -37.5,
+        -19.15,
+        47.95,
+        12.75
+      ]
+    },
+    "do_Growl": {
+      "id": 1176,
+      "module": "assets/story/modules/symbol-1176.js",
+      "frames": 9,
+      "bounds": [
+        -99.45,
+        -79.0,
+        98.55,
+        78.0
+      ]
+    },
+    "do_Hypnosis": {
+      "id": 1179,
+      "module": "assets/story/modules/symbol-1179.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -62.0,
+        61.0,
+        61.0
+      ]
+    },
+    "do_Increase_Accuracy": {
+      "id": 1183,
+      "module": "assets/story/modules/symbol-1183.js",
+      "frames": 19,
+      "bounds": [
+        -26.05,
+        -56.5,
+        26.6,
+        23.05
+      ]
+    },
+    "do_Increase_Attack": {
+      "id": 1187,
+      "module": "assets/story/modules/symbol-1187.js",
+      "frames": 19,
+      "bounds": [
+        -19.55,
+        -35.85,
+        20.3,
+        19.5
+      ]
+    },
+    "do_Increase_Crit": {
+      "id": 1191,
+      "module": "assets/story/modules/symbol-1191.js",
+      "frames": 19,
+      "bounds": [
+        -33.45,
+        -35.85,
+        20.3,
+        19.5
+      ]
+    },
+    "do_Increase_Defense": {
+      "id": 1194,
+      "module": "assets/story/modules/symbol-1194.js",
+      "frames": 19,
+      "bounds": [
+        -19.55,
+        -35.85,
+        22.15,
+        19.5
+      ]
+    },
+    "do_Increase_Evasiveness": {
+      "id": 1198,
+      "module": "assets/story/modules/symbol-1198.js",
+      "frames": 19,
+      "bounds": [
+        -19.55,
+        -35.85,
+        36.0,
+        19.5
+      ]
+    },
+    "do_Increase_Sp_Attack": {
+      "id": 1204,
+      "module": "assets/story/modules/symbol-1204.js",
+      "frames": 19,
+      "bounds": [
+        -19.55,
+        -35.85,
+        20.3,
+        19.5
+      ]
+    },
+    "do_Increase_Sp_Defense": {
+      "id": 1208,
+      "module": "assets/story/modules/symbol-1208.js",
+      "frames": 19,
+      "bounds": [
+        -19.55,
+        -35.85,
+        22.15,
+        19.5
+      ]
+    },
+    "do_Increase_Speed": {
+      "id": 1214,
+      "module": "assets/story/modules/symbol-1214.js",
+      "frames": 19,
+      "bounds": [
+        -20.15,
+        -35.85,
+        20.3,
+        19.5
+      ]
+    },
+    "do_Leech_Seed": {
+      "id": 1216,
+      "module": "assets/story/modules/symbol-1216.js",
+      "frames": 8,
+      "bounds": [
+        -9.15,
+        -9.05,
+        9.1,
+        9.1
+      ]
+    },
+    "do_Leer": {
+      "id": 1219,
+      "module": "assets/story/modules/symbol-1219.js",
+      "frames": 11,
+      "bounds": [
+        -34.75,
+        -19.0,
+        45.25,
+        12.0
+      ]
+    },
+    "do_Light_Screen": {
+      "id": 1221,
+      "module": "assets/story/modules/symbol-1221.js",
+      "frames": 1,
+      "bounds": [
+        -23.45,
+        -30.75,
+        26.5,
+        33.5
+      ]
+    },
+    "do_Poison_Sting": {
+      "id": 1223,
+      "module": "assets/story/modules/symbol-1223.js",
+      "frames": 1,
+      "bounds": [
+        -11.2,
+        -6.75,
+        11.25,
+        6.75
+      ]
+    },
+    "do_Razor_Leaf": {
+      "id": 1226,
+      "module": "assets/story/modules/symbol-1226.js",
+      "frames": 4,
+      "bounds": [
+        -17.05,
+        -17.25,
+        19.8,
+        17.25
+      ]
+    },
+    "do_Reflect": {
+      "id": 1228,
+      "module": "assets/story/modules/symbol-1228.js",
+      "frames": 1,
+      "bounds": [
+        -23.45,
+        -30.75,
+        26.5,
+        33.5
+      ]
+    },
+    "do_Reflect_Type": {
+      "id": 1231,
+      "module": "assets/story/modules/symbol-1231.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -40.7,
+        61.0,
+        38.55
+      ]
+    },
+    "do_Reflect_Type_repeat": {
+      "id": 1232,
+      "module": "assets/story/modules/symbol-1232.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -40.7,
+        61.0,
+        38.55
+      ]
+    },
+    "do_Roar": {
+      "id": 1235,
+      "module": "assets/story/modules/symbol-1235.js",
+      "frames": 9,
+      "bounds": [
+        -75.35,
+        -70.15,
+        73.3,
+        76.45
+      ]
+    },
+    "do_Scary_Face": {
+      "id": 1238,
+      "module": "assets/story/modules/symbol-1238.js",
+      "frames": 11,
+      "bounds": [
+        -36.25,
+        -44.0,
+        46.25,
+        34.0
+      ]
+    },
+    "do_Screech": {
+      "id": 1239,
+      "module": "assets/story/modules/symbol-1239.js",
+      "frames": 9,
+      "bounds": [
+        -75.35,
+        -70.15,
+        73.3,
+        76.45
+      ]
+    },
+    "do_Sing": {
+      "id": 1246,
+      "module": "assets/story/modules/symbol-1246.js",
+      "frames": 9,
+      "bounds": [
+        -70.5,
+        -68.8,
+        61.0,
+        61.0
+      ]
+    },
+    "do_Snore": {
+      "id": 1249,
+      "module": "assets/story/modules/symbol-1249.js",
+      "frames": 9,
+      "bounds": [
+        -75.35,
+        -70.15,
+        73.3,
+        76.45
+      ]
+    },
+    "do_Sting": {
+      "id": 1251,
+      "module": "assets/story/modules/symbol-1251.js",
+      "frames": 1,
+      "bounds": [
+        -11.2,
+        -6.75,
+        11.25,
+        6.75
+      ]
+    },
+    "do_Sting_ice": {
+      "id": 1253,
+      "module": "assets/story/modules/symbol-1253.js",
+      "frames": 1,
+      "bounds": [
+        -11.2,
+        -6.75,
+        11.25,
+        6.75
+      ]
+    },
+    "do_Supersonic": {
+      "id": 1256,
+      "module": "assets/story/modules/symbol-1256.js",
+      "frames": 9,
+      "bounds": [
+        -56.25,
+        -55.7,
+        54.2,
+        54.75
+      ]
+    },
+    "do_Sweet_Scent": {
+      "id": 1259,
+      "module": "assets/story/modules/symbol-1259.js",
+      "frames": 9,
+      "bounds": [
+        -56.15,
+        -58.1,
+        56.15,
+        58.1
+      ]
+    },
+    "do_Thunderwave": {
+      "id": 1264,
+      "module": "assets/story/modules/symbol-1264.js",
+      "frames": 9,
+      "bounds": [
+        -78.25,
+        -62.0,
+        63.65,
+        71.45
+      ]
+    },
+    "do_Twineedle": {
+      "id": 1266,
+      "module": "assets/story/modules/symbol-1266.js",
+      "frames": 1,
+      "bounds": [
+        -16.35,
+        -9.6,
+        16.35,
+        9.65
+      ]
+    },
+    "do_Worry_Seed": {
+      "id": 1268,
+      "module": "assets/story/modules/symbol-1268.js",
+      "frames": 8,
+      "bounds": [
+        -9.15,
+        -55.7,
+        9.15,
+        9.6
+      ]
+    },
+    "do_ability": {
+      "id": 1273,
+      "module": "assets/story/modules/symbol-1273.js",
+      "frames": 14,
+      "bounds": [
+        -180.95,
+        -37.75,
+        83.0,
+        9.95
+      ]
+    },
+    "do_absorb": {
+      "id": 1276,
+      "module": "assets/story/modules/symbol-1276.js",
+      "frames": 13,
+      "bounds": [
+        -39.6,
+        -57.05,
+        34.9,
+        14.6
+      ]
+    },
+    "do_acid_armor": {
+      "id": 1285,
+      "module": "assets/story/modules/symbol-1285.js",
+      "frames": 9,
+      "bounds": [
+        -44.25,
+        -34.3,
+        48.55,
+        26.25
+      ]
+    },
+    "do_acupressure": {
+      "id": 1292,
+      "module": "assets/story/modules/symbol-1292.js",
+      "frames": 16,
+      "bounds": [
+        -42.1,
+        -107.5,
+        59.8,
+        34.55
+      ]
+    },
+    "do_air_cutter": {
+      "id": 1295,
+      "module": "assets/story/modules/symbol-1295.js",
+      "frames": 4,
+      "bounds": [
+        -17.05,
+        -17.25,
+        19.8,
+        17.25
+      ]
+    },
+    "do_amnesia": {
+      "id": 1298,
+      "module": "assets/story/modules/symbol-1298.js",
+      "frames": 12,
+      "bounds": [
+        -41.8,
+        -39.0,
+        48.8,
+        11.95
+      ]
+    },
+    "do_aromatherapy": {
+      "id": 1301,
+      "module": "assets/story/modules/symbol-1301.js",
+      "frames": 16,
+      "bounds": [
+        -8.95,
+        -16.95,
+        826.0,
+        498.0
+      ]
+    },
+    "do_assurance": {
+      "id": 1304,
+      "module": "assets/story/modules/symbol-1304.js",
+      "frames": 7,
+      "bounds": [
+        -19.6,
+        -33.9,
+        23.5,
+        23.3
+      ]
+    },
+    "do_aura_sphere": {
+      "id": 1316,
+      "module": "assets/story/modules/symbol-1316.js",
+      "frames": 10,
+      "bounds": [
+        -31.5,
+        -42.4,
+        33.0,
+        24.0
+      ]
+    },
+    "do_aurora_beam": {
+      "id": 1333,
+      "module": "assets/story/modules/symbol-1333.js",
+      "frames": 14,
+      "bounds": [
+        -8.2,
+        -36.85,
+        219.2,
+        38.15
+      ]
+    },
+    "do_bait_throw": {
+      "id": 1336,
+      "module": "assets/story/modules/symbol-1336.js",
+      "frames": 4,
+      "bounds": [
+        -27.2,
+        -23.85,
+        27.1,
+        23.2
+      ]
+    },
+    "do_barrage": {
+      "id": 1338,
+      "module": "assets/story/modules/symbol-1338.js",
+      "frames": 1,
+      "bounds": [
+        -8.4,
+        -8.4,
+        8.4,
+        8.4
+      ]
+    },
+    "do_barrier": {
+      "id": 1339,
+      "module": "assets/story/modules/symbol-1339.js",
+      "frames": 13,
+      "bounds": [
+        -23.45,
+        -92.75,
+        26.5,
+        33.5
+      ]
+    },
+    "do_belly_drum": {
+      "id": 1342,
+      "module": "assets/story/modules/symbol-1342.js",
+      "frames": 14,
+      "bounds": [
+        -17.2,
+        -33.9,
+        40.95,
+        32.6
+      ]
+    },
+    "do_blizzard": {
+      "id": 1353,
+      "module": "assets/story/modules/symbol-1353.js",
+      "frames": 14,
+      "bounds": [
+        10.0,
+        -80.7,
+        204.0,
+        87.8
+      ]
+    },
+    "do_bone_club": {
+      "id": 1356,
+      "module": "assets/story/modules/symbol-1356.js",
+      "frames": 4,
+      "bounds": [
+        -27.75,
+        -24.15,
+        27.6,
+        24.15
+      ]
+    },
+    "do_bubblebeam": {
+      "id": 1359,
+      "module": "assets/story/modules/symbol-1359.js",
+      "frames": 6,
+      "bounds": [
+        -132.15,
+        -122.35,
+        117.8,
+        117.15
+      ]
+    },
+    "do_bug_buzz": {
+      "id": 1361,
+      "module": "assets/story/modules/symbol-1361.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -62.0,
+        61.0,
+        61.0
+      ]
+    },
+    "do_calm_mind": {
+      "id": 1362,
+      "module": "assets/story/modules/symbol-1362.js",
+      "frames": 9,
+      "bounds": [
+        -61.5,
+        -61.5,
+        61.5,
+        61.5
+      ]
+    },
+    "do_charge": {
+      "id": 1370,
+      "module": "assets/story/modules/symbol-1370.js",
+      "frames": 24,
+      "bounds": [
+        -51.35,
+        -39.75,
+        41.95,
+        32.7
+      ]
+    },
+    "do_clear_smog": {
+      "id": 1373,
+      "module": "assets/story/modules/symbol-1373.js",
+      "frames": 18,
+      "bounds": [
+        -62.85,
+        -52.9,
+        61.1,
+        57.4
+      ]
+    },
+    "do_coil": {
+      "id": 1376,
+      "module": "assets/story/modules/symbol-1376.js",
+      "frames": 9,
+      "bounds": [
+        -36.0,
+        -29.55,
+        38.35,
+        21.0
+      ]
+    },
+    "do_confuse_ray": {
+      "id": 1379,
+      "module": "assets/story/modules/symbol-1379.js",
+      "frames": 4,
+      "bounds": [
+        -12.75,
+        -12.75,
+        12.75,
+        12.75
+      ]
+    },
+    "do_conversion": {
+      "id": 1386,
+      "module": "assets/story/modules/symbol-1386.js",
+      "frames": 14,
+      "bounds": [
+        -32.25,
+        -33.25,
+        33.25,
+        32.25
+      ]
+    },
+    "do_cosmic_power": {
+      "id": 1391,
+      "module": "assets/story/modules/symbol-1391.js",
+      "frames": 6,
+      "bounds": [
+        -44.0,
+        -88.3,
+        54.75,
+        17.65
+      ]
+    },
+    "do_counter": {
+      "id": 1394,
+      "module": "assets/story/modules/symbol-1394.js",
+      "frames": 5,
+      "bounds": [
+        -12.15,
+        -29.25,
+        29.0,
+        7.3
+      ]
+    },
+    "do_crush_claw": {
+      "id": 1398,
+      "module": "assets/story/modules/symbol-1398.js",
+      "frames": 7,
+      "bounds": [
+        -50.85,
+        -136.85,
+        126.85,
+        50.85
+      ]
+    },
+    "do_damageText": {
+      "id": 1401,
+      "module": "assets/story/modules/symbol-1401.js",
+      "frames": 9,
+      "bounds": [
+        -56.5,
+        -65.0,
+        51.5,
+        10.75
+      ]
+    },
+    "do_defense_curl": {
+      "id": 1407,
+      "module": "assets/story/modules/symbol-1407.js",
+      "frames": 18,
+      "bounds": [
+        -28.55,
+        -28.55,
+        28.55,
+        28.55
+      ]
+    },
+    "do_detect": {
+      "id": 1410,
+      "module": "assets/story/modules/symbol-1410.js",
+      "frames": 5,
+      "bounds": [
+        -12.15,
+        -29.25,
+        29.0,
+        7.3
+      ]
+    },
+    "do_dig": {
+      "id": 1412,
+      "module": "assets/story/modules/symbol-1412.js",
+      "frames": 1,
+      "bounds": [
+        -21.0,
+        11.65,
+        26.0,
+        35.9
+      ]
+    },
+    "do_discharge": {
+      "id": 1416,
+      "module": "assets/story/modules/symbol-1416.js",
+      "frames": 9,
+      "bounds": [
+        -128.4,
+        -129.5,
+        129.2,
+        128.1
+      ]
+    },
+    "do_dive": {
+      "id": 1420,
+      "module": "assets/story/modules/symbol-1420.js",
+      "frames": 4,
+      "bounds": [
+        -33.35,
+        -103.7,
+        49.5,
+        28.3
+      ]
+    },
+    "do_dragon_dance": {
+      "id": 1427,
+      "module": "assets/story/modules/symbol-1427.js",
+      "frames": 9,
+      "bounds": [
+        -33.6,
+        -53.9,
+        44.8,
+        -4.25
+      ]
+    },
+    "do_dragon_pulse": {
+      "id": 1439,
+      "module": "assets/story/modules/symbol-1439.js",
+      "frames": 10,
+      "bounds": [
+        -31.5,
+        -42.4,
+        33.0,
+        24.0
+      ]
+    },
+    "do_dragonbreath": {
+      "id": 1450,
+      "module": "assets/story/modules/symbol-1450.js",
+      "frames": 14,
+      "bounds": [
+        6.5,
+        -31.85,
+        206.2,
+        33.15
+      ]
+    },
+    "do_drill_peck": {
+      "id": 1452,
+      "module": "assets/story/modules/symbol-1452.js",
+      "frames": 1,
+      "bounds": [
+        -11.75,
+        -8.2,
+        15.8,
+        8.2
+      ]
+    },
+    "do_drill_run": {
+      "id": 1454,
+      "module": "assets/story/modules/symbol-1454.js",
+      "frames": 1,
+      "bounds": [
+        -16.95,
+        -10.0,
+        16.95,
+        10.0
+      ]
+    },
+    "do_drop_candy": {
+      "id": 1463,
+      "module": "assets/story/modules/symbol-1463.js",
+      "frames": 19,
+      "bounds": [
+        -29.1,
+        -67.2,
+        26.3,
+        27.9
+      ]
+    },
+    "do_egg_bomb": {
+      "id": 1466,
+      "module": "assets/story/modules/symbol-1466.js",
+      "frames": 8,
+      "bounds": [
+        -20.35,
+        -20.05,
+        20.35,
+        19.9
+      ]
+    },
+    "do_eruption": {
+      "id": 1471,
+      "module": "assets/story/modules/symbol-1471.js",
+      "frames": 8,
+      "bounds": [
+        -21.05,
+        -21.05,
+        20.85,
+        20.0
+      ]
+    },
+    "do_fake_tears": {
+      "id": 1477,
+      "module": "assets/story/modules/symbol-1477.js",
+      "frames": 7,
+      "bounds": [
+        -48.85,
+        -22.8,
+        50.05,
+        17.8
+      ]
+    },
+    "do_featherdance": {
+      "id": 1480,
+      "module": "assets/story/modules/symbol-1480.js",
+      "frames": 8,
+      "bounds": [
+        -20.6,
+        -20.5,
+        18.75,
+        19.8
+      ]
+    },
+    "do_fire_blast": {
+      "id": 1491,
+      "module": "assets/story/modules/symbol-1491.js",
+      "frames": 10,
+      "bounds": [
+        -110.35,
+        -72.75,
+        91.75,
+        64.0
+      ]
+    },
+    "do_fissure": {
+      "id": 1499,
+      "module": "assets/story/modules/symbol-1499.js",
+      "frames": 11,
+      "bounds": [
+        -52.55,
+        -70.9,
+        52.75,
+        101.5
+      ]
+    },
+    "do_flame_burst": {
+      "id": 1504,
+      "module": "assets/story/modules/symbol-1504.js",
+      "frames": 6,
+      "bounds": [
+        -101.7,
+        -117.2,
+        118.25,
+        121.75
+      ]
+    },
+    "do_flame_wheel": {
+      "id": 1505,
+      "module": "assets/story/modules/symbol-1505.js",
+      "frames": 23,
+      "bounds": [
+        -34.65,
+        -46.1,
+        31.05,
+        30.4
+      ]
+    },
+    "do_flamethrower": {
+      "id": 1516,
+      "module": "assets/story/modules/symbol-1516.js",
+      "frames": 14,
+      "bounds": [
+        6.5,
+        -31.85,
+        206.2,
+        33.15
+      ]
+    },
+    "do_flash": {
+      "id": 1518,
+      "module": "assets/story/modules/symbol-1518.js",
+      "frames": 14,
+      "bounds": [
+        -8.9,
+        -16.9,
+        826.0,
+        498.0
+      ]
+    },
+    "do_flash_cannon": {
+      "id": 1529,
+      "module": "assets/story/modules/symbol-1529.js",
+      "frames": 14,
+      "bounds": [
+        6.5,
+        -31.85,
+        206.2,
+        33.15
+      ]
+    },
+    "do_flatter": {
+      "id": 1536,
+      "module": "assets/story/modules/symbol-1536.js",
+      "frames": 9,
+      "bounds": [
+        -26.15,
+        -37.25,
+        20.4,
+        21.15
+      ]
+    },
+    "do_fusion_bolt": {
+      "id": 1539,
+      "module": "assets/story/modules/symbol-1539.js",
+      "frames": 10,
+      "bounds": [
+        -34.1,
+        -41.7,
+        36.8,
+        29.2
+      ]
+    },
+    "do_fusion_flare": {
+      "id": 1542,
+      "module": "assets/story/modules/symbol-1542.js",
+      "frames": 10,
+      "bounds": [
+        -34.1,
+        -41.7,
+        36.8,
+        29.2
+      ]
+    },
+    "do_future_sight": {
+      "id": 1544,
+      "module": "assets/story/modules/symbol-1544.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -62.0,
+        61.0,
+        61.0
+      ]
+    },
+    "do_giga_drain": {
+      "id": 1547,
+      "module": "assets/story/modules/symbol-1547.js",
+      "frames": 13,
+      "bounds": [
+        -70.35,
+        -57.05,
+        34.9,
+        14.6
+      ]
+    },
+    "do_giga_impact": {
+      "id": 1550,
+      "module": "assets/story/modules/symbol-1550.js",
+      "frames": 4,
+      "bounds": [
+        -51.55,
+        -46.05,
+        47.25,
+        46.1
+      ]
+    },
+    "do_gravity": {
+      "id": 1553,
+      "module": "assets/story/modules/symbol-1553.js",
+      "frames": 11,
+      "bounds": [
+        -80.75,
+        -83.6,
+        80.8,
+        83.6
+      ]
+    },
+    "do_guillotine": {
+      "id": 1556,
+      "module": "assets/story/modules/symbol-1556.js",
+      "frames": 9,
+      "bounds": [
+        -95.7,
+        -79.65,
+        86.4,
+        82.7
+      ]
+    },
+    "do_gust": {
+      "id": 1563,
+      "module": "assets/story/modules/symbol-1563.js",
+      "frames": 7,
+      "bounds": [
+        -21.35,
+        -25.4,
+        21.8,
+        14.5
+      ]
+    },
+    "do_gyro_ball": {
+      "id": 1568,
+      "module": "assets/story/modules/symbol-1568.js",
+      "frames": 8,
+      "bounds": [
+        -34.55,
+        -34.55,
+        34.6,
+        34.6
+      ]
+    },
+    "do_hail": {
+      "id": 1575,
+      "module": "assets/story/modules/symbol-1575.js",
+      "frames": 16,
+      "bounds": [
+        -8.95,
+        -16.95,
+        826.0,
+        498.0
+      ]
+    },
+    "do_haze": {
+      "id": 1578,
+      "module": "assets/story/modules/symbol-1578.js",
+      "frames": 16,
+      "bounds": [
+        -8.95,
+        -16.95,
+        826.0,
+        498.0
+      ]
+    },
+    "do_heart_stamp": {
+      "id": 1581,
+      "module": "assets/story/modules/symbol-1581.js",
+      "frames": 10,
+      "bounds": [
+        -18.6,
+        -13.65,
+        21.3,
+        19.65
+      ]
+    },
+    "do_heat_wave": {
+      "id": 1587,
+      "module": "assets/story/modules/symbol-1587.js",
+      "frames": 12,
+      "bounds": [
+        -164.5,
+        -152.5,
+        175.0,
+        151.3
+      ]
+    },
+    "do_helping_hand": {
+      "id": 1592,
+      "module": "assets/story/modules/symbol-1592.js",
+      "frames": 11,
+      "bounds": [
+        -64.65,
+        -42.65,
+        72.55,
+        55.05
+      ]
+    },
+    "do_horn": {
+      "id": 1594,
+      "module": "assets/story/modules/symbol-1594.js",
+      "frames": 1,
+      "bounds": [
+        -11.2,
+        -6.75,
+        35.2,
+        6.75
+      ]
+    },
+    "do_horn_drill": {
+      "id": 1596,
+      "module": "assets/story/modules/symbol-1596.js",
+      "frames": 1,
+      "bounds": [
+        -16.95,
+        -10.0,
+        16.95,
+        10.0
+      ]
+    },
+    "do_hurricane": {
+      "id": 1601,
+      "module": "assets/story/modules/symbol-1601.js",
+      "frames": 7,
+      "bounds": [
+        -64.2,
+        -92.7,
+        65.2,
+        45.6
+      ]
+    },
+    "do_hyper_voice": {
+      "id": 1604,
+      "module": "assets/story/modules/symbol-1604.js",
+      "frames": 9,
+      "bounds": [
+        -126.0,
+        -126.0,
+        125.0,
+        125.0
+      ]
+    },
+    "do_icy_wind": {
+      "id": 1607,
+      "module": "assets/story/modules/symbol-1607.js",
+      "frames": 15,
+      "bounds": [
+        -154.35,
+        -137.65,
+        125.65,
+        142.65
+      ]
+    },
+    "do_ingrain": {
+      "id": 1612,
+      "module": "assets/story/modules/symbol-1612.js",
+      "frames": 9,
+      "bounds": [
+        -44.5,
+        -9.5,
+        41.0,
+        35.5
+      ]
+    },
+    "do_kinesis": {
+      "id": 1615,
+      "module": "assets/story/modules/symbol-1615.js",
+      "frames": 9,
+      "bounds": [
+        -18.25,
+        -47.35,
+        18.3,
+        36.0
+      ]
+    },
+    "do_knock_off": {
+      "id": 1620,
+      "module": "assets/story/modules/symbol-1620.js",
+      "frames": 7,
+      "bounds": [
+        -36.15,
+        -56.5,
+        40.75,
+        67.35
+      ]
+    },
+    "do_lava_plume": {
+      "id": 1625,
+      "module": "assets/story/modules/symbol-1625.js",
+      "frames": 15,
+      "bounds": [
+        -178.25,
+        -162.95,
+        158.45,
+        183.6
+      ]
+    },
+    "do_leaf_blade": {
+      "id": 1628,
+      "module": "assets/story/modules/symbol-1628.js",
+      "frames": 10,
+      "bounds": [
+        -74.75,
+        -86.85,
+        116.85,
+        77.0
+      ]
+    },
+    "do_leaf_tornado": {
+      "id": 1635,
+      "module": "assets/story/modules/symbol-1635.js",
+      "frames": 7,
+      "bounds": [
+        -32.1,
+        -46.35,
+        38.9,
+        22.8
+      ]
+    },
+    "do_lock_on": {
+      "id": 1638,
+      "module": "assets/story/modules/symbol-1638.js",
+      "frames": 9,
+      "bounds": [
+        -46.0,
+        -46.0,
+        45.05,
+        45.05
+      ]
+    },
+    "do_lovely_kiss": {
+      "id": 1643,
+      "module": "assets/story/modules/symbol-1643.js",
+      "frames": 10,
+      "bounds": [
+        -42.55,
+        -32.2,
+        38.4,
+        19.65
+      ]
+    },
+    "do_lucky_chant": {
+      "id": 1644,
+      "module": "assets/story/modules/symbol-1644.js",
+      "frames": 9,
+      "bounds": [
+        -70.5,
+        -68.8,
+        61.0,
+        61.0
+      ]
+    },
+    "do_magical_leaf": {
+      "id": 1647,
+      "module": "assets/story/modules/symbol-1647.js",
+      "frames": 4,
+      "bounds": [
+        -17.05,
+        -18.0,
+        19.8,
+        17.5
+      ]
+    },
+    "do_magnet_bomb": {
+      "id": 1649,
+      "module": "assets/story/modules/symbol-1649.js",
+      "frames": 1,
+      "bounds": [
+        -13.5,
+        -13.5,
+        13.5,
+        13.5
+      ]
+    },
+    "do_mega_drain": {
+      "id": 1650,
+      "module": "assets/story/modules/symbol-1650.js",
+      "frames": 13,
+      "bounds": [
+        -70.35,
+        -57.05,
+        34.9,
+        14.6
+      ]
+    },
+    "do_metal_sound": {
+      "id": 1653,
+      "module": "assets/story/modules/symbol-1653.js",
+      "frames": 9,
+      "bounds": [
+        -126.0,
+        -198.35,
+        173.0,
+        166.95
+      ]
+    },
+    "do_mind_reader": {
+      "id": 1656,
+      "module": "assets/story/modules/symbol-1656.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -62.0,
+        61.0,
+        61.0
+      ]
+    },
+    "do_mud_shot": {
+      "id": 1662,
+      "module": "assets/story/modules/symbol-1662.js",
+      "frames": 6,
+      "bounds": [
+        -165.7,
+        -173.85,
+        179.6,
+        154.7
+      ]
+    },
+    "do_mud_slap": {
+      "id": 1668,
+      "module": "assets/story/modules/symbol-1668.js",
+      "frames": 6,
+      "bounds": [
+        -133.5,
+        -119.6,
+        119.35,
+        107.35
+      ]
+    },
+    "do_mud_sport": {
+      "id": 1674,
+      "module": "assets/story/modules/symbol-1674.js",
+      "frames": 9,
+      "bounds": [
+        -37.1,
+        -36.2,
+        37.05,
+        18.75
+      ]
+    },
+    "do_muddy_water": {
+      "id": 1677,
+      "module": "assets/story/modules/symbol-1677.js",
+      "frames": 12,
+      "bounds": [
+        -246.0,
+        -218.4,
+        241.8,
+        216.9
+      ]
+    },
+    "do_nasty_plot": {
+      "id": 1680,
+      "module": "assets/story/modules/symbol-1680.js",
+      "frames": 12,
+      "bounds": [
+        -41.8,
+        -39.0,
+        48.8,
+        11.95
+      ]
+    },
+    "do_night_slash": {
+      "id": 1683,
+      "module": "assets/story/modules/symbol-1683.js",
+      "frames": 4,
+      "bounds": [
+        -17.85,
+        -17.35,
+        22.1,
+        17.4
+      ]
+    },
+    "do_pay_day": {
+      "id": 1686,
+      "module": "assets/story/modules/symbol-1686.js",
+      "frames": 4,
+      "bounds": [
+        -12.75,
+        -13.5,
+        12.75,
+        13.5
+      ]
+    },
+    "do_petal_dance": {
+      "id": 1691,
+      "module": "assets/story/modules/symbol-1691.js",
+      "frames": 4,
+      "bounds": [
+        -20.5,
+        -21.65,
+        15.85,
+        18.7
+      ]
+    },
+    "do_poison_gas": {
+      "id": 1697,
+      "module": "assets/story/modules/symbol-1697.js",
+      "frames": 11,
+      "bounds": [
+        -125.25,
+        -110.15,
+        131.1,
+        121.85
+      ]
+    },
+    "do_poison_powder": {
+      "id": 1703,
+      "module": "assets/story/modules/symbol-1703.js",
+      "frames": 6,
+      "bounds": [
+        -165.7,
+        -173.85,
+        179.6,
+        154.7
+      ]
+    },
+    "do_powder_snow": {
+      "id": 1709,
+      "module": "assets/story/modules/symbol-1709.js",
+      "frames": 6,
+      "bounds": [
+        -165.7,
+        -173.85,
+        179.6,
+        154.7
+      ]
+    },
+    "do_power_gem": {
+      "id": 1712,
+      "module": "assets/story/modules/symbol-1712.js",
+      "frames": 1,
+      "bounds": [
+        -15.65,
+        -6.95,
+        15.6,
+        6.95
+      ]
+    },
+    "do_power_whip": {
+      "id": 1717,
+      "module": "assets/story/modules/symbol-1717.js",
+      "frames": 10,
+      "bounds": [
+        -78.25,
+        -115.85,
+        133.6,
+        104.6
+      ]
+    },
+    "do_protect": {
+      "id": 1720,
+      "module": "assets/story/modules/symbol-1720.js",
+      "frames": 5,
+      "bounds": [
+        -28.55,
+        -28.55,
+        28.55,
+        28.55
+      ]
+    },
+    "do_psycho_cut": {
+      "id": 1723,
+      "module": "assets/story/modules/symbol-1723.js",
+      "frames": 4,
+      "bounds": [
+        -17.05,
+        -17.25,
+        19.8,
+        17.25
+      ]
+    },
+    "do_psyshock": {
+      "id": 1735,
+      "module": "assets/story/modules/symbol-1735.js",
+      "frames": 10,
+      "bounds": [
+        -31.5,
+        -42.4,
+        33.0,
+        24.0
+      ]
+    },
+    "do_psystrike": {
+      "id": 1737,
+      "module": "assets/story/modules/symbol-1737.js",
+      "frames": 9,
+      "bounds": [
+        -88.05,
+        -45.4,
+        87.05,
+        44.8
+      ]
+    },
+    "do_quiver_dance": {
+      "id": 1740,
+      "module": "assets/story/modules/symbol-1740.js",
+      "frames": 14,
+      "bounds": [
+        -44.35,
+        -40.35,
+        48.3,
+        44.35
+      ]
+    },
+    "do_rage_powder": {
+      "id": 1746,
+      "module": "assets/story/modules/symbol-1746.js",
+      "frames": 25,
+      "bounds": [
+        -165.7,
+        -173.85,
+        179.6,
+        154.7
+      ]
+    },
+    "do_rain_dance": {
+      "id": 1751,
+      "module": "assets/story/modules/symbol-1751.js",
+      "frames": 12,
+      "bounds": [
+        -58.5,
+        -33.05,
+        937.4,
+        735.4
+      ]
+    },
+    "do_razor_shell": {
+      "id": 1754,
+      "module": "assets/story/modules/symbol-1754.js",
+      "frames": 7,
+      "bounds": [
+        -100.1,
+        -81.6,
+        112.85,
+        44.6
+      ]
+    },
+    "do_razor_wind": {
+      "id": 1756,
+      "module": "assets/story/modules/symbol-1756.js",
+      "frames": 4,
+      "bounds": [
+        -22.85,
+        -22.35,
+        27.1,
+        22.4
+      ]
+    },
+    "do_rock_slide": {
+      "id": 1759,
+      "module": "assets/story/modules/symbol-1759.js",
+      "frames": 8,
+      "bounds": [
+        -13.35,
+        -13.35,
+        13.35,
+        13.4
+      ]
+    },
+    "do_rock_throw": {
+      "id": 1762,
+      "module": "assets/story/modules/symbol-1762.js",
+      "frames": 8,
+      "bounds": [
+        -13.35,
+        -13.65,
+        13.35,
+        13.1
+      ]
+    },
+    "do_rollout": {
+      "id": 1766,
+      "module": "assets/story/modules/symbol-1766.js",
+      "frames": 8,
+      "bounds": [
+        -34.55,
+        -34.55,
+        34.6,
+        34.6
+      ]
+    },
+    "do_safeguard": {
+      "id": 1769,
+      "module": "assets/story/modules/symbol-1769.js",
+      "frames": 5,
+      "bounds": [
+        -28.55,
+        -28.55,
+        28.55,
+        28.55
+      ]
+    },
+    "do_sand_attack": {
+      "id": 1775,
+      "module": "assets/story/modules/symbol-1775.js",
+      "frames": 6,
+      "bounds": [
+        -165.7,
+        -173.85,
+        179.6,
+        154.7
+      ]
+    },
+    "do_sandstorm": {
+      "id": 1782,
+      "module": "assets/story/modules/symbol-1782.js",
+      "frames": 16,
+      "bounds": [
+        -8.95,
+        -16.95,
+        826.0,
+        498.0
+      ]
+    },
+    "do_searing_shot": {
+      "id": 1785,
+      "module": "assets/story/modules/symbol-1785.js",
+      "frames": 15,
+      "bounds": [
+        -178.6,
+        -158.05,
+        152.5,
+        162.95
+      ]
+    },
+    "do_seed": {
+      "id": 1787,
+      "module": "assets/story/modules/symbol-1787.js",
+      "frames": 1,
+      "bounds": [
+        -8.4,
+        -8.4,
+        8.4,
+        8.4
+      ]
+    },
+    "do_selfdestruct": {
+      "id": 1788,
+      "module": "assets/story/modules/symbol-1788.js",
+      "frames": 14,
+      "bounds": [
+        -63.35,
+        -51.5,
+        63.4,
+        57.75
+      ]
+    },
+    "do_shadow_ball": {
+      "id": 1800,
+      "module": "assets/story/modules/symbol-1800.js",
+      "frames": 10,
+      "bounds": [
+        -31.5,
+        -42.4,
+        33.0,
+        24.0
+      ]
+    },
+    "do_sharpen": {
+      "id": 1805,
+      "module": "assets/story/modules/symbol-1805.js",
+      "frames": 17,
+      "bounds": [
+        -22.9,
+        -25.85,
+        22.9,
+        25.85
+      ]
+    },
+    "do_sheer_cold": {
+      "id": 1808,
+      "module": "assets/story/modules/symbol-1808.js",
+      "frames": 7,
+      "bounds": [
+        -113.15,
+        -94.55,
+        113.35,
+        102.4
+      ]
+    },
+    "do_shell_smash": {
+      "id": 1811,
+      "module": "assets/story/modules/symbol-1811.js",
+      "frames": 15,
+      "bounds": [
+        -147.85,
+        -46.2,
+        152.0,
+        46.2
+      ]
+    },
+    "do_signal_beam": {
+      "id": 1814,
+      "module": "assets/story/modules/symbol-1814.js",
+      "frames": 14,
+      "bounds": [
+        3.65,
+        -35.2,
+        215.6,
+        32.2
+      ]
+    },
+    "do_silver_wind": {
+      "id": 1817,
+      "module": "assets/story/modules/symbol-1817.js",
+      "frames": 1,
+      "bounds": [
+        -17.75,
+        -15.75,
+        7.8,
+        16.25
+      ]
+    },
+    "do_sleep_powder": {
+      "id": 1823,
+      "module": "assets/story/modules/symbol-1823.js",
+      "frames": 6,
+      "bounds": [
+        -165.7,
+        -173.85,
+        179.6,
+        154.7
+      ]
+    },
+    "do_slippery": {
+      "id": 1825,
+      "module": "assets/story/modules/symbol-1825.js",
+      "frames": 10,
+      "bounds": [
+        0.25,
+        -26.75,
+        193.6,
+        36.75
+      ]
+    },
+    "do_sludge_wave": {
+      "id": 1831,
+      "module": "assets/story/modules/symbol-1831.js",
+      "frames": 11,
+      "bounds": [
+        -125.25,
+        -110.15,
+        131.1,
+        121.85
+      ]
+    },
+    "do_smack_down": {
+      "id": 1832,
+      "module": "assets/story/modules/symbol-1832.js",
+      "frames": 8,
+      "bounds": [
+        -13.35,
+        -13.65,
+        13.35,
+        13.1
+      ]
+    },
+    "do_smokescreen": {
+      "id": 1835,
+      "module": "assets/story/modules/symbol-1835.js",
+      "frames": 18,
+      "bounds": [
+        -62.85,
+        -52.9,
+        61.1,
+        57.4
+      ]
+    },
+    "do_sonicboom": {
+      "id": 1838,
+      "module": "assets/story/modules/symbol-1838.js",
+      "frames": 4,
+      "bounds": [
+        -17.05,
+        -17.25,
+        19.8,
+        17.25
+      ]
+    },
+    "do_spikes": {
+      "id": 1841,
+      "module": "assets/story/modules/symbol-1841.js",
+      "frames": 8,
+      "bounds": [
+        -18.1,
+        -19.65,
+        19.55,
+        18.45
+      ]
+    },
+    "do_spikes_path": {
+      "id": 1842,
+      "module": "assets/story/modules/symbol-1842.js",
+      "frames": 1,
+      "bounds": [
+        -31.2,
+        -23.8,
+        39.7,
+        31.4
+      ]
+    },
+    "do_spore": {
+      "id": 1848,
+      "module": "assets/story/modules/symbol-1848.js",
+      "frames": 6,
+      "bounds": [
+        -165.7,
+        -173.85,
+        179.6,
+        154.7
+      ]
+    },
+    "do_stealth_rock_path": {
+      "id": 1849,
+      "module": "assets/story/modules/symbol-1849.js",
+      "frames": 1,
+      "bounds": [
+        -29.25,
+        -23.45,
+        33.1,
+        26.9
+      ]
+    },
+    "do_stored_power": {
+      "id": 1851,
+      "module": "assets/story/modules/symbol-1851.js",
+      "frames": 1,
+      "bounds": [
+        -9.75,
+        -9.55,
+        9.75,
+        9.95
+      ]
+    },
+    "do_stun_spore": {
+      "id": 1857,
+      "module": "assets/story/modules/symbol-1857.js",
+      "frames": 6,
+      "bounds": [
+        -165.7,
+        -173.85,
+        179.6,
+        154.7
+      ]
+    },
+    "do_substitute": {
+      "id": 1860,
+      "module": "assets/story/modules/symbol-1860.js",
+      "frames": 1,
+      "bounds": [
+        -22.25,
+        -22.25,
+        22.25,
+        22.25
+      ]
+    },
+    "do_sunny_day": {
+      "id": 1866,
+      "module": "assets/story/modules/symbol-1866.js",
+      "frames": 28,
+      "bounds": [
+        -94.25,
+        -97.55,
+        812.95,
+        501.95
+      ]
+    },
+    "do_surf": {
+      "id": 1869,
+      "module": "assets/story/modules/symbol-1869.js",
+      "frames": 20,
+      "bounds": [
+        -128.95,
+        -186.2,
+        128.95,
+        186.2
+      ]
+    },
+    "do_swift": {
+      "id": 1870,
+      "module": "assets/story/modules/symbol-1870.js",
+      "frames": 5,
+      "bounds": [
+        -9.45,
+        -9.5,
+        9.45,
+        9.4
+      ]
+    },
+    "do_swords_dance": {
+      "id": 1874,
+      "module": "assets/story/modules/symbol-1874.js",
+      "frames": 9,
+      "bounds": [
+        -24.7,
+        -48.4,
+        24.7,
+        29.35
+      ]
+    },
+    "do_synchronoise": {
+      "id": 1875,
+      "module": "assets/story/modules/symbol-1875.js",
+      "frames": 9,
+      "bounds": [
+        -273.95,
+        -273.95,
+        272.95,
+        272.95
+      ]
+    },
+    "do_tailwind": {
+      "id": 1882,
+      "module": "assets/story/modules/symbol-1882.js",
+      "frames": 7,
+      "bounds": [
+        -21.35,
+        -25.4,
+        21.8,
+        14.5
+      ]
+    },
+    "do_thunder": {
+      "id": 1893,
+      "module": "assets/story/modules/symbol-1893.js",
+      "frames": 11,
+      "bounds": [
+        -221.75,
+        -366.35,
+        225.85,
+        47.75
+      ]
+    },
+    "do_toxic_spikes": {
+      "id": 1896,
+      "module": "assets/story/modules/symbol-1896.js",
+      "frames": 8,
+      "bounds": [
+        -18.1,
+        -19.65,
+        19.55,
+        18.45
+      ]
+    },
+    "do_toxic_spikes_path": {
+      "id": 1898,
+      "module": "assets/story/modules/symbol-1898.js",
+      "frames": 1,
+      "bounds": [
+        -31.2,
+        -23.8,
+        39.7,
+        31.4
+      ]
+    },
+    "do_trump_card": {
+      "id": 1901,
+      "module": "assets/story/modules/symbol-1901.js",
+      "frames": 8,
+      "bounds": [
+        -27.5,
+        -27.5,
+        27.5,
+        27.5
+      ]
+    },
+    "do_twister": {
+      "id": 1600,
+      "module": "assets/story/modules/symbol-1600.js",
+      "frames": 7,
+      "bounds": [
+        -32.1,
+        -46.35,
+        32.6,
+        22.8
+      ]
+    },
+    "do_vine_whip": {
+      "id": 1907,
+      "module": "assets/story/modules/symbol-1907.js",
+      "frames": 11,
+      "bounds": [
+        -40.5,
+        13.25,
+        27.0,
+        76.5
+      ]
+    },
+    "do_wake_up_slap": {
+      "id": 1910,
+      "module": "assets/story/modules/symbol-1910.js",
+      "frames": 7,
+      "bounds": [
+        -69.3,
+        -32.5,
+        70.35,
+        37.4
+      ]
+    },
+    "do_water_pulse": {
+      "id": 1912,
+      "module": "assets/story/modules/symbol-1912.js",
+      "frames": 4,
+      "bounds": [
+        -15.95,
+        -15.95,
+        15.95,
+        15.95
+      ]
+    },
+    "do_water_pulse_ring": {
+      "id": 1915,
+      "module": "assets/story/modules/symbol-1915.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -62.0,
+        61.0,
+        61.0
+      ]
+    },
+    "do_water_sport": {
+      "id": 1921,
+      "module": "assets/story/modules/symbol-1921.js",
+      "frames": 9,
+      "bounds": [
+        -37.1,
+        -36.2,
+        37.05,
+        18.75
+      ]
+    },
+    "do_wing_attack": {
+      "id": 1922,
+      "module": "assets/story/modules/symbol-1922.js",
+      "frames": 7,
+      "bounds": [
+        -56.15,
+        -39.0,
+        40.15,
+        37.75
+      ]
+    },
+    "do_withdraw": {
+      "id": 1925,
+      "module": "assets/story/modules/symbol-1925.js",
+      "frames": 16,
+      "bounds": [
+        -77.0,
+        -46.2,
+        73.0,
+        46.2
+      ]
+    },
+    "do_wonder_room": {
+      "id": 1928,
+      "module": "assets/story/modules/symbol-1928.js",
+      "frames": 12,
+      "bounds": [
+        -0.45,
+        -0.5,
+        807.2,
+        485.15
+      ]
+    },
+    "do_wring_out": {
+      "id": 1931,
+      "module": "assets/story/modules/symbol-1931.js",
+      "frames": 14,
+      "bounds": [
+        -59.15,
+        -41.35,
+        41.9,
+        54.1
+      ]
+    },
+    "do_zap_cannon": {
+      "id": 1943,
+      "module": "assets/story/modules/symbol-1943.js",
+      "frames": 10,
+      "bounds": [
+        -31.5,
+        -42.4,
+        33.0,
+        24.0
+      ]
+    },
+    "fake_out_hit": {
+      "id": 1946,
+      "module": "assets/story/modules/symbol-1946.js",
+      "frames": 12,
+      "bounds": [
+        -64.65,
+        -44.35,
+        72.55,
+        57.0
+      ]
+    },
+    "fangs_bite": {
+      "id": 1949,
+      "module": "assets/story/modules/symbol-1949.js",
+      "frames": 12,
+      "bounds": [
+        -25.65,
+        -52.55,
+        28.85,
+        34.05
+      ]
+    },
+    "fangs_bug": {
+      "id": 1950,
+      "module": "assets/story/modules/symbol-1950.js",
+      "frames": 12,
+      "bounds": [
+        -44.35,
+        -30.25,
+        44.65,
+        24.75
+      ]
+    },
+    "fangs_crunch": {
+      "id": 1956,
+      "module": "assets/story/modules/symbol-1956.js",
+      "frames": 12,
+      "bounds": [
+        -33.9,
+        -52.55,
+        36.25,
+        34.05
+      ]
+    },
+    "fangs_fire": {
+      "id": 1959,
+      "module": "assets/story/modules/symbol-1959.js",
+      "frames": 12,
+      "bounds": [
+        -27.5,
+        -62.9,
+        28.85,
+        44.4
+      ]
+    },
+    "fangs_hyper_fang": {
+      "id": 1962,
+      "module": "assets/story/modules/symbol-1962.js",
+      "frames": 12,
+      "bounds": [
+        -25.65,
+        -52.55,
+        28.85,
+        34.05
+      ]
+    },
+    "fangs_ice": {
+      "id": 1967,
+      "module": "assets/story/modules/symbol-1967.js",
+      "frames": 12,
+      "bounds": [
+        -35.7,
+        -52.55,
+        31.7,
+        34.05
+      ]
+    },
+    "fangs_poison": {
+      "id": 1973,
+      "module": "assets/story/modules/symbol-1973.js",
+      "frames": 12,
+      "bounds": [
+        -32.4,
+        -64.15,
+        28.85,
+        45.65
+      ]
+    },
+    "fangs_super_fang": {
+      "id": 1976,
+      "module": "assets/story/modules/symbol-1976.js",
+      "frames": 12,
+      "bounds": [
+        -25.65,
+        -52.55,
+        28.85,
+        34.05
+      ]
+    },
+    "fangs_thunder": {
+      "id": 1979,
+      "module": "assets/story/modules/symbol-1979.js",
+      "frames": 12,
+      "bounds": [
+        -49.2,
+        -69.05,
+        58.75,
+        50.55
+      ]
+    },
+    "frozen": {
+      "id": 1966,
+      "module": "assets/story/modules/symbol-1966.js",
+      "frames": 1,
+      "bounds": [
+        -30.0,
+        -44.0,
+        30.0,
+        31.0
+      ]
+    },
+    "gfx_alert": {
+      "id": 10932,
+      "module": "assets/story/modules/symbol-10932.js",
+      "frames": 1,
+      "bounds": [
+        -14.0,
+        -28.0,
+        14.0,
+        0.0
+      ]
+    },
+    "gfx_hit": {
+      "id": 1983,
+      "module": "assets/story/modules/symbol-1983.js",
+      "frames": 5,
+      "bounds": [
+        -24.0,
+        -24.0,
+        24.0,
+        24.0
+      ]
+    },
+    "gfx_hit_leech_seed": {
+      "id": 1987,
+      "module": "assets/story/modules/symbol-1987.js",
+      "frames": 12,
+      "bounds": [
+        -6.3,
+        -11.55,
+        6.75,
+        7.75
+      ]
+    },
+    "gfx_hit_scratch": {
+      "id": 1990,
+      "module": "assets/story/modules/symbol-1990.js",
+      "frames": 7,
+      "bounds": [
+        -50.85,
+        -136.85,
+        126.85,
+        50.85
+      ]
+    },
+    "gfx_hit_string_shot": {
+      "id": 2000,
+      "module": "assets/story/modules/symbol-2000.js",
+      "frames": 10,
+      "bounds": [
+        -24.65,
+        -2.3,
+        20.0,
+        18.85
+      ]
+    },
+    "gfx_life_bar": {
+      "id": 11001,
+      "module": "assets/story/modules/symbol-11001.js",
+      "frames": 5,
+      "bounds": [
+        -1.75,
+        -5.25,
+        58.0,
+        5.0
+      ]
+    },
+    "gfx_paralysis": {
+      "id": 2368,
+      "module": "assets/story/modules/symbol-2368.js",
+      "frames": 8,
+      "bounds": [
+        -24.5,
+        -24.6,
+        24.6,
+        24.35
+      ]
+    },
+    "gfx_range_normal": {
+      "id": 11055,
+      "module": "assets/story/modules/symbol-11055.js",
+      "frames": 2,
+      "bounds": [
+        -140.0,
+        -134.35,
+        140.0,
+        134.4
+      ]
+    },
+    "gfx_thundershock": {
+      "id": 1413,
+      "module": "assets/story/modules/symbol-1413.js",
+      "frames": 8,
+      "bounds": [
+        -36.75,
+        -26.9,
+        32.1,
+        19.0
+      ]
+    },
+    "hit_Burn": {
+      "id": 2001,
+      "module": "assets/story/modules/symbol-2001.js",
+      "frames": 13,
+      "bounds": [
+        -21.1,
+        -26.95,
+        16.5,
+        20.25
+      ]
+    },
+    "hit_Crit": {
+      "id": 2004,
+      "module": "assets/story/modules/symbol-2004.js",
+      "frames": 13,
+      "bounds": [
+        -54.7,
+        -45.55,
+        90.75,
+        -1.75
+      ]
+    },
+    "hit_Decrease_Speed": {
+      "id": 2008,
+      "module": "assets/story/modules/symbol-2008.js",
+      "frames": 19,
+      "bounds": [
+        -20.15,
+        -41.1,
+        20.5,
+        17.35
+      ]
+    },
+    "hit_Dragon_Rage": {
+      "id": 2011,
+      "module": "assets/story/modules/symbol-2011.js",
+      "frames": 6,
+      "bounds": [
+        -16.9,
+        -22.05,
+        16.25,
+        14.05
+      ]
+    },
+    "hit_Leech_Life": {
+      "id": 2014,
+      "module": "assets/story/modules/symbol-2014.js",
+      "frames": 13,
+      "bounds": [
+        -29.6,
+        -32.05,
+        23.9,
+        14.6
+      ]
+    },
+    "hit_Poison": {
+      "id": 2015,
+      "module": "assets/story/modules/symbol-2015.js",
+      "frames": 13,
+      "bounds": [
+        -29.6,
+        -32.05,
+        23.9,
+        14.6
+      ]
+    },
+    "hit_Seed": {
+      "id": 2018,
+      "module": "assets/story/modules/symbol-2018.js",
+      "frames": 13,
+      "bounds": [
+        -28.55,
+        -31.3,
+        23.0,
+        14.05
+      ]
+    },
+    "hit_Water_Gun": {
+      "id": 2379,
+      "module": "assets/story/modules/symbol-2379.js",
+      "frames": 10,
+      "bounds": [
+        -10.7,
+        -10.8,
+        10.65,
+        10.8
+      ]
+    },
+    "hit_absorb": {
+      "id": 2019,
+      "module": "assets/story/modules/symbol-2019.js",
+      "frames": 13,
+      "bounds": [
+        -39.6,
+        -57.05,
+        34.9,
+        14.6
+      ]
+    },
+    "hit_acid": {
+      "id": 2022,
+      "module": "assets/story/modules/symbol-2022.js",
+      "frames": 4,
+      "bounds": [
+        -10.7,
+        -10.8,
+        10.65,
+        10.8
+      ]
+    },
+    "hit_acid_spray": {
+      "id": 2025,
+      "module": "assets/story/modules/symbol-2025.js",
+      "frames": 4,
+      "bounds": [
+        -10.45,
+        -10.45,
+        10.45,
+        10.45
+      ]
+    },
+    "hit_ancientpower": {
+      "id": 2028,
+      "module": "assets/story/modules/symbol-2028.js",
+      "frames": 12,
+      "bounds": [
+        -29.45,
+        -111.9,
+        35.9,
+        25.15
+      ]
+    },
+    "hit_aromatherapy": {
+      "id": 2030,
+      "module": "assets/story/modules/symbol-2030.js",
+      "frames": 9,
+      "bounds": [
+        -62.0,
+        -62.0,
+        61.0,
+        61.0
+      ]
+    },
+    "hit_avalanche": {
+      "id": 2033,
+      "module": "assets/story/modules/symbol-2033.js",
+      "frames": 12,
+      "bounds": [
+        -24.4,
+        -112.1,
+        30.65,
+        17.15
+      ]
+    },
+    "hit_blaze_kick": {
+      "id": 2039,
+      "module": "assets/story/modules/symbol-2039.js",
+      "frames": 8,
+      "bounds": [
+        -67.45,
+        -57.55,
+        111.0,
+        67.35
+      ]
+    },
+    "hit_brick_break": {
+      "id": 2041,
+      "module": "assets/story/modules/symbol-2041.js",
+      "frames": 8,
+      "bounds": [
+        -19.6,
+        -56.75,
+        25.2,
+        15.8
+      ]
+    },
+    "hit_bubble": {
+      "id": 2042,
+      "module": "assets/story/modules/symbol-2042.js",
+      "frames": 7,
+      "bounds": [
+        -14.4,
+        -9.6,
+        15.85,
+        17.15
+      ]
+    },
+    "hit_bullet_punch": {
+      "id": 2045,
+      "module": "assets/story/modules/symbol-2045.js",
+      "frames": 9,
+      "bounds": [
+        -36.95,
+        -37.2,
+        58.9,
+        33.05
+      ]
+    },
+    "hit_charge_beam": {
+      "id": 2050,
+      "module": "assets/story/modules/symbol-2050.js",
+      "frames": 14,
+      "bounds": [
+        -39.4,
+        -41.4,
+        207.0,
+        40.1
+      ]
+    },
+    "hit_clamp": {
+      "id": 2051,
+      "module": "assets/story/modules/symbol-2051.js",
+      "frames": 16,
+      "bounds": [
+        -77.0,
+        -46.2,
+        73.0,
+        46.2
+      ]
+    },
+    "hit_close_combat": {
+      "id": 2054,
+      "module": "assets/story/modules/symbol-2054.js",
+      "frames": 14,
+      "bounds": [
+        -60.5,
+        -54.7,
+        63.05,
+        55.5
+      ]
+    },
+    "hit_comet_punch": {
+      "id": 2059,
+      "module": "assets/story/modules/symbol-2059.js",
+      "frames": 38,
+      "bounds": [
+        -57.9,
+        -52.25,
+        40.0,
+        49.85
+      ]
+    },
+    "hit_constrict": {
+      "id": 2070,
+      "module": "assets/story/modules/symbol-2070.js",
+      "frames": 13,
+      "bounds": [
+        -27.0,
+        -5.25,
+        23.25,
+        19.75
+      ]
+    },
+    "hit_cross_chop": {
+      "id": 2073,
+      "module": "assets/story/modules/symbol-2073.js",
+      "frames": 8,
+      "bounds": [
+        -64.35,
+        -68.35,
+        59.1,
+        36.0
+      ]
+    },
+    "hit_cross_poison": {
+      "id": 2076,
+      "module": "assets/story/modules/symbol-2076.js",
+      "frames": 8,
+      "bounds": [
+        -64.35,
+        -68.35,
+        59.1,
+        36.0
+      ]
+    },
+    "hit_cut": {
+      "id": 2082,
+      "module": "assets/story/modules/symbol-2082.js",
+      "frames": 8,
+      "bounds": [
+        -72.95,
+        -136.85,
+        126.85,
+        73.0
+      ]
+    },
+    "hit_dark_pulse": {
+      "id": 2093,
+      "module": "assets/story/modules/symbol-2093.js",
+      "frames": 14,
+      "bounds": [
+        -11.05,
+        -32.75,
+        210.75,
+        38.75
+      ]
+    },
+    "hit_dizzy_punch": {
+      "id": 2098,
+      "module": "assets/story/modules/symbol-2098.js",
+      "frames": 9,
+      "bounds": [
+        -82.45,
+        -93.8,
+        86.35,
+        92.8
+      ]
+    },
+    "hit_double_kick": {
+      "id": 2101,
+      "module": "assets/story/modules/symbol-2101.js",
+      "frames": 11,
+      "bounds": [
+        -56.95,
+        -50.65,
+        50.1,
+        53.8
+      ]
+    },
+    "hit_double_slap": {
+      "id": 2102,
+      "module": "assets/story/modules/symbol-2102.js",
+      "frames": 38,
+      "bounds": [
+        -69.3,
+        -32.5,
+        70.35,
+        37.4
+      ]
+    },
+    "hit_dynamicpunch": {
+      "id": 2105,
+      "module": "assets/story/modules/symbol-2105.js",
+      "frames": 9,
+      "bounds": [
+        -86.65,
+        -77.6,
+        97.5,
+        86.55
+      ]
+    },
+    "hit_earth_power": {
+      "id": 2112,
+      "module": "assets/story/modules/symbol-2112.js",
+      "frames": 8,
+      "bounds": [
+        -66.6,
+        -71.85,
+        62.0,
+        24.0
+      ]
+    },
+    "hit_electro_ball": {
+      "id": 2115,
+      "module": "assets/story/modules/symbol-2115.js",
+      "frames": 6,
+      "bounds": [
+        -48.85,
+        -37.4,
+        37.7,
+        32.0
+      ]
+    },
+    "hit_ember": {
+      "id": 1503,
+      "module": "assets/story/modules/symbol-1503.js",
+      "frames": 6,
+      "bounds": [
+        -14.8,
+        -29.9,
+        12.95,
+        12.75
+      ]
+    },
+    "hit_encore": {
+      "id": 2118,
+      "module": "assets/story/modules/symbol-2118.js",
+      "frames": 6,
+      "bounds": [
+        -34.0,
+        -83.0,
+        34.95,
+        34.25
+      ]
+    },
+    "hit_eruption": {
+      "id": 2123,
+      "module": "assets/story/modules/symbol-2123.js",
+      "frames": 10,
+      "bounds": [
+        -99.6,
+        -126.0,
+        95.0,
+        -0.9
+      ]
+    },
+    "hit_false_swipe": {
+      "id": 2128,
+      "module": "assets/story/modules/symbol-2128.js",
+      "frames": 9,
+      "bounds": [
+        -111.7,
+        -136.85,
+        126.85,
+        123.4
+      ]
+    },
+    "hit_fire_punch": {
+      "id": 2131,
+      "module": "assets/story/modules/symbol-2131.js",
+      "frames": 8,
+      "bounds": [
+        -46.0,
+        -70.25,
+        53.15,
+        32.5
+      ]
+    },
+    "hit_fire_spin": {
+      "id": 2132,
+      "module": "assets/story/modules/symbol-2132.js",
+      "frames": 23,
+      "bounds": [
+        -34.65,
+        -38.85,
+        32.05,
+        33.95
+      ]
+    },
+    "hit_focus_punch": {
+      "id": 2136,
+      "module": "assets/story/modules/symbol-2136.js",
+      "frames": 8,
+      "bounds": [
+        -58.95,
+        -68.5,
+        67.65,
+        68.25
+      ]
+    },
+    "hit_fury_cutter": {
+      "id": 2138,
+      "module": "assets/story/modules/symbol-2138.js",
+      "frames": 8,
+      "bounds": [
+        -72.95,
+        -136.85,
+        126.85,
+        73.0
+      ]
+    },
+    "hit_fury_swipes": {
+      "id": 2140,
+      "module": "assets/story/modules/symbol-2140.js",
+      "frames": 37,
+      "bounds": [
+        -126.8,
+        -136.85,
+        126.85,
+        59.85
+      ]
+    },
+    "hit_gastro_acid": {
+      "id": 2143,
+      "module": "assets/story/modules/symbol-2143.js",
+      "frames": 4,
+      "bounds": [
+        -10.45,
+        -10.45,
+        10.45,
+        10.45
+      ]
+    },
+    "hit_giga_drain": {
+      "id": 2144,
+      "module": "assets/story/modules/symbol-2144.js",
+      "frames": 13,
+      "bounds": [
+        -70.35,
+        -57.05,
+        34.9,
+        14.6
+      ]
+    },
+    "hit_gunk_shot": {
+      "id": 2146,
+      "module": "assets/story/modules/symbol-2146.js",
+      "frames": 14,
+      "bounds": [
+        -28.95,
+        -38.8,
+        207.25,
+        45.9
+      ]
+    },
+    "hit_hammer_arm": {
+      "id": 2149,
+      "module": "assets/story/modules/symbol-2149.js",
+      "frames": 11,
+      "bounds": [
+        -29.65,
+        -159.55,
+        30.55,
+        21.05
+      ]
+    },
+    "hit_hex": {
+      "id": 2152,
+      "module": "assets/story/modules/symbol-2152.js",
+      "frames": 10,
+      "bounds": [
+        -43.25,
+        -32.3,
+        44.05,
+        33.55
+      ]
+    },
+    "hit_hydro_pump": {
+      "id": 2163,
+      "module": "assets/story/modules/symbol-2163.js",
+      "frames": 14,
+      "bounds": [
+        6.0,
+        -35.05,
+        209.3,
+        34.7
+      ]
+    },
+    "hit_hyper_beam": {
+      "id": 2174,
+      "module": "assets/story/modules/symbol-2174.js",
+      "frames": 14,
+      "bounds": [
+        -11.05,
+        -32.75,
+        210.75,
+        38.75
+      ]
+    },
+    "hit_ice_beam": {
+      "id": 2185,
+      "module": "assets/story/modules/symbol-2185.js",
+      "frames": 14,
+      "bounds": [
+        -11.05,
+        -32.75,
+        210.75,
+        38.75
+      ]
+    },
+    "hit_ice_punch": {
+      "id": 2189,
+      "module": "assets/story/modules/symbol-2189.js",
+      "frames": 8,
+      "bounds": [
+        -58.7,
+        -35.05,
+        75.0,
+        33.85
+      ]
+    },
+    "hit_inferno": {
+      "id": 2193,
+      "module": "assets/story/modules/symbol-2193.js",
+      "frames": 6,
+      "bounds": [
+        -26.35,
+        -55.6,
+        27.15,
+        29.2
+      ]
+    },
+    "hit_karate_chop": {
+      "id": 2194,
+      "module": "assets/story/modules/symbol-2194.js",
+      "frames": 8,
+      "bounds": [
+        -19.6,
+        -56.75,
+        25.2,
+        15.8
+      ]
+    },
+    "hit_leaf_storm": {
+      "id": 2197,
+      "module": "assets/story/modules/symbol-2197.js",
+      "frames": 14,
+      "bounds": [
+        -38.0,
+        -54.9,
+        217.0,
+        53.0
+      ]
+    },
+    "hit_lick": {
+      "id": 2200,
+      "module": "assets/story/modules/symbol-2200.js",
+      "frames": 7,
+      "bounds": [
+        -13.85,
+        -49.15,
+        15.3,
+        78.0
+      ]
+    },
+    "hit_low_kick": {
+      "id": 2201,
+      "module": "assets/story/modules/symbol-2201.js",
+      "frames": 8,
+      "bounds": [
+        -52.25,
+        -25.5,
+        78.0,
+        48.55
+      ]
+    },
+    "hit_mach_punch": {
+      "id": 2202,
+      "module": "assets/story/modules/symbol-2202.js",
+      "frames": 6,
+      "bounds": [
+        -30.5,
+        -27.7,
+        39.1,
+        32.5
+      ]
+    },
+    "hit_mega_drain": {
+      "id": 2203,
+      "module": "assets/story/modules/symbol-2203.js",
+      "frames": 13,
+      "bounds": [
+        -70.35,
+        -57.05,
+        34.9,
+        14.6
+      ]
+    },
+    "hit_mega_kick": {
+      "id": 2206,
+      "module": "assets/story/modules/symbol-2206.js",
+      "frames": 8,
+      "bounds": [
+        -57.0,
+        -68.5,
+        64.5,
+        71.3
+      ]
+    },
+    "hit_mega_punch": {
+      "id": 2207,
+      "module": "assets/story/modules/symbol-2207.js",
+      "frames": 8,
+      "bounds": [
+        -57.0,
+        -68.5,
+        64.5,
+        56.5
+      ]
+    },
+    "hit_meteor_mash": {
+      "id": 2210,
+      "module": "assets/story/modules/symbol-2210.js",
+      "frames": 8,
+      "bounds": [
+        -78.25,
+        -90.2,
+        89.25,
+        77.95
+      ]
+    },
+    "hit_mirror_shot": {
+      "id": 2221,
+      "module": "assets/story/modules/symbol-2221.js",
+      "frames": 14,
+      "bounds": [
+        -11.05,
+        -32.75,
+        210.75,
+        38.75
+      ]
+    },
+    "hit_mud_bomb": {
+      "id": 2224,
+      "module": "assets/story/modules/symbol-2224.js",
+      "frames": 4,
+      "bounds": [
+        -13.9,
+        -13.9,
+        13.9,
+        13.9
+      ]
+    },
+    "hit_night_shade": {
+      "id": 2235,
+      "module": "assets/story/modules/symbol-2235.js",
+      "frames": 14,
+      "bounds": [
+        -11.05,
+        -32.75,
+        210.75,
+        38.75
+      ]
+    },
+    "hit_outrage": {
+      "id": 2236,
+      "module": "assets/story/modules/symbol-2236.js",
+      "frames": 13,
+      "bounds": [
+        -63.35,
+        -51.5,
+        63.4,
+        57.75
+      ]
+    },
+    "hit_payback": {
+      "id": 2239,
+      "module": "assets/story/modules/symbol-2239.js",
+      "frames": 6,
+      "bounds": [
+        -34.6,
+        -37.35,
+        33.85,
+        32.0
+      ]
+    },
+    "hit_psybeam": {
+      "id": 2243,
+      "module": "assets/story/modules/symbol-2243.js",
+      "frames": 3,
+      "bounds": [
+        -15.4,
+        -13.65,
+        15.55,
+        13.75
+      ]
+    },
+    "hit_psystrike": {
+      "id": 2249,
+      "module": "assets/story/modules/symbol-2249.js",
+      "frames": 16,
+      "bounds": [
+        -55.15,
+        -43.4,
+        45.05,
+        46.55
+      ]
+    },
+    "hit_punishment": {
+      "id": 2252,
+      "module": "assets/story/modules/symbol-2252.js",
+      "frames": 9,
+      "bounds": [
+        -111.7,
+        -136.85,
+        126.85,
+        123.4
+      ]
+    },
+    "hit_revenge": {
+      "id": 2253,
+      "module": "assets/story/modules/symbol-2253.js",
+      "frames": 9,
+      "bounds": [
+        -30.5,
+        -104.7,
+        39.1,
+        35.5
+      ]
+    },
+    "hit_rock_slide": {
+      "id": 2254,
+      "module": "assets/story/modules/symbol-2254.js",
+      "frames": 10,
+      "bounds": [
+        -94.25,
+        -120.3,
+        90.0,
+        -3.75
+      ]
+    },
+    "hit_rock_tomb": {
+      "id": 2255,
+      "module": "assets/story/modules/symbol-2255.js",
+      "frames": 1,
+      "bounds": [
+        -26.0,
+        -9.3,
+        29.25,
+        18.15
+      ]
+    },
+    "hit_sand_tomb": {
+      "id": 2258,
+      "module": "assets/story/modules/symbol-2258.js",
+      "frames": 25,
+      "bounds": [
+        -40.35,
+        -25.05,
+        47.2,
+        27.95
+      ]
+    },
+    "hit_shadow_punch": {
+      "id": 2261,
+      "module": "assets/story/modules/symbol-2261.js",
+      "frames": 8,
+      "bounds": [
+        -30.5,
+        -27.7,
+        39.1,
+        32.5
+      ]
+    },
+    "hit_sky_uppercut": {
+      "id": 2264,
+      "module": "assets/story/modules/symbol-2264.js",
+      "frames": 7,
+      "bounds": [
+        -24.4,
+        -54.7,
+        29.0,
+        45.55
+      ]
+    },
+    "hit_sludge": {
+      "id": 2267,
+      "module": "assets/story/modules/symbol-2267.js",
+      "frames": 4,
+      "bounds": [
+        -10.7,
+        -10.8,
+        10.65,
+        10.8
+      ]
+    },
+    "hit_solarbeam": {
+      "id": 2272,
+      "module": "assets/story/modules/symbol-2272.js",
+      "frames": 14,
+      "bounds": [
+        -70.35,
+        -57.05,
+        531.2,
+        37.1
+      ]
+    },
+    "hit_spit_up": {
+      "id": 2274,
+      "module": "assets/story/modules/symbol-2274.js",
+      "frames": 1,
+      "bounds": [
+        -10.45,
+        -10.45,
+        10.45,
+        10.45
+      ]
+    },
+    "hit_stomp": {
+      "id": 2277,
+      "module": "assets/story/modules/symbol-2277.js",
+      "frames": 8,
+      "bounds": [
+        -38.25,
+        -49.8,
+        30.85,
+        48.45
+      ]
+    },
+    "hit_strength": {
+      "id": 2284,
+      "module": "assets/story/modules/symbol-2284.js",
+      "frames": 15,
+      "bounds": [
+        -78.0,
+        -126.55,
+        87.75,
+        43.4
+      ]
+    },
+    "hit_surf": {
+      "id": 2290,
+      "module": "assets/story/modules/symbol-2290.js",
+      "frames": 6,
+      "bounds": [
+        -40.5,
+        -70.85,
+        64.75,
+        21.55
+      ]
+    },
+    "hit_telekinesis": {
+      "id": 2292,
+      "module": "assets/story/modules/symbol-2292.js",
+      "frames": 1,
+      "bounds": [
+        -18.95,
+        -8.0,
+        18.95,
+        8.0
+      ]
+    },
+    "hit_thrash": {
+      "id": 2293,
+      "module": "assets/story/modules/symbol-2293.js",
+      "frames": 13,
+      "bounds": [
+        -52.25,
+        -50.3,
+        41.1,
+        46.8
+      ]
+    },
+    "hit_thunder": {
+      "id": 2302,
+      "module": "assets/story/modules/symbol-2302.js",
+      "frames": 11,
+      "bounds": [
+        -73.75,
+        -261.3,
+        82.85,
+        50.75
+      ]
+    },
+    "hit_thunderbolt": {
+      "id": 2303,
+      "module": "assets/story/modules/symbol-2303.js",
+      "frames": 7,
+      "bounds": [
+        -48.85,
+        -37.4,
+        37.7,
+        32.0
+      ]
+    },
+    "hit_thunderpunch": {
+      "id": 2306,
+      "module": "assets/story/modules/symbol-2306.js",
+      "frames": 8,
+      "bounds": [
+        -63.0,
+        -42.1,
+        82.85,
+        55.15
+      ]
+    },
+    "hit_toxic": {
+      "id": 2309,
+      "module": "assets/story/modules/symbol-2309.js",
+      "frames": 4,
+      "bounds": [
+        -10.7,
+        -10.8,
+        10.65,
+        10.8
+      ]
+    },
+    "hit_tri_attack": {
+      "id": 2310,
+      "module": "assets/story/modules/symbol-2310.js",
+      "frames": 6,
+      "bounds": [
+        -48.85,
+        -37.4,
+        37.7,
+        23.8
+      ]
+    },
+    "hit_vicegrip": {
+      "id": 2313,
+      "module": "assets/story/modules/symbol-2313.js",
+      "frames": 9,
+      "bounds": [
+        -95.7,
+        -79.65,
+        86.4,
+        82.7
+      ]
+    },
+    "hit_waterfall": {
+      "id": 2317,
+      "module": "assets/story/modules/symbol-2317.js",
+      "frames": 8,
+      "bounds": [
+        -38.95,
+        -75.45,
+        34.25,
+        16.15
+      ]
+    },
+    "hit_whirlpool": {
+      "id": 2318,
+      "module": "assets/story/modules/symbol-2318.js",
+      "frames": 10,
+      "bounds": [
+        -31.45,
+        -49.05,
+        32.2,
+        51.4
+      ]
+    },
+    "hit_will_o_wisp": {
+      "id": 2322,
+      "module": "assets/story/modules/symbol-2322.js",
+      "frames": 6,
+      "bounds": [
+        -14.8,
+        -29.9,
+        12.95,
+        12.75
+      ]
+    },
+    "hit_wrap": {
+      "id": 2331,
+      "module": "assets/story/modules/symbol-2331.js",
+      "frames": 13,
+      "bounds": [
+        -27.0,
+        -5.25,
+        23.25,
+        19.75
+      ]
+    },
+    "hit_x_scissor": {
+      "id": 2335,
+      "module": "assets/story/modules/symbol-2335.js",
+      "frames": 9,
+      "bounds": [
+        -134.85,
+        -136.85,
+        126.85,
+        121.05
+      ]
+    },
+    "ice_shard": {
+      "id": 2337,
+      "module": "assets/story/modules/symbol-2337.js",
+      "frames": 1,
+      "bounds": [
+        -14.5,
+        -7.1,
+        14.5,
+        7.1
+      ]
+    },
+    "magnetude_crack": {
+      "id": 2344,
+      "module": "assets/story/modules/symbol-2344.js",
+      "frames": 10,
+      "bounds": [
+        -45.6,
+        -37.9,
+        39.3,
+        39.8
+      ]
+    },
+    "punch_grey": {
+      "id": 2346,
+      "module": "assets/story/modules/symbol-2346.js",
+      "frames": 1,
+      "bounds": [
+        -17.4,
+        -15.05,
+        17.4,
+        15.05
+      ]
+    },
+    "sleep": {
+      "id": 4328,
+      "module": "assets/story/modules/symbol-4328.js",
+      "frames": 23,
+      "bounds": [
+        2.75,
+        -31.9,
+        29.0,
+        1.1
+      ]
+    },
+    "vcreate": {
+      "id": 2353,
+      "module": "assets/story/modules/symbol-2353.js",
+      "frames": 12,
+      "bounds": [
+        -37.5,
+        -57.6,
+        49.75,
+        -7.0
+      ]
+    },
+    "ready_go": {
+      "id": 14873,
+      "module": "assets/story/modules/symbol-14873.js",
+      "frames": 30,
+      "bounds": [
+        -206.9,
+        -71.5,
+        205.9,
+        71.5
+      ]
+    },
+    "focus_Caught": {
+      "id": 9618,
+      "module": "assets/story/modules/symbol-9618.js",
+      "frames": 20,
+      "bounds": [
+        170.65,
+        122.05,
+        626.2,
+        304.0
+      ]
+    },
+    "butt_poke": {
+      "id": 9613,
+      "module": "assets/story/modules/symbol-9613.js",
+      "frames": 6,
+      "bounds": [
+        -46.45,
+        -41.75,
+        47.25,
+        49.5
+      ]
+    },
+    "gfx_pokeball": {
+      "id": 11043,
+      "module": "assets/story/modules/symbol-11043.js",
+      "frames": 2,
+      "bounds": [
+        -49.0,
+        -75.15,
+        49.0,
+        76.1
+      ]
+    },
+    "gfx_potion_drag": {
+      "id": 11046,
+      "module": "assets/story/modules/symbol-11046.js",
+      "frames": 1,
+      "bounds": [
+        -36.0,
+        -36.0,
+        36.0,
+        36.0
+      ]
+    },
+    "gfx_potion_drag_2": {
+      "id": 11049,
+      "module": "assets/story/modules/symbol-11049.js",
+      "frames": 1,
+      "bounds": [
+        -36.0,
+        -36.0,
+        36.0,
+        36.0
+      ]
+    },
+    "gfx_potion_drag_3": {
+      "id": 11052,
+      "module": "assets/story/modules/symbol-11052.js",
+      "frames": 1,
+      "bounds": [
+        -36.0,
+        -36.0,
+        36.0,
+        36.0
+      ]
+    },
+    "gfx_ui_Level": {
+      "id": 11995,
+      "module": "assets/story/modules/symbol-11995.js",
+      "frames": 1,
+      "bounds": [
+        5.2,
+        3.1,
+        794.1,
+        472.4
+      ]
+    },
+    "hl_spot_18": {
+      "id": 18,
+      "module": "assets/story/modules/symbol-18.js",
+      "frames": 1,
+      "bounds": [
+        -386.45,
+        -65.45,
+        7.85,
+        -8.65
+      ]
+    },
+    "hl_spot_41": {
+      "id": 41,
+      "module": "assets/story/modules/symbol-41.js",
+      "frames": 1,
+      "bounds": [
+        -357.3,
+        -178.85,
+        187.3,
+        36.95
+      ]
+    },
+    "hl_spot_45": {
+      "id": 45,
+      "module": "assets/story/modules/symbol-45.js",
+      "frames": 1,
+      "bounds": [
+        132.5,
+        -176.85,
+        187.3,
+        36.95
+      ]
+    },
+    "hl_spot_50": {
+      "id": 50,
+      "module": "assets/story/modules/symbol-50.js",
+      "frames": 1,
+      "bounds": [
+        -96.45,
+        -401.85,
+        -41.65,
+        -3.65
+      ]
+    },
+    "hl_spot_53": {
+      "id": 53,
+      "module": "assets/story/modules/symbol-53.js",
+      "frames": 1,
+      "bounds": [
+        -96.45,
+        -401.85,
+        -41.65,
+        -116.6
+      ]
+    },
+    "hl_spot_56": {
+      "id": 56,
+      "module": "assets/story/modules/symbol-56.js",
+      "frames": 1,
+      "bounds": [
+        -96.45,
+        -401.85,
+        -41.65,
+        -233.0
+      ]
+    },
+    "hl_spot_59": {
+      "id": 59,
+      "module": "assets/story/modules/symbol-59.js",
+      "frames": 1,
+      "bounds": [
+        -96.45,
+        -401.85,
+        -41.65,
+        -347.05
+      ]
+    },
+    "hl_spot_64": {
+      "id": 64,
+      "module": "assets/story/modules/symbol-64.js",
+      "frames": 1,
+      "bounds": [
+        -46.45,
+        -424.85,
+        8.35,
+        20.35
+      ]
+    },
+    "hl_spot_69": {
+      "id": 69,
+      "module": "assets/story/modules/symbol-69.js",
+      "frames": 1,
+      "bounds": [
+        -239.45,
+        -484.85,
+        -6.65,
+        -430.05
+      ]
+    },
+    "hl_spot_85": {
+      "id": 85,
+      "module": "assets/story/modules/symbol-85.js",
+      "frames": 1,
+      "bounds": [
+        -458.45,
+        -478.4,
+        317.3,
+        96.35
+      ]
+    },
+    "hl_spot_199": {
+      "id": 199,
+      "module": "assets/story/modules/symbol-199.js",
+      "frames": 1,
+      "bounds": [
+        -401.45,
+        -186.45,
+        704.55,
+        774.8
+      ]
+    },
+    "hl_spot_219": {
+      "id": 219,
+      "module": "assets/story/modules/symbol-219.js",
+      "frames": 1,
+      "bounds": [
+        -481.55,
+        -148.45,
+        284.5,
+        84.1
+      ]
+    },
+    "hl_spot_222": {
+      "id": 222,
+      "module": "assets/story/modules/symbol-222.js",
+      "frames": 1,
+      "bounds": [
+        -218.3,
+        -148.45,
+        27.25,
+        -93.65
+      ]
+    },
+    "hl_spot_230": {
+      "id": 230,
+      "module": "assets/story/modules/symbol-230.js",
+      "frames": 1,
+      "bounds": [
+        -225.5,
+        -173.5,
+        35.35,
+        107.35
+      ]
+    },
+    "hl_spot_238": {
+      "id": 238,
+      "module": "assets/story/modules/symbol-238.js",
+      "frames": 1,
+      "bounds": [
+        -406.4,
+        -137.5,
+        914.85,
+        507.3
+      ]
+    },
+    "hl_spot_276": {
+      "id": 276,
+      "module": "assets/story/modules/symbol-276.js",
+      "frames": 1,
+      "bounds": [
+        -402.55,
+        -185.45,
+        199.45,
+        516.45
+      ]
+    },
+    "hl_spot_297": {
+      "id": 297,
+      "module": "assets/story/modules/symbol-297.js",
+      "frames": 1,
+      "bounds": [
+        -296.6,
+        -438.85,
+        1360.7,
+        153.4
+      ]
+    },
+    "hl_spot_381": {
+      "id": 381,
+      "module": "assets/story/modules/symbol-381.js",
+      "frames": 1,
+      "bounds": [
+        -368.35,
+        -425.85,
+        -23.7,
+        -83.55
+      ]
+    },
+    "hl_spot_459": {
+      "id": 459,
+      "module": "assets/story/modules/symbol-459.js",
+      "frames": 1,
+      "bounds": [
+        -456.4,
+        -492.85,
+        119.3,
+        184.3
+      ]
+    },
+    "hl_spot_471": {
+      "id": 471,
+      "module": "assets/story/modules/symbol-471.js",
+      "frames": 1,
+      "bounds": [
+        -254.45,
+        -231.4,
+        622.3,
+        158.3
+      ]
+    },
+    "hl_spot_476": {
+      "id": 476,
+      "module": "assets/story/modules/symbol-476.js",
+      "frames": 1,
+      "bounds": [
+        -277.45,
+        -426.4,
+        291.3,
+        -11.65
+      ]
+    },
+    "hl_spot_487": {
+      "id": 487,
+      "module": "assets/story/modules/symbol-487.js",
+      "frames": 1,
+      "bounds": [
+        -347.45,
+        -479.4,
+        514.25,
+        105.35
+      ]
+    },
+    "hl_spot_507": {
+      "id": 507,
+      "module": "assets/story/modules/symbol-507.js",
+      "frames": 1,
+      "bounds": [
+        -467.65,
+        -329.5,
+        1198.7,
+        97.55
+      ]
+    },
+    "hl_spot_518": {
+      "id": 518,
+      "module": "assets/story/modules/symbol-518.js",
+      "frames": 1,
+      "bounds": [
+        -277.45,
+        -480.55,
+        1936.35,
+        -16.65
+      ]
+    },
+    "hl_spot_526": {
+      "id": 526,
+      "module": "assets/story/modules/symbol-526.js",
+      "frames": 1,
+      "bounds": [
+        -354.45,
+        -472.4,
+        323.95,
+        154.5
+      ]
+    },
+    "hl_spot_548": {
+      "id": 548,
+      "module": "assets/story/modules/symbol-548.js",
+      "frames": 1,
+      "bounds": [
+        -225.5,
+        -189.5,
+        564.55,
+        205.35
+      ]
+    },
+    "hl_spot_553": {
+      "id": 553,
+      "module": "assets/story/modules/symbol-553.js",
+      "frames": 1,
+      "bounds": [
+        -486.45,
+        -436.4,
+        202.95,
+        276.3
+      ]
+    },
+    "hl_spot_572": {
+      "id": 572,
+      "module": "assets/story/modules/symbol-572.js",
+      "frames": 1,
+      "bounds": [
+        -436.45,
+        -580.4,
+        147.35,
+        -165.6
+      ]
+    },
+    "hl_spot_585": {
+      "id": 585,
+      "module": "assets/story/modules/symbol-585.js",
+      "frames": 1,
+      "bounds": [
+        -326.5,
+        -440.4,
+        673.5,
+        189.4
+      ]
+    },
+    "hl_spot_651": {
+      "id": 651,
+      "module": "assets/story/modules/symbol-651.js",
+      "frames": 1,
+      "bounds": [
+        -412.4,
+        -510.4,
+        150.4,
+        267.35
+      ]
+    },
+    "hl_spot_656": {
+      "id": 656,
+      "module": "assets/story/modules/symbol-656.js",
+      "frames": 1,
+      "bounds": [
+        -450.4,
+        -519.4,
+        346.35,
+        55.4
+      ]
+    },
+    "hl_spot_661": {
+      "id": 661,
+      "module": "assets/story/modules/symbol-661.js",
+      "frames": 1,
+      "bounds": [
+        -571.0,
+        -500.5,
+        209.3,
+        -31.6
+      ]
+    },
+    "hl_spot_666": {
+      "id": 666,
+      "module": "assets/story/modules/symbol-666.js",
+      "frames": 1,
+      "bounds": [
+        -285.5,
+        -492.45,
+        457.3,
+        -34.7
+      ]
+    },
+    "hl_spot_671": {
+      "id": 671,
+      "module": "assets/story/modules/symbol-671.js",
+      "frames": 1,
+      "bounds": [
+        -529.55,
+        -558.45,
+        13.15,
+        -58.7
+      ]
+    },
+    "hl_spot_685": {
+      "id": 685,
+      "module": "assets/story/modules/symbol-685.js",
+      "frames": 1,
+      "bounds": [
+        -402.55,
+        -170.95,
+        581.55,
+        176.95
+      ]
+    },
+    "hl_spot_703": {
+      "id": 703,
+      "module": "assets/story/modules/symbol-703.js",
+      "frames": 1,
+      "bounds": [
+        -401.4,
+        -453.15,
+        673.65,
+        544.3
+      ]
+    },
+    "hl_spot_802": {
+      "id": 802,
+      "module": "assets/story/modules/symbol-802.js",
+      "frames": 1,
+      "bounds": [
+        -198.9,
+        -313.4,
+        -144.1,
+        -258.6
+      ]
+    },
+    "hl_spot_810": {
+      "id": 810,
+      "module": "assets/story/modules/symbol-810.js",
+      "frames": 1,
+      "bounds": [
+        -399.7,
+        -466.45,
+        155.25,
+        30.3
+      ]
+    },
+    "hl_spot_824": {
+      "id": 824,
+      "module": "assets/story/modules/symbol-824.js",
+      "frames": 1,
+      "bounds": [
+        -481.55,
+        -148.45,
+        284.5,
+        84.1
+      ]
+    },
+    "hl_spot_828": {
+      "id": 828,
+      "module": "assets/story/modules/symbol-828.js",
+      "frames": 1,
+      "bounds": [
+        -402.55,
+        -164.45,
+        42.4,
+        176.95
+      ]
+    },
+    "hl_spot_832": {
+      "id": 832,
+      "module": "assets/story/modules/symbol-832.js",
+      "frames": 1,
+      "bounds": [
+        -458.55,
+        -164.45,
+        283.6,
+        115.0
+      ]
+    },
+    "hl_spot_864": {
+      "id": 864,
+      "module": "assets/story/modules/symbol-864.js",
+      "frames": 1,
+      "bounds": [
+        -363.45,
+        97.25,
+        189.45,
+        342.0
+      ]
+    },
+    "hl_spot_879": {
+      "id": 879,
+      "module": "assets/story/modules/symbol-879.js",
+      "frames": 1,
+      "bounds": [
+        -264.45,
+        -149.85,
+        80.3,
+        699.85
+      ]
+    },
+    "hl_spot_988": {
+      "id": 988,
+      "module": "assets/story/modules/symbol-988.js",
+      "frames": 1,
+      "bounds": [
+        -267.5,
+        -108.0,
+        1088.65,
+        848.55
+      ]
+    },
+    "hl_spot_993": {
+      "id": 993,
+      "module": "assets/story/modules/symbol-993.js",
+      "frames": 1,
+      "bounds": [
+        -486.45,
+        -514.9,
+        202.95,
+        276.3
+      ]
+    },
+    "hl_spot_10944": {
+      "id": 10944,
+      "module": "assets/story/modules/symbol-10944.js",
+      "frames": 1,
+      "bounds": [
+        -357.0,
+        -198.45,
+        368.5,
+        335.5
+      ]
+    },
+    "hl_spot_10973": {
+      "id": 10973,
+      "module": "assets/story/modules/symbol-10973.js",
+      "frames": 1,
+      "bounds": [
+        -225.5,
+        -189.5,
+        564.55,
+        205.35
+      ]
+    },
+    "hl_spot_10990": {
+      "id": 10990,
+      "module": "assets/story/modules/symbol-10990.js",
+      "frames": 1,
+      "bounds": [
+        10.55,
+        -77.45,
+        308.45,
+        157.05
+      ]
+    }
+  }
+}

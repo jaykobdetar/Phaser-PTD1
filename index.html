@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#000000"><link rel="icon" href="data:,"><title>Pokémon Tower Defense</title></head>
+<body>
+<div id="app"><main id="flash-frame" aria-label="Pokémon Tower Defense">
+<div id="game" tabindex="0" aria-label="Battlefield. Drag a party Pokémon to place it. Click a deployed party portrait for moves and training. Space pauses; 1 to 4 change speed; 0, 9, 8, 7 change zoom; arrows move the map."><div id="loading">Loading Pokémon Tower Defense…</div></div>
+<div id="flash-hud" aria-label="Battle controls"></div>
+<div id="flash-drag" aria-hidden="true"></div>
+</main></div>
+<dialog id="modal"><button class="modal-close" id="modal-close" aria-label="Close dialog">×</button><div id="modal-content"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div><span id="save-status" hidden></span><select id="path-select" hidden aria-hidden="true" tabindex="-1"></select>
+<input id="import-file" type="file" accept="application/json,.json" hidden>
+<script type="module" src="/src/main.js"></script>
+</body></html>

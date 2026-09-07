@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Original main menu replaces battle at exact800×480 stage with black background and no backdrop",
+    "HUD Menu pauses simulation and hides HUD while source popup preserves map",
+    "Original music and sound toggles remain independent",
+    "Original Back resumes same battle",
+    "Source exit No restores battle",
+    "Source exit Yes returns original current chapter",
+    "Stage and popup hit regions stay aligned at mobile width"
+  ],
+  "errors": []
+}
