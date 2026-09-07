@@ -48,29 +48,3 @@ The main-menu Save button shows the original saving, success and retry popup. Th
 For portable backups, go to **Title → Options → Local profiles · Backups and import**. Export the current profile or all three profiles, or import a JSON backup. Version-1 port saves migrate to version 2 and retain the previous browser storage entry. See [legacy save migration](docs/LEGACY_SAVE_MIGRATION.md) for old local-server accounts. The supplied SWF and original server saves are left unchanged.
 
 PokéCenter provides local profile-to-profile trading. Mystery Gift retains the original code entry and response screens, with a local offer catalogue, daily/weekly offers and the source `ptdicu` gift. Multiplayer keeps the original teams, maps and objectives with **Switch player** for local handover. These services do not require the retired servers. Original website links open only when clicked.
-
-## Sharing the game
-
-Share the provided, verified release ZIP or a fresh extraction of it. A working or played installation may acquire private `saves/`, exported or imported profile JSON files, dependencies, caches, and other local files; the release audit does not cover those later additions. Keep your saves and backups in your own installation. Browser saves stay in the browser and are not part of the project files.
-
-The launcher locates the game relative to its own folder, so recipients can extract it anywhere and run `python3 start-game.py`. They do not need your username, original download folder, or development tools to play the bundled build.
-
-See [sharing and privacy checks](docs/SHARING.md) for the audited scope and repeatable archive check.
-
-## Develop and verify
-
-Tested with Node 22.16.0. Phaser 3.90.0 and Vite 6.4.1 are pinned.
-
-```sh
-npm ci
-npm run dev
-npm test
-python3 tests/local-server.test.py
-npm run build
-```
-
-Development runs at http://127.0.0.1:5173/. The production bundle omits the development inspection global and loads game assets locally.
-
-See [conversion coverage](docs/MIGRATION_STATUS.md), [validation](docs/VALIDATION.md), and [original profile behavior](docs/ORIGINAL_PROFILE_PARITY.md). The checks cover recovered source behavior and selected complete play sessions; they do not exhaust every possible battle strategy or interaction.
-
-Original game by **Sam & Dan Games**. Pokémon artwork, characters and audio retain their existing rights.
