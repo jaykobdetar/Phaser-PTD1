@@ -1,4 +1,9 @@
 # Pokémon Tower Defense — Phaser 3
+<img width="835" height="450" alt="image" src="https://github.com/user-attachments/assets/176d9f7f-a10c-499b-ac97-ca1541a43a84" />
+
+<img width="835" height="450" alt="image" src="https://github.com/user-attachments/assets/0afdf42a-a650-4b7a-a3e6-cb926cd97881" />
+
+<img width="835" height="450" alt="image" src="https://github.com/user-attachments/assets/3faabb0c-ca22-47b3-a51c-ddecdf0b54b9" />
 
 A native offline conversion of the supplied `Ptd1-V3.6.0.swf`. Phaser 3 and JavaScript run the game with the recovered artwork, music, animation, game rules and original 800 × 480 interface. Flash and Ruffle are not required.
 
