@@ -1,0 +1,4 @@
+/* Keep the original title artwork; the separate circular emblem sits outside
+   this viewport. No resampling or replacement lettering is needed. */
+.center-wordmark{display:block;width:315px;max-width:100%;aspect-ratio:315 / 150;overflow:hidden;flex-shrink:0}
+.center-wordmark img{display:block;width:142.857143%!important;max-width:none!important;height:auto!important;object-fit:fill!important;clip-path:polygon(0 0,69% 0,69% 26%,65% 84%,69% 84%,69% 100%,0 100%)}
