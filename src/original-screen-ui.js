@@ -115,6 +115,6 @@ export function installOriginalTitleUI(app){
   });
  };
  app.openOriginalWiki=()=>app.saveOriginalAccount(()=>paint('gfx_screen_wiki_link',{back_butt:()=>app.openMainMenu(),find_butt:()=>window.open('https://ptd.miraheze.org/wiki/Main_Page','_blank','noopener,noreferrer')},{labels:{back_butt:'Back',find_butt:'Open PTD 1 Wiki'}}));
- app.openOriginalPokeCenter=()=>app.saveOriginalAccount(()=>paint('gfx_screen_inventory',{back_butt:()=>app.openMainMenu(),select_butt:()=>app.openTrades()},{labels:{back_butt:'Back',select_butt:'Open local PokéCenter'}}));
+ app.openOriginalPokeCenter=()=>app.saveOriginalAccount(()=>paint('gfx_screen_inventory',{back_butt:()=>app.openMainMenu(),select_butt:()=>app.navigateToPokeCenter()},{labels:{back_butt:'Back',select_butt:'Open local PokéCenter'}}));
  app.openSettings=()=>app.openOriginalOptions();
 }

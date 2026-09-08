@@ -1,0 +1,25 @@
+{
+  "description": "Public Pok\u00e9Center artwork, downloaded without account or profile data. Original Pok\u00e9mon/PTD artwork attribution retained.",
+  "assets": [
+    {
+      "file": "logo.webp",
+      "source": "https://ptd.ooo/images/logo.webp",
+      "sha256": "73a8ea7bdca214b1620c88df64aecb00f9d6cb290a39d1c9d07b3abec9e4c918"
+    },
+    {
+      "file": "icons.webp",
+      "source": "https://ptd.ooo/images/icons.webp",
+      "sha256": "9f969cf7beff55ec3c1810d147a02c17ed6136b8bda0840840aa5bc25176fb78"
+    },
+    {
+      "file": "badges.webp",
+      "source": "https://ptd.ooo/images/badges.webp",
+      "sha256": "b213e730ac7f66881a58afedde266cd1b09b11636fbb14fe924e25e47ac92f63"
+    },
+    {
+      "file": "pokemons64.webp",
+      "source": "https://ptd.ooo/images/pokemons64.webp",
+      "sha256": "6d20221143af3e8ac375344c0eb67b6d73e0cf6af9d1265d6fc35b6ad7e60f47"
+    }
+  ]
+}

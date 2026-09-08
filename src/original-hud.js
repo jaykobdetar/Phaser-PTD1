@@ -15,7 +15,7 @@ export function setOriginalPartyBlockState(block,profile,fighter,{reverse=false}
 
 /** gfx_ui_Level and poke_Block: the source HUD, with invisible accessible hits. */
 export function installOriginalHUD(app){
- const host=document.querySelector('#flash-hud'),canvas=document.createElement('canvas');canvas.width=800;canvas.height=480;host.append(canvas);
+ const host=document.querySelector('#flash-hud'),stage=document.querySelector('#flash-frame'),canvas=document.createElement('canvas');canvas.width=800;canvas.height=480;host.append(canvas);
  const clock={frame:0},clip=new StoryClip(app.data.timelines,'gfx_ui_Level',{clock});clip.stop();
  const buttons=new Map();let renderer=null,last=performance.now(),carry=0;
  function hit(name,target,label,action,{uid,disabled=false,visible=true}={}){
@@ -70,5 +70,15 @@ export function installOriginalHUD(app){
   renderer?.render(clip);
  }
  app.originalHUD={clip,canvas,render};createOriginalRenderer(canvas,'gfx_ui_Level').then(value=>{renderer=value;render();}).catch(error=>app.toast(error.message));
- function tick(now){carry+=Math.min(250,now-last);last=now;while(carry>=1000/21){carry-=1000/21;clock.frame++;clip.tick();}render();requestAnimationFrame(tick);}requestAnimationFrame(tick);
+ function tick(now){
+  carry+=Math.min(250,now-last);last=now;
+  while(carry>=1000/21){carry-=1000/21;clock.frame++;clip.tick();}
+  // Match the visibility rules in original.css without forcing a layout read.
+  // Keep the source clock advancing while screens or drags cover the HUD;
+  // explicit render() calls still refresh immediately, including while hidden.
+  const mode=stage?.dataset.originalPresentation,hidden=mode==='screen'||mode==='popup'&&stage?.dataset.originalParent==='screen'||stage?.classList.contains('original-hide-hud')||stage?.classList.contains('original-dragging');
+  if(!hidden)render();
+  requestAnimationFrame(tick);
+ }
+ requestAnimationFrame(tick);
 }

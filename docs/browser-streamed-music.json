@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "First gesture starts the actual local looping track at the original battle volume",
+    "Pause and resume retain the current track position",
+    "Changing stages retires the previous media resource and starts the new local track",
+    "Actual game sound setup follows Phaser blur/focus signals, preserves position and keeps explicit pauses stopped"
+  ],
+  "errors": []
+}

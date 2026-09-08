@@ -1,4 +1,28 @@
 import {SOURCE_TEXT} from './text-data.js';
+// BEGIN maintained Canvas cache
+// Shared by all exported renderers. Only immutable source strings/layouts are
+// retained; no clip, Canvas, context, registry or rendered bitmap is cached.
+class CanvasValueCache {
+ constructor(maxEntries,maxBytes){this.maxEntries=maxEntries;this.maxBytes=maxBytes;this.clear();}
+ clear(){this.values=new Map();this.bytes=0;this.hits=0;this.misses=0;this.evictions=0;}
+ get(key){const entry=this.values.get(key);if(!entry){this.misses++;return undefined;}this.hits++;this.values.delete(key);this.values.set(key,entry);return entry.value;}
+ set(key,value,bytes){if(bytes>this.maxBytes)return value;const prior=this.values.get(key);if(prior){this.bytes-=prior.bytes;this.values.delete(key);}while(this.values.size>=this.maxEntries||this.bytes+bytes>this.maxBytes){const oldest=this.values.keys().next().value;this.bytes-=this.values.get(oldest).bytes;this.values.delete(oldest);this.evictions++;}this.values.set(key,{value,bytes});this.bytes+=bytes;return value;}
+ stats(){return {entries:this.values.size,estimatedBytes:this.bytes,maxEntries:this.maxEntries,maxBytes:this.maxBytes,hits:this.hits,misses:this.misses,evictions:this.evictions};}
+}
+const sourcePathCache=new CanvasValueCache(2048,2*1024*1024);
+const sourceTextLayoutCache=new CanvasValueCache(512,1024*1024);
+function sourcePathParts(path,stroke){
+ let parts=sourcePathCache.get(path);
+ if(!parts){parts=Object.freeze(path.split(' '));sourcePathCache.set(path,parts,path.length*4+parts.length*16+64);}
+ // The JPEXS stroke algorithm transforms coordinates in-place. Fill paths can
+ // read the cached strings directly; strokes must always own their tokens.
+ return stroke?parts.slice():parts;
+}
+// Diagnostics and explicit invalidation for tests/tools. Catalog text metrics
+// are immutable during play; callers replacing those metrics must clear here.
+export function clearCanvasCaches(){sourcePathCache.clear();sourceTextLayoutCache.clear();}
+export function canvasCacheStats(){return {paths:sourcePathCache.stats(),text:sourceTextLayoutCache.stats()};}
+// END maintained Canvas cache
 /* JPEXS native Canvas2D shape/filter helpers with explicit registry dispatch. */
 export function createCanvasTools(canvas,registry,scalingGrids,boundRects){
 /**
@@ -1193,7 +1217,7 @@ var tocolor = function (c) {
 
 
 function drawMorphPath(ctx, p, ratio, doStroke, scaleMode) {
-    var parts = p.split(" ");
+    var parts = sourcePathParts(p, doStroke);
     var len = parts.length;
     if (doStroke) {
         for (var i = 0; i < len; i++) {
@@ -1272,7 +1296,7 @@ function useRatio(v1, v2, ratio) {
 
 function drawPath(ctx, p, doStroke, scaleMode) {
 //console.log("drawing "+p)
-    var parts = p.split(" ");
+    var parts = sourcePathParts(p, doStroke);
     var len = parts.length;
     if (doStroke) {
         for (var i = 0; i < len; i++) {
@@ -1342,6 +1366,7 @@ function drawPath(ctx, p, doStroke, scaleMode) {
         ctx.restore();
     }
 }
+// BEGIN maintained Canvas dynamic-text
 // SWF color transforms store multipliers as 8.8 fixed point (256 = one).
 // JPEXS Canvas helpers instead use 255 = one; normalize only authored calls.
 function sourceCxform(r,g,b,a,rm,gm,bm,am){return new cxform(r,g,b,a,rm*255/256,gm*255/256,bm*255/256,am*255/256);}
@@ -1352,27 +1377,43 @@ function dynamicText(ctx,matrix,clip,ctrans,id){
  // font outlines use twips. Resolve HTML's effective font from its text records,
  // rather than the edit tag's potentially sparse default font subset.
  const size=Number(clip.textFormat?.size),height=Number.isFinite(size)&&size>0?size*20:field.fontHeight;
- const scale=height/(1024*font.divider),r=field.bounds,left=r[0]*20+40+field.leftMargin,available=(r[2]-r[0])*20-80-field.leftMargin-field.rightMargin;
- const advance=ch=>(font.advances[ch]??font.advances['?']??0)*scale;
- const lines=[];for(const paragraph of contents.split(/\r\n?|\n/)){if(!field.wordWrap){lines.push(paragraph);continue;}let line='';for(const word of paragraph.split(/(\s+)/)){const next=line+word;if(line&&[...next].reduce((a,c)=>a+advance(c),0)>available){lines.push(line.trimEnd());line=word.trimStart();}else line=next;}lines.push(line);}
+ const scale=height/(1024*font.divider),r=field.bounds;
+ // Color/transforms stay live. Only the source font's exact wrapping and glyph
+ // positions are reused, with the original arithmetic and iteration order.
+ const key=JSON.stringify([id,height,contents]);let layout=sourceTextLayoutCache.get(key);
+ if(!layout){
+  const left=r[0]*20+40+field.leftMargin,available=(r[2]-r[0])*20-80-field.leftMargin-field.rightMargin;
+  const advance=ch=>(font.advances[ch]??font.advances['?']??0)*scale;
+  const lines=[];for(const paragraph of contents.split(/\r\n?|\n/)){if(!field.wordWrap){lines.push(paragraph);continue;}let line='';for(const word of paragraph.split(/(\s+)/)){const next=line+word;if(line&&[...next].reduce((a,c)=>a+advance(c),0)>available){lines.push(line.trimEnd());line=word.trimStart();}else line=next;}lines.push(line);}
+  layout=[];let y=r[1]*20+40+font.ascent*scale;
+  for(const line of lines){const width=[...line].reduce((a,c)=>a+advance(c),0);let x=left+(field.align===2?(available-width)/2:field.align===1?available-width:0);for(const ch of line){layout.push(Object.freeze({ch,x,y}));x+=advance(ch);}y+=height+field.leading;}
+  Object.freeze(layout);sourceTextLayoutCache.set(key,layout,key.length*2+layout.length*64+64);
+ }
  ctx.save();ctx.transform(...matrix);ctx.beginPath();ctx.rect(r[0]*20,r[1]*20,(r[2]-r[0])*20,(r[3]-r[1])*20);ctx.clip();
- let y=r[1]*20+40+font.ascent*scale;const rgb=clip.textColor??clip.textFormat?.color,color=tocolor(ctrans.apply(rgb==null?field.color.slice():[(rgb>>>16)&255,(rgb>>>8)&255,rgb&255,field.color[3]]));
- for(const line of lines){const width=[...line].reduce((a,c)=>a+advance(c),0);let x=left+(field.align===2?(available-width)/2:field.align===1?available-width:0);for(const ch of line){ctx.save();ctx.transform(scale,0,0,scale,x,y);glyph(ctx,ch,color);ctx.restore();x+=advance(ch);}y+=height+field.leading;}
+ const rgb=clip.textColor??clip.textFormat?.color,color=tocolor(ctrans.apply(rgb==null?field.color.slice():[(rgb>>>16)&255,(rgb>>>8)&255,rgb&255,field.color[3]]));
+ for(const {ch,x,y} of layout){ctx.save();ctx.transform(scale,0,0,scale,x,y);glyph(ctx,ch,color);ctx.restore();}
  ctx.restore();return true;
 }
+// END maintained Canvas dynamic-text
+// BEGIN maintained Canvas finish-root
 function finishRoot(clip){
  const dissolve=clip?.pixelDissolve;if(!dissolve||dissolve.progress>=1)return;const r=clip.meta?.bounds;if(!r)return;const cols=dissolve.xSections??30,rows=dissolve.ySections??30,total=cols*rows,w=(r[2]-r[0])/cols,h=(r[3]-r[1])/rows;const ctx=canvas.getContext('2d');ctx.save();ctx.setTransform(...(clip.renderMatrix??[1,0,0,1,clip.x??0,clip.y??0]));for(let index=0;index<total;index++){const rank=(index*317)%total;if(rank/total>=dissolve.progress)ctx.clearRect(r[0]+index%cols*w,r[1]+Math.floor(index/cols)*h,w+1,h+1);}ctx.restore();
 }
-
+// END maintained Canvas finish-root
+// BEGIN maintained Canvas placement
 let stack=[],pending=null,rootClip=null;
 function setRoot(clip){rootClip=clip;pending=clip;stack=[];}
-function enterSprite(id,frame){const clip=pending?.symbolId===id?pending:null;pending=null;stack.push({clip,used:new Set()});return clip;}
+function enterSprite(id,frame){const clip=pending?.symbolId===id?pending:null;pending=null;stack.push({clip,used:new Set(),placements:null});return clip;}
 function leaveSprite(){stack.pop();}
 const rawPlace=place;
 place=function(obj,canvas,ctx,matrix,ctrans,blendMode,frame,ratio,time){
  const parent=stack.at(-1),id=Number(obj.replace(/^[a-zA-Z]+/,''));let child=null;
  if(parent?.clip){
-  const candidates=(parent.clip.childrenByDepth?[...parent.clip.childrenByDepth.values()]:(parent.clip.children??[])).filter(c=>c.symbolId===id&&!parent.used.has(c));
+  // Rendering is synchronous; the source timeline advances between renders.
+  // Rebuild per sprite entry, preserving Map/array order and live coordinates.
+  // Retain the original stable sort/comparator for exact nearest-placement ties.
+  if(!parent.placements){parent.placements=new Map();const children=parent.clip.childrenByDepth?parent.clip.childrenByDepth.values():(parent.clip.children??[]);for(const candidate of children){let group=parent.placements.get(candidate.symbolId);if(!group)parent.placements.set(candidate.symbolId,group=[]);group.push(candidate);}}
+  const candidates=(parent.placements.get(id)??[]).filter(c=>!parent.used.has(c));
   const factor=parent.clip===rootClip?1:20;
   candidates.sort((a,b)=>Math.abs(matrix[4]-(a.x??a.matrix?.[4]??0)*factor)+Math.abs(matrix[5]-(a.y??a.matrix?.[5]??0)*factor)-Math.abs(matrix[4]-(b.x??b.matrix?.[4]??0)*factor)-Math.abs(matrix[5]-(b.y??b.matrix?.[5]??0)*factor));child=candidates[0]??null;
   if(child){parent.used.add(child);if(child.visible===false||child.alpha<=0)return;
@@ -1393,6 +1434,7 @@ place=function(obj,canvas,ctx,matrix,ctrans,blendMode,frame,ratio,time){
  if(child&&obj.startsWith('text')&&child.text!==undefined&&dynamicText(ctx,matrix,child,ctrans,id))return;
  pending=child;try{return rawPlace(obj,canvas,ctx,matrix,ctrans,blendMode,frame,ratio,time);}finally{pending=null;}
 };
+// END maintained Canvas placement
 return {place,cxform,sourceCxform,enhanceContext,drawPath,drawMorphPath,tocolor,Filters,BlendModes,createCanvas,concatMatrix,useRatio,setRoot,enterSprite,leaveSprite,finishRoot};
 
 }

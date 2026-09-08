@@ -24,7 +24,7 @@ test('last release produces a valid empty profile and local bank roundtrip prese
  bank.create(0,a);bank.create(1,b);bank.select(0);assert(bank.trade(1,auid,buid).ok);
  assert.deepEqual(bank.current.party,[null,null,buid,null,null,null]);assert.deepEqual(bank.bank.slots[1].party,[null,null,null,null,auid,null]);
  assert(releasePokemon(bank.current,buid).ok);bank.save(bank.current);assert.equal(bank.current.pokemon.length,0);
- const restored=new LocalProfiles(data,backing,null);await restored.initialize();assert.deepEqual(restored.current.party,Array(6).fill(null));assert.deepEqual(restored.current.pokemon,[]);assert.equal(restored.bank.slots[1].party[4],auid);
+ await bank.pending;const restored=new LocalProfiles(data,backing,null);await restored.initialize();assert.deepEqual(restored.current.party,Array(6).fill(null));assert.deepEqual(restored.current.pokemon,[]);assert.equal(restored.bank.slots[1].party[4],auid);
 });
 test('defense and invasion membership skip nulls without moving HUD slots',()=>{
  const s=newSave(data,1),uid=s.party[0];s.party=[null,null,null,null,uid,null];

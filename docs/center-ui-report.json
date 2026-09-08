@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "Malformed percent-encoded routes safely render Home.",
+    "All three profiles can be created through the website.",
+    "An unchanged authoritative focus refresh preserves an unsaved nickname without saving it.",
+    "Collection filtering and nickname editing persist.",
+    "Offers select existing listings and matching wishlist groups auto-accept.",
+    "Pick Up targets the selected receiving profile.",
+    "Manual trade acceptance completes ownership transfer and trade evolution.",
+    "Adoption, earned daily credits, daily currency prize, mystery gift and gift code work.",
+    "Coin exchange, nine slot machines, 3×3 result, and mystery egg prize work.",
+    "Appearance and hacked-tag conversions charge and persist.",
+    "Giveaway creation, entry and timed settlement deliver held prizes.",
+    "One-way PTD 2 transfer removes the source Pokémon and retains an exportable destination archive.",
+    "Preferences affect presentation; avatar selection, portable export and reviewed import work.",
+    "All 22 routes render; mobile layout has no horizontal page overflow and sidebar opens."
+  ],
+  "errors": [],
+  "remoteRequests": [],
+  "profileWrites": 40
+}

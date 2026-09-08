@@ -1,0 +1,243 @@
+{
+  "method": "Synthetic 5,000-record lists (2,000 notifications); warmup plus median of 3 Node string-generation runs. Browser parsing/layout excluded. Pagination intentionally changes first-page HTML; complete rendered-record coverage is compared separately.",
+  "results": [
+    {
+      "name": "collection",
+      "before": {
+        "medianMs": 0.608,
+        "htmlBytes": 52829,
+        "elements": 714,
+        "cards": 24,
+        "sha256": "5cb4c6fbf8e92a7039a169873228b9343ec595a41803366f5a414de8f899b4e2"
+      },
+      "after": {
+        "medianMs": 0.398,
+        "htmlBytes": 37165,
+        "elements": 511,
+        "cards": 24,
+        "sha256": "8a7218dec400fbbfa1aafcd5d85f6477d658ec55865cc4f76d5370bf790944cf"
+      }
+    },
+    {
+      "name": "conversion",
+      "before": {
+        "medianMs": 38.388,
+        "htmlBytes": 6018611,
+        "elements": 85048,
+        "cards": 5000,
+        "sha256": "2d4376926de54d22c16e3e95494fdad8d279f21b0f6ce2473821033e9f195acd"
+      },
+      "after": {
+        "medianMs": 0.442,
+        "htmlBytes": 31343,
+        "elements": 463,
+        "cards": 24,
+        "sha256": "8ff5cc06f9a6cd992d89cc6a1ae6adaf7846264baf6a5825f5cce6271cc68d5b"
+      }
+    },
+    {
+      "name": "tags",
+      "before": {
+        "medianMs": 36.031,
+        "htmlBytes": 5988744,
+        "elements": 85050,
+        "cards": 5000,
+        "sha256": "b8538c10812b40a643246e41d0d1cac9cb855f6c07f57447f227bdc9c69a6fc1"
+      },
+      "after": {
+        "medianMs": 0.423,
+        "htmlBytes": 31302,
+        "elements": 465,
+        "cards": 24,
+        "sha256": "47dce8c74f79dcbd59e4487160e380e34c1f545248be0e886ba306a403b69b03"
+      }
+    },
+    {
+      "name": "pickup",
+      "before": {
+        "medianMs": 55.276,
+        "htmlBytes": 6734979,
+        "elements": 90011,
+        "cards": 5000,
+        "sha256": "f44200503ebd597883239a2234223025a1bb51ef9d00c2010c0def1b8cf350f9"
+      },
+      "after": {
+        "medianMs": 0.321,
+        "htmlBytes": 32760,
+        "elements": 450,
+        "cards": 24,
+        "sha256": "b05343705490f5adbbc30d6c165d0394a0c320b1e5373ef7d311b3060e263dc8"
+      }
+    },
+    {
+      "name": "trades",
+      "before": {
+        "medianMs": 45.768,
+        "htmlBytes": 6280591,
+        "elements": 97512,
+        "cards": 5000,
+        "sha256": "196aa7365ada8bbf34bfa9eda94e3b042bc7289aba33be270b71b732ea4e77af"
+      },
+      "after": {
+        "medianMs": 0.309,
+        "htmlBytes": 31153,
+        "elements": 487,
+        "cards": 24,
+        "sha256": "8efa9e788c16a2bd3f0afb210c7667647924b3cba9ee57a95905448d19884ed0"
+      }
+    },
+    {
+      "name": "offers",
+      "before": {
+        "medianMs": 16.493,
+        "htmlBytes": 1702963,
+        "elements": 50010,
+        "cards": 0,
+        "sha256": "fae9866579e0938e4360d87781c17eebca70483c4e5bf2d64a2ca27ffc48ce9d"
+      },
+      "after": {
+        "medianMs": 1.052,
+        "htmlBytes": 17673,
+        "elements": 517,
+        "cards": 0,
+        "sha256": "8dd2f9ad5ac758f8c6a839f0c1c313e5e9a6d8398a52ae49c080a01da4f05ec6"
+      }
+    },
+    {
+      "name": "giveaways",
+      "before": {
+        "medianMs": 17.073,
+        "htmlBytes": 1133499,
+        "elements": 45020,
+        "cards": 0,
+        "sha256": "7fbc7d8945f9e73f8114c6ab33e5d4d8563c64630572d74878159f40cbf2bad9"
+      },
+      "after": {
+        "medianMs": 0.319,
+        "htmlBytes": 12524,
+        "elements": 477,
+        "cards": 0,
+        "sha256": "e1ea3a33d21eb09047c642162ec290e63ccf5c3ce853fded3f5009588867fcec"
+      }
+    },
+    {
+      "name": "notifications",
+      "before": {
+        "medianMs": 7.021,
+        "htmlBytes": 572003,
+        "elements": 8004,
+        "cards": 0,
+        "sha256": "bbf14fd9f26dd386c6ea521ae7a4536623753e963e14a3b0499009d605a1c0e7"
+      },
+      "after": {
+        "medianMs": 0.27,
+        "htmlBytes": 14069,
+        "elements": 211,
+        "cards": 0,
+        "sha256": "918fbb6e65dd687539c3b5f2060400b2a03da9d7268768835b9c6ab0c747f041"
+      }
+    },
+    {
+      "name": "transfer",
+      "before": {
+        "medianMs": 42.572,
+        "htmlBytes": 5133968,
+        "elements": 75012,
+        "cards": 5000,
+        "sha256": "bc3e0b7174f8cf7be0a4bd85b3ad728f2992c03845705aae12887915e7f0003a"
+      },
+      "after": {
+        "medianMs": 0.411,
+        "htmlBytes": 26400,
+        "elements": 379,
+        "cards": 24,
+        "sha256": "0818844874b8d27cd5cc07599739ac75b558099dbe7511bee5912fbbefbad5aa"
+      }
+    },
+    {
+      "name": "pokemonPicker",
+      "before": {
+        "medianMs": 31.258,
+        "htmlBytes": 5480596,
+        "elements": 85001,
+        "cards": 5000,
+        "sha256": "231faefed3b204ecbdf596ecf0776d263b80ea553b78ebed0d927d01c56724ee"
+      },
+      "after": {
+        "medianMs": 0.532,
+        "htmlBytes": 27618,
+        "elements": 422,
+        "cards": 24,
+        "sha256": "eb4f75055cfc74930f64f5bfcdd2cd0ad1e540a4e1b817c08de4ce85076d9170"
+      }
+    },
+    {
+      "name": "listingDialog",
+      "before": {
+        "medianMs": 2.785,
+        "htmlBytes": 363843,
+        "elements": 5017,
+        "cards": 0,
+        "sha256": "a3576ab6dfab849a039520d1da77c0d6898e512646c260bf9b88c3a88d21b381"
+      },
+      "after": {
+        "medianMs": 0.601,
+        "htmlBytes": 3823,
+        "elements": 55,
+        "cards": 0,
+        "sha256": "8fb2c99ff7c319d310d494ed5d704e53545412cd6a1b9e33f337754027e61215"
+      }
+    },
+    {
+      "name": "offerDialog",
+      "before": {
+        "medianMs": 16.279,
+        "htmlBytes": 2685724,
+        "elements": 40008,
+        "cards": 2500,
+        "sha256": "e99af2df01292ba3e4a3f6a19f4ae450eafaca7c42aab0cc87b4276093b92fd6"
+      },
+      "after": {
+        "medianMs": 0.309,
+        "htmlBytes": 27582,
+        "elements": 405,
+        "cards": 24,
+        "sha256": "db865894a1be902089ea315e01b5506d886c249365d31351c4fd15b1c454d279"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "name": "conversion",
+      "beforeCount": 5000,
+      "afterCount": 5000,
+      "beforeSha256": "88006584da171081795b2355d3ac6be5ed1b51d450ba026078b49592a2df7d14",
+      "afterSha256": "88006584da171081795b2355d3ac6be5ed1b51d450ba026078b49592a2df7d14",
+      "match": true
+    },
+    {
+      "name": "pickup",
+      "beforeCount": 5000,
+      "afterCount": 5000,
+      "beforeSha256": "342873ab6512f360e0d590e68c01035a246e3ec5b857ab119f2e03eaff13ea87",
+      "afterSha256": "342873ab6512f360e0d590e68c01035a246e3ec5b857ab119f2e03eaff13ea87",
+      "match": true
+    },
+    {
+      "name": "trades",
+      "beforeCount": 5000,
+      "afterCount": 5000,
+      "beforeSha256": "ff8d62952729c2b268633a1b4bec617b12f6dd6a4d0984cda5aa8481e1f78b9d",
+      "afterSha256": "ff8d62952729c2b268633a1b4bec617b12f6dd6a4d0984cda5aa8481e1f78b9d",
+      "match": true
+    },
+    {
+      "name": "transfer",
+      "beforeCount": 5000,
+      "afterCount": 5000,
+      "beforeSha256": "342873ab6512f360e0d590e68c01035a246e3ec5b857ab119f2e03eaff13ea87",
+      "afterSha256": "342873ab6512f360e0d590e68c01035a246e3ec5b857ab119f2e03eaff13ea87",
+      "match": true
+    }
+  ]
+}

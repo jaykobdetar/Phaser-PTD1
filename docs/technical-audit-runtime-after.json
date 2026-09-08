@@ -1,0 +1,104 @@
+{
+  "phase": "after",
+  "retention": {
+    "created": 5000,
+    "liveWorldChildren": 0,
+    "strongRegistrySize": null,
+    "retainedRoots": 1,
+    "heapDeltaBytes": 276832
+  },
+  "membership": [
+    {
+      "fighters": 50,
+      "old": {
+        "medianMsPer100": 0.700380999999993,
+        "checksum": 25000
+      },
+      "optimized": {
+        "medianMsPer100": 0.2769999999999868,
+        "checksum": 25000
+      }
+    },
+    {
+      "fighters": 200,
+      "old": {
+        "medianMsPer100": 6.351094999999987,
+        "checksum": 100000
+      },
+      "optimized": {
+        "medianMsPer100": 1.6639410000000225,
+        "checksum": 100000
+      }
+    },
+    {
+      "fighters": 1000,
+      "old": {
+        "medianMsPer100": 199.66652699999997,
+        "checksum": 500000
+      },
+      "optimized": {
+        "medianMsPer100": 5.88043400000015,
+        "checksum": 500000
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "move": 1,
+      "frames": 600,
+      "rngCalls": 2,
+      "sha256": "b3846898c8b87a1093ce46e9a85b7123edfcab95a4f55ba7a729533fd0c9ed4d",
+      "elapsedMs": 12.376909000000069
+    },
+    {
+      "move": 10,
+      "frames": 600,
+      "rngCalls": 4,
+      "sha256": "3543f9f93fe60d86654c919c41b43cd02c1d58c1c9717b2aa4f652be3ec22443",
+      "elapsedMs": 14.930260999999973
+    },
+    {
+      "move": 26,
+      "frames": 600,
+      "rngCalls": 1,
+      "sha256": "7266a998bae71625ab31259005509b9ce17374baf1f570c6a3e249bd5b193e1b",
+      "elapsedMs": 17.64415299999996
+    },
+    {
+      "move": 56,
+      "frames": 600,
+      "rngCalls": 1,
+      "sha256": "27905ce0e100b992b86b0060ea46330af36344c82a11e9db9cf963bf29c5a3f5",
+      "elapsedMs": 10.752647000000024
+    },
+    {
+      "move": 111,
+      "frames": 600,
+      "rngCalls": 0,
+      "sha256": "62f9977675176fbcc0ec2cb176f05d559c118393df6ff6266b65582eeea8eecf",
+      "elapsedMs": 74.94463099999984
+    },
+    {
+      "move": 143,
+      "frames": 600,
+      "rngCalls": 0,
+      "sha256": "46c1b0784a23810a4687e69094189bad67265c46342bd475d7822d91a195c1fa",
+      "elapsedMs": 9.30630700000006
+    },
+    {
+      "move": 144,
+      "frames": 600,
+      "rngCalls": 2,
+      "sha256": "2ea01c3afbc0448a03fb3ea79cb2767ee101513d6f48c3e27dbc8481196b088d",
+      "elapsedMs": 9.035045999999966
+    },
+    {
+      "move": 405,
+      "frames": 600,
+      "rngCalls": 0,
+      "sha256": "125f5ea44994b945446e5487f0069c1924f91bbba67e90b9a289e9ee1aabf410",
+      "elapsedMs": 7.897744999999986
+    }
+  ],
+  "matchesSourceBaseline": true
+}

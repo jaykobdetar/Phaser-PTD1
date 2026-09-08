@@ -1,0 +1,90 @@
+{
+  "phase": "after",
+  "method": "Fresh isolated Chromium context; time to Phaser ready, actual WebAudio PCM buffer byte lengths, local audio resource timing. Timings include original title work and are machine-dependent.",
+  "readyMs": 3196,
+  "buffers": [
+    {
+      "key": "ineffectiveHitSound",
+      "length": 35108,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 140432
+    },
+    {
+      "key": "faintSound",
+      "length": 45139,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 180556
+    },
+    {
+      "key": "regularHitSound",
+      "length": 45139,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 180556
+    },
+    {
+      "key": "lower_Stat_Sound",
+      "length": 75232,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 300928
+    },
+    {
+      "key": "superEffectiveSound",
+      "length": 82755,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 331020
+    },
+    {
+      "key": "increase_Stat_Sound",
+      "length": 80248,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 320992
+    },
+    {
+      "key": "levelUpSound",
+      "length": 135418,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 541672
+    }
+  ],
+  "decodedAudioBytes": 1996156,
+  "audioRequests": [
+    {
+      "file": "/assets/audio/superEffectiveSound.mp3",
+      "encodedBytes": 3432
+    },
+    {
+      "file": "/assets/audio/lower_Stat_Sound.mp3",
+      "encodedBytes": 3120
+    },
+    {
+      "file": "/assets/audio/ineffectiveHitSound.mp3",
+      "encodedBytes": 1456
+    },
+    {
+      "file": "/assets/audio/faintSound.mp3",
+      "encodedBytes": 1872
+    },
+    {
+      "file": "/assets/audio/regularHitSound.mp3",
+      "encodedBytes": 1872
+    },
+    {
+      "file": "/assets/audio/levelUpSound.mp3",
+      "encodedBytes": 5616
+    },
+    {
+      "file": "/assets/audio/increase_Stat_Sound.mp3",
+      "encodedBytes": 3328
+    }
+  ],
+  "textures": 609,
+  "animations": 4,
+  "errors": []
+}

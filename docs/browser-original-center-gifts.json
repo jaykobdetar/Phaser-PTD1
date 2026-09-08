@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Source Daily Gift shows wait until persistence, grants a shiny to Center Pick Up, and preserves live battle/profile identities",
+    "Source used/daily/weekly frames and Center service share the same cooldown records without duplicate gifts",
+    "Failed source profile persistence selects the original database-error frame and awards nothing",
+    "Runtime MissingNo code uses the Center redemption record and Pick Up destination"
+  ],
+  "errors": []
+}

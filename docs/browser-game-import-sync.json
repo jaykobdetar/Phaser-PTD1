@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Single-profile import waits for durable commit, preserves live save/battle on rejection, and adopts persisted state only after retry succeeds",
+    "Whole-bank import waits for durable commit, preserves live save/battle on rejection, and adopts persisted state only after retry succeeds",
+    "Compatibility-mirror quota failure preserves its existing record while the authoritative disk bank saves successfully",
+    "Synchronous profile validation failure blocks Center navigation",
+    "Center navigation stays in the game while saving and after a disk rejection",
+    "External account change pauses combat, exposes export/reload, and blocks stale navigation/save",
+    "Successful Center navigation waits for disk acknowledgment and beforeunload does not submit another save"
+  ],
+  "errors": []
+}

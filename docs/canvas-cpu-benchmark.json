@@ -1,0 +1,146 @@
+{
+  "description": "Node CPU helper microbenchmarks using no-op Canvas operations; medians of 7 alternating-order warm rounds. Browser benchmark measures actual pixels/drawing separately.",
+  "fixtures": {
+    "paths": 32,
+    "pathCharacters": 12298,
+    "placementRoot": "gfx_level_online_1",
+    "placementChildren": 245
+  },
+  "results": {
+    "paths": {
+      "beforeMs": 58.992380999999966,
+      "afterMs": 18.25860399999999,
+      "reductionPercent": 69.04921671156144,
+      "samples": {
+        "before": [
+          58.80941100000001,
+          59.46011199999998,
+          58.992380999999966,
+          70.83677900000004,
+          58.633451000000036,
+          58.790481,
+          59.46551099999999
+        ],
+        "after": [
+          18.62849299999999,
+          18.51083299999999,
+          18.43176200000005,
+          18.25860399999999,
+          17.455612000000087,
+          17.44372199999998,
+          17.491142999999965
+        ]
+      },
+      "cache": {
+        "paths": {
+          "entries": 30,
+          "estimatedBytes": 84240,
+          "maxEntries": 2048,
+          "maxBytes": 2097152,
+          "hits": 255970,
+          "misses": 30,
+          "evictions": 0
+        },
+        "text": {
+          "entries": 0,
+          "estimatedBytes": 0,
+          "maxEntries": 512,
+          "maxBytes": 1048576,
+          "hits": 0,
+          "misses": 0,
+          "evictions": 0
+        }
+      }
+    },
+    "text": {
+      "beforeMs": 160.13419199999976,
+      "afterMs": 27.90903900000012,
+      "reductionPercent": 82.57146793484294,
+      "samples": {
+        "before": [
+          161.12904200000003,
+          156.9920689999999,
+          161.0929329999999,
+          158.46235000000001,
+          159.09308099999998,
+          160.13419199999976,
+          160.74924199999987
+        ],
+        "after": [
+          27.97560999999996,
+          27.671078999999963,
+          27.717728999999963,
+          27.86032,
+          32.350022999999965,
+          32.02591200000006,
+          27.90903900000012
+        ]
+      },
+      "cache": {
+        "paths": {
+          "entries": 0,
+          "estimatedBytes": 0,
+          "maxEntries": 2048,
+          "maxBytes": 2097152,
+          "hits": 0,
+          "misses": 0,
+          "evictions": 0
+        },
+        "text": {
+          "entries": 1,
+          "estimatedBytes": 5242,
+          "maxEntries": 512,
+          "maxBytes": 1048576,
+          "hits": 39999,
+          "misses": 1,
+          "evictions": 0
+        }
+      }
+    },
+    "placement": {
+      "beforeMs": 3392.4719160000004,
+      "afterMs": 2955.938001999999,
+      "reductionPercent": 12.867723736817558,
+      "samples": {
+        "before": [
+          3392.4719160000004,
+          3396.681679999998,
+          3374.7494049999987,
+          3383.7423620000045,
+          3396.382080999996,
+          3391.5220889999982,
+          3444.5947460000025
+        ],
+        "after": [
+          2953.826631,
+          2950.7479189999995,
+          2955.938001999999,
+          2962.053898000002,
+          2954.681122999995,
+          2967.6463719999956,
+          3026.7900240000017
+        ]
+      },
+      "cache": {
+        "paths": {
+          "entries": 0,
+          "estimatedBytes": 0,
+          "maxEntries": 2048,
+          "maxBytes": 2097152,
+          "hits": 0,
+          "misses": 0,
+          "evictions": 0
+        },
+        "text": {
+          "entries": 0,
+          "estimatedBytes": 0,
+          "maxEntries": 512,
+          "maxBytes": 1048576,
+          "hits": 0,
+          "misses": 0,
+          "evictions": 0
+        }
+      }
+    }
+  }
+}

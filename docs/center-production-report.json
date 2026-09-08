@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "Production Center creates a profile, grants free credits, adopts and picks up a Pokémon using the real atomic disk service.",
+    "Game reloads the Center roster, then original save acknowledgment and gateway return to Center without losing its records.",
+    "Production reload restores the same profile and account; game and Center inspection globals are absent.",
+    "No page errors or external requests."
+  ],
+  "errors": [],
+  "remoteRequests": []
+}

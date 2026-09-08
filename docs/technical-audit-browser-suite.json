@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "name": "browser-ui-polish",
+      "code": 0,
+      "seconds": 17.672
+    },
+    {
+      "name": "browser-original-controls",
+      "code": 0,
+      "seconds": 54.388
+    },
+    {
+      "name": "browser-selfdestruct-cleanup",
+      "code": 0,
+      "seconds": 42.441
+    },
+    {
+      "name": "browser-original-items",
+      "code": 0,
+      "seconds": 72.688
+    },
+    {
+      "name": "browser-original-presentation",
+      "code": 0,
+      "seconds": 5.748
+    },
+    {
+      "name": "browser-source-save-options",
+      "code": 0,
+      "seconds": 23.464
+    },
+    {
+      "name": "browser-game-import-sync",
+      "code": 0,
+      "seconds": 8.444
+    },
+    {
+      "name": "browser-center-save-sync",
+      "code": 0,
+      "seconds": 0.886
+    },
+    {
+      "name": "browser-original-center-gifts",
+      "code": 0,
+      "seconds": 5.556
+    },
+    {
+      "name": "browser-center-ui",
+      "code": 0,
+      "seconds": 4.901
+    },
+    {
+      "name": "browser-native-text",
+      "code": 0,
+      "seconds": 1.199
+    }
+  ]
+}

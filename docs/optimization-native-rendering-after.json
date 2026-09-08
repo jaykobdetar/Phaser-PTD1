@@ -1,0 +1,141 @@
+{
+  "phase": "after",
+  "hashes": [
+    {
+      "label": "initial",
+      "sha256": "3bd1d8fc037e7dffd43241a4e31482a16c654d628bb67717f83a67058f2dbc8f"
+    },
+    {
+      "label": "identical",
+      "sha256": "3bd1d8fc037e7dffd43241a4e31482a16c654d628bb67717f83a67058f2dbc8f"
+    },
+    {
+      "label": "same-tick-position",
+      "sha256": "966c057115f3eade77fd57f04f507797e8e3f88300f94538f7abcc40a609514f"
+    },
+    {
+      "label": "same-tick-alpha",
+      "sha256": "305f6b2385e728baaa21d686a75fc65dab1c87eef517a703e4f7ed983fa39c97"
+    },
+    {
+      "label": "same-tick-matrix",
+      "sha256": "e481af005e262b5eb4769dc772af260c7ac01cf0ff886e0bead8d9a6deb1ea75"
+    },
+    {
+      "label": "pokemon-source-frame",
+      "sha256": "966c057115f3eade77fd57f04f507797e8e3f88300f94538f7abcc40a609514f"
+    },
+    {
+      "label": "tint",
+      "sha256": "d438820cc206b503a2e56e84472f4428688b29fd7a709a59a1cd1966ab04bb06"
+    },
+    {
+      "label": "identical-tint",
+      "sha256": "d438820cc206b503a2e56e84472f4428688b29fd7a709a59a1cd1966ab04bb06"
+    },
+    {
+      "label": "tint-new-frame",
+      "sha256": "fe124e735c22eb72fd2ad237918de1afca131987a56d59f21365f4be8ed6cab2"
+    },
+    {
+      "label": "tint-new-amount",
+      "sha256": "c9c59a2bf3ebb59714722e673f6b8b747359fae90afe1853b6504bdb54e56736"
+    },
+    {
+      "label": "tint-new-color",
+      "sha256": "b443dadc2decafd6236d812c072299c23e0252d87289520f66e8bd2cb73a46d4"
+    },
+    {
+      "label": "two-tinted-sizes",
+      "sha256": "f50401b56914bc587450b3b7c6beb893f01bf16cf6a7a17f21163faf98373701"
+    },
+    {
+      "label": "glow",
+      "sha256": "3a052d0f3d6bf543c3ee07db8dec280e7dc7588ffa7bd3668add49c2bcb4b6dd"
+    },
+    {
+      "label": "glow-change",
+      "sha256": "63ee129ac3bac0479a405ad2e2d4e7902cb48c410842f19010dbb26cd2adecfd"
+    },
+    {
+      "label": "same-tick-text",
+      "sha256": "63ee129ac3bac0479a405ad2e2d4e7902cb48c410842f19010dbb26cd2adecfd"
+    },
+    {
+      "label": "same-tick-text-color",
+      "sha256": "63ee129ac3bac0479a405ad2e2d4e7902cb48c410842f19010dbb26cd2adecfd"
+    },
+    {
+      "label": "same-tick-text-format",
+      "sha256": "63ee129ac3bac0479a405ad2e2d4e7902cb48c410842f19010dbb26cd2adecfd"
+    },
+    {
+      "label": "named-child-hidden",
+      "sha256": "63ee129ac3bac0479a405ad2e2d4e7902cb48c410842f19010dbb26cd2adecfd"
+    },
+    {
+      "label": "named-child-transform",
+      "sha256": "63ee129ac3bac0479a405ad2e2d4e7902cb48c410842f19010dbb26cd2adecfd"
+    },
+    {
+      "label": "pokemon-check",
+      "sha256": "ca2253920754b163ebeca17122d2aa85f8401b6dd580fbaef5ba6cc4a6de2f33"
+    },
+    {
+      "label": "capture-hidden",
+      "sha256": "72caf813c402931188e56f96eb8f6f6efb45516ba0d99e0cf80931591e80a9ff"
+    },
+    {
+      "label": "reordered-children",
+      "sha256": "4052d771915b5e76a7185b7f4178081d66cdf12f16b80bb088330d216163c520"
+    },
+    {
+      "label": "source-tick",
+      "sha256": "2a0c26ca1d007ee45829aa154955fc84d85c6821cc2bbf9a8267513a3d49f8ab"
+    },
+    {
+      "label": "async-before",
+      "sha256": "2a0c26ca1d007ee45829aa154955fc84d85c6821cc2bbf9a8267513a3d49f8ab"
+    },
+    {
+      "label": "async-after",
+      "sha256": "2a0c26ca1d007ee45829aa154955fc84d85c6821cc2bbf9a8267513a3d49f8ab"
+    }
+  ],
+  "stats": {
+    "unchanged": {
+      "calls": 180,
+      "uploads": 0,
+      "elapsedMs": 4.700000017881393
+    },
+    "sourceTicks": {
+      "calls": 180,
+      "uploads": 63,
+      "elapsedMs": 43.400000005960464
+    },
+    "sameTickDrag": {
+      "calls": 180,
+      "uploads": 180,
+      "elapsedMs": 99.89999997615814
+    },
+    "comparisonOnly": {
+      "calls": 180,
+      "elapsedMs": 1.5
+    },
+    "tintDimensionAssignments": {
+      "width": 0,
+      "height": 0
+    },
+    "tintCache": {
+      "entries": 2,
+      "bytes": 12620
+    },
+    "canvasBytes": 3411200,
+    "sceneUpdate": {
+      "ticks": 3,
+      "eventCallbacks": 3,
+      "paints": 1
+    }
+  },
+  "errors": []
+}

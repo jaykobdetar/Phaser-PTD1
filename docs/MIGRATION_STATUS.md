@@ -14,6 +14,7 @@ The game now runs natively through Phaser 3 and JavaScript. The supplied launche
 | Presentation | Original 800×480 HUD, direct drag/click controls, 536 Pokémon sheets, maps/music and 584 exported native Canvas roots including move effects |
 | Collection | Fixed-slot party/storage dragging, training, target settings, move learning, TM/relearn, level/stone/trade evolution, shop, item inventory, Pokédex |
 | Profiles | Three slots, version-2 validation, browser/disk persistence, import/export and legacy JSON migration |
+| PokéCenter | Standalone local website with 260 catalog adoptions, listings/offers/wishlists, gifts, slots and prizes, conversions, giveaways, inventory, shared Dex, settings and PTD 2/3 transfer archives |
 
 ## Recovery method
 
@@ -34,6 +35,8 @@ The supplied Python server implements save storage but does not supply the forme
 - The loopback Python launcher saves the profile bank to disk with atomic replacement, previous-file backup and revision conflicts. Static hosting retains browser saving.
 
 Source Save uses the original pending, success and retry frames. Device-wide music, sound and damage-text switches persist independently of the selected profile. Portable backup/import is accessible through the local-storage control in the original Options screen.
+
+The standalone Center adds a faithful local counterpart to the current PTD 1 website; see [POKECENTER.md](POKECENTER.md) for its evidence, free economy, reset rules and transfer scope.
 
 These are intentional offline recreations, not a claim to have recovered unavailable server implementations.
 

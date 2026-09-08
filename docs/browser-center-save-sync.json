@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "Web Locks: two real tabs, one CAS winner, explicit refresh/retry, storage conflict notification, rejected stale game save, failed mutation isolation",
+    "IndexedDB mutex fallback: two real tabs, one CAS winner, explicit refresh/retry, storage conflict notification, rejected stale game save, failed mutation isolation"
+  ],
+  "errors": []
+}

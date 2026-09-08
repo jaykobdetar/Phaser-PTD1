@@ -1,0 +1,7 @@
+# Generated-runtime checks compare exact text; keep checkout line endings stable.
+* text=auto
+*.js text eol=lf
+*.mjs text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.sh text eol=lf

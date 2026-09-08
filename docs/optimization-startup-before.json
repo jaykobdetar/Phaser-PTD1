@@ -1,0 +1,387 @@
+{
+  "phase": "before",
+  "method": "Fresh isolated Chromium context; time to Phaser ready, actual WebAudio PCM buffer byte lengths, local audio resource timing. Timings include original title work and are machine-dependent.",
+  "readyMs": 4205,
+  "buffers": [
+    {
+      "key": "superEffectiveSound",
+      "length": 82755,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 331020
+    },
+    {
+      "key": "lower_Stat_Sound",
+      "length": 75232,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 300928
+    },
+    {
+      "key": "ineffectiveHitSound",
+      "length": 35108,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 140432
+    },
+    {
+      "key": "team_rocket_music",
+      "length": 1040718,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 4162872
+    },
+    {
+      "key": "evolveMusic",
+      "length": 2643173,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 10572692
+    },
+    {
+      "key": "faintSound",
+      "length": 45139,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 180556
+    },
+    {
+      "key": "route2Music",
+      "length": 2838778,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 11355112
+    },
+    {
+      "key": "gymMusic",
+      "length": 3375438,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 13501752
+    },
+    {
+      "key": "ssanneMusic",
+      "length": 3653799,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 14615196
+    },
+    {
+      "key": "regularHitSound",
+      "length": 45139,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 180556
+    },
+    {
+      "key": "levelUpSound",
+      "length": 135418,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 541672
+    },
+    {
+      "key": "trainerEncounterSong",
+      "length": 952946,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 3811784
+    },
+    {
+      "key": "cinnabarMusic",
+      "length": 2858840,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 11435360
+    },
+    {
+      "key": "palletMusic",
+      "length": 3761632,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 15046528
+    },
+    {
+      "key": "increase_Stat_Sound",
+      "length": 80248,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 320992
+    },
+    {
+      "key": "celadonCityMusic",
+      "length": 3332806,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 13331224
+    },
+    {
+      "key": "route4Music",
+      "length": 3979807,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 15919228
+    },
+    {
+      "key": "oceanMusic",
+      "length": 4117733,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 16470932
+    },
+    {
+      "key": "kiraJusticeMusic",
+      "length": 3924636,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 15698544
+    },
+    {
+      "key": "mansionMusic",
+      "length": 4039993,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 16159972
+    },
+    {
+      "key": "vermillionMusic",
+      "length": 2693328,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 10773312
+    },
+    {
+      "key": "ceruleanMusic",
+      "length": 3377946,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 13511784
+    },
+    {
+      "key": "viridianForestSong",
+      "length": 5138390,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 20553560
+    },
+    {
+      "key": "cityMusic",
+      "length": 5938364,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 23753456
+    },
+    {
+      "key": "route10Music",
+      "length": 3430608,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 13722432
+    },
+    {
+      "key": "lavenderTownMusic",
+      "length": 4824920,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 19299680
+    },
+    {
+      "key": "pokeTowerMusic",
+      "length": 6412329,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 25649316
+    },
+    {
+      "key": "evolveDoneMusic",
+      "length": 1534746,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 6138984
+    },
+    {
+      "key": "battleWildMusic",
+      "length": 4303307,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 17213228
+    },
+    {
+      "key": "billMusic",
+      "length": 2194285,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 8777140
+    },
+    {
+      "key": "battleGymMusic",
+      "length": 5509537,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 22038148
+    },
+    {
+      "key": "casinoMusic",
+      "length": 4070086,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 16280344
+    },
+    {
+      "key": "hankBattleMusic",
+      "length": 9279947,
+      "channels": 1,
+      "sampleRate": 48000,
+      "bytes": 37119788
+    },
+    {
+      "key": "openingSong",
+      "length": 5695111,
+      "channels": 2,
+      "sampleRate": 48000,
+      "bytes": 45560888
+    }
+  ],
+  "decodedAudioBytes": 444469412,
+  "audioRequests": [
+    {
+      "file": "/assets/audio/route2Music.mp3",
+      "encodedBytes": 117728
+    },
+    {
+      "file": "/assets/audio/superEffectiveSound.mp3",
+      "encodedBytes": 3432
+    },
+    {
+      "file": "/assets/audio/evolveMusic.mp3",
+      "encodedBytes": 109616
+    },
+    {
+      "file": "/assets/audio/openingSong.mp3",
+      "encodedBytes": 2370924
+    },
+    {
+      "file": "/assets/audio/lower_Stat_Sound.mp3",
+      "encodedBytes": 3120
+    },
+    {
+      "file": "/assets/audio/ssanneMusic.mp3",
+      "encodedBytes": 151528
+    },
+    {
+      "file": "/assets/audio/cityMusic.mp3",
+      "encodedBytes": 246272
+    },
+    {
+      "file": "/assets/audio/gymMusic.mp3",
+      "encodedBytes": 139984
+    },
+    {
+      "file": "/assets/audio/ineffectiveHitSound.mp3",
+      "encodedBytes": 1456
+    },
+    {
+      "file": "/assets/audio/oceanMusic.mp3",
+      "encodedBytes": 170768
+    },
+    {
+      "file": "/assets/audio/palletMusic.mp3",
+      "encodedBytes": 156000
+    },
+    {
+      "file": "/assets/audio/team_rocket_music.mp3",
+      "encodedBytes": 43160
+    },
+    {
+      "file": "/assets/audio/viridianForestSong.mp3",
+      "encodedBytes": 213096
+    },
+    {
+      "file": "/assets/audio/kiraJusticeMusic.mp3",
+      "encodedBytes": 162760
+    },
+    {
+      "file": "/assets/audio/pokeTowerMusic.mp3",
+      "encodedBytes": 265928
+    },
+    {
+      "file": "/assets/audio/cinnabarMusic.mp3",
+      "encodedBytes": 118560
+    },
+    {
+      "file": "/assets/audio/celadonCityMusic.mp3",
+      "encodedBytes": 138216
+    },
+    {
+      "file": "/assets/audio/route4Music.mp3",
+      "encodedBytes": 165048
+    },
+    {
+      "file": "/assets/audio/hankBattleMusic.mp3",
+      "encodedBytes": 3086217
+    },
+    {
+      "file": "/assets/audio/mansionMusic.mp3",
+      "encodedBytes": 167544
+    },
+    {
+      "file": "/assets/audio/lavenderTownMusic.mp3",
+      "encodedBytes": 200096
+    },
+    {
+      "file": "/assets/audio/faintSound.mp3",
+      "encodedBytes": 1872
+    },
+    {
+      "file": "/assets/audio/ceruleanMusic.mp3",
+      "encodedBytes": 140088
+    },
+    {
+      "file": "/assets/audio/trainerEncounterSong.mp3",
+      "encodedBytes": 39520
+    },
+    {
+      "file": "/assets/audio/regularHitSound.mp3",
+      "encodedBytes": 1872
+    },
+    {
+      "file": "/assets/audio/vermillionMusic.mp3",
+      "encodedBytes": 111696
+    },
+    {
+      "file": "/assets/audio/levelUpSound.mp3",
+      "encodedBytes": 5616
+    },
+    {
+      "file": "/assets/audio/route10Music.mp3",
+      "encodedBytes": 142272
+    },
+    {
+      "file": "/assets/audio/battleWildMusic.mp3",
+      "encodedBytes": 178464
+    },
+    {
+      "file": "/assets/audio/increase_Stat_Sound.mp3",
+      "encodedBytes": 3328
+    },
+    {
+      "file": "/assets/audio/battleGymMusic.mp3",
+      "encodedBytes": 228488
+    },
+    {
+      "file": "/assets/audio/casinoMusic.mp3",
+      "encodedBytes": 168792
+    },
+    {
+      "file": "/assets/audio/evolveDoneMusic.mp3",
+      "encodedBytes": 63648
+    },
+    {
+      "file": "/assets/audio/billMusic.mp3",
+      "encodedBytes": 91000
+    }
+  ],
+  "textures": 609,
+  "animations": 4,
+  "errors": []
+}

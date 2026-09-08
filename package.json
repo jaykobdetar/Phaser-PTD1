@@ -1,18 +1,19 @@
 {
   "name": "ptd-phaser-port",
-  "version": "1.0.3",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "node --test tests/*.test.js"
+    "test": "node tools/run-tests.mjs",
+    "check:generated": "node tools/sync-canvas-helpers.mjs --check"
   },
   "dependencies": {
     "phaser": "3.90.0"
   },
   "devDependencies": {
-    "vite": "6.4.1"
+    "vite": "6.4.3"
   }
 }

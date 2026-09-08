@@ -1,0 +1,58 @@
+{
+  "directories": [
+    {
+      "directory": "src",
+      "files": 57,
+      "bytes": 3709024
+    },
+    {
+      "directory": "public/data",
+      "files": 5,
+      "bytes": 9456886
+    },
+    {
+      "directory": "public/assets",
+      "files": 3313,
+      "bytes": 244257305
+    },
+    {
+      "directory": "dist",
+      "files": 3326,
+      "bytes": 257368480
+    }
+  ],
+  "largestSourceFiles": [
+    {
+      "path": "src/move-source-generated.js",
+      "bytes": 1869224
+    },
+    {
+      "path": "src/waves-runtime.js",
+      "bytes": 796476
+    },
+    {
+      "path": "src/story-data-controllers.js",
+      "bytes": 413603
+    },
+    {
+      "path": "src/center-ui.js",
+      "bytes": 64283
+    },
+    {
+      "path": "src/battle.js",
+      "bytes": 39236
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 34251
+    },
+    {
+      "path": "src/original-profile-ui.js",
+      "bytes": 32410
+    },
+    {
+      "path": "src/center-model.js",
+      "bytes": 31005
+    }
+  ]
+}

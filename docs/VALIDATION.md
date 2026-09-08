@@ -4,7 +4,7 @@ The supplied client runs through native JavaScript, Phaser 3 and recovered Canva
 
 ## Automated checks
 
-The final run passes **163 Node tests** and **one Python server integration test**. Run `npm test` and `python3 tests/local-server.test.py` from the project directory.
+The final run passes **265 Node tests**, **three Python server tests**, and **four archive-audit regressions**. Counts and browser reports are recorded in `release-validation.json`. Run `npm test`, `python3 tests/local-server.test.py` and `python3 tests/local-server-process.test.py` from the project directory. `npm test` includes the explicit garbage-collection probe and works without shell wildcard expansion.
 
 - All 433 registered source moves run in two configurations for 800 ticks each: 866 scenarios, plus immediate disposal for every move. Every attack body executes. Targeted assertions cover damage, delayed projectiles, copying, statuses, abilities, weather, teleport, recall and source display geometry.
 - All 12 combinations of starter and Oak's Lab placement win naturally with the native engine. Boss tests cover Gary healing eligibility, Mewtwo/Zapdos, Elite Four/Champion HP boosts, training/evolution state and party removal.
@@ -20,9 +20,17 @@ A separate engine sweep ran 39 direct campaign entries and 26 battle variants fo
 
 The UI polish update also passes three Python gradient-conversion regressions, checking padded endpoints, preserved interior hard transitions, and repeatable conversion.
 
+The 1.1.1 technical audit adds source-state/RNG comparisons, memory collection probes, large-collection benchmarks, cache-quota recovery and cross-process save locking checks. See [technical audit](TECHNICAL_AUDIT.md). The 1.2.0 optimization release adds bounded rendering and layout caches, streaming battle music and pagination for large Center lists. See [optimizations](OPTIMIZATIONS.md) for measured results. Its release manifest identifies the checks rerun for this release; older reports are labeled as historical evidence.
+
+## Local PokéCenter
+
+The Center suite covers all 260 adoption records, all 14 Game Corner rewards, every Daily Gift probability boundary, funds and ownership rollback, wishlist and manual trades, duplicate commands, conversions, daily limits, one-way transfers, giveaways, account-wide Dex and malformed backups. Real browser tests exercise both Web Locks and the IndexedDB fallback across two tabs. They verify one transaction winner, an explicit refresh/retry, conflict notification and rejection of stale game saves.
+
+The website browser workflow visits all 22 routes and performs profile creation, collection editing, two-sided trades and pickup, commerce, gifts, slots, conversions, giveaways, transfers, settings and backup/import. It checks mobile overflow and records local-only requests. The production integration runs the built website and game against the actual Python disk service. Reports and light-theme desktop/mobile captures are packaged beside this document.
+
 ## Browser and visual checks
 
-Chrome draws **584 Canvas root exports at 2,142 first, final, label and frame-action positions** without rendering exceptions. Text tests render the original damage, effective damage, healing, XP and MISS clips and verify glyph pixels and exact source colors.
+The 1.2.0 browser sweep compares **584 Canvas root exports across 2,174 frame and dynamic-field cases** against the retained 1.1.1 baseline. Every pixel hash matches, with zero rendering errors or cold/warm instability. Another 25 native battle rendering cases match pixel-for-pixel while checking invalidation, dragging, tinting and asynchronous artwork. The earlier 2,142-position smoke report is retained as historical coverage. Text tests render the original damage, effective damage, healing, XP and MISS clips and verify glyph pixels and exact source colors.
 
 Targeted source-interface browser reports cover:
 

@@ -1,0 +1,1466 @@
+{
+  "egg3": {
+    "x": 0,
+    "y": 0,
+    "width": 64,
+    "height": 32
+  },
+  "b_0": {
+    "x": 0,
+    "y": -32,
+    "width": 32,
+    "height": 32
+  },
+  "b_1": {
+    "x": -32,
+    "y": -32,
+    "width": 32,
+    "height": 32
+  },
+  "b_-1": {
+    "x": -64,
+    "y": 0,
+    "width": 32,
+    "height": 32
+  },
+  "b_2": {
+    "x": -64,
+    "y": -32,
+    "width": 32,
+    "height": 32
+  },
+  "b_3": {
+    "x": 0,
+    "y": -64,
+    "width": 32,
+    "height": 32
+  },
+  "b_4": {
+    "x": -32,
+    "y": -64,
+    "width": 32,
+    "height": 32
+  },
+  "b_5": {
+    "x": -64,
+    "y": -64,
+    "width": 32,
+    "height": 32
+  },
+  "b_6": {
+    "x": -96,
+    "y": 0,
+    "width": 32,
+    "height": 32
+  },
+  "b_7": {
+    "x": -96,
+    "y": -32,
+    "width": 32,
+    "height": 32
+  },
+  "b_8": {
+    "x": -96,
+    "y": -64,
+    "width": 32,
+    "height": 32
+  },
+  "b_9": {
+    "x": 0,
+    "y": -96,
+    "width": 32,
+    "height": 32
+  },
+  "b_10": {
+    "x": -32,
+    "y": -96,
+    "width": 32,
+    "height": 32
+  },
+  "b_11": {
+    "x": -64,
+    "y": -96,
+    "width": 32,
+    "height": 32
+  },
+  "b_12": {
+    "x": -96,
+    "y": -96,
+    "width": 32,
+    "height": 32
+  },
+  "b_13": {
+    "x": -128,
+    "y": 0,
+    "width": 32,
+    "height": 32
+  },
+  "b_14": {
+    "x": -128,
+    "y": -32,
+    "width": 32,
+    "height": 32
+  },
+  "b_15": {
+    "x": -128,
+    "y": -64,
+    "width": 32,
+    "height": 32
+  },
+  "b_16": {
+    "x": -128,
+    "y": -96,
+    "width": 32,
+    "height": 32
+  },
+  "b_17": {
+    "x": 0,
+    "y": -128,
+    "width": 32,
+    "height": 32
+  },
+  "b_18": {
+    "x": -32,
+    "y": -128,
+    "width": 32,
+    "height": 32
+  },
+  "b_19": {
+    "x": -64,
+    "y": -128,
+    "width": 32,
+    "height": 32
+  },
+  "egg1": {
+    "x": -96,
+    "y": -128,
+    "width": 32,
+    "height": 32
+  },
+  "egg2": {
+    "x": -128,
+    "y": -128,
+    "width": 32,
+    "height": 32
+  },
+  "g_1": {
+    "x": -160,
+    "y": 0,
+    "width": 32,
+    "height": 32
+  },
+  "g_2": {
+    "x": -160,
+    "y": -32,
+    "width": 32,
+    "height": 32
+  },
+  "g_3": {
+    "x": -160,
+    "y": -64,
+    "width": 32,
+    "height": 32
+  },
+  "g_4": {
+    "x": -160,
+    "y": -96,
+    "width": 32,
+    "height": 32
+  },
+  "g_5": {
+    "x": -160,
+    "y": -128,
+    "width": 32,
+    "height": 32
+  },
+  "g_6": {
+    "x": 0,
+    "y": -160,
+    "width": 32,
+    "height": 32
+  },
+  "g_7": {
+    "x": -32,
+    "y": -160,
+    "width": 32,
+    "height": 32
+  },
+  "g_8": {
+    "x": -64,
+    "y": -160,
+    "width": 32,
+    "height": 32
+  },
+  "g_10": {
+    "x": -96,
+    "y": -160,
+    "width": 32,
+    "height": 32
+  },
+  "g_11": {
+    "x": -128,
+    "y": -160,
+    "width": 32,
+    "height": 32
+  },
+  "g_13": {
+    "x": -160,
+    "y": -160,
+    "width": 32,
+    "height": 32
+  },
+  "g_14": {
+    "x": -192,
+    "y": 0,
+    "width": 32,
+    "height": 32
+  },
+  "g_16": {
+    "x": -192,
+    "y": -32,
+    "width": 32,
+    "height": 32
+  },
+  "g_17": {
+    "x": -192,
+    "y": -64,
+    "width": 32,
+    "height": 32
+  },
+  "g_18": {
+    "x": -192,
+    "y": -96,
+    "width": 32,
+    "height": 32
+  },
+  "g_19": {
+    "x": -192,
+    "y": -128,
+    "width": 32,
+    "height": 32
+  },
+  "none": {
+    "x": -192,
+    "y": -160,
+    "width": 32,
+    "height": 32
+  },
+  "a1": {
+    "x": 0,
+    "y": -192,
+    "width": 24,
+    "height": 28
+  },
+  "a2": {
+    "x": -24,
+    "y": -192,
+    "width": 24,
+    "height": 28
+  },
+  "a3": {
+    "x": -48,
+    "y": -192,
+    "width": 24,
+    "height": 28
+  },
+  "a4": {
+    "x": -72,
+    "y": -192,
+    "width": 24,
+    "height": 28
+  },
+  "a5": {
+    "x": -96,
+    "y": -192,
+    "width": 24,
+    "height": 28
+  },
+  "a6": {
+    "x": -120,
+    "y": -192,
+    "width": 24,
+    "height": 28
+  },
+  "a7": {
+    "x": -144,
+    "y": -192,
+    "width": 24,
+    "height": 28
+  },
+  "a8": {
+    "x": -168,
+    "y": -192,
+    "width": 24,
+    "height": 28
+  },
+  "a9": {
+    "x": -192,
+    "y": -192,
+    "width": 24,
+    "height": 28
+  },
+  "a10": {
+    "x": -224,
+    "y": 0,
+    "width": 24,
+    "height": 28
+  },
+  "a11": {
+    "x": -224,
+    "y": -28,
+    "width": 24,
+    "height": 28
+  },
+  "a12": {
+    "x": -224,
+    "y": -56,
+    "width": 24,
+    "height": 28
+  },
+  "a13": {
+    "x": -224,
+    "y": -84,
+    "width": 24,
+    "height": 28
+  },
+  "a14": {
+    "x": -224,
+    "y": -112,
+    "width": 24,
+    "height": 28
+  },
+  "a15": {
+    "x": -224,
+    "y": -140,
+    "width": 24,
+    "height": 28
+  },
+  "a16": {
+    "x": -224,
+    "y": -168,
+    "width": 24,
+    "height": 28
+  },
+  "a17": {
+    "x": 0,
+    "y": -220,
+    "width": 24,
+    "height": 28
+  },
+  "a18": {
+    "x": -24,
+    "y": -220,
+    "width": 24,
+    "height": 28
+  },
+  "a19": {
+    "x": -48,
+    "y": -220,
+    "width": 24,
+    "height": 28
+  },
+  "a20": {
+    "x": -72,
+    "y": -220,
+    "width": 24,
+    "height": 28
+  },
+  "a21": {
+    "x": -96,
+    "y": -220,
+    "width": 24,
+    "height": 28
+  },
+  "a22": {
+    "x": -120,
+    "y": -220,
+    "width": 24,
+    "height": 28
+  },
+  "a23": {
+    "x": -144,
+    "y": -220,
+    "width": 24,
+    "height": 28
+  },
+  "a24": {
+    "x": -168,
+    "y": -220,
+    "width": 24,
+    "height": 28
+  },
+  "a25": {
+    "x": -192,
+    "y": -220,
+    "width": 24,
+    "height": 28
+  },
+  "a26": {
+    "x": -216,
+    "y": -220,
+    "width": 24,
+    "height": 28
+  },
+  "a27": {
+    "x": -248,
+    "y": 0,
+    "width": 24,
+    "height": 28
+  },
+  "a28": {
+    "x": -248,
+    "y": -28,
+    "width": 24,
+    "height": 28
+  },
+  "a29": {
+    "x": -248,
+    "y": -56,
+    "width": 24,
+    "height": 28
+  },
+  "a30": {
+    "x": -248,
+    "y": -84,
+    "width": 24,
+    "height": 28
+  },
+  "a31": {
+    "x": -248,
+    "y": -112,
+    "width": 24,
+    "height": 28
+  },
+  "abomasite": {
+    "x": -248,
+    "y": -140,
+    "width": 24,
+    "height": 24
+  },
+  "absolite": {
+    "x": -248,
+    "y": -164,
+    "width": 24,
+    "height": 24
+  },
+  "aerodactylite": {
+    "x": -248,
+    "y": -188,
+    "width": 24,
+    "height": 24
+  },
+  "aggronite": {
+    "x": -248,
+    "y": -212,
+    "width": 24,
+    "height": 24
+  },
+  "alakazite": {
+    "x": -224,
+    "y": -196,
+    "width": 24,
+    "height": 24
+  },
+  "altarianite": {
+    "x": 0,
+    "y": -248,
+    "width": 24,
+    "height": 24
+  },
+  "ampharosite": {
+    "x": -24,
+    "y": -248,
+    "width": 24,
+    "height": 24
+  },
+  "antidote": {
+    "x": -48,
+    "y": -248,
+    "width": 24,
+    "height": 24
+  },
+  "audinite": {
+    "x": -72,
+    "y": -248,
+    "width": 24,
+    "height": 24
+  },
+  "awakening": {
+    "x": -96,
+    "y": -248,
+    "width": 24,
+    "height": 24
+  },
+  "banettite": {
+    "x": -120,
+    "y": -248,
+    "width": 24,
+    "height": 24
+  },
+  "beedrillite": {
+    "x": -144,
+    "y": -248,
+    "width": 24,
+    "height": 24
+  },
+  "blastoisinite": {
+    "x": -168,
+    "y": -248,
+    "width": 24,
+    "height": 24
+  },
+  "blazikenite": {
+    "x": -192,
+    "y": -248,
+    "width": 24,
+    "height": 24
+  },
+  "blueorb": {
+    "x": -216,
+    "y": -248,
+    "width": 24,
+    "height": 24
+  },
+  "burnheal": {
+    "x": -240,
+    "y": -248,
+    "width": 24,
+    "height": 24
+  },
+  "cameruptite": {
+    "x": -272,
+    "y": 0,
+    "width": 24,
+    "height": 24
+  },
+  "charcoal": {
+    "x": -272,
+    "y": -24,
+    "width": 24,
+    "height": 24
+  },
+  "charizarditex": {
+    "x": -272,
+    "y": -48,
+    "width": 24,
+    "height": 24
+  },
+  "charizarditey": {
+    "x": -272,
+    "y": -72,
+    "width": 24,
+    "height": 24
+  },
+  "chilanberry": {
+    "x": -272,
+    "y": -96,
+    "width": 24,
+    "height": 24
+  },
+  "darkincense": {
+    "x": -272,
+    "y": -120,
+    "width": 24,
+    "height": 24
+  },
+  "dawnstone": {
+    "x": -272,
+    "y": -144,
+    "width": 24,
+    "height": 24
+  },
+  "deepseascale": {
+    "x": -272,
+    "y": -168,
+    "width": 24,
+    "height": 24
+  },
+  "deepseatooth": {
+    "x": -272,
+    "y": -192,
+    "width": 24,
+    "height": 24
+  },
+  "diancite": {
+    "x": -272,
+    "y": -216,
+    "width": 24,
+    "height": 24
+  },
+  "direhit": {
+    "x": -272,
+    "y": -240,
+    "width": 24,
+    "height": 24
+  },
+  "dracoplate": {
+    "x": 0,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "dragonscale": {
+    "x": -24,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "dreadplate": {
+    "x": -48,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "dubiousdisc": {
+    "x": -72,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "duskstone": {
+    "x": -96,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "earthplate": {
+    "x": -120,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "electirizer": {
+    "x": -144,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "everstone": {
+    "x": -168,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "firestone": {
+    "x": -192,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "fistplate": {
+    "x": -216,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "flameplate": {
+    "x": -240,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "friendshipdoll": {
+    "x": -264,
+    "y": -272,
+    "width": 24,
+    "height": 24
+  },
+  "fullheal": {
+    "x": -296,
+    "y": 0,
+    "width": 24,
+    "height": 24
+  },
+  "fullincense": {
+    "x": -296,
+    "y": -24,
+    "width": 24,
+    "height": 24
+  },
+  "galladite": {
+    "x": -296,
+    "y": -48,
+    "width": 24,
+    "height": 24
+  },
+  "garchompite": {
+    "x": -296,
+    "y": -72,
+    "width": 24,
+    "height": 24
+  },
+  "gardevoirite": {
+    "x": -296,
+    "y": -96,
+    "width": 24,
+    "height": 24
+  },
+  "gengarite": {
+    "x": -296,
+    "y": -120,
+    "width": 24,
+    "height": 24
+  },
+  "glalitite": {
+    "x": -296,
+    "y": -144,
+    "width": 24,
+    "height": 24
+  },
+  "goldincense": {
+    "x": -296,
+    "y": -168,
+    "width": 24,
+    "height": 24
+  },
+  "guardspec": {
+    "x": -296,
+    "y": -192,
+    "width": 24,
+    "height": 24
+  },
+  "gyaradosite": {
+    "x": -296,
+    "y": -216,
+    "width": 24,
+    "height": 24
+  },
+  "heracronite": {
+    "x": -296,
+    "y": -240,
+    "width": 24,
+    "height": 24
+  },
+  "houndoominite": {
+    "x": -296,
+    "y": -264,
+    "width": 24,
+    "height": 24
+  },
+  "iceheal": {
+    "x": 0,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "icestone": {
+    "x": -24,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "icicleplate": {
+    "x": -48,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "insectplate": {
+    "x": -72,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "ironplate": {
+    "x": -96,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "kangaskhanite": {
+    "x": -120,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "kingsrock": {
+    "x": -144,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "latiasite": {
+    "x": -168,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "latiosite": {
+    "x": -192,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "laxincense": {
+    "x": -216,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "leafstone": {
+    "x": -240,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "lopunnite": {
+    "x": -264,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "lucarionite": {
+    "x": -288,
+    "y": -296,
+    "width": 24,
+    "height": 24
+  },
+  "luckincense": {
+    "x": -320,
+    "y": 0,
+    "width": 24,
+    "height": 24
+  },
+  "lucky_egg": {
+    "x": -320,
+    "y": -24,
+    "width": 24,
+    "height": 24
+  },
+  "magmarizer": {
+    "x": -320,
+    "y": -48,
+    "width": 24,
+    "height": 24
+  },
+  "manectite": {
+    "x": -320,
+    "y": -72,
+    "width": 24,
+    "height": 24
+  },
+  "mawilite": {
+    "x": -320,
+    "y": -96,
+    "width": 24,
+    "height": 24
+  },
+  "meadowplate": {
+    "x": -320,
+    "y": -120,
+    "width": 24,
+    "height": 24
+  },
+  "medichamite": {
+    "x": -320,
+    "y": -144,
+    "width": 24,
+    "height": 24
+  },
+  "metagrossite": {
+    "x": -320,
+    "y": -168,
+    "width": 24,
+    "height": 24
+  },
+  "metalcoat": {
+    "x": -320,
+    "y": -192,
+    "width": 24,
+    "height": 24
+  },
+  "meteorite": {
+    "x": -320,
+    "y": -216,
+    "width": 24,
+    "height": 24
+  },
+  "metronome": {
+    "x": -320,
+    "y": -240,
+    "width": 24,
+    "height": 24
+  },
+  "mewtwonitex": {
+    "x": -320,
+    "y": -264,
+    "width": 24,
+    "height": 24
+  },
+  "mewtwonitey": {
+    "x": -320,
+    "y": -288,
+    "width": 24,
+    "height": 24
+  },
+  "mindplate": {
+    "x": 0,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "miracleseed": {
+    "x": -24,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "moonstone": {
+    "x": -48,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "mysticwater": {
+    "x": -72,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "neeverstone": {
+    "x": -96,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "oddincense": {
+    "x": -120,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "oldRod": {
+    "x": -144,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "oranberry": {
+    "x": -168,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "ovalstone": {
+    "x": -192,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "parlyzheal": {
+    "x": -216,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "pidgeotite": {
+    "x": -240,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "pinsirite": {
+    "x": -264,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "pixieplate": {
+    "x": -288,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "pokeball": {
+    "x": -312,
+    "y": -320,
+    "width": 24,
+    "height": 24
+  },
+  "potion": {
+    "x": -344,
+    "y": 0,
+    "width": 24,
+    "height": 24
+  },
+  "prismscale": {
+    "x": -344,
+    "y": -24,
+    "width": 24,
+    "height": 24
+  },
+  "prisonbottle": {
+    "x": -344,
+    "y": -48,
+    "width": 24,
+    "height": 24
+  },
+  "protector": {
+    "x": -344,
+    "y": -72,
+    "width": 24,
+    "height": 24
+  },
+  "pureincense": {
+    "x": -344,
+    "y": -96,
+    "width": 24,
+    "height": 24
+  },
+  "rarecandy": {
+    "x": -344,
+    "y": -120,
+    "width": 24,
+    "height": 24
+  },
+  "razorclaw": {
+    "x": -344,
+    "y": -144,
+    "width": 24,
+    "height": 24
+  },
+  "razorfang": {
+    "x": -344,
+    "y": -168,
+    "width": 24,
+    "height": 24
+  },
+  "reapercloth": {
+    "x": -344,
+    "y": -192,
+    "width": 24,
+    "height": 24
+  },
+  "redorb": {
+    "x": -344,
+    "y": -216,
+    "width": 24,
+    "height": 24
+  },
+  "revive": {
+    "x": -344,
+    "y": -240,
+    "width": 24,
+    "height": 24
+  },
+  "rockincense": {
+    "x": -344,
+    "y": -264,
+    "width": 24,
+    "height": 24
+  },
+  "roseincense": {
+    "x": -344,
+    "y": -288,
+    "width": 24,
+    "height": 24
+  },
+  "sablenite": {
+    "x": -344,
+    "y": -312,
+    "width": 24,
+    "height": 24
+  },
+  "sachet": {
+    "x": 0,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "salamencite": {
+    "x": -24,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "sceptilite": {
+    "x": -48,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "scizorite": {
+    "x": -72,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "seaincense": {
+    "x": -96,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "sharpedonite": {
+    "x": -120,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "shinystone": {
+    "x": -144,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "silkscarf": {
+    "x": -168,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "silphScope": {
+    "x": -192,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "skyplate": {
+    "x": -216,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "slowbronite": {
+    "x": -240,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "smokeball": {
+    "x": -264,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "splashplate": {
+    "x": -288,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "spookyplate": {
+    "x": -312,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "steelixite": {
+    "x": -336,
+    "y": -344,
+    "width": 24,
+    "height": 24
+  },
+  "stoneplate": {
+    "x": -368,
+    "y": 0,
+    "width": 24,
+    "height": 24
+  },
+  "sunstone": {
+    "x": -368,
+    "y": -24,
+    "width": 24,
+    "height": 24
+  },
+  "superpotion": {
+    "x": -368,
+    "y": -48,
+    "width": 24,
+    "height": 24
+  },
+  "superRod": {
+    "x": -368,
+    "y": -72,
+    "width": 24,
+    "height": 24
+  },
+  "swampertite": {
+    "x": -368,
+    "y": -96,
+    "width": 24,
+    "height": 24
+  },
+  "tbug": {
+    "x": -368,
+    "y": -120,
+    "width": 24,
+    "height": 24
+  },
+  "tdark": {
+    "x": -368,
+    "y": -144,
+    "width": 24,
+    "height": 24
+  },
+  "tdragon": {
+    "x": -368,
+    "y": -168,
+    "width": 24,
+    "height": 24
+  },
+  "telectric": {
+    "x": -368,
+    "y": -192,
+    "width": 24,
+    "height": 24
+  },
+  "tfairy": {
+    "x": -368,
+    "y": -216,
+    "width": 24,
+    "height": 24
+  },
+  "tfighting": {
+    "x": -368,
+    "y": -240,
+    "width": 24,
+    "height": 24
+  },
+  "tfire": {
+    "x": -368,
+    "y": -264,
+    "width": 24,
+    "height": 24
+  },
+  "tflying": {
+    "x": -368,
+    "y": -288,
+    "width": 24,
+    "height": 24
+  },
+  "tghost": {
+    "x": -368,
+    "y": -312,
+    "width": 24,
+    "height": 24
+  },
+  "tgrass": {
+    "x": -368,
+    "y": -336,
+    "width": 24,
+    "height": 24
+  },
+  "tground": {
+    "x": 0,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "thunderstone": {
+    "x": -24,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "tice": {
+    "x": -48,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "tnormal": {
+    "x": -72,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "toxicplate": {
+    "x": -96,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "tpoison": {
+    "x": -120,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "tpsychic": {
+    "x": -144,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "trock": {
+    "x": -168,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "tsteel": {
+    "x": -192,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "twater": {
+    "x": -216,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "tyranitarite": {
+    "x": -240,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "upgrade": {
+    "x": -264,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "venusaurite": {
+    "x": -288,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "waterstone": {
+    "x": -312,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "waveincense": {
+    "x": -336,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "whippeddream": {
+    "x": -360,
+    "y": -368,
+    "width": 24,
+    "height": 24
+  },
+  "widelens": {
+    "x": -392,
+    "y": 0,
+    "width": 24,
+    "height": 24
+  },
+  "xaccuracy": {
+    "x": -392,
+    "y": -24,
+    "width": 24,
+    "height": 24
+  },
+  "xattack": {
+    "x": -392,
+    "y": -48,
+    "width": 24,
+    "height": 24
+  },
+  "xdefense": {
+    "x": -392,
+    "y": -72,
+    "width": 24,
+    "height": 24
+  },
+  "xspattack": {
+    "x": -392,
+    "y": -96,
+    "width": 24,
+    "height": 24
+  },
+  "xspdefense": {
+    "x": -392,
+    "y": -120,
+    "width": 24,
+    "height": 24
+  },
+  "xspeed": {
+    "x": -392,
+    "y": -144,
+    "width": 24,
+    "height": 24
+  },
+  "yellowflute": {
+    "x": -392,
+    "y": -168,
+    "width": 24,
+    "height": 24
+  },
+  "zapplate": {
+    "x": -392,
+    "y": -192,
+    "width": 24,
+    "height": 24
+  },
+  "zoomlens": {
+    "x": -392,
+    "y": -216,
+    "width": 24,
+    "height": 24
+  },
+  "emptyB": {
+    "x": -392,
+    "y": -240,
+    "width": 18,
+    "height": 18
+  },
+  "regularB": {
+    "x": -392,
+    "y": -258,
+    "width": 18,
+    "height": 18
+  },
+  "shadowB": {
+    "x": -392,
+    "y": -276,
+    "width": 18,
+    "height": 18
+  },
+  "shinyB": {
+    "x": -392,
+    "y": -294,
+    "width": 18,
+    "height": 18
+  },
+  "arbok": {
+    "x": -392,
+    "y": -312,
+    "width": 16,
+    "height": 16
+  },
+  "bar": {
+    "x": -392,
+    "y": -328,
+    "width": 16,
+    "height": 16
+  },
+  "cherry": {
+    "x": -392,
+    "y": -344,
+    "width": 16,
+    "height": 16
+  },
+  "jiggly": {
+    "x": -392,
+    "y": -360,
+    "width": 16,
+    "height": 16
+  },
+  "pokeballSlot": {
+    "x": -392,
+    "y": -376,
+    "width": 16,
+    "height": 16
+  },
+  "seven": {
+    "x": 0,
+    "y": -392,
+    "width": 16,
+    "height": 16
+  },
+  "voltorb": {
+    "x": -16,
+    "y": -392,
+    "width": 16,
+    "height": 16
+  }
+}

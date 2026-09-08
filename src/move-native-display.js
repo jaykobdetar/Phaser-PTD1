@@ -4,7 +4,7 @@
  */
 export function createMoveDisplay(timelines,{onSound=()=>{}}={}) {
   if(!timelines?.symbols||!timelines?.byName)throw new Error('Original move timeline metadata is required.');
-  const clips=new Set();let serial=0;
+  let serial=0;
   const transform=(p,m)=>({x:p.x*m[0]+p.y*m[2]+m[4],y:p.x*m[1]+p.y*m[3]+m[5]});
   const multiply=(a,b)=>[a[0]*b[0]+a[2]*b[1],a[1]*b[0]+a[3]*b[1],a[0]*b[2]+a[2]*b[3],a[1]*b[2]+a[3]*b[3],a[0]*b[4]+a[2]*b[5]+a[4],a[1]*b[4]+a[3]*b[5]+a[5]];
   const inverse=m=>{const d=m[0]*m[3]-m[1]*m[2];return[m[3]/d,-m[1]/d,-m[2]/d,m[0]/d,(m[2]*m[5]-m[3]*m[4])/d,(m[1]*m[4]-m[0]*m[5])/d];};
@@ -36,7 +36,7 @@ export function createMoveDisplay(timelines,{onSound=()=>{}}={}) {
     const id=typeof nameOrId==='number'?nameOrId:timelines.byName[nameOrId];this.symbolId=id??null;this.timeline=timelines.symbols[id];
     if(!this.timeline&&!allowShape)throw new Error(`Missing original timeline: ${nameOrId}`);
     this.totalFrames=this.timeline?.frames??1;this.currentFrame=1;this.playing=true;this._bounds=this.timeline?.bounds??[0,0,0,0];this._timelineChildren=new Map();this._scriptDepth=0;this._born=0;
-    clips.add(this);this._enterFrame();
+    this._enterFrame();
   }
   MovieClip.prototype=Object.create(Sprite.prototype);MovieClip.prototype.constructor=MovieClip;
   Object.defineProperty(MovieClip.prototype,'currentLabel',{get(){let found=null,frame=0;for(const [name,index]of Object.entries(this.timeline?.labels??{}))if(index<=this.currentFrame&&index>=frame){found=name;frame=index;}return found;}});
@@ -69,5 +69,5 @@ export function createMoveDisplay(timelines,{onSound=()=>{}}={}) {
   function symbol(name){if(soundNames.has(name))return function(){this.play=()=>{onSound(name);return null;};};return function(){return new MovieClip(name);};}
   function advance(root){const existing=new Set();const visit=node=>{existing.add(node);for(const child of node.children??[])visit(child);};visit(root);for(const node of existing){if(node!==root&&!node.parent)continue;if(node instanceof MovieClip&&node.playing&&node.totalFrames>1){node.currentFrame=node.currentFrame%node.totalFrames+1;node._enterFrame();}}}
   function snapshot(root){return(root.children??[]).filter(c=>c.visible!==false).map(c=>({name:c.name,fighterUid:c.fighter?.uid,primaryPokemon:!!c.parent?.fighter&&c.parent.gfx===c,symbolName:c.symbolName,symbolId:c.symbolId,currentFrame:c.currentFrame,totalFrames:c.totalFrames,sourcePlacement:c.sourcePlacement,matrix:c.localMatrix(),alpha:c.alpha,colorTransform:c.transform?.colorTransform,filters:c.filters,text:c.text,textColor:c.textColor,textFormat:c.textFormat,children:snapshot(c)}));}
-  return{Sprite,MovieClip,symbol,advance,snapshot,clips};
+  return{Sprite,MovieClip,symbol,advance,snapshot};
 }

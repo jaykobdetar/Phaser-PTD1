@@ -5,6 +5,8 @@ import {ITEMS,buyItem,recordOwned} from './profile-features.js';
 import {achievementStatus,claimAchievement} from './achievements.js';
 import {LOCAL_GIFTS,redeemGift} from './local-services.js';
 import {makePokemon,xpRequired,levelCost} from './model.js';
+import {CenterService} from './center-model.js';
+import {persistOriginalProfile} from './original-save.js';
 
 const $=s=>document.querySelector(s);
 const form=p=>(p.shiny===2?'ss':p.shiny===1?'s':'')+p.speciesId;
@@ -46,6 +48,21 @@ export function sourceMysteryCode(data,save,raw){
  const code=String(raw).replace(' ','').toLowerCase();if(!code)return {frame:null};
  if(code!=='ptdicu')return {frame:'error_recognized'};
  const pokemon=makePokemon(data,1010,1,{moves:[31,422],selectedMove:31,shiny:0});pokemon.originalExtra=210;save.pokemon.push(pokemon);recordOwned(save,pokemon);return {frame:'pokeDone',pokemon};
+}
+/** The source gift reply grants on the account server, then reports completion.
+ * Keep its game objects alive while adopting the committed Center profile/Dex. */
+export async function receiveOriginalCenterGift(app,request,options={}){
+ const save=app.save,slot=app.profiles.bank.active;
+ if(app.previewMode)throw new Error('Return to your saved profile before receiving a Mystery Gift.');
+ if(!['daily','weekly','code'].includes(request.kind))throw new Error('Choose a Mystery Gift.');
+ await persistOriginalProfile(app.profiles,save);
+ const service=new CenterService(app.data,app.profiles,options);await service.initialize();
+ const result=await service.perform(request.kind==='code'?'giftCode':'mysteryGift',request.kind==='code'?{code:request.code}:{kind:request.kind});
+ if(app.save===save&&app.profiles.bank.active===slot){
+  const current=app.profiles.current,pokemon=current.pokemon.map(p=>{const live=save.pokemon.find(existing=>existing.uid===p.uid);return live?Object.assign(live,p):p;});
+  Object.assign(save,current,{pokemon});app.renderAll?.();
+ }
+ return result;
 }
 export function fillSourceDex(clip,data,save,page){
  const offset=(page-1)*40;clip.butt_left.visible=clip.arrow_left.visible=page>1;clip.butt_right.visible=clip.arrow_right.visible=page<4;
@@ -193,13 +210,19 @@ export function installOriginalProfileUI(app){
  });};
 
  app.openGifts=()=>{
-  let code='';return screen('gfx_screen_mystery_gift',{prepare:c=>{c.myCode.text='';},controls:c=>[
-   {path:'myCode',label:'Gift code',input:true,value:'',onInput:value=>code=value,action:()=>redeem(c)},button('enter_butt',()=>redeem(c),'Receive gift'),button('back_butt',()=>app.openMainMenu(),'Back'),button('find_butt',()=>serviceGift(c,true),'Weekly gift'),button('find_daily_butt',()=>serviceGift(c,false),'Daily gift')],
+  let code='',requesting=false;return screen('gfx_screen_mystery_gift',{prepare:c=>{c.myCode.text='';},controls:c=>[
+   {path:'myCode',label:'Gift code',input:true,value:'',onInput:value=>code=value,action:()=>redeem(c)},button('enter_butt',()=>redeem(c),'Receive gift'),button('back_butt',()=>app.openMainMenu(),'Back'),button('find_butt',()=>serviceGift(c,true),'Weekly gift'),button('find_daily_butt',()=>serviceGift(c,false),'Daily gift')].map(entry=>({...entry,disabled:requesting||entry.disabled})),
   });
-  function redeem(c){let result=sourceMysteryCode(app.data,app.save,code);if(result.frame==='error_recognized'&&LOCAL_GIFTS.some(g=>g.code===String(code).trim().toUpperCase())){const local=redeemGift(app.data,app.save,code,makePokemon);result={frame:local.ok?'pokeDone':'error_used',pokemon:local.pokemon};}if(result.frame)c.gotoAndStop(result.frame);if(result.pokemon)commit();}
-  // The archived client uses mystery.php for daily/weekly offers. The approved
-  // offline service supplies its documented fixed offers through source frames.
-  function serviceGift(c,weekly){const gifts=weekly?LOCAL_GIFTS.filter(g=>g.challenge&&(app.save.challengeCompleted??0)>=g.challenge):LOCAL_GIFTS.filter(g=>!g.challenge);const gift=gifts.find(g=>!app.save.giftsClaimed?.includes(g.challenge?'challenge-'+g.challenge:g.code));if(!gift){c.gotoAndStop(gifts.length?'error_used':'NotFound');return;}const result=redeemGift(app.data,app.save,gift.code,makePokemon);c.gotoAndStop(result.ok?(weekly?'weeklyDone':'dailyDone'):'error_used');if(result.ok)commit();}
+  function redeem(c){if(requesting)return;const normalized=String(code).replace(' ','').toLowerCase();if(['ptdicu','ptdooo'].includes(normalized))return centerGift(c,{kind:'code',code:normalized});let result=sourceMysteryCode(app.data,app.save,code);if(result.frame==='error_recognized'&&LOCAL_GIFTS.some(g=>g.code===String(code).trim().toUpperCase())){const local=redeemGift(app.data,app.save,code,makePokemon);result={frame:local.ok?'pokeDone':'error_used',pokemon:local.pokemon};}if(result.frame)c.gotoAndStop(result.frame);if(result.pokemon)commit();}
+  function serviceGift(c,weekly){return centerGift(c,{kind:weekly?'weekly':'daily'});}
+  async function centerGift(c,request){
+   if(requesting)return;requesting=true;const previousBack=app.originalBack,blockBack=()=>{};app.originalBack=blockBack;c.gotoAndStop('wait');
+   try{
+    const result=await receiveOriginalCenterGift(app,request);
+    if(active?.clip===c&&!active.disposed){c.gotoAndStop(request.kind==='code'?'pokeDone':request.kind+'Done');app.toast(`${app.data.species[result.pokemon.speciesId].name} is ready on the PokéCenter Pick Up page.`);}
+   }catch(error){if(active?.clip===c&&!active.disposed&&!app.profileConflict){c.gotoAndStop(/already (?:been )?claimed/.test(error.message)?'error_used':'error_database');app.toast(error.message);}}
+   finally{requesting=false;if(app.originalBack===blockBack)app.originalBack=previousBack;}
+  }
  };
  app.stopOriginalProfileUI=()=>{active?.dispose();active=null;};
  return {show,original};

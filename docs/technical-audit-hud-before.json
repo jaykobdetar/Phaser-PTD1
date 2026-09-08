@@ -1,0 +1,42 @@
+{
+  "method": "Paused battle, nominal 1-second samples, headless Chromium software rendering. Heavy source Canvas paints delayed timer delivery; elapsedMs records actual sample length. Captured before HUD edits.",
+  "samples": {
+    "visible": {
+      "paints": 2,
+      "sourceTicks": 11,
+      "elapsedMs": 2328.5,
+      "visibility": "visible"
+    },
+    "screen": {
+      "paints": 2,
+      "sourceTicks": 11,
+      "elapsedMs": 2567.9000000059605,
+      "visibility": "hidden"
+    },
+    "screenPopup": {
+      "paints": 2,
+      "sourceTicks": 10,
+      "elapsedMs": 2533.2000000178814,
+      "visibility": "hidden"
+    },
+    "hideClass": {
+      "paints": 2,
+      "sourceTicks": 10,
+      "elapsedMs": 2655.300000011921,
+      "visibility": "hidden"
+    },
+    "dragClass": {
+      "paints": 2,
+      "sourceTicks": 11,
+      "elapsedMs": 2604.2000000178814,
+      "visibility": "hidden"
+    },
+    "visibleAgain": {
+      "paints": 2,
+      "sourceTicks": 10,
+      "elapsedMs": 2710.800000011921,
+      "visibility": "visible"
+    },
+    "eventPaints": 2
+  }
+}

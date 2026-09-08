@@ -1,6 +1,7 @@
 import {StoryClip} from './story-data-clip.js';
 import {createOriginalRenderer} from './original-story-ui.js';
 import {NativeBattleView} from "./native-battle-view.js";
+import {StreamedMusic,preloadBattleAudio} from './streamed-music.js';
 import Phaser from "phaser";
 import { RANGE, WAVE_FPS } from "./battle.js";
 
@@ -42,7 +43,7 @@ export class BattleScene extends Phaser.Scene {
       });
     this.load.image("candy", "assets/ui/rare-candy.png");
     for (const [key, sound] of Object.entries(this.app.assets.audio)) {
-      if (!key.startsWith("cry_")) this.load.audio(key, `assets/${sound.file}`);
+      if (preloadBattleAudio(key,sound)) this.load.audio(key, `assets/${sound.file}`);
     }
     this.load.on("progress", (value) => {
       document.querySelector("#loading").textContent =
@@ -162,8 +163,9 @@ export class BattleScene extends Phaser.Scene {
     this.music?.destroy();
     this.music = null;
     const key = this.app.battle?.level.music;
-    if ((this.app.save?.settings.music ?? this.app.save?.settings.sound) && key && this.cache.audio.exists(key)) {
-      this.music = this.sound.add(key, { loop: true, volume: 0.23 });
+    const asset=this.app.assets.audio[key];
+    if ((this.app.save?.settings.music ?? this.app.save?.settings.sound) && asset) {
+      this.music = new StreamedMusic(`assets/${asset.file}`, {volume:0.23,focusSource:this.game,onError:()=>this.app.toast(`Could not load ${key}. Check the local assets folder.`)});
       this.music.play();
     }
   }
@@ -239,6 +241,7 @@ export class BattleScene extends Phaser.Scene {
     if(!["damage","heal","native-sound"].includes(type))this.render();
   }
   render() {
+    if(this.deferRender)return;
     const battle = this.app.battle;
     if (!this.ready || !battle || !this.range || this.loadedBattle !== battle)
       return;
@@ -247,6 +250,9 @@ export class BattleScene extends Phaser.Scene {
       ...battle.enemies,
     ];
     const ids = new Set(active.map((e) => e.uid));
+    const nativeActorUids = this.nativeView
+      ? new Set(battle.moveRuntime.world.children.map((child) => child.fighter?.uid))
+      : null;
     for (const [uid, visual] of this.visuals)
       if (!ids.has(uid)) {
         visual.destroy();
@@ -278,7 +284,7 @@ export class BattleScene extends Phaser.Scene {
         sprite.anims.stop();
         sprite.setTexture(key, p.animations[entity.direction]?.[0] ?? 0);
       }
-      sprite.setAlpha(this.nativeView&&battle.moveRuntime.world.children.some(c=>c.fighter?.uid===entity.uid)?0.001:1);
+      sprite.setAlpha(nativeActorUids?.has(entity.uid)?0.001:1);
       if (!entity.alive) sprite.setTint(0x7b877b).setAlpha(0.4);
       else sprite.clearTint();
       const y = entity.y - (p.frameHeight * (entity.scale ?? 1)) / 2 - 10;
@@ -326,11 +332,17 @@ export class BattleScene extends Phaser.Scene {
         : 0;
     if (this.app.battle.state === "running" && !this.app.isModalOpen) {
       this.accumulator += Math.min(delta, 250) * this.app.save.settings.speed;
-      while (this.accumulator >= 1000 / WAVE_FPS) {
-        this.app.battle.tick();
-        this.accumulator -= 1000 / WAVE_FPS;
-        if (this.app.battle.state !== "running") break;
-      }
+      // Native source events may request several refreshes during one update.
+      // Their sounds and callbacks stay synchronous; only the redundant paints
+      // are deferred until the complete source tick batch is ready to display.
+      this.deferRender=!!this.app.battle.moveRuntime;
+      try{
+        while (this.accumulator >= 1000 / WAVE_FPS) {
+          this.app.battle.tick();
+          this.accumulator -= 1000 / WAVE_FPS;
+          if (this.app.battle.state !== "running") break;
+        }
+      }finally{this.deferRender=false;}
       this.render();
     } else this.accumulator = 0;
   }

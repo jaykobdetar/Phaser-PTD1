@@ -1,0 +1,47 @@
+{
+  "checks": [
+    "Explicit HUD refresh updates state while hidden",
+    "Source HUD clock continues across all visibility states with the existing21 Hz step and catch-up cap",
+    "Hidden autonomous paints eliminated; battle event refresh paints once"
+  ],
+  "samples": {
+    "visible": {
+      "paints": 2,
+      "sourceTicks": 6,
+      "elapsedMs": 3726.300000011921,
+      "visibility": "visible"
+    },
+    "screen": {
+      "paints": 0,
+      "sourceTicks": 10,
+      "elapsedMs": 2529.5999999940395,
+      "visibility": "hidden"
+    },
+    "screenPopup": {
+      "paints": 0,
+      "sourceTicks": 10,
+      "elapsedMs": 2568.9000000059605,
+      "visibility": "hidden"
+    },
+    "hideClass": {
+      "paints": 0,
+      "sourceTicks": 11,
+      "elapsedMs": 2626.9000000059605,
+      "visibility": "hidden"
+    },
+    "dragClass": {
+      "paints": 0,
+      "sourceTicks": 11,
+      "elapsedMs": 2626.4000000059605,
+      "visibility": "hidden"
+    },
+    "visibleAgain": {
+      "paints": 2,
+      "sourceTicks": 11,
+      "elapsedMs": 2679.899999976158,
+      "visibility": "visible"
+    },
+    "eventPaints": 1
+  },
+  "errors": []
+}

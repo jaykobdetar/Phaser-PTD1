@@ -8,7 +8,7 @@ import {installAchievementUI} from "./achievements.js";
 import {installMultiplayerUI} from "./multiplayer-ui.js";
 import {installChallengeUI} from "./challenge-ui.js";
 import {installProfileUI} from "./profile-ui.js";
-import {LocalProfiles,validateBank,PROFILE_BANK_KEY} from "./local-services.js";
+import {LocalProfiles,PROFILE_BANK_KEY} from "./local-services.js";
 import {recordOwned,TARGET_MODES} from "./profile-features.js";
 import "./style.css";
 import "./original.css";
@@ -90,6 +90,7 @@ class App {
       this.loadError = error.message;
     }
     if (!this.profiles?.bank) { this.profiles = new LocalProfiles(data,localStorage); this.profiles.bank={version:1,active:0,slots:[null,null,null],updatedAt:""}; }
+    this.profiles.onConflict = () => this.showProfileConflict();
     if (!this.save) this.save = newSave(data, 1);
     this.applyOriginalSettings?.();
     this.selectedUid = this.save.party[0];
@@ -122,9 +123,10 @@ class App {
         this.battle.togglePause();
         this.renderHUD();
       }
+      if (document.hidden) this.store();
     });
     window.addEventListener("beforeunload", () => {
-      if (this.hasProfile && !this.previewMode) this.store();
+      if (this.hasProfile && !this.previewMode && !this.leavingForCenter && !this.profileConflict) this.store();
     });
     if (import.meta.env.DEV) window.__PTD = this;
   }
@@ -196,27 +198,22 @@ class App {
           candidate = validateSave(result.save, this.data);
           warnings = result.warnings;
         } else if(raw.version===1&&Array.isArray(raw.slots)) {
-          const bank=validateBank(raw,this.data);
+          const bank=this.profiles.validate(raw);
           this.openLocalService(`<h2>Import all three profiles?</h2><p>This replaces the local profile bank. Export your existing profiles first to keep them.</p><div class="dialog-actions"><button id="bank-cancel">Cancel</button><button id="bank-confirm">Import profiles</button></div>`,()=>this.openLocalBackups());
           $("#bank-cancel").onclick=()=>this.openLocalBackups();
-          $("#bank-confirm").onclick=()=>{this.previewMode=false;this.primarySave=null;this.profiles.bank=bank;this.profiles.write();this.save=this.profiles.current;this.hasProfile=Boolean(this.save);if(this.save){this.selectedUid=this.save.party[0];this.loadLevel(Math.min(this.save.unlocked,42),false,{skipIntro:true});this.openLocalBackups();}else {this.save=newSave(this.data,1);this.loadLevel(1,false,{skipIntro:true});this.openLocalBackups();}};
+          $("#bank-confirm").onclick=()=>this.commitImportedProfiles(draft=>{
+            draft.active=bank.active;draft.slots=structuredClone(bank.slots);
+            if(bank.center!==undefined)draft.center=structuredClone(bank.center);
+          },$('#bank-confirm'));
           return;
         } else candidate = validateSave(raw, this.data);
         this.openLocalService(
           `<span class="eyebrow">IMPORT SAVE</span><h2>${candidate.pokemon.length} Pokémon recovered</h2><p>Level ${candidate.unlocked} unlocked · ₽ ${candidate.money.toLocaleString()}. This will replace the current Phaser save on this device.</p>${warnings.length ? `<p class="notice">${warnings.map(escape).join("<br>")}</p>` : ""}<div class="dialog-actions"><button id="backup-first">Export current save</button><button class="primary" id="confirm-import">Use this save</button></div>`,()=>this.openLocalBackups(),
         );
         $("#backup-first").onclick = () => this.exportSave();
-        $("#confirm-import").onclick = () => {
-          this.save = candidate;
-          this.hasProfile = true;
-          this.selectedUid = candidate.party[0];
-          this.previewMode = false;
-          this.primarySave = null;
-          this.store();
-          this.loadLevel(Math.min(candidate.unlocked,42),false,{skipIntro:true});
-          this.openLocalBackups();
-          this.toast("Save imported.");
-        };
+        $("#confirm-import").onclick = () => this.commitImportedProfiles(draft=>{
+          draft.slots[draft.active]=structuredClone(candidate);
+        },$('#confirm-import'));
       } catch (error) {
         this.toast(error.message);
       } finally {
@@ -224,16 +221,69 @@ class App {
       }
     };
   }
-  store() {
-    if (!this.hasProfile || this.previewMode) return;
+  async commitImportedProfiles(mutator,button) {
+    if (this.importingProfile || this.profileConflict || this.leavingForCenter) return;
+    this.importingProfile=true;
+    const previousBack=this.originalBack,controls=[...$('#modal-content').querySelectorAll('button')].map(control=>({control,disabled:control.disabled})),label=button?.textContent;
+    controls.forEach(({control})=>{control.disabled=true;});if(button)button.textContent='Importing…';this.originalBack=()=>{};
     try {
-      this.save.pokemon.forEach(p=>recordOwned(this.save,p));
-      persist(this.save);
-      this.profiles?.save(this.save);
-      $("#save-status").textContent = "Saved on this device";
-    } catch {
-      $("#save-status").textContent = "Save failed — export a backup";
+      await this.profiles.transact(mutator);
+      this.previewMode=false;this.primarySave=null;this.save=this.profiles.current;this.hasProfile=Boolean(this.save);
+      if(!this.save)this.save=newSave(this.data,1);
+      this.selectedUid=this.save.party.find(Boolean)??null;
+      this.loadLevel(Math.min(this.save.unlocked,42),false,{skipIntro:true});
+      this.openLocalBackups();this.toast('Save imported.');
+    } catch(error) {
+      if(error.code==='PROFILE_CONFLICT')this.showProfileConflict();
+      this.toast(error.message);
+    } finally {
+      this.importingProfile=false;
+      if(!this.profileConflict)this.originalBack=previousBack;
+      controls.forEach(({control,disabled})=>{if(control.isConnected)control.disabled=disabled;});
+      if(button?.isConnected)button.textContent=label;
     }
+  }
+  store() {
+    if (!this.hasProfile || this.previewMode || this.leavingForCenter || this.profileConflict || this.importingProfile) return false;
+    try {
+      this.profiles?.assertWritable();
+      this.save.pokemon.forEach(p=>recordOwned(this.save,p));
+      if(this.profiles)this.profiles.stageProfileDraft(this.save);
+      else persist(this.save);
+      this.profiles?.save(this.save);
+      $("#save-status").textContent = this.profiles ? "Saving…" : "Saved on this device";
+      this.profiles?.pending.then(()=>{
+        $("#save-status").textContent = this.profiles.lastError ? "Save failed — export a backup" : "Saved on this device";
+      });
+      this.lastStoreError=null;return true;
+    } catch(error) {
+      this.lastStoreError=error;
+      $("#save-status").textContent = "Save failed — export a backup";
+      return false;
+    }
+  }
+  showProfileConflict() {
+    if (this.profileConflict || this.leavingForCenter) return;
+    this.profileConflict = true;
+    if (this.battle?.state === 'running') this.battle.togglePause();
+    this.openLocalService('<h2>Profiles changed in another window</h2><p>The PokéCenter or another game window saved a newer account. Reload to use those changes. You can export this game session first to keep any unsaved progress.</p><div class="dialog-actions"><button id="conflict-export">Export this session</button><button id="conflict-reload">Reload saved account</button></div>',()=>this.showProfileConflictAgain());
+    $('#local-service-back').hidden=true;
+    $('#conflict-export').onclick=()=>this.exportSave();
+    $('#conflict-reload').onclick=()=>{this.leavingForCenter=true;location.reload();};
+    this.originalBack=()=>{};
+  }
+  showProfileConflictAgain() { this.profileConflict=false; this.showProfileConflict(); }
+  async navigateToPokeCenter() {
+    if(this.importingProfile||this.leavingForCenter)return;
+    if (this.profileConflict || this.profiles.status==='conflict') { this.showProfileConflictAgain(); return; }
+    try {
+      const queued=this.store();
+      if(this.hasProfile&&!this.previewMode&&!queued)throw this.lastStoreError??new Error('The current game could not be saved.');
+      await this.profiles.pending;
+      if (this.profiles.lastError) throw this.profiles.lastError;
+      this.leavingForCenter=true;
+      location.assign(new URL('pokecenter.html',location.href));
+    } catch (error) { this.toast(error.message); }
   }
   exportSave() {
     if (!this.hasProfile) {
@@ -426,7 +476,6 @@ class App {
         "attacker-returned",
       ].includes(type)
     ) {
-      this.renderParty();
       this.renderInspector();
       this.renderHUD();
     }

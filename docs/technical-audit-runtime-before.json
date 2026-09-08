@@ -1,0 +1,103 @@
+{
+  "phase": "before",
+  "retention": {
+    "created": 5000,
+    "liveWorldChildren": 0,
+    "strongRegistrySize": 10000,
+    "retainedRoots": 5000,
+    "heapDeltaBytes": 6451008
+  },
+  "membership": [
+    {
+      "fighters": 50,
+      "old": {
+        "medianMsPer100": 0.5269000000000119,
+        "checksum": 25000
+      },
+      "optimized": {
+        "medianMsPer100": 0.2872200000000191,
+        "checksum": 25000
+      }
+    },
+    {
+      "fighters": 200,
+      "old": {
+        "medianMsPer100": 6.521546999999998,
+        "checksum": 100000
+      },
+      "optimized": {
+        "medianMsPer100": 1.9527590000000146,
+        "checksum": 100000
+      }
+    },
+    {
+      "fighters": 1000,
+      "old": {
+        "medianMsPer100": 197.663369,
+        "checksum": 500000
+      },
+      "optimized": {
+        "medianMsPer100": 6.054047000000082,
+        "checksum": 500000
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "move": 1,
+      "frames": 600,
+      "rngCalls": 2,
+      "sha256": "b3846898c8b87a1093ce46e9a85b7123edfcab95a4f55ba7a729533fd0c9ed4d",
+      "elapsedMs": 12.718234000000166
+    },
+    {
+      "move": 10,
+      "frames": 600,
+      "rngCalls": 4,
+      "sha256": "3543f9f93fe60d86654c919c41b43cd02c1d58c1c9717b2aa4f652be3ec22443",
+      "elapsedMs": 16.281932000000097
+    },
+    {
+      "move": 26,
+      "frames": 600,
+      "rngCalls": 1,
+      "sha256": "7266a998bae71625ab31259005509b9ce17374baf1f570c6a3e249bd5b193e1b",
+      "elapsedMs": 16.933381999999938
+    },
+    {
+      "move": 56,
+      "frames": 600,
+      "rngCalls": 1,
+      "sha256": "27905ce0e100b992b86b0060ea46330af36344c82a11e9db9cf963bf29c5a3f5",
+      "elapsedMs": 12.360333999999966
+    },
+    {
+      "move": 111,
+      "frames": 600,
+      "rngCalls": 0,
+      "sha256": "62f9977675176fbcc0ec2cb176f05d559c118393df6ff6266b65582eeea8eecf",
+      "elapsedMs": 84.90880100000004
+    },
+    {
+      "move": 143,
+      "frames": 600,
+      "rngCalls": 0,
+      "sha256": "46c1b0784a23810a4687e69094189bad67265c46342bd475d7822d91a195c1fa",
+      "elapsedMs": 13.115904
+    },
+    {
+      "move": 144,
+      "frames": 600,
+      "rngCalls": 2,
+      "sha256": "2ea01c3afbc0448a03fb3ea79cb2767ee101513d6f48c3e27dbc8481196b088d",
+      "elapsedMs": 10.471434999999929
+    },
+    {
+      "move": 405,
+      "frames": 600,
+      "rngCalls": 0,
+      "sha256": "125f5ea44994b945446e5487f0069c1924f91bbba67e90b9a289e9ee1aabf410",
+      "elapsedMs": 10.857175000000097
+    }
+  ]
+}

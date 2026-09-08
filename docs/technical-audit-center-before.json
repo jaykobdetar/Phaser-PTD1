@@ -1,0 +1,351 @@
+{
+  "method": "Node warmup plus median of 3 runs; string generation excludes browser DOM/layout/paint.",
+  "node": "v22.16.0",
+  "results": [
+    {
+      "name": "collection",
+      "count": 24,
+      "medianMs": 0.423,
+      "minMs": 0.324,
+      "maxMs": 0.5,
+      "outputSha256": "fdce8fc46c615ed2ec3290e57c5d44d381ec2ec4fb458cb88b54cf47d5ae54b7",
+      "htmlBytes": 35461,
+      "elements": 480,
+      "cards": 24
+    },
+    {
+      "name": "conversion",
+      "count": 24,
+      "medianMs": 0.198,
+      "minMs": 0.184,
+      "maxMs": 0.203,
+      "outputSha256": "75e15136835bff12501f2decbfb6b636704b4f3c0bdd17bfa253b5133bfecc39",
+      "htmlBytes": 29641,
+      "elements": 432,
+      "cards": 24
+    },
+    {
+      "name": "giveawayPicker",
+      "count": 24,
+      "medianMs": 0.2,
+      "minMs": 0.187,
+      "maxMs": 0.204,
+      "outputSha256": "f91cdf35a491d9f9d8d3f1cca7f5e38918288411f30fe3477f23900c07fbdee8",
+      "htmlBytes": 25048,
+      "elements": 385,
+      "cards": 24
+    },
+    {
+      "name": "collection",
+      "count": 250,
+      "medianMs": 0.212,
+      "minMs": 0.208,
+      "maxMs": 0.213,
+      "outputSha256": "0fb9563b742d33b5e285331666155fd00f6e73616be2321d7ca56475894e0710",
+      "htmlBytes": 36340,
+      "elements": 492,
+      "cards": 24
+    },
+    {
+      "name": "conversion",
+      "count": 250,
+      "medianMs": 2.396,
+      "minMs": 1.66,
+      "maxMs": 3.073,
+      "outputSha256": "3cce565b95c14c2fd9be002a0a251d3be61be1c4802962eec3a02b1b006fa373",
+      "htmlBytes": 290971,
+      "elements": 4048,
+      "cards": 250
+    },
+    {
+      "name": "giveawayPicker",
+      "count": 250,
+      "medianMs": 1.555,
+      "minMs": 1.269,
+      "maxMs": 1.588,
+      "outputSha256": "fece63ac4dd8f26cc99e4fc8acd93af492222367b6d3ac5f8344856b0fc27f97",
+      "htmlBytes": 261066,
+      "elements": 4001,
+      "cards": 250
+    },
+    {
+      "name": "collection",
+      "count": 1000,
+      "medianMs": 0.205,
+      "minMs": 0.189,
+      "maxMs": 0.277,
+      "outputSha256": "16e84f1645cfd0ee3e3d026ae2260eb270efbbfa3102ee3bc8ce353bdcaf495d",
+      "htmlBytes": 38728,
+      "elements": 523,
+      "cards": 24
+    },
+    {
+      "name": "conversion",
+      "count": 1000,
+      "medianMs": 8.887,
+      "minMs": 8.461,
+      "maxMs": 9.558,
+      "outputSha256": "a38ffd17703abe6a732754704fc3cb9104dad1b45eb3616e2792e1da065b1e91",
+      "htmlBytes": 1158721,
+      "elements": 16048,
+      "cards": 1000
+    },
+    {
+      "name": "giveawayPicker",
+      "count": 1000,
+      "medianMs": 7.423,
+      "minMs": 6.542,
+      "maxMs": 10.734,
+      "outputSha256": "d625efd5382bf2bec4e3564cbba8f18304b9199346ac6591bd171a6f68156243",
+      "htmlBytes": 1044816,
+      "elements": 16001,
+      "cards": 1000
+    },
+    {
+      "name": "collection",
+      "count": 5000,
+      "medianMs": 0.338,
+      "minMs": 0.324,
+      "maxMs": 0.383,
+      "outputSha256": "f537a57ea7e77da8e6653a0efa28c115b519257ab2528da61cf4a25e7a7c93d4",
+      "htmlBytes": 51807,
+      "elements": 690,
+      "cards": 24
+    },
+    {
+      "name": "conversion",
+      "count": 5000,
+      "medianMs": 39.966,
+      "minMs": 37.913,
+      "maxMs": 40.177,
+      "outputSha256": "28576c776f985c8aa6cb2f8077994e90459eb2d8b0fcfc468ab839b808bf024e",
+      "htmlBytes": 5794721,
+      "elements": 80048,
+      "cards": 5000
+    },
+    {
+      "name": "giveawayPicker",
+      "count": 5000,
+      "medianMs": 30.549,
+      "minMs": 27.64,
+      "maxMs": 33.201,
+      "outputSha256": "be38d5636a3bdf8d4d5944ff8c7be334c4ecb737b4d5000debc4caf635556d7a",
+      "htmlBytes": 5232816,
+      "elements": 80001,
+      "cards": 5000
+    },
+    {
+      "name": "offersTable",
+      "listingsCount": 100,
+      "offers": 50,
+      "medianMs": 0.236,
+      "minMs": 0.234,
+      "maxMs": 0.243,
+      "outputSha256": "9344493bba53f9b738354687c912e3cbcd8444199fee41d728f24292c949b373",
+      "htmlBytes": 25143,
+      "elements": 560,
+      "cards": 0
+    },
+    {
+      "name": "assertCenterOwnership",
+      "listingsCount": 100,
+      "offers": 50,
+      "medianMs": 0.142,
+      "minMs": 0.131,
+      "maxMs": 0.147,
+      "outputSha256": "eb045d78d273107348b0300c01d29b7552d622abbc6faf81b3ec55359aa9950c"
+    },
+    {
+      "name": "validateCenterState",
+      "listingsCount": 100,
+      "offers": 50,
+      "medianMs": 0.745,
+      "minMs": 0.721,
+      "maxMs": 1.015,
+      "outputSha256": "afe1501ba8d6db5dbcd99993b81f2f56993fe4ef007c0617b73a9ab9079d723d"
+    },
+    {
+      "name": "offersTable",
+      "listingsCount": 1000,
+      "offers": 500,
+      "medianMs": 8.104,
+      "minMs": 6.908,
+      "maxMs": 8.265,
+      "outputSha256": "f395edba8d2abf4afa4a63dd6872650c0f1725be588e68df4156f99208c62d6b",
+      "htmlBytes": 251743,
+      "elements": 5510,
+      "cards": 0
+    },
+    {
+      "name": "assertCenterOwnership",
+      "listingsCount": 1000,
+      "offers": 500,
+      "medianMs": 4.469,
+      "minMs": 4.434,
+      "maxMs": 4.685,
+      "outputSha256": "eb045d78d273107348b0300c01d29b7552d622abbc6faf81b3ec55359aa9950c"
+    },
+    {
+      "name": "validateCenterState",
+      "listingsCount": 1000,
+      "offers": 500,
+      "medianMs": 5.906,
+      "minMs": 3.828,
+      "maxMs": 7.212,
+      "outputSha256": "f3e4a67a65928d62a78f3ea4faecb29eeebc0eb20e6e42378a6195e77a2ef422"
+    },
+    {
+      "name": "offersTable",
+      "listingsCount": 5000,
+      "offers": 2500,
+      "medianMs": 57.808,
+      "minMs": 57.549,
+      "maxMs": 70.399,
+      "outputSha256": "3a4b46b4cdc524a09ae9e0edb6c0d112e43557b4fb33724322bad293d85103c6",
+      "htmlBytes": 1265743,
+      "elements": 27510,
+      "cards": 0
+    },
+    {
+      "name": "assertCenterOwnership",
+      "listingsCount": 5000,
+      "offers": 2500,
+      "medianMs": 65.934,
+      "minMs": 62.938,
+      "maxMs": 67.195,
+      "outputSha256": "eb045d78d273107348b0300c01d29b7552d622abbc6faf81b3ec55359aa9950c"
+    },
+    {
+      "name": "validateCenterState",
+      "listingsCount": 5000,
+      "offers": 2500,
+      "medianMs": 14.355,
+      "minMs": 11.047,
+      "maxMs": 16.232,
+      "outputSha256": "8851d68c0ea5da5cf7c7d4009ba88b3e0c57e44cb6795e29f5c8c72a76bc1244"
+    },
+    {
+      "name": "offersTable",
+      "listingsCount": 10000,
+      "offers": 5000,
+      "medianMs": 229.879,
+      "minMs": 228.173,
+      "maxMs": 237.432,
+      "outputSha256": "783219aef96c8ffd606c13b134115eb37b14d5a7ed12f556036588af35bac2d4",
+      "htmlBytes": 2535743,
+      "elements": 55010,
+      "cards": 0
+    },
+    {
+      "name": "assertCenterOwnership",
+      "listingsCount": 10000,
+      "offers": 5000,
+      "medianMs": 265.133,
+      "minMs": 263.161,
+      "maxMs": 273.136,
+      "outputSha256": "eb045d78d273107348b0300c01d29b7552d622abbc6faf81b3ec55359aa9950c"
+    },
+    {
+      "name": "validateCenterState",
+      "listingsCount": 10000,
+      "offers": 5000,
+      "medianMs": 23.792,
+      "minMs": 21.233,
+      "maxMs": 27.735,
+      "outputSha256": "55178255e9cda18ee1c4f0c5428bf80e2d5a2f693ad0e8774cde93b1a8c3d26f"
+    },
+    {
+      "name": "notifications",
+      "count": 100,
+      "medianMs": 5.381,
+      "minMs": 4.215,
+      "maxMs": 5.449,
+      "outputSha256": "0e0aadb5c7479372fffbbd781dd7aa30e9836353a7ce434c7e21c0b012b38563",
+      "htmlBytes": 34103,
+      "elements": 504,
+      "cards": 0
+    },
+    {
+      "name": "notifications",
+      "count": 1000,
+      "medianMs": 56.325,
+      "minMs": 55.896,
+      "maxMs": 57.524,
+      "outputSha256": "6e197cbf0df03fbc65929267d40bd6538f8a9f3f6e129955fef423e035eddb57",
+      "htmlBytes": 341003,
+      "elements": 5004,
+      "cards": 0
+    },
+    {
+      "name": "notifications",
+      "count": 2000,
+      "medianMs": 89.844,
+      "minMs": 78.808,
+      "maxMs": 135.295,
+      "outputSha256": "9d01fac36aa444294ed09fd8f8023cef6a9e9a2ea677c1d71987a4ff97cd2201",
+      "htmlBytes": 684003,
+      "elements": 10004,
+      "cards": 0
+    },
+    {
+      "name": "adoption",
+      "category": "battle",
+      "rows": 70,
+      "medianMs": 2.565,
+      "minMs": 2.16,
+      "maxMs": 2.939,
+      "outputSha256": "8c46500d9a713ef2ccc0902ad5a0872cf1ad4939d6a51d51eeadd7a61e62d4a2",
+      "htmlBytes": 76303,
+      "elements": 971,
+      "cards": 70
+    },
+    {
+      "name": "adoption",
+      "category": "common",
+      "rows": 48,
+      "medianMs": 0.862,
+      "minMs": 0.839,
+      "maxMs": 0.874,
+      "outputSha256": "f1400d69a72499aaf5da3829bb79e1327941ff18b41241d944e5a466f7a48666",
+      "htmlBytes": 56435,
+      "elements": 721,
+      "cards": 48
+    },
+    {
+      "name": "adoption",
+      "category": "uncommon",
+      "rows": 84,
+      "medianMs": 3.21,
+      "minMs": 2.103,
+      "maxMs": 3.303,
+      "outputSha256": "202d4b50f9c03004c8c9afba4387619195069bbd9a2e3ad3941890728feef64b",
+      "htmlBytes": 91268,
+      "elements": 1216,
+      "cards": 84
+    },
+    {
+      "name": "adoption",
+      "category": "rare",
+      "rows": 12,
+      "medianMs": 0.177,
+      "minMs": 0.171,
+      "maxMs": 0.293,
+      "outputSha256": "d0359853d168580f5c4985438f993de97f66ba666d55581adb5290ba9f282e6f",
+      "htmlBytes": 14083,
+      "elements": 189,
+      "cards": 12
+    },
+    {
+      "name": "adoption",
+      "category": "legendary",
+      "rows": 46,
+      "medianMs": 2.334,
+      "minMs": 2.329,
+      "maxMs": 2.388,
+      "outputSha256": "12fa88d3159d6e0891e0778de25f0a96ca16bb9b90bd766aa72858ecc55c8720",
+      "htmlBytes": 53590,
+      "elements": 696,
+      "cards": 46
+    }
+  ]
+}

@@ -10,6 +10,7 @@ export async function persistOriginalProfile(profiles,save){
  save.pokemon.forEach(p=>recordOwned(save,p));
  profiles.save(save);
  await profiles.pending;
+ if(profiles.lastError)throw profiles.lastError;
  if(diskRequired&&profiles.status!=='disk')throw new Error(profiles.status==='conflict'?'The disk profiles changed in another window.':'The local disk server could not save the profile.');
  return {destination:diskRequired?'disk':'browser'};
 }
