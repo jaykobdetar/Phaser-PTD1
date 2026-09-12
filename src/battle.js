@@ -5,6 +5,7 @@ import {
   followPath,
   hitPoints,
   makePokemon,
+  MAX_COLLECTION_SIZE,
   xpRequired,
 } from "./model.js";
 import { resolveMoveEffects } from "./move-effects.js";
@@ -545,6 +546,8 @@ export class Battle {
         ok: false,
         message: "Start the battle before catching Pokémon.",
       };
+    if (this.save.pokemon.length >= MAX_COLLECTION_SIZE)
+      return { ok: false, message: "Your collection is full (5,000 Pokémon). Release or transfer a Pokémon before catching another." };
     const enemy = this.enemies.find((e) => e.uid === uid);
     if (!enemy || !this.canCapture(enemy))
       return {
@@ -594,21 +597,24 @@ export class Battle {
     this.save.money += reward;
     this.stats.earned += reward;
     this.stats.defeated++;
-    const contributors = this.moveRuntime?.experienceContributors(enemy) ?? [...enemy.attackers]
+    const combatContributors = this.moveRuntime?.experienceContributors(enemy) ?? [...enemy.attackers]
       .map((uid) => this.towers.find((t) => t.uid === uid))
       .filter(Boolean);
-    let xp = Math.floor(
+    // Recalled/redeployed combat actors can share one saved Pokémon. Award
+    // that Pokémon once, through its most recent contributing actor.
+    const contributors = [...new Map(combatContributors.map(tower => [tower.profile?.uid ?? tower.partyUid ?? tower.uid, tower])).values()];
+    const xp = Math.floor(
       ((enemy.original.base_Experience ?? species.baseExperience) *
         enemy.level) /
         (7 * Math.max(1, contributors.length)),
     );
     for (const tower of contributors) {
-      if (tower.level <= this.level.bonusLevel) xp *= 2;
+      const award = xp * (tower.level <= this.level.bonusLevel ? 2 : 1);
       // The source receiver applies shiny rounding and the existing-XP gate,
       // then attaches its authored +Nxp animation to this same combat actor.
-      if (this.moveRuntime) this.moveRuntime.receiveExperience(tower, xp);
+      if (this.moveRuntime) this.moveRuntime.receiveExperience(tower, award);
       else if (tower.profile.experience < xpRequired(tower.level)) {
-        tower.profile.experience += Math.floor(xp * (tower.profile.shiny ? 1.5 : 1));
+        tower.profile.experience += Math.floor(award * (tower.profile.shiny ? 1.5 : 1));
       }
     }
     this.dropCandy(enemy);
@@ -939,6 +945,9 @@ export class Battle {
 
   turnAround(enemy) {
     const oldPath = enemy.path;
+    // Enemy Mirror Move can send a reversal effect at a stationary tower.
+    // It has no walking route to reverse; leave its deployment untouched.
+    if (!oldPath?.length) return false;
     const route = enemy.originalPath ?? enemy.fullPath ?? oldPath;
     const cardinal = Boolean(oldPath[0]?.direction);
     if (enemy.outward === false && cardinal) {
@@ -974,6 +983,8 @@ export class Battle {
       (typeof this.level.id === "number"
         ? this.level.id
         : this.level.progressionId);
+    if (won && [26,27,32,33].includes(campaignId) && this.level.className === `level_${campaignId}`)
+      this.stageFacts.var_334 = this.save.unlocked <= campaignId;
     if (won && !this.level.nextStageClass && this.level.mode !== "branch") {
       if (!this.save.completed.includes(campaignId))
         this.save.completed.push(campaignId);

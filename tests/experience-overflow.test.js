@@ -30,8 +30,8 @@ const enemy = b.fighter(
 b.enemies.push(enemy);
 enemy.attackers = new Set(save.party);
 b.defeat(enemy);
-assert.equal(save.pokemon[5].experience, 4022848);
+assert.deepEqual(save.pokemon.map(p=>p.experience),Array(6).fill(125714));
 assert.doesNotThrow(() => validateSave(save, data));
 console.log(
-  "Original boss XP over2,000,000 round-trips through the save validator.",
+  "Boss XP awards independent bonuses and round-trips through the save validator.",
 );

@@ -1,0 +1,95 @@
+{
+  "baseCommit": "2f73d0c8588e52a8c0c53ee1485a289c34e2962b",
+  "patchSha256": "dc6172ead071213e4d9938680f4c4c61baa7e2ec47764d94656b999b74380ae5",
+  "verifiedApply": true,
+  "verification": "Applied to the base versions in an isolated temporary directory; every output file matched the recorded SHA-256.",
+  "included": [
+    {
+      "path": "src/model.js",
+      "beforeSha256": "c40de44859aaf0001afa1a818ae5636e25c4b8576bb8ef39385e4caa44e4156f",
+      "afterSha256": "19571d30883dee049b11bdddddb1d82edd220f05c099ca52cf3653d88185d544"
+    },
+    {
+      "path": "src/safari-battle.js",
+      "beforeSha256": "ac94856d94be552483237c3e276db4fc87be9245c498006eecd9f99b8e2a385b",
+      "afterSha256": "efcfdf0cffcf93bfa5fd9f3fd19972db513f05c65d3cdee854610b8c4f5d2797"
+    },
+    {
+      "path": "src/achievements.js",
+      "beforeSha256": "9317a8e3f4a7a7afbb25b93bd7d1c915a006f06cb76d28b3348522772f442d5f",
+      "afterSha256": "b30450857275cf3ff11b4d61066cb001a6b990e86d02a1e516c2494e933db6ad"
+    },
+    {
+      "path": "src/battle.js",
+      "beforeSha256": "7dc4651da058e274bf86a11bf21bc381a207d431120794ad505d06b09f70abea",
+      "afterSha256": "9075830266c59d7e987f74c76b2cbb67df77d617824822c85b12bdf27389c4a1"
+    },
+    {
+      "path": "src/move-native.js",
+      "beforeSha256": "18c5aa18aba183c9ef3cda9b34c4678bcdc4021c35ecaf6e4c5204a83adadff0",
+      "afterSha256": "8aaf2118d8753b5b0aff56d98e3e0ee2182169088e5a4644c20fac92f7449da9"
+    },
+    {
+      "path": "src/rock-tunnel.js",
+      "beforeSha256": "855f6385a0e33fd9396bf57e2d07e3c78b95ca4e99b11c7c43efd25ffe8f0b72",
+      "afterSha256": "5b1c572071cf6f5f7df7679af23ca66f25918852a70d37214044554f44db92f2"
+    },
+    {
+      "path": "src/story-data-controllers.js",
+      "beforeSha256": "ecf009e3d92a2bde974cc4cfbb132d3d6ec924e8377dffaa88d0f81ef518bba2",
+      "afterSha256": "e91c4e6bbf83354bc5ba5c566ac0b4ffd3b95d21d9e4dce89023b9e383598369"
+    },
+    {
+      "path": "tests/capture-capacity.test.js",
+      "beforeSha256": null,
+      "afterSha256": "4612a304478f4fe08eed040371ba91a6deb78361d6aba34ef65f4fb09cab57c7"
+    },
+    {
+      "path": "tests/experience-overflow.test.js",
+      "beforeSha256": "ff9842eecbcaaa8db326c8fc202e57a3b61495d5820c5021714f1278c4d409da",
+      "afterSha256": "d5b3574ae8d724ef69a067401f939c34237f206f5217f6b8a943dde0a34cbda2"
+    },
+    {
+      "path": "tests/move-native.test.js",
+      "beforeSha256": "73ee500b8f70cbbf29986a124010c6f1a37e26d35a15c5a33e634891905bedbc",
+      "afterSha256": "b3014dad9aa58ab2bce3712673ebb8de24755ae100b01d25dd28d7a0f3bfba0a"
+    },
+    {
+      "path": "tests/native-text.test.js",
+      "beforeSha256": "4f9fb97dc918159579efc40ad05db60f06ab785e68c09d35b36879b3f42b07cf",
+      "afterSha256": "5e66ad4fb83620d52c4545628824c9b74eebf28e275a396eb36f1db0fc0686a1"
+    },
+    {
+      "path": "tests/rock-tunnel.test.js",
+      "beforeSha256": "90b80f2e1de5428028fa828b11652c87a1f6e84601ac3585b510d8f2c3fd65ed",
+      "afterSha256": "bc237af495236f329ad5c7c569bb7870fb7ca81da7f5519d2d546083d0d1d6d0"
+    },
+    {
+      "path": "tests/story-runtime.test.js",
+      "beforeSha256": "89a17139b71890d964141d7262566e4dd03319455c403b44f36ff89779adec1b",
+      "afterSha256": "07df335f61aecc41307d56c1546023c99aa165b49c2a8d821800b9e808139dab"
+    },
+    {
+      "path": "tests/story-reward-gates.test.js",
+      "beforeSha256": null,
+      "afterSha256": "6e095d39bfcb1f5afe36a39c71f142424861ba740391a33a6283f743f88c65db"
+    }
+  ],
+  "excluded": [
+    "bot and video tools",
+    "bot-only tests",
+    "reports and media",
+    "package/dependency changes"
+  ],
+  "fixIds": [
+    "QA-001",
+    "QA-002",
+    "QA-003",
+    "QA-004",
+    "QA-005",
+    "QA-006",
+    "QA-007",
+    "QA-008",
+    "QA-009"
+  ]
+}

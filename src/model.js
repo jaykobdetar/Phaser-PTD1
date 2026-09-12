@@ -4,6 +4,7 @@ import { normalizePartySlots } from './party-slots.js';
 import { normalizeProfileFeatures, recordOwned, TARGET_MODES } from './profile-features.js';
 export const SAVE_KEY = "ptd-phaser-save-v2";
 export const SAVE_VERSION = 2;
+export const MAX_COLLECTION_SIZE = 5000;
 export const LEGACY_SAVE_KEY = "ptd-phaser-save-v1";
 export const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 export const xpRequired = (level) => level ** 3;
@@ -139,7 +140,7 @@ export function validateSave(input, data) {
       "This is not a Phaser port save. Use a JSON backup exported by this game.",
     );
   }
-  if (input.pokemon.length > 5000)
+  if (input.pokemon.length > MAX_COLLECTION_SIZE)
     throw new Error("Invalid Pokémon collection.");
   const ids = new Set();
   const pokemon = input.pokemon.map((p) => {

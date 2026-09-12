@@ -180,6 +180,7 @@ const reward = full.save.pokemon.at(-1);
 assert.equal(reward.speciesId, 100);
 assert.equal(reward.level, 5);
 assert.equal(reward.shiny, 1);
+assert(full.save.dex.shiny.includes(100), "quest reward updates the dex immediately, without reloading");
 assert.deepEqual(reward.moves, [1]);
 assert.equal(reward.selectedMove, 1);
 assert.deepEqual(full.save.party, ["pikachu", "electrode"]);

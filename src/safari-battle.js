@@ -1,5 +1,5 @@
 import { Battle } from "./battle.js";
-import { damage, makePokemon } from "./model.js";
+import { damage, makePokemon, MAX_COLLECTION_SIZE } from "./model.js";
 
 /** Source level_29. This temporary profile is never added to a save. */
 export function createSafariJoey() {
@@ -245,6 +245,8 @@ export class SafariBattle extends Battle {
         ok: false,
         message: "Start the Safari visit before catching Pokemon.",
       };
+    if (this.save.pokemon.length >= MAX_COLLECTION_SIZE)
+      return { ok: false, message: "Your collection is full (5,000 Pokémon). Release or transfer a Pokémon before catching another." };
     const enemy = this.enemies.find((e) => e.uid === uid);
     if (!enemy || !this.canCapture(enemy))
       return {

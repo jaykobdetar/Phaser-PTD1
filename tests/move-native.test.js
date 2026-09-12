@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createMoveRuntime,SOURCE_MOVE_CLASSES,SOURCE_MANIFEST} from '../src/move-native.js';
+import {Battle} from '../src/battle.js';
 import {createMoveDisplay} from '../src/move-native-display.js';
 import {nativeMoveFidelity,NATIVE_MOVE_IDS,DAMAGE_ONLY_FALLBACK_MOVE_IDS} from '../src/move-fidelity.js';
 
@@ -178,4 +179,45 @@ test('native direction and evolution graphics follow host changes without replac
  x.source.direction='back';x.runtime.tickAfterMovement(x.source);assert.equal(x.native.gfx.currentLabel,'back');
  const y=fixture(1,{species:19});const ability=y.native.myAbility,attack=y.native.myAttack,graphic=y.native.gfx;y.native.add_Effect(new y.runtime.classes.class_805(y.native,100));const effect=y.native.effect_List[0];
  y.source.speciesId=20;y.runtime.refreshGraphic(y.source);assert.notEqual(y.native.gfx,graphic);assert.equal(graphic.parent,null);assert.equal(y.native.myAbility,ability);assert.equal(y.native.myAttack,attack);assert.equal(y.native.effect_List[0],effect);assert.equal(y.source.modifiers.attack,2);
+});
+
+test('enemy Mirror Move can copy Earthquake without casting its owner to a tower',()=>{
+ const x=fixture(78,{species:22,targetSpecies:75,sourceTeam:'enemy',targetTeam:'tower'});
+ x.opponent.myProfile.move1=194;
+ assert.doesNotThrow(()=>{x.native.myAttack.do_Attack(x.opponent);x.step(30);});
+ assert.ok(x.target.hp<2000,'copied Earthquake damages the opposing tower');
+});
+
+for(const moveId of [297,246])test(`projectile ${moveId} stops if defeat cleanup disposes its active effect`,()=>{
+ const x=fixture(moveId,{targetHp:1});
+ x.battle.defeat=target=>{target.alive=false;x.native.end_All_Effects();};
+ assert.doesNotThrow(()=>{x.cast();x.step(50);});
+ assert.equal(x.target.alive,false);assert.equal(x.native.effect_List.length,0);
+});
+
+test('effect interruption waits for nested damage and defeat bookkeeping to finish',()=>{
+ const x=fixture(246,{targetHp:1});let completed=false;
+ x.battle.defeat=target=>{target.alive=false;x.native.end_All_Effects();x.native.take_Damage(1,null);completed=true;};
+ x.cast();x.step(50);
+ assert.equal(completed,true,'nested cleanup must not unwind the defeat callback early');
+});
+
+
+test('enemy Mirror Move copying Whirlwind leaves a stationary tower in place without a path crash',()=>{
+ const x=fixture(78,{species:22,targetSpecies:12,sourceTeam:'enemy',targetTeam:'tower'});
+ delete x.target.path;
+ x.battle.turnAround=Battle.prototype.turnAround;
+ x.opponent.myProfile.move1=36;
+ const before={x:x.target.x,y:x.target.y,placed:x.target.placed,spot:x.target.spotIndex};
+ assert.doesNotThrow(()=>{x.native.myAttack.do_Attack(x.opponent);x.step(300);});
+ assert.deepEqual({x:x.target.x,y:x.target.y,placed:x.target.placed,spot:x.target.spotIndex},before);
+ assert.equal(x.target.path,undefined);
+ assert.ok(x.invoked.has('class_345.remove_Me'),'execute the real delayed Whirlwind reversal');
+});
+
+
+test('disposed projectile cleanup preserves independent defeat errors',()=>{
+ const x=fixture(246,{targetHp:1}),failure=new Error('independent defeat failure');
+ x.battle.defeat=target=>{target.alive=false;x.native.end_All_Effects();throw failure;};
+ x.cast();assert.throws(()=>x.step(50),error=>error===failure);
 });

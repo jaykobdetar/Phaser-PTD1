@@ -47,12 +47,12 @@ test('native XP receiver preserves shiny truncation, overflow, and the pre-award
  y.save.settings.damageText=false;assert.equal(y.runtime.receiveExperience(y.fighter,5),5);assert.equal(y.texts().length,1);
 });
 
-test('battle defeat uses the original receiver in contributor order with cumulative level bonuses',()=>{
+test('battle defeat uses the original receiver in contributor order with independent level bonuses',()=>{
  const level={id:1,mode:'defense',spots:[],paths:{p:[{x:0,y:0}]},candies:[{x:0,y:0}],candyCount:1,bonusLevel:4};
  const save=newSave(data,1);save.pokemon=[makePokemon(data,1,4),makePokemon(data,4,4,{shiny:1}),makePokemon(data,7,5)];save.party=save.pokemon.map(p=>p.uid);
  const battle=new Battle(data,level,save,()=>{},{timelines});battle.towers=save.pokemon.map(profile=>battle.fighter(profile,{uid:profile.uid,team:'tower',placed:true}));
  const enemy=battle.fighter({speciesId:19,level:3},{uid:'xp-enemy',team:'enemy',original:{base_Experience:105,reward:0},candy:null});enemy.attackers=new Set(save.party);battle.enemies.push(enemy);
- battle.defeat(enemy);assert.deepEqual(save.pokemon.map(p=>p.experience),[30,90,60]);assert.deepEqual(battle.towers.map(t=>battle.moveRuntime.actor(t).effect_List.find(e=>e.gfx?.symbolName==='do_damageText').gfx.actual.actual.text),['+30xp','+90xp','+60xp']);
+ battle.defeat(enemy);assert.deepEqual(save.pokemon.map(p=>p.experience),[30,45,15]);assert.deepEqual(battle.towers.map(t=>battle.moveRuntime.actor(t).effect_List.find(e=>e.gfx?.symbolName==='do_damageText').gfx.actual.actual.text),['+30xp','+45xp','+15xp']);
 });
 
 test('recalled contributors receive XP offstage and keep source identity after redeployment',()=>{
@@ -70,4 +70,19 @@ test('native rendering forwards text formats and draws all original XP/MISS glyp
  const parent=clip.childrenByDepth.get(1);tools.setRoot(parent);tools.enterSprite(parent.symbolId,0);tools.place('text1399',{},ctx,[.05,0,0,.05,0,0],new tools.cxform(0,0,0,0,255,255,255,255),1,0,0,0);tools.leaveSprite();
  assert.deepEqual(new tools.cxform(0,0,0,0,255,255,255,255).merge(new tools.sourceCxform(0,0,0,0,256,256,256,256)).apply([0,255,204,1]),[0,255,204,1],'source 256 identity must not brighten dynamic text by 256/255');
  assert.equal(drawn.map(v=>v.ch).join(''),'MISS');assert.equal(drawn[0].color,'rgba(255,153,0,1)');assert.equal(transforms[1][0],600/(1024*20),'30px source TextFormat overrides the authored 40px field');
+});
+
+test('repeated deployment contributes one XP share per owned Pokemon',()=>{
+ const level={id:1,mode:'defense',spots:[],paths:{p:[{x:0,y:0}]},candies:[{x:0,y:0}],candyCount:1,bonusLevel:4};
+ const save=newSave(data,1);save.pokemon[0].level=4;
+ const battle=new Battle(data,level,save,()=>{},{timelines});
+ const enemy=battle.fighter({speciesId:19,level:3},{uid:'xp-enemy',team:'enemy',original:{base_Experience:105,reward:0},candy:null});battle.enemies.push(enemy);
+ const target=battle.moveRuntime.actor(enemy),profile=save.pokemon[0];
+ for(let i=0;i<40;i++){
+   const fighter=battle.fighter(profile,{uid:profile.uid,team:'tower',placed:true});battle.towers.push(fighter);
+   target.new_Hit_Me(battle.moveRuntime.actor(fighter));
+ }
+ battle.defeat(enemy);
+ assert.equal(profile.experience,90,'one 45XP share with one level bonus, regardless of redeployments');
+ battle.dispose();
 });

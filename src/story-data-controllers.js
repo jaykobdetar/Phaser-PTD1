@@ -7042,7 +7042,7 @@ export const STORY_CONTROLLERS={"class_1000":{parent:"popup",fields:{"var_49":fu
          }
          this.gfx.addEventListener("frameConstructed",this.method_8);
          this.method_127();
-         var _loc1_ = Math.trunc(Math.random() * 100);
+         var _loc1_ = Math.trunc(this.Math.random() * 100);
          if(_loc1_ <= 50)
          {
             this.var_87 = 41;
@@ -7611,7 +7611,7 @@ export const STORY_CONTROLLERS={"class_1000":{parent:"popup",fields:{"var_49":fu
          }
          this.gfx.addEventListener("frameConstructed",this.method_8);
          this.method_127();
-         var _loc1_ = Math.trunc(Math.random() * 100);
+         var _loc1_ = Math.trunc(this.Math.random() * 100);
          if(_loc1_ <= 50)
          {
             this.var_87 = 41;
@@ -9991,7 +9991,7 @@ export const STORY_CONTROLLERS={"class_1000":{parent:"popup",fields:{"var_49":fu
                }
                if(this.gfx.currentLabel == "randomPoke")
                {
-                  _loc2_ = Math.trunc(Math.random() * 100);
+                  _loc2_ = Math.trunc(this.Math.random() * 100);
                   if(_loc2_ <= 50)
                   {
                      this.var_87 = 41;

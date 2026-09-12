@@ -26,7 +26,8 @@ export function createMoveRuntime(battle,options={}) {
   const recordDiagnostic=event=>{diagnosticEventCount++;if(!diagnosticEventLimit)return;events.push(event);if(events.length>diagnosticEventLimit)events.splice(0,events.length-diagnosticEventLimit);};
   const emit=(...args)=>{if(!disposed)battle.emit?.(...args);};
   const display=createMoveDisplay(options.timelines??data.timelines,{onSound:name=>emit('native-sound',{name})});
-  const world=new display.Sprite(),pathEffects=[];let currentSource=null,currentMove=null,tick=0;
+  const world=new display.Sprite(),pathEffects=[];let currentSource=null,currentMove=null,currentEffect=null,damageDepth=0,tick=0;
+  const effectInterrupted=Symbol('disposed active effect');
   const C={Sprite:display.Sprite},S={},E={int,uint,Number,String,Boolean,Array,Object,NaN,Infinity,undefined,Math:Object.assign(Object.create(Math),{random:rng}),superBase(){},as(value,Type){return value==null?null:value instanceof Type?value:null;},trace(...args){recordDiagnostic({kind:'trace',args});},sortOn(array,key,flags){return array.sort((a,b)=>((flags&16)?Number(a[key])-Number(b[key]):String(a[key]).localeCompare(String(b[key])))*((flags&2)?-1:1));},class_1:{get var_359(){return battle.save?.settings?.damageText===false?0:1;},var_194:1}};
   E.Point=function(x=0,y=0){this.x=x;this.y=y;};
   E.Color=function(){this.setTint=(color,amount)=>{this.color=color;this.amount=amount;};};
@@ -58,6 +59,21 @@ export function createMoveRuntime(battle,options={}) {
   const Tower=C.poke_Tower;
   const Level=function(value){return value;};Level.prototype=display.Sprite.prototype;E.screen_Level=Level;
   const nativeLevel=world;
+  // Earthquake's recovered body assumes its caster is a tower. Mirror Move
+  // can legitimately invoke it on an enemy, so reverse the two factions there.
+  const towerEarthquake=C.class_590.prototype.do_Attack;
+  C.class_590.prototype.do_Attack=function(target){
+    if(this.var_2.fighter.team!=='enemy')return towerEarthquake.call(this,target);
+    options.onInvoke?.('class_590','do_Attack');
+    for(const opponent of nativeLevel.towerList){
+      const damage=int(this.method_3(opponent));opponent.add_Effect(new C.class_240(opponent));
+      this.method_13(opponent,damage,this.get_Target_Hit_Animation(opponent),false);
+    }
+    for(const ally of nativeLevel.enemyList)if(ally!==this.var_2){
+      const damage=int(int(this.method_3(ally))/2);ally.add_Effect(new C.class_240(ally));
+      this.method_13(ally,damage,this.get_Target_Hit_Animation(ally),false);
+    }
+  };
   const liveFighters=()=>[...(battle.towers??[]),...(battle.enemies??[])].filter(f=>f.alive&& (f.team!=='tower'||f.placed));
   const nativeList=list=>list.filter(f=>f.alive&&(f.team!=='tower'||f.placed)).map(actor);
   Object.defineProperties(nativeLevel,{enemyList:{get:()=>nativeList(battle.enemies??[])},towerList:{get:()=>nativeList((battle.towers??[]).filter(f=>battle.level.mode==='invasion'||!f.npc))},npcTowerList:{get:()=>nativeList((battle.towers??[]).filter(f=>battle.level.mode!=='invasion'&&f.npc))},candyList:{get:()=> (battle.candies??[]).map(c=>({get var_265(){return c.state==='lost';},get x(){return c.x;},get y(){return c.y;},source:c}))},spotList:{get:()=> (battle.level.spots??[]).map(spot)}});
@@ -142,7 +158,18 @@ export function createMoveRuntime(battle,options={}) {
     a.add_Effect=effect=>{if(disposed||!effect)return;effect._attacker??=currentSource;effect._move??=currentMove;originalAdd.call(a,effect);syncEffects(a);};
     a.remove_Effect=effect=>{originalRemove.call(a,effect);effect._removed=true;syncEffects(a);};
     a.new_Hit_Me=source=>{originalHit.call(a,source);if(source?.myProfile.id!==-1&&!source?.fighter?.npc)f.attackers?.add(source.fighter.partyUid??source.fighter.uid);};
-    a.take_Damage=(amount,effect,multiplier=0,sound=true)=>{if(disposed||a._fainting)return;const before=a.life;originalDamage.call(a,amount,effect,multiplier,sound);recordDiagnostic({kind:'damage',source:currentSource?.fighter,target:f,amount:before-a.life,multiplier,sourceClass:currentMove?.sourceClass});emit('damage',{source:currentSource?.fighter,target:f,amount:before-a.life,multiplier,native:true});};
+    a.take_Damage=(amount,effect,multiplier=0,sound=true)=>{
+      if(disposed||a._fainting)return;
+      damageDepth++;
+      try{
+        const before=a.life;originalDamage.call(a,amount,effect,multiplier,sound);
+        recordDiagnostic({kind:'damage',source:currentSource?.fighter,target:f,amount:before-a.life,multiplier,sourceClass:currentMove?.sourceClass});
+        emit('damage',{source:currentSource?.fighter,target:f,amount:before-a.life,multiplier,native:true});
+      }finally{damageDepth--;}
+      // Defeat/cleanup can itself deal damage. Finish that whole transaction
+      // before unwinding the effect that triggered it.
+      if(!damageDepth&&currentEffect?._removed)throw effectInterrupted;
+    };
     a.take_Healing=amount=>{if(disposed)return;const before=a.life;originalHeal.call(a,amount);recordDiagnostic({kind:'heal',target:f,amount:a.life-before});emit('heal',{target:f,amount:a.life-before,native:true});};
     const initial=f.cooldown;a.myAttack=E.finder_Attacks.get_Attack(f.selectedMove??f.moves?.[0]??1,a);if(initial!=null)f.cooldown=initial;a._moveId=f.selectedMove;a.set_Speed();a.gfx.gotoAndPlay(a.dir);a._lastDirection=a.dir;
     const ai=f.original?.myAI?.sourceClass??(f.original?.num===150&&[337,197,196,115].every((id,i)=>f.moves?.[i]===id)?'class_92':null);if(ai&&C[ai])a.myProfile.myAI=new C[ai]();
@@ -159,12 +186,18 @@ export function createMoveRuntime(battle,options={}) {
   function experienceContributors(f){const a=actors.get(f)??detachedActors.get(f);return a?.hit_Me_List.length?a.hit_Me_List.map(source=>source.fighter):null;}
   function receiveExperience(f,amount){if(disposed)return 0;const a=actors.get(f)??detachedActors.get(f)??actor(f),before=a.myProfile.experience;if(f.team==='tower'&&!f.placed&&!f.dragging)world.removeChild(a);a.receive_Experience(amount);return a.myProfile.experience-before;}
   function attack(f,targets){if(disposed)return;const a=actor(f);ensureAttack(a);if(!a.alive)return;let candidates=(targets??(f.team==='tower'?battle.enemies:battle.towers)).filter(t=>t.alive&&(t.team!=='tower'||t.placed)&&(f.team!=='enemy'||battle.level.mode==='invasion'||!t.npc));if(f.target==='last')candidates=[...candidates].reverse();withSource(a,a.myAttack,()=>a.checkEnemy(candidates.map(actor)));a._moveId=f.selectedMove;syncEffects(a);}
+  function runEffect(effect){
+    const previous=currentEffect;currentEffect=effect;
+    try {return withSource(effect._attacker,effect._move,()=>effect.run());}
+    catch(error){if(error!==effectInterrupted||!effect._removed)throw error;}
+    finally{currentEffect=previous;}
+  }
   function tickBeforeMovement(f){
     if(disposed)return;
     const a=actor(f);ensureAttack(a);if(a.dir!==a._lastDirection){a.gfx.gotoAndPlay(a.dir);a._lastDirection=a.dir;}if(f.team==='tower')a.method_87();
     // The original enumerates the live Vector: removals may shift the next
     // effect past this tick, while newly appended effects can run this tick.
-    for(let i=0;i<a.effect_List.length;i++){const effect=a.effect_List[i];withSource(effect._attacker,effect._move,()=>effect.run());if(!a.alive&&f.team!=='tower')break;}
+    for(let i=0;i<a.effect_List.length;i++){const effect=a.effect_List[i];runEffect(effect);if(!a.alive&&f.team!=='tower')break;}
     if(f.team==='tower'&&a.alive){a.myProfile.myAI?.run(a);a.myAbility?.on_Run();a._moveId=f.selectedMove;}
     syncEffects(a);
   }

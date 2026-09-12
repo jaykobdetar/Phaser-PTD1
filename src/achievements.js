@@ -3,7 +3,7 @@ import {recordOwned} from './profile-features.js';
 export const ACHIEVEMENTS=[
  {id:1,name:'Four shiny encounters',description:'Find the original four shiny encounter groups.',reward:'Shiny Onix'},
  {id:2,name:'Starmie encounter',description:'Complete the Starmie encounter condition in the original wave script.',reward:'Shiny Staryu'},
- {id:3,name:'Cerulean Gym team',description:'Win without deploying a Grass or Electric type.',reward:'Shiny Tentacool'},
+ {id:3,name:'Cerulean Gym team',description:'Win without deploying a Grass or Electric type. The all-candy, level-30 Cerulean achievement takes priority when both conditions are met.',reward:'Shiny Tentacool'},
  {id:4,name:'Challenge 5 move restriction',description:'Win Challenge 5 without deploying a Pokémon that knows move 36.'},
  {id:5,name:'Challenge 5 candy defense',description:'Win Challenge 5 with more than one candy remaining.'},
  {id:6,name:'Saffron Dojo',description:'Use attackers at level 70 or below and steal candy four first.',reward:'Shiny Hitmonlee or Hitmonchan'},

@@ -1,5 +1,6 @@
 import { getStage } from "./waves-runtime.js";
 import { makePokemon } from "./model.js";
+import { recordOwned } from "./profile-features.js";
 
 // class_984, class_985 and the ten room popup timelines in the recovered SWF.
 // Room flags belong to one visit. Only original extra-info flags 32/33 persist.
@@ -335,6 +336,7 @@ export class RockTunnel {
       experience: 0,
     });
     this.save.pokemon.push(profile);
+    recordOwned(this.save, profile);
     addExtraInfo(this.save, 33);
     return { received: true, profile };
   }

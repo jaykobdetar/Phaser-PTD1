@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-12",
+  "repository": "Phaser-PTD1",
+  "baseCommit": "2f73d0c8588e52a8c0c53ee1485a289c34e2962b",
+  "tests": {
+    "passed": 281,
+    "failed": 0,
+    "skipped": 0,
+    "postgresql": null
+  },
+  "commandsPassed": [
+    "npm ci",
+    "npm test",
+    "npm run check:generated",
+    "python3 tests/local-server.test.py",
+    "python3 tests/local-server-process.test.py",
+    "python3 tests/share-audit.test.py",
+    "npm run build"
+  ],
+  "buildWarning": "Existing Vite chunk-size warning; build succeeded.",
+  "fixChecklist": {
+    "QA-001": "Applied unchanged from curated patch; regression passed (QA-003 wording preserves existing award tests).",
+    "QA-002": "Applied unchanged from curated patch; regression passed (QA-003 wording preserves existing award tests).",
+    "QA-003": "Applied unchanged from curated patch; regression passed (QA-003 wording preserves existing award tests).",
+    "QA-004": "Applied unchanged from curated patch; regression passed (QA-003 wording preserves existing award tests).",
+    "QA-005": "Applied unchanged from curated patch; regression passed (QA-003 wording preserves existing award tests).",
+    "QA-006": "Applied unchanged from curated patch; regression passed (QA-003 wording preserves existing award tests).",
+    "QA-007": "Applied unchanged from curated patch; regression passed (QA-003 wording preserves existing award tests).",
+    "QA-008": "Applied unchanged from curated patch; regression passed (QA-003 wording preserves existing award tests).",
+    "QA-009": "Applied unchanged from curated patch; regression passed (QA-003 wording preserves existing award tests)."
+  },
+  "adaptations": [
+    "Additional QA-007 independent exception propagation regression. No production adaptation required."
+  ],
+  "gameplaySmoke": "Full suite includes real Oak Lab waves with all three starters at every deployment spot, capture/save validation, natural loss, pause/resume and earned XP upgrades. Reward fixtures are not whole-game completion evidence.",
+  "logSha256": {
+    "offline-generated.log": "93cc510326fdecc6153e61184798b87a21c4f407fcf146a4f5324eda07fd9cc5",
+    "offline-tests.log": "bf8f8bcc47c8b5119d62bbf864c0bb5917112efa52872574a0f957abaf4b021c",
+    "offline-install.log": "bbd82ab324d2fabfbdc6928b2795efeaf7e1ba414930377ae9fb69ab6a859f09",
+    "offline-build.log": "1ac4699ac66305fe7c588a973e8feaf842b7216d1ee8c4722f769e3b7b6b479b",
+    "offline-python.log": "914a9a27e3fb0d6822ebc8a0ea8a0eb8b23cd22a354f434d709b809ec29cd32c"
+  }
+}

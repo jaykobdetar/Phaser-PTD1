@@ -22,3 +22,12 @@ test('source Ready Go finishes on its original end label and starts the prepared
 test('source party null slots retain indices and rewards fill the first empty slot',()=>{const save=newSave(data,1),other=makePokemon(data,4,5);save.pokemon.push(other);save.party=[null,save.pokemon[0].uid,null,other.uid,null,null];const rt=runtime(1,save),party=rt.playerProfile.partyList;assert.equal(party[0],null);assert.equal(party.length,6);party[1]=null;assert.equal(save.party[1],null);assert.equal(save.party[3],other.uid);party.push(rt.profile(save.pokemon[0]));assert.equal(save.party[0],save.pokemon[0].uid);assert.equal(save.party[3],other.uid);assert.equal(party.length,6);});
 test('replacing the selected source move keeps the selected slot',()=>{const save=newSave(data,1),p=save.pokemon[0];p.moves=[1,2,3,4];p.selectedMove=3;const profile=runtime(1,save).profile(p);profile.move3=5;assert.equal(p.selectedMove,5);assert.equal(profile.moveSelected,3);profile.move1=6;assert.equal(p.selectedMove,5);assert.equal(profile.moveSelected,3);});
 test('map-parent endings preserve the current source zoom through their camera movement',()=>{for(const [id,name,end]of [[1,'class_976',[100,10]],[2,'class_1066',[0,0]],[3,'class_1005',[0,0]]]){const save=newSave(data,1);save.unlocked=43;const rt=runtime(id,save);Object.assign(rt.stage.gfx_BG,{x:-70,y:-35,scaleX:.5,scaleY:.5});rt.open(name);rt.tick(22);assert.deepEqual(rt.renderRoot.renderMatrix,[.5,0,0,.5,...end],name);const root=rt.root,local=root.controls(),global=rt.controls;assert.ok(global.length,name);for(const hit of global){const own=local.find(c=>c.name===hit.name);assert.ok(own,hit.name);assert.ok(Math.abs(hit.x-(end[0]+own.x*.5))<.001,`${name} ${hit.name} x`);assert.ok(Math.abs(hit.y-(end[1]+own.y*.5))<.001,`${name} ${hit.name} y`);assert.ok(Math.abs(hit.width-own.width*.5)<.001,`${name} ${hit.name} width`);}}});
+
+test('Rock Tunnel encounter selection uses the supplied RNG without replacing global randomness',()=>{
+ const original=Math.random;const external=()=>.99;Math.random=external;
+ try {
+   const rt=runtime('class_954',newSave(data,1),{rng:()=>.1});rt.open('class_985');traverse(rt);
+   assert.equal(rt.controller.var_87,41,'the injected 10% draw selects Zubat');
+   assert.equal(Math.random,external);
+ }finally{Math.random=original;}
+});
